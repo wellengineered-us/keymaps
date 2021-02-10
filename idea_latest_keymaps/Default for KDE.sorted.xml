@@ -1,0 +1,98 @@
+<keymap name="Default for KDE" parent="Default for XWin" version="1" disable-mnemonics="false">
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="CONTROL 6" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL 4" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="CONTROL 4" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="CONTROL 9" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 8" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="CONTROL 0" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="CONTROL F" />
+    <keyboard-shortcut first-keystroke="SHIFT ALT 3" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 7" />
+  </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="CONTROL 7" />
+  </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="CONTROL 3" />
+  </action>
+  <action id="ForceRefresh">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT 5" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark6" />
+  <action id="GotoBookmark7" />
+  <action id="GotoBookmark8" />
+  <action id="GotoBookmark9" />
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL 7" />
+  </action>
+  <action id="IDEtalk.SearchUserHistory">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 7" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="SHIFT ALT V" />
+  </action>
+  <action id="ProjectViewChangeView">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="SHIFT ALT L" />
+  </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="CONTROL 5" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="CONTROL 5" />
+  </action>
+  <action id="RestoreDefaultLayout">
+    <keyboard-shortcut first-keystroke="SHIFT ALT F12" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="CONTROL 1" />
+  </action>
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 0" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="CONTROL 2" />
+  </action>
+  <action id="ToggleBookmark0" />
+  <action id="ToggleBookmark1" />
+  <action id="ToggleBookmark2" />
+  <action id="ToggleBookmark3" />
+  <action id="ToggleBookmark4" />
+  <action id="ToggleBookmark5" />
+  <action id="ToggleBookmark6" />
+  <action id="ToggleBookmark7" />
+  <action id="ToggleBookmark8" />
+  <action id="ToggleBookmark9" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="CONTROL 8" />
+  </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL 8" />
+  </action>
+</keymap>

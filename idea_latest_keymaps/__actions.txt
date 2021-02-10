@@ -1,0 +1,3462 @@
+KEYMAP_FILE_NAME	ACTION_ID
+$default.xml	$Copy
+$default.xml	$Cut
+$default.xml	$Delete
+$default.xml	$Paste
+$default.xml	$Redo
+$default.xml	$SelectAll
+$default.xml	$Undo
+$default.xml	ActivateCommitToolWindow
+$default.xml	ActivateDebugToolWindow
+$default.xml	ActivateFavoritesToolWindow
+$default.xml	ActivateFindToolWindow
+$default.xml	ActivateHierarchyToolWindow
+$default.xml	ActivateNuGetToolWindow
+$default.xml	ActivateProblemsViewToolWindow
+$default.xml	ActivateProjectToolWindow
+$default.xml	ActivateRunToolWindow
+$default.xml	ActivateServicesToolWindow
+$default.xml	ActivateStructureToolWindow
+$default.xml	ActivateTerminalToolWindow
+$default.xml	ActivateUnitTestsToolWindow
+$default.xml	ActivateVersionControlToolWindow
+$default.xml	AddToFavoritesPopup
+$default.xml	AutoIndentLines
+$default.xml	Back
+$default.xml	BraceOrQuoteOut
+$default.xml	CallHierarchy
+$default.xml	ChangeSignature
+$default.xml	ChangesView.GroupBy.Directory
+$default.xml	ChangesView.GroupBy.Module
+$default.xml	ChangesView.Move
+$default.xml	ChangesView.Rename
+$default.xml	ChangesView.Revert
+$default.xml	ChangesView.SetDefault
+$default.xml	ChangeTypeSignature
+$default.xml	ChooseDebugConfiguration
+$default.xml	ChooseRunConfiguration
+$default.xml	ClassNameCompletion
+$default.xml	CloseActiveTab
+$default.xml	CloseContent
+$default.xml	CloseGotItTooltip
+$default.xml	CodeCompletion
+$default.xml	CodeInspection.OnEditor
+$default.xml	CollapseAll
+$default.xml	CollapseAllRegions
+$default.xml	CollapseBlock
+$default.xml	CollapseExpandableComponent
+$default.xml	CollapseRegion
+$default.xml	CollapseRegionRecursively
+$default.xml	CollapseSelection
+$default.xml	CollapseTreeNode
+$default.xml	CommentByBlockComment
+$default.xml	CommentByLineComment
+$default.xml	CompareTwoFiles
+$default.xml	Compile
+$default.xml	CompileDirty
+$default.xml	Console.Execute
+$default.xml	Console.Execute.Multiline
+$default.xml	Console.History.Browse
+$default.xml	Console.History.Next
+$default.xml	Console.History.Previous
+$default.xml	Console.Open
+$default.xml	ContextHelp
+$default.xml	CopyElement
+$default.xml	CopyPaths
+$default.xml	CopyReference
+$default.xml	Debug
+$default.xml	DebugClass
+$default.xml	Debugger.EditTypeSource
+$default.xml	Diff.ApplyLeftSide
+$default.xml	Diff.ApplyRightSide
+$default.xml	Diff.FocusOppositePane
+$default.xml	Diff.FocusOppositePaneAndScroll
+$default.xml	Diff.NextChange
+$default.xml	Diff.PrevChange
+$default.xml	Diff.ShowDiff
+$default.xml	Diff.ShowSettingsPopup
+$default.xml	DirDiffMenu.SynchronizeDiff
+$default.xml	DirDiffMenu.SynchronizeDiff.All
+$default.xml	DumpLookupElementWeights
+$default.xml	DuplicatesForm.SendToLeft
+$default.xml	DuplicatesForm.SendToRight
+$default.xml	EditBreakpoint
+$default.xml	EditorAddCaretPerSelectedLine
+$default.xml	EditorAddOrRemoveCaret
+$default.xml	EditorAddRectangularSelectionOnMouseDrag
+$default.xml	EditorBackSpace
+$default.xml	EditorChooseLookupItem
+$default.xml	EditorChooseLookupItemDot
+$default.xml	EditorChooseLookupItemReplace
+$default.xml	EditorCodeBlockEnd
+$default.xml	EditorCodeBlockEndWithSelection
+$default.xml	EditorCodeBlockStart
+$default.xml	EditorCodeBlockStartWithSelection
+$default.xml	EditorCompleteStatement
+$default.xml	EditorContextInfo
+$default.xml	EditorCreateRectangularSelection
+$default.xml	EditorCreateRectangularSelectionOnMouseDrag
+$default.xml	EditorDeleteLine
+$default.xml	EditorDeleteToWordEnd
+$default.xml	EditorDeleteToWordStart
+$default.xml	EditorDown
+$default.xml	EditorDownWithSelection
+$default.xml	EditorDuplicate
+$default.xml	EditorEnter
+$default.xml	EditorEscape
+$default.xml	EditorFocusGutter
+$default.xml	EditorIndentSelection
+$default.xml	EditorJoinLines
+$default.xml	EditorLeft
+$default.xml	EditorLeftWithSelection
+$default.xml	EditorLineEnd
+$default.xml	EditorLineEndWithSelection
+$default.xml	EditorLineStart
+$default.xml	EditorLineStartWithSelection
+$default.xml	EditorLookupDown
+$default.xml	EditorLookupUp
+$default.xml	EditorMatchBrace
+$default.xml	EditorMoveToPageBottom
+$default.xml	EditorMoveToPageBottomWithSelection
+$default.xml	EditorMoveToPageTop
+$default.xml	EditorMoveToPageTopWithSelection
+$default.xml	EditorNextWord
+$default.xml	EditorNextWordWithSelection
+$default.xml	EditorPageDown
+$default.xml	EditorPageDownWithSelection
+$default.xml	EditorPageUp
+$default.xml	EditorPageUpWithSelection
+$default.xml	EditorPasteFromX11
+$default.xml	EditorPasteSimple
+$default.xml	EditorPreviousWord
+$default.xml	EditorPreviousWordWithSelection
+$default.xml	EditorRight
+$default.xml	EditorRightWithSelection
+$default.xml	EditorScrollDown
+$default.xml	EditorScrollToCenter
+$default.xml	EditorScrollUp
+$default.xml	EditorSelectWord
+$default.xml	EditorShowGutterIconTooltip
+$default.xml	EditorSplitLine
+$default.xml	EditorStartNewLine
+$default.xml	EditorStartNewLineBefore
+$default.xml	EditorTab
+$default.xml	EditorTextEnd
+$default.xml	EditorTextEndWithSelection
+$default.xml	EditorTextStart
+$default.xml	EditorTextStartWithSelection
+$default.xml	EditorToggleCase
+$default.xml	EditorToggleColumnMode
+$default.xml	EditorToggleInsertState
+$default.xml	EditorUnindentSelection
+$default.xml	EditorUnSelectWord
+$default.xml	EditorUp
+$default.xml	EditorUpWithSelection
+$default.xml	EditSource
+$default.xml	EditSourceInNewWindow
+$default.xml	EvaluateExpression
+$default.xml	ExpandAll
+$default.xml	ExpandAllRegions
+$default.xml	ExpandAllToLevel1
+$default.xml	ExpandAllToLevel2
+$default.xml	ExpandAllToLevel3
+$default.xml	ExpandAllToLevel4
+$default.xml	ExpandAllToLevel5
+$default.xml	ExpandExpandableComponent
+$default.xml	ExpandLiveTemplateByTab
+$default.xml	ExpandRegion
+$default.xml	ExpandRegionRecursively
+$default.xml	ExpandToLevel1
+$default.xml	ExpandToLevel2
+$default.xml	ExpandToLevel3
+$default.xml	ExpandToLevel4
+$default.xml	ExpandToLevel5
+$default.xml	ExpandTreeNode
+$default.xml	ExportToTextFile
+$default.xml	ExpressionTypeInfo
+$default.xml	ExternalJavaDoc
+$default.xml	ExtractMethod
+$default.xml	FileChooser.GotoDesktop
+$default.xml	FileChooser.GotoHome
+$default.xml	FileChooser.GotoModule
+$default.xml	FileChooser.GotoProject
+$default.xml	FileChooser.NewFolder
+$default.xml	FileChooser.TogglePathShowing
+$default.xml	FileStructurePopup
+$default.xml	Find
+$default.xml	FindInPath
+$default.xml	FindNext
+$default.xml	FindPrevious
+$default.xml	FindUsages
+$default.xml	FindUsagesInFile
+$default.xml	FindWordAtCaret
+$default.xml	FocusEditor
+$default.xml	ForceRefresh
+$default.xml	ForceRunToCursor
+$default.xml	ForceStepInto
+$default.xml	ForceStepOver
+$default.xml	Forward
+$default.xml	FullyExpandTreeNode
+$default.xml	Generate
+$default.xml	Git.Rename.Local.Branch
+$default.xml	Git.Reword.Commit
+$default.xml	GotoAction
+$default.xml	GotoBookmark0
+$default.xml	GotoBookmark1
+$default.xml	GotoBookmark2
+$default.xml	GotoBookmark3
+$default.xml	GotoBookmark4
+$default.xml	GotoBookmark5
+$default.xml	GotoBookmark6
+$default.xml	GotoBookmark7
+$default.xml	GotoBookmark8
+$default.xml	GotoBookmark9
+$default.xml	GotoChangedFile
+$default.xml	GotoClass
+$default.xml	GotoCustomRegion
+$default.xml	GotoDeclaration
+$default.xml	GotoFile
+$default.xml	GotoImplementation
+$default.xml	GotoLine
+$default.xml	GotoNextError
+$default.xml	GotoPreviousError
+$default.xml	GotoRelated
+$default.xml	GotoSuperMethod
+$default.xml	GotoSymbol
+$default.xml	GotoTest
+$default.xml	GotoTypeDeclaration
+$default.xml	HideActiveWindow
+$default.xml	HideAllWindows
+$default.xml	HideSideWindows
+$default.xml	HighlightUsagesInFile
+$default.xml	HippieBackwardCompletion
+$default.xml	HippieCompletion
+$default.xml	ImplementMethods
+$default.xml	Inline
+$default.xml	InsertLiveTemplate
+$default.xml	IntroduceConstant
+$default.xml	IntroduceField
+$default.xml	IntroduceParameter
+$default.xml	IntroduceVariable
+$default.xml	JumpToLastChange
+$default.xml	JumpToLastWindow
+$default.xml	MaintenanceAction
+$default.xml	MaximizeToolWindow
+$default.xml	MethodDown
+$default.xml	MethodHierarchy
+$default.xml	MethodOverloadSwitchDown
+$default.xml	MethodOverloadSwitchUp
+$default.xml	MethodUp
+$default.xml	Move
+$default.xml	MoveElementLeft
+$default.xml	MoveElementRight
+$default.xml	MoveLineDown
+$default.xml	MoveLineUp
+$default.xml	MoveStatementDown
+$default.xml	MoveStatementUp
+$default.xml	NewElement
+$default.xml	NewElementSamePlace
+$default.xml	NewScratchFile
+$default.xml	NextDiff
+$default.xml	NextEditorTab
+$default.xml	NextOccurence
+$default.xml	NextParameter
+$default.xml	NextProjectWindow
+$default.xml	NextTab
+$default.xml	NextTemplateVariable
+$default.xml	OpenInRightSplit
+$default.xml	OptimizeImports
+$default.xml	OverrideMethods
+$default.xml	ParameterInfo
+$default.xml	PasteMultiple
+$default.xml	PopupHector
+$default.xml	PreviousDiff
+$default.xml	PreviousEditorTab
+$default.xml	PreviousOccurence
+$default.xml	PreviousProjectWindow
+$default.xml	PreviousTab
+$default.xml	PreviousTemplateVariable
+$default.xml	PrevParameter
+$default.xml	ProjectViewChangeView
+$default.xml	QuickActionPopup
+$default.xml	QuickChangeScheme
+$default.xml	QuickEvaluateExpression
+$default.xml	QuickImplementations
+$default.xml	QuickJavaDoc
+$default.xml	RecentChangedFiles
+$default.xml	RecentFiles
+$default.xml	RecentLocations
+$default.xml	Refactorings.QuickListPopupAction
+$default.xml	ReformatCode
+$default.xml	Refresh
+$default.xml	RenameElement
+$default.xml	Replace
+$default.xml	ReplaceInPath
+$default.xml	Rerun
+$default.xml	RerunTests
+$default.xml	ResizeToolWindowDown
+$default.xml	ResizeToolWindowLeft
+$default.xml	ResizeToolWindowRight
+$default.xml	ResizeToolWindowUp
+$default.xml	RestoreDefaultLayout
+$default.xml	Resume
+$default.xml	Run
+$default.xml	RunClass
+$default.xml	RunInspection
+$default.xml	RunToCursor
+$default.xml	SafeDelete
+$default.xml	SaveAll
+$default.xml	SearchEverywhere.CompleteCommand
+$default.xml	SearchEverywhere.NavigateToNextGroup
+$default.xml	SearchEverywhere.NavigateToPrevGroup
+$default.xml	SearchEverywhere.NextTab
+$default.xml	SearchEverywhere.PrevTab
+$default.xml	SearchEverywhere.SelectItem
+$default.xml	SelectAllOccurrences
+$default.xml	SelectIn
+$default.xml	SelectNextOccurrence
+$default.xml	SelectVirtualTemplateElement
+$default.xml	SendEOF
+$default.xml	ServiceView.GroupByContributor
+$default.xml	ServiceView.GroupByServiceGroups
+$default.xml	ServiceView.ShowServices
+$default.xml	ShelveChanges.UnshelveWithDialog
+$default.xml	ShelvedChanges.Rename
+$default.xml	ShowBookmarks
+$default.xml	ShowContent
+$default.xml	ShowErrorDescription
+$default.xml	ShowExecutionPoint
+$default.xml	ShowFilePath
+$default.xml	ShowFilterPopup
+$default.xml	ShowIntentionActions
+$default.xml	ShowNavBar
+$default.xml	ShowPopupMenu
+$default.xml	ShowProjectStructureSettings
+$default.xml	ShowReformatFileDialog
+$default.xml	ShowSearchHistory
+$default.xml	ShowSettings
+$default.xml	ShowSettingsAndFindUsages
+$default.xml	ShowUsages
+$default.xml	SmartStepInto
+$default.xml	SmartTypeCompletion
+$default.xml	SplitChooser
+$default.xml	SplitChooser.Duplicate
+$default.xml	SplitChooser.NextWindow
+$default.xml	SplitChooser.PreviousWindow
+$default.xml	SplitChooser.Split
+$default.xml	SplitChooser.SplitCenter
+$default.xml	StepInto
+$default.xml	StepOut
+$default.xml	StepOver
+$default.xml	Stop
+$default.xml	StopBackgroundProcesses
+$default.xml	StructuralSearchPlugin.StructuralReplaceAction
+$default.xml	StructuralSearchPlugin.StructuralSearchAction
+$default.xml	SurroundWith
+$default.xml	SurroundWithLiveTemplate
+$default.xml	SwitchCoverage
+$default.xml	Switcher
+$default.xml	SwitcherIterateItems
+$default.xml	SwitcherRecentEditedChangedToggleCheckBox
+$default.xml	SwitchHeaderSource
+$default.xml	Synchronize
+$default.xml	TodoViewGroupByFlattenPackage
+$default.xml	TodoViewGroupByShowModules
+$default.xml	TodoViewGroupByShowPackages
+$default.xml	ToggleBookmark
+$default.xml	ToggleBookmark0
+$default.xml	ToggleBookmark1
+$default.xml	ToggleBookmark2
+$default.xml	ToggleBookmark3
+$default.xml	ToggleBookmark4
+$default.xml	ToggleBookmark5
+$default.xml	ToggleBookmark6
+$default.xml	ToggleBookmark7
+$default.xml	ToggleBookmark8
+$default.xml	ToggleBookmark9
+$default.xml	ToggleBookmarkWithMnemonic
+$default.xml	ToggleFindInSelection
+$default.xml	ToggleLineBreakpoint
+$default.xml	TogglePopupHints
+$default.xml	ToggleReadOnlyAttribute
+$default.xml	ToggleRenderedDocPresentation
+$default.xml	ToggleTemporaryLineBreakpoint
+$default.xml	TypeHierarchy
+$default.xml	UnselectPreviousOccurrence
+$default.xml	Unwrap
+$default.xml	UsageGrouping.Directory
+$default.xml	UsageGrouping.DirectoryStructure
+$default.xml	UsageGrouping.FileStructure
+$default.xml	UsageGrouping.FlattenModules
+$default.xml	UsageGrouping.Module
+$default.xml	UsageGrouping.UsageType
+$default.xml	UsageView.Include
+$default.xml	ValidateXml
+$default.xml	Vcs.MoveChangedLinesToChangelist
+$default.xml	Vcs.QuickListPopupAction
+$default.xml	Vcs.RollbackChangedLines
+$default.xml	Vcs.ShowMessageHistory
+$default.xml	Vcs.ToggleAmendCommitMode
+$default.xml	VcsHistory.ShowAllAffected
+$default.xml	VcsShowNextChangeMarker
+$default.xml	VcsShowPrevChangeMarker
+$default.xml	ViewBreakpoints
+$default.xml	ViewSource
+$default.xml	XDebugger.AttachToProcess
+$default.xml	XDebugger.NewWatch
+$default.xml	XDebugger.SetValue
+Default for GNOME.xml	Back
+Default for GNOME.xml	EvaluateExpression
+Default for GNOME.xml	Find
+Default for GNOME.xml	FindUsages
+Default for GNOME.xml	Forward
+Default for GNOME.xml	IDEtalk.SearchUserHistory
+Default for GNOME.xml	MoveLineDown
+Default for GNOME.xml	MoveLineUp
+Default for GNOME.xml	NextOccurence
+Default for GNOME.xml	PreviousOccurence
+Default for GNOME.xml	ProjectViewChangeView
+Default for GNOME.xml	SelectIn
+Default for GNOME.xml	ShowExecutionPoint
+Default for KDE.xml	ChangeSignature
+Default for KDE.xml	CloseActiveTab
+Default for KDE.xml	CloseContent
+Default for KDE.xml	CompileDirty
+Default for KDE.xml	EvaluateExpression
+Default for KDE.xml	FileStructurePopup
+Default for KDE.xml	Find
+Default for KDE.xml	FindUsages
+Default for KDE.xml	FindUsagesInFile
+Default for KDE.xml	FindWordAtCaret
+Default for KDE.xml	ForceRefresh
+Default for KDE.xml	GotoBookmark0
+Default for KDE.xml	GotoBookmark1
+Default for KDE.xml	GotoBookmark2
+Default for KDE.xml	GotoBookmark3
+Default for KDE.xml	GotoBookmark4
+Default for KDE.xml	GotoBookmark5
+Default for KDE.xml	GotoBookmark6
+Default for KDE.xml	GotoBookmark7
+Default for KDE.xml	GotoBookmark8
+Default for KDE.xml	GotoBookmark9
+Default for KDE.xml	HighlightUsagesInFile
+Default for KDE.xml	IDEtalk.SearchUserHistory
+Default for KDE.xml	IntroduceVariable
+Default for KDE.xml	ProjectViewChangeView
+Default for KDE.xml	ReformatCode
+Default for KDE.xml	Refresh
+Default for KDE.xml	Rerun
+Default for KDE.xml	RestoreDefaultLayout
+Default for KDE.xml	SelectIn
+Default for KDE.xml	ShowErrorDescription
+Default for KDE.xml	ShowExecutionPoint
+Default for KDE.xml	Stop
+Default for KDE.xml	ToggleBookmark0
+Default for KDE.xml	ToggleBookmark1
+Default for KDE.xml	ToggleBookmark2
+Default for KDE.xml	ToggleBookmark3
+Default for KDE.xml	ToggleBookmark4
+Default for KDE.xml	ToggleBookmark5
+Default for KDE.xml	ToggleBookmark6
+Default for KDE.xml	ToggleBookmark7
+Default for KDE.xml	ToggleBookmark8
+Default for KDE.xml	ToggleBookmark9
+Default for KDE.xml	ToggleLineBreakpoint
+Default for KDE.xml	ViewBreakpoints
+Default for XWin.xml	ActivateNuGetToolWindow
+Default for XWin.xml	ActivateUnitTestsToolWindow
+Default for XWin.xml	ForceRunToCursor
+Default for XWin.xml	Images.EditExternally
+Default for XWin.xml	QuickEvaluateExpression
+Default for XWin.xml	RunToCursor
+Default for XWin.xml	ShowFilePath
+Default for XWin.xml	ShowSettingsAndFindUsages
+Default for XWin.xml	ShowUsages
+Default for XWin.xml	SwitchCoverage
+Default for XWin.xml	XDebugger.AttachToProcess
+Eclipse (Mac OS X).xml	$Redo
+Eclipse (Mac OS X).xml	$Undo
+Eclipse (Mac OS X).xml	ActivateFavoritesToolWindow
+Eclipse (Mac OS X).xml	ActivateFindToolWindow
+Eclipse (Mac OS X).xml	ActivateNavBar
+Eclipse (Mac OS X).xml	ActivateProjectToolWindow
+Eclipse (Mac OS X).xml	AutoIndentLines
+Eclipse (Mac OS X).xml	Back
+Eclipse (Mac OS X).xml	ChangeSignature
+Eclipse (Mac OS X).xml	ChangesView.Revert
+Eclipse (Mac OS X).xml	ChangeTypeSignature
+Eclipse (Mac OS X).xml	CheckinProject
+Eclipse (Mac OS X).xml	CloseActiveTab
+Eclipse (Mac OS X).xml	CloseAllEditors
+Eclipse (Mac OS X).xml	CloseEditor
+Eclipse (Mac OS X).xml	CodeInspection.OnEditor
+Eclipse (Mac OS X).xml	CollapseAllRegions
+Eclipse (Mac OS X).xml	CollapseBlock
+Eclipse (Mac OS X).xml	CollapseSelection
+Eclipse (Mac OS X).xml	CommentByBlockComment
+Eclipse (Mac OS X).xml	CompileDirty
+Eclipse (Mac OS X).xml	CopyElement
+Eclipse (Mac OS X).xml	Debug
+Eclipse (Mac OS X).xml	DelegateMethods
+Eclipse (Mac OS X).xml	Diff.NextChange
+Eclipse (Mac OS X).xml	Diff.PrevChange
+Eclipse (Mac OS X).xml	EditorCodeBlockEnd
+Eclipse (Mac OS X).xml	EditorDeleteLine
+Eclipse (Mac OS X).xml	EditorDeleteToLineEnd
+Eclipse (Mac OS X).xml	EditorDeleteToWordEnd
+Eclipse (Mac OS X).xml	EditorDeleteToWordEndInDifferentHumpsMode
+Eclipse (Mac OS X).xml	EditorDeleteToWordStart
+Eclipse (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode
+Eclipse (Mac OS X).xml	EditorDuplicate
+Eclipse (Mac OS X).xml	EditorDuplicateLines
+Eclipse (Mac OS X).xml	EditorIndentSelection
+Eclipse (Mac OS X).xml	EditorMoveToPageBottom
+Eclipse (Mac OS X).xml	EditorMoveToPageTop
+Eclipse (Mac OS X).xml	EditorNextWordWithSelection
+Eclipse (Mac OS X).xml	EditorPreviousWordWithSelection
+Eclipse (Mac OS X).xml	EditorSelectWord
+Eclipse (Mac OS X).xml	EditorToggleCase
+Eclipse (Mac OS X).xml	EditorUnSelectWord
+Eclipse (Mac OS X).xml	EditSource
+Eclipse (Mac OS X).xml	EvaluateExpression
+Eclipse (Mac OS X).xml	ExpandAllRegions
+Eclipse (Mac OS X).xml	ExpandAllToLevel1
+Eclipse (Mac OS X).xml	ExpandAllToLevel2
+Eclipse (Mac OS X).xml	ExpandAllToLevel3
+Eclipse (Mac OS X).xml	ExpandAllToLevel4
+Eclipse (Mac OS X).xml	ExpandAllToLevel5
+Eclipse (Mac OS X).xml	ExpandToLevel1
+Eclipse (Mac OS X).xml	ExpandToLevel2
+Eclipse (Mac OS X).xml	ExpandToLevel3
+Eclipse (Mac OS X).xml	ExpandToLevel4
+Eclipse (Mac OS X).xml	ExpandToLevel5
+Eclipse (Mac OS X).xml	ExpressionTypeInfo
+Eclipse (Mac OS X).xml	ExternalJavaDoc
+Eclipse (Mac OS X).xml	ExtractMethod
+Eclipse (Mac OS X).xml	FileChooser.TogglePathShowing
+Eclipse (Mac OS X).xml	FileStructurePopup
+Eclipse (Mac OS X).xml	Find
+Eclipse (Mac OS X).xml	FindInPath
+Eclipse (Mac OS X).xml	FindNext
+Eclipse (Mac OS X).xml	FindPrevious
+Eclipse (Mac OS X).xml	FindUsages
+Eclipse (Mac OS X).xml	FindUsagesInFile
+Eclipse (Mac OS X).xml	FindWordAtCaret
+Eclipse (Mac OS X).xml	ForceRefresh
+Eclipse (Mac OS X).xml	ForceStepInto
+Eclipse (Mac OS X).xml	ForceStepOver
+Eclipse (Mac OS X).xml	Forward
+Eclipse (Mac OS X).xml	GotoAction
+Eclipse (Mac OS X).xml	GotoChangedFile
+Eclipse (Mac OS X).xml	GotoClass
+Eclipse (Mac OS X).xml	GotoDeclaration
+Eclipse (Mac OS X).xml	GotoFile
+Eclipse (Mac OS X).xml	GotoImplementation
+Eclipse (Mac OS X).xml	GotoLine
+Eclipse (Mac OS X).xml	GotoNextElementUnderCaretUsage
+Eclipse (Mac OS X).xml	GotoNextError
+Eclipse (Mac OS X).xml	GotoPrevElementUnderCaretUsage
+Eclipse (Mac OS X).xml	GotoPreviousError
+Eclipse (Mac OS X).xml	GotoSuperMethod
+Eclipse (Mac OS X).xml	GotoTest
+Eclipse (Mac OS X).xml	GotoTypeDeclaration
+Eclipse (Mac OS X).xml	GuiDesigner.EditComponent
+Eclipse (Mac OS X).xml	GuiDesigner.EditGroup
+Eclipse (Mac OS X).xml	HighlightUsagesInFile
+Eclipse (Mac OS X).xml	HippieBackwardCompletion
+Eclipse (Mac OS X).xml	HippieCompletion
+Eclipse (Mac OS X).xml	IDEtalk.Rename
+Eclipse (Mac OS X).xml	Images.ShowThumbnails
+Eclipse (Mac OS X).xml	Images.Thumbnails.ToggleRecursive
+Eclipse (Mac OS X).xml	ImplementMethods
+Eclipse (Mac OS X).xml	IncrementalSearch
+Eclipse (Mac OS X).xml	Inline
+Eclipse (Mac OS X).xml	InsertLiveTemplate
+Eclipse (Mac OS X).xml	IntroduceConstant
+Eclipse (Mac OS X).xml	IntroduceVariable
+Eclipse (Mac OS X).xml	JumpToLastChange
+Eclipse (Mac OS X).xml	JumpToLastWindow
+Eclipse (Mac OS X).xml	MethodDown
+Eclipse (Mac OS X).xml	MethodUp
+Eclipse (Mac OS X).xml	Move
+Eclipse (Mac OS X).xml	MoveLineDown
+Eclipse (Mac OS X).xml	MoveLineUp
+Eclipse (Mac OS X).xml	MoveStatementDown
+Eclipse (Mac OS X).xml	MoveStatementUp
+Eclipse (Mac OS X).xml	NextDiff
+Eclipse (Mac OS X).xml	NextEditorTab
+Eclipse (Mac OS X).xml	NextOccurence
+Eclipse (Mac OS X).xml	NextTab
+Eclipse (Mac OS X).xml	OptimizeImports
+Eclipse (Mac OS X).xml	OverrideMethods
+Eclipse (Mac OS X).xml	ParameterInfo
+Eclipse (Mac OS X).xml	PreviousEditorTab
+Eclipse (Mac OS X).xml	PreviousOccurence
+Eclipse (Mac OS X).xml	PreviousTab
+Eclipse (Mac OS X).xml	Print
+Eclipse (Mac OS X).xml	QuickJavaDoc
+Eclipse (Mac OS X).xml	RecentChanges
+Eclipse (Mac OS X).xml	ReformatCode
+Eclipse (Mac OS X).xml	Refresh
+Eclipse (Mac OS X).xml	Replace
+Eclipse (Mac OS X).xml	ReplaceInPath
+Eclipse (Mac OS X).xml	Rerun
+Eclipse (Mac OS X).xml	Resume
+Eclipse (Mac OS X).xml	Run
+Eclipse (Mac OS X).xml	RunToCursor
+Eclipse (Mac OS X).xml	SafeDelete
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToNextGroup
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToPrevGroup
+Eclipse (Mac OS X).xml	SelectIn
+Eclipse (Mac OS X).xml	ServiceView.ShowServices
+Eclipse (Mac OS X).xml	ShowFilePath
+Eclipse (Mac OS X).xml	ShowIntentionActions
+Eclipse (Mac OS X).xml	ShowIntentionActions
+Eclipse (Mac OS X).xml	ShowNavBar
+Eclipse (Mac OS X).xml	ShowPopupMenu
+Eclipse (Mac OS X).xml	SmartStepInto
+Eclipse (Mac OS X).xml	SmartTypeCompletion
+Eclipse (Mac OS X).xml	StepInto
+Eclipse (Mac OS X).xml	StepOut
+Eclipse (Mac OS X).xml	StepOver
+Eclipse (Mac OS X).xml	StructuralSearchPlugin.StructuralReplaceAction
+Eclipse (Mac OS X).xml	SurroundWith
+Eclipse (Mac OS X).xml	Synchronize
+Eclipse (Mac OS X).xml	tasks.goto
+Eclipse (Mac OS X).xml	tasks.switch
+Eclipse (Mac OS X).xml	ToggleBookmark
+Eclipse (Mac OS X).xml	ToggleLineBreakpoint
+Eclipse (Mac OS X).xml	TypeHierarchy
+Eclipse (Mac OS X).xml	Unwrap
+Eclipse (Mac OS X).xml	Vcs.RollbackChangedLines
+Eclipse (Mac OS X).xml	Vcs.UpdateProject
+Eclipse (Mac OS X).xml	XDebugger.Inspect
+Eclipse.xml	$Redo
+Eclipse.xml	$Undo
+Eclipse.xml	ActivateNavBar
+Eclipse.xml	AutoIndentLines
+Eclipse.xml	Back
+Eclipse.xml	ChangeSignature
+Eclipse.xml	ChangesView.Move
+Eclipse.xml	ChangesView.Rename
+Eclipse.xml	CheckinProject
+Eclipse.xml	CloseActiveTab
+Eclipse.xml	CloseAllEditors
+Eclipse.xml	CloseEditor
+Eclipse.xml	CodeInspection.OnEditor
+Eclipse.xml	CollapseAllRegions
+Eclipse.xml	CommentByBlockComment
+Eclipse.xml	CompileDirty
+Eclipse.xml	context.clear
+Eclipse.xml	CopyElement
+Eclipse.xml	Debug
+Eclipse.xml	DelegateMethods
+Eclipse.xml	Diff.ApplyLeftSide
+Eclipse.xml	Diff.ApplyRightSide
+Eclipse.xml	Diff.NextChange
+Eclipse.xml	Diff.PrevChange
+Eclipse.xml	EditorAddCaretPerSelectedLine
+Eclipse.xml	EditorCodeBlockEnd
+Eclipse.xml	EditorDeleteLine
+Eclipse.xml	EditorDeleteToLineEnd
+Eclipse.xml	EditorDuplicate
+Eclipse.xml	EditorDuplicateLines
+Eclipse.xml	EditorIndentSelection
+Eclipse.xml	EditorMatchBrace
+Eclipse.xml	EditorMoveToPageBottom
+Eclipse.xml	EditorMoveToPageTop
+Eclipse.xml	EditorNextWordWithSelection
+Eclipse.xml	EditorPreviousWordWithSelection
+Eclipse.xml	EditorSelectWord
+Eclipse.xml	EditorToggleCase
+Eclipse.xml	EditorUnSelectWord
+Eclipse.xml	EditSource
+Eclipse.xml	EvaluateExpression
+Eclipse.xml	ExpandAllRegions
+Eclipse.xml	ExpandAllToLevel1
+Eclipse.xml	ExpandAllToLevel2
+Eclipse.xml	ExpandAllToLevel3
+Eclipse.xml	ExpandAllToLevel4
+Eclipse.xml	ExpandAllToLevel5
+Eclipse.xml	ExpandToLevel1
+Eclipse.xml	ExpandToLevel2
+Eclipse.xml	ExpandToLevel3
+Eclipse.xml	ExpandToLevel4
+Eclipse.xml	ExpandToLevel5
+Eclipse.xml	ExpressionTypeInfo
+Eclipse.xml	ExternalJavaDoc
+Eclipse.xml	ExtractMethod
+Eclipse.xml	FileChooser.TogglePathShowing
+Eclipse.xml	FileStructurePopup
+Eclipse.xml	Find
+Eclipse.xml	FindInPath
+Eclipse.xml	FindNext
+Eclipse.xml	FindPrevious
+Eclipse.xml	FindUsages
+Eclipse.xml	FindUsagesInFile
+Eclipse.xml	FindWordAtCaret
+Eclipse.xml	ForceRefresh
+Eclipse.xml	Forward
+Eclipse.xml	Git.Rename.Local.Branch
+Eclipse.xml	Git.Reword.Commit
+Eclipse.xml	GotoBookmark1
+Eclipse.xml	GotoChangedFile
+Eclipse.xml	GotoClass
+Eclipse.xml	GotoDeclaration
+Eclipse.xml	GotoFile
+Eclipse.xml	GotoImplementation
+Eclipse.xml	GotoLine
+Eclipse.xml	GotoNextError
+Eclipse.xml	GotoPreviousError
+Eclipse.xml	GotoSuperMethod
+Eclipse.xml	GotoTest
+Eclipse.xml	GotoTypeDeclaration
+Eclipse.xml	GuiDesigner.EditComponent
+Eclipse.xml	GuiDesigner.EditGroup
+Eclipse.xml	HighlightUsagesInFile
+Eclipse.xml	IDEtalk.Rename
+Eclipse.xml	Images.ShowThumbnails
+Eclipse.xml	Images.Thumbnails.ToggleRecursive
+Eclipse.xml	ImplementMethods
+Eclipse.xml	IncrementalSearch
+Eclipse.xml	Inline
+Eclipse.xml	InsertLiveTemplate
+Eclipse.xml	IntroduceVariable
+Eclipse.xml	JumpToLastChange
+Eclipse.xml	JumpToLastWindow
+Eclipse.xml	MethodDown
+Eclipse.xml	MethodUp
+Eclipse.xml	Move
+Eclipse.xml	MoveElementLeft
+Eclipse.xml	MoveElementRight
+Eclipse.xml	MoveLineDown
+Eclipse.xml	MoveLineUp
+Eclipse.xml	MoveStatementDown
+Eclipse.xml	MoveStatementUp
+Eclipse.xml	NextDiff
+Eclipse.xml	NextEditorTab
+Eclipse.xml	NextOccurence
+Eclipse.xml	NextTab
+Eclipse.xml	OptimizeImports
+Eclipse.xml	OverrideMethods
+Eclipse.xml	ParameterInfo
+Eclipse.xml	PreviousEditorTab
+Eclipse.xml	PreviousOccurence
+Eclipse.xml	PreviousTab
+Eclipse.xml	Print
+Eclipse.xml	QuickJavaDoc
+Eclipse.xml	RecentChanges
+Eclipse.xml	ReformatCode
+Eclipse.xml	Refresh
+Eclipse.xml	RenameElement
+Eclipse.xml	Replace
+Eclipse.xml	ReplaceInPath
+Eclipse.xml	Rerun
+Eclipse.xml	RerunTests
+Eclipse.xml	Resume
+Eclipse.xml	Run
+Eclipse.xml	RunToCursor
+Eclipse.xml	SelectAllOccurrences
+Eclipse.xml	SelectNextOccurrence
+Eclipse.xml	SelectVirtualTemplateElement
+Eclipse.xml	ServiceView.ShowServices
+Eclipse.xml	ShelvedChanges.Rename
+Eclipse.xml	ShowIntentionActions
+Eclipse.xml	ShowIntentionActions
+Eclipse.xml	ShowPopupMenu
+Eclipse.xml	SmartStepInto
+Eclipse.xml	SmartTypeCompletion
+Eclipse.xml	StepInto
+Eclipse.xml	StepOut
+Eclipse.xml	StepOver
+Eclipse.xml	StructuralSearchPlugin.StructuralReplaceAction
+Eclipse.xml	SurroundWith
+Eclipse.xml	Synchronize
+Eclipse.xml	ToggleBookmark
+Eclipse.xml	ToggleBookmarkWithMnemonic
+Eclipse.xml	ToggleLineBreakpoint
+Eclipse.xml	TypeHierarchy
+Eclipse.xml	UnselectPreviousOccurrence
+Eclipse.xml	Unwrap
+Eclipse.xml	Vcs.MoveChangedLinesToChangelist
+Eclipse.xml	Vcs.UpdateProject
+Eclipse.xml	ViewNavigationBar
+Eclipse.xml	XDebugger.Inspect
+Emacs.xml	$Copy
+Emacs.xml	$Cut
+Emacs.xml	$Delete
+Emacs.xml	$Paste
+Emacs.xml	$Redo
+Emacs.xml	$SelectAll
+Emacs.xml	$Undo
+Emacs.xml	AutoIndentLines
+Emacs.xml	ChangesView.Move
+Emacs.xml	CloseAllEditors
+Emacs.xml	CloseContent
+Emacs.xml	CodeCompletion
+Emacs.xml	CollapseAllRegions
+Emacs.xml	CommentByLineComment
+Emacs.xml	CompileProject
+Emacs.xml	Console.Execute
+Emacs.xml	Diff.NextChange
+Emacs.xml	Diff.PrevChange
+Emacs.xml	EditorAddCaretPerSelectedLine
+Emacs.xml	EditorBackwardParagraph
+Emacs.xml	EditorBackwardParagraphWithSelection
+Emacs.xml	EditorChooseLookupItem
+Emacs.xml	EditorCodeBlockEnd
+Emacs.xml	EditorCodeBlockStart
+Emacs.xml	EditorCutLineBackward
+Emacs.xml	EditorCutLineEnd
+Emacs.xml	EditorDeleteLine
+Emacs.xml	EditorDeleteToWordStart
+Emacs.xml	EditorDown
+Emacs.xml	EditorDuplicate
+Emacs.xml	EditorEnter
+Emacs.xml	EditorEscape
+Emacs.xml	EditorForwardParagraph
+Emacs.xml	EditorForwardParagraphWithSelection
+Emacs.xml	EditorKillRegion
+Emacs.xml	EditorKillRingSave
+Emacs.xml	EditorKillToWordEnd
+Emacs.xml	EditorKillToWordStart
+Emacs.xml	EditorLeft
+Emacs.xml	EditorLineEnd
+Emacs.xml	EditorLineStart
+Emacs.xml	EditorNextWord
+Emacs.xml	EditorPageDown
+Emacs.xml	EditorPageUp
+Emacs.xml	EditorPreviousWord
+Emacs.xml	EditorRight
+Emacs.xml	EditorScrollDown
+Emacs.xml	EditorScrollToCenter
+Emacs.xml	EditorScrollUp
+Emacs.xml	EditorSelectWord
+Emacs.xml	EditorSplitLine
+Emacs.xml	EditorSwapSelectionBoundaries
+Emacs.xml	EditorTab
+Emacs.xml	EditorTextEnd
+Emacs.xml	EditorTextStart
+Emacs.xml	EditorToggleStickySelection
+Emacs.xml	EditorUp
+Emacs.xml	EmacsStyleIndent
+Emacs.xml	Find
+Emacs.xml	FindNext
+Emacs.xml	FindPrevious
+Emacs.xml	FindUsages
+Emacs.xml	GotoAction
+Emacs.xml	GotoChangedFile
+Emacs.xml	GotoClass
+Emacs.xml	GotoDeclaration
+Emacs.xml	GotoFile
+Emacs.xml	GotoImplementation
+Emacs.xml	GotoLine
+Emacs.xml	GotoNextError
+Emacs.xml	GotoPreviousError
+Emacs.xml	IntroduceField
+Emacs.xml	MethodDown
+Emacs.xml	MethodUp
+Emacs.xml	MoveStatementDown
+Emacs.xml	MoveStatementUp
+Emacs.xml	NextEditorTab
+Emacs.xml	NextProjectWindow
+Emacs.xml	NextSplitter
+Emacs.xml	NextTab
+Emacs.xml	NextTemplateVariable
+Emacs.xml	OverrideMethods
+Emacs.xml	ParameterInfo
+Emacs.xml	PasteMultiple
+Emacs.xml	PreviousEditorTab
+Emacs.xml	PreviousProjectWindow
+Emacs.xml	PreviousTab
+Emacs.xml	RecentFiles
+Emacs.xml	ReformatCode
+Emacs.xml	Replace
+Emacs.xml	SafeDelete
+Emacs.xml	SaveAll
+Emacs.xml	SelectVirtualTemplateElement
+Emacs.xml	SmartTypeCompletion
+Emacs.xml	SplitHorizontally
+Emacs.xml	SplitVertically
+Emacs.xml	Switcher
+Emacs.xml	SwitcherIterateItems
+Emacs.xml	SwitcherRecentEditedChangedToggleCheckBox
+Emacs.xml	SynchronizeCurrentFile
+Emacs.xml	ToggleBookmark2
+Emacs.xml	ToggleRenderedDocPresentation
+Emacs.xml	UnsplitAll
+Emacs.xml	Vcs.MoveChangedLinesToChangelist
+Emacs.xml	Vcs.ShowMessageHistory
+Emacs.xml	Vcs.ToggleAmendCommitMode
+Emacs.xml	VcsShowNextChangeMarker
+Emacs.xml	VcsShowPrevChangeMarker
+Mac OS X 10.5+.xml	$Delete
+Mac OS X 10.5+.xml	$Undo
+Mac OS X 10.5+.xml	ActivateCommitToolWindow
+Mac OS X 10.5+.xml	ActivateDebugToolWindow
+Mac OS X 10.5+.xml	ActivateFavoritesToolWindow
+Mac OS X 10.5+.xml	ActivateFindToolWindow
+Mac OS X 10.5+.xml	ActivateHierarchyToolWindow
+Mac OS X 10.5+.xml	ActivateNuGetToolWindow
+Mac OS X 10.5+.xml	ActivateProblemsViewToolWindow
+Mac OS X 10.5+.xml	ActivateProjectToolWindow
+Mac OS X 10.5+.xml	ActivateRunToolWindow
+Mac OS X 10.5+.xml	ActivateServicesToolWindow
+Mac OS X 10.5+.xml	ActivateStructureToolWindow
+Mac OS X 10.5+.xml	ActivateUnitTestsToolWindow
+Mac OS X 10.5+.xml	ActivateVersionControlToolWindow
+Mac OS X 10.5+.xml	AutoIndentLines
+Mac OS X 10.5+.xml	Back
+Mac OS X 10.5+.xml	CallHierarchy
+Mac OS X 10.5+.xml	ChangesView.GroupBy.Directory
+Mac OS X 10.5+.xml	ChangesView.GroupBy.Module
+Mac OS X 10.5+.xml	ChangesView.Move
+Mac OS X 10.5+.xml	ChangesView.SetDefault
+Mac OS X 10.5+.xml	ChooseDebugConfiguration
+Mac OS X 10.5+.xml	ChooseRunConfiguration
+Mac OS X 10.5+.xml	ClassNameCompletion
+Mac OS X 10.5+.xml	CloseActiveTab
+Mac OS X 10.5+.xml	CloseContent
+Mac OS X 10.5+.xml	CodeCompletion
+Mac OS X 10.5+.xml	CommentByBlockComment
+Mac OS X 10.5+.xml	context.load
+Mac OS X 10.5+.xml	context.save
+Mac OS X 10.5+.xml	ContextHelp
+Mac OS X 10.5+.xml	Debug
+Mac OS X 10.5+.xml	DebugClass
+Mac OS X 10.5+.xml	DebugClass
+Mac OS X 10.5+.xml	DebugClass
+Mac OS X 10.5+.xml	Diff.ApplyLeftSide
+Mac OS X 10.5+.xml	Diff.ApplyRightSide
+Mac OS X 10.5+.xml	Diff.FocusOppositePane
+Mac OS X 10.5+.xml	Diff.FocusOppositePaneAndScroll
+Mac OS X 10.5+.xml	Diff.NextChange
+Mac OS X 10.5+.xml	Diff.PrevChange
+Mac OS X 10.5+.xml	EditorBackSpace
+Mac OS X 10.5+.xml	EditorChooseLookupItemDot
+Mac OS X 10.5+.xml	EditorCodeBlockEnd
+Mac OS X 10.5+.xml	EditorCodeBlockEndWithSelection
+Mac OS X 10.5+.xml	EditorCodeBlockStart
+Mac OS X 10.5+.xml	EditorCodeBlockStartWithSelection
+Mac OS X 10.5+.xml	EditorContextInfo
+Mac OS X 10.5+.xml	EditorCutLineEnd
+Mac OS X 10.5+.xml	EditorDelete
+Mac OS X 10.5+.xml	EditorDeleteLine
+Mac OS X 10.5+.xml	EditorDeleteToWordEnd
+Mac OS X 10.5+.xml	EditorDeleteToWordEnd
+Mac OS X 10.5+.xml	EditorDeleteToWordStart
+Mac OS X 10.5+.xml	EditorDeleteToWordStart
+Mac OS X 10.5+.xml	EditorDown
+Mac OS X 10.5+.xml	EditorJoinLines
+Mac OS X 10.5+.xml	EditorLeft
+Mac OS X 10.5+.xml	EditorLineEnd
+Mac OS X 10.5+.xml	EditorLineEnd
+Mac OS X 10.5+.xml	EditorLineEndWithSelection
+Mac OS X 10.5+.xml	EditorLineStart
+Mac OS X 10.5+.xml	EditorLineStart
+Mac OS X 10.5+.xml	EditorLineStartWithSelection
+Mac OS X 10.5+.xml	EditorLookupDown
+Mac OS X 10.5+.xml	EditorLookupUp
+Mac OS X 10.5+.xml	EditorMatchBrace
+Mac OS X 10.5+.xml	EditorNextWord
+Mac OS X 10.5+.xml	EditorNextWordWithSelection
+Mac OS X 10.5+.xml	EditorPreviousWord
+Mac OS X 10.5+.xml	EditorPreviousWordWithSelection
+Mac OS X 10.5+.xml	EditorRight
+Mac OS X 10.5+.xml	EditorScrollDown
+Mac OS X 10.5+.xml	EditorScrollToCenter
+Mac OS X 10.5+.xml	EditorScrollToCenter
+Mac OS X 10.5+.xml	EditorScrollUp
+Mac OS X 10.5+.xml	EditorSelectWord
+Mac OS X 10.5+.xml	EditorStartNewLine
+Mac OS X 10.5+.xml	EditorToggleColumnMode
+Mac OS X 10.5+.xml	EditorToggleColumnMode
+Mac OS X 10.5+.xml	EditorUnSelectWord
+Mac OS X 10.5+.xml	EditorUp
+Mac OS X 10.5+.xml	EditSource
+Mac OS X 10.5+.xml	EmojiAndSymbols
+Mac OS X 10.5+.xml	Exit
+Mac OS X 10.5+.xml	ExpandAllToLevel1
+Mac OS X 10.5+.xml	ExpandAllToLevel2
+Mac OS X 10.5+.xml	ExpandAllToLevel3
+Mac OS X 10.5+.xml	ExpandAllToLevel4
+Mac OS X 10.5+.xml	ExpandAllToLevel5
+Mac OS X 10.5+.xml	ExportToTextFile
+Mac OS X 10.5+.xml	ExpressionTypeInfo
+Mac OS X 10.5+.xml	ExternalJavaDoc
+Mac OS X 10.5+.xml	FileChooser.TogglePathShowing
+Mac OS X 10.5+.xml	Find
+Mac OS X 10.5+.xml	FindInPath
+Mac OS X 10.5+.xml	FindNext
+Mac OS X 10.5+.xml	FindNext
+Mac OS X 10.5+.xml	FindPrevious
+Mac OS X 10.5+.xml	FindPrevious
+Mac OS X 10.5+.xml	FindWordAtCaret
+Mac OS X 10.5+.xml	ForceRefresh
+Mac OS X 10.5+.xml	Forward
+Mac OS X 10.5+.xml	Generate
+Mac OS X 10.5+.xml	GotoBookmark0
+Mac OS X 10.5+.xml	GotoBookmark1
+Mac OS X 10.5+.xml	GotoBookmark2
+Mac OS X 10.5+.xml	GotoBookmark3
+Mac OS X 10.5+.xml	GotoBookmark4
+Mac OS X 10.5+.xml	GotoBookmark5
+Mac OS X 10.5+.xml	GotoBookmark6
+Mac OS X 10.5+.xml	GotoBookmark7
+Mac OS X 10.5+.xml	GotoBookmark8
+Mac OS X 10.5+.xml	GotoBookmark9
+Mac OS X 10.5+.xml	GotoChangedFile
+Mac OS X 10.5+.xml	GotoClass
+Mac OS X 10.5+.xml	GotoDeclaration
+Mac OS X 10.5+.xml	GotoFile
+Mac OS X 10.5+.xml	GotoLine
+Mac OS X 10.5+.xml	GotoNextElementUnderCaretUsage
+Mac OS X 10.5+.xml	GotoPrevElementUnderCaretUsage
+Mac OS X 10.5+.xml	GotoRelated
+Mac OS X 10.5+.xml	GotoSymbol
+Mac OS X 10.5+.xml	GotoTypeDeclaration
+Mac OS X 10.5+.xml	ImplementMethods
+Mac OS X 10.5+.xml	List-selectFirstRow
+Mac OS X 10.5+.xml	List-selectFirstRowExtendSelection
+Mac OS X 10.5+.xml	List-selectLastRow
+Mac OS X 10.5+.xml	List-selectLastRowExtendSelection
+Mac OS X 10.5+.xml	MethodDown
+Mac OS X 10.5+.xml	MethodOverloadSwitchDown
+Mac OS X 10.5+.xml	MethodOverloadSwitchUp
+Mac OS X 10.5+.xml	MethodUp
+Mac OS X 10.5+.xml	MinimizeCurrentWindow
+Mac OS X 10.5+.xml	NewElement
+Mac OS X 10.5+.xml	NewElementSamePlace
+Mac OS X 10.5+.xml	NewScratchFile
+Mac OS X 10.5+.xml	NextEditorTab
+Mac OS X 10.5+.xml	NextProjectWindow
+Mac OS X 10.5+.xml	NextSplitter
+Mac OS X 10.5+.xml	NextTab
+Mac OS X 10.5+.xml	NextWindow
+Mac OS X 10.5+.xml	OptimizeImports
+Mac OS X 10.5+.xml	OverrideMethods
+Mac OS X 10.5+.xml	PreviousEditorTab
+Mac OS X 10.5+.xml	PreviousProjectWindow
+Mac OS X 10.5+.xml	PreviousTab
+Mac OS X 10.5+.xml	PreviousWindow
+Mac OS X 10.5+.xml	PrevSplitter
+Mac OS X 10.5+.xml	QuickChangeScheme
+Mac OS X 10.5+.xml	QuickImplementations
+Mac OS X 10.5+.xml	QuickJavaDoc
+Mac OS X 10.5+.xml	Refactorings.QuickListPopupAction
+Mac OS X 10.5+.xml	Refresh
+Mac OS X 10.5+.xml	ReplaceInPath
+Mac OS X 10.5+.xml	Rerun
+Mac OS X 10.5+.xml	RerunTests
+Mac OS X 10.5+.xml	Resume
+Mac OS X 10.5+.xml	Run
+Mac OS X 10.5+.xml	RunClass
+Mac OS X 10.5+.xml	RunClass
+Mac OS X 10.5+.xml	RunClass
+Mac OS X 10.5+.xml	RunToCursor
+Mac OS X 10.5+.xml	SafeDelete
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToNextGroup
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToPrevGroup
+Mac OS X 10.5+.xml	SelectAllOccurrences
+Mac OS X 10.5+.xml	SelectNextOccurrence
+Mac OS X 10.5+.xml	ServiceView.GroupByContributor
+Mac OS X 10.5+.xml	ServiceView.GroupByServiceGroups
+Mac OS X 10.5+.xml	ServiceView.ShowServices
+Mac OS X 10.5+.xml	ShowBookmarks
+Mac OS X 10.5+.xml	ShowContent
+Mac OS X 10.5+.xml	ShowFilterPopup
+Mac OS X 10.5+.xml	ShowNavBar
+Mac OS X 10.5+.xml	ShowPopupMenu
+Mac OS X 10.5+.xml	ShowProjectStructureSettings
+Mac OS X 10.5+.xml	ShowSearchHistory
+Mac OS X 10.5+.xml	ShowSettings
+Mac OS X 10.5+.xml	SmartTypeCompletion
+Mac OS X 10.5+.xml	Switcher
+Mac OS X 10.5+.xml	TestGestureAction
+Mac OS X 10.5+.xml	TodoViewGroupByFlattenPackage
+Mac OS X 10.5+.xml	TodoViewGroupByShowModules
+Mac OS X 10.5+.xml	TodoViewGroupByShowPackages
+Mac OS X 10.5+.xml	ToggleBookmark
+Mac OS X 10.5+.xml	ToggleBookmark0
+Mac OS X 10.5+.xml	ToggleBookmark1
+Mac OS X 10.5+.xml	ToggleBookmark2
+Mac OS X 10.5+.xml	ToggleBookmark3
+Mac OS X 10.5+.xml	ToggleBookmark4
+Mac OS X 10.5+.xml	ToggleBookmark5
+Mac OS X 10.5+.xml	ToggleBookmark6
+Mac OS X 10.5+.xml	ToggleBookmark7
+Mac OS X 10.5+.xml	ToggleBookmark8
+Mac OS X 10.5+.xml	ToggleBookmark9
+Mac OS X 10.5+.xml	ToggleBookmarkWithMnemonic
+Mac OS X 10.5+.xml	ToggleFindInSelection
+Mac OS X 10.5+.xml	ToggleFullScreen
+Mac OS X 10.5+.xml	TogglePopupHints
+Mac OS X 10.5+.xml	ToggleReadOnlyAttribute
+Mac OS X 10.5+.xml	ToggleRenderedDocPresentation
+Mac OS X 10.5+.xml	TypeHierarchy
+Mac OS X 10.5+.xml	UiInspector
+Mac OS X 10.5+.xml	UnselectPreviousOccurrence
+Mac OS X 10.5+.xml	UsageGrouping.Directory
+Mac OS X 10.5+.xml	UsageGrouping.DirectoryStructure
+Mac OS X 10.5+.xml	UsageGrouping.FileStructure
+Mac OS X 10.5+.xml	UsageGrouping.FlattenModules
+Mac OS X 10.5+.xml	UsageGrouping.Module
+Mac OS X 10.5+.xml	UsageGrouping.UsageType
+Mac OS X 10.5+.xml	UsageView.Include
+Mac OS X 10.5+.xml	ValidateXml
+Mac OS X 10.5+.xml	Vcs.MoveChangedLinesToChangelist
+Mac OS X 10.5+.xml	Vcs.QuickListPopupAction
+Mac OS X 10.5+.xml	Vcs.ShowMessageHistory
+Mac OS X 10.5+.xml	Vcs.ToggleAmendCommitMode
+Mac OS X 10.5+.xml	VcsHistory.ShowAllAffected
+Mac OS X 10.5+.xml	VcsShowNextChangeMarker
+Mac OS X 10.5+.xml	VcsShowPrevChangeMarker
+Mac OS X 10.5+.xml	XDebugger.AttachToProcess
+Mac OS X 10.5+.xml	ZoomCurrentWindow
+Mac OS X.xml	$Delete
+Mac OS X.xml	$Undo
+Mac OS X.xml	ActivateCommitToolWindow
+Mac OS X.xml	ActivateDebugToolWindow
+Mac OS X.xml	ActivateFavoritesToolWindow
+Mac OS X.xml	ActivateFindToolWindow
+Mac OS X.xml	ActivateHierarchyToolWindow
+Mac OS X.xml	ActivateProblemsViewToolWindow
+Mac OS X.xml	ActivateProjectToolWindow
+Mac OS X.xml	ActivateRunToolWindow
+Mac OS X.xml	ActivateServicesToolWindow
+Mac OS X.xml	ActivateStructureToolWindow
+Mac OS X.xml	ActivateVersionControlToolWindow
+Mac OS X.xml	CallHierarchy
+Mac OS X.xml	ChangesView.GroupBy.Directory
+Mac OS X.xml	ChangesView.GroupBy.Module
+Mac OS X.xml	ChangesView.Move
+Mac OS X.xml	ChangesView.Move
+Mac OS X.xml	ChangesView.SetDefault
+Mac OS X.xml	ClassNameCompletion
+Mac OS X.xml	CodeCompletion
+Mac OS X.xml	CommentByBlockComment
+Mac OS X.xml	ContextHelp
+Mac OS X.xml	DebugClass
+Mac OS X.xml	DebugClass
+Mac OS X.xml	Diff.ApplyLeftSide
+Mac OS X.xml	Diff.ApplyRightSide
+Mac OS X.xml	Diff.FocusOppositePane
+Mac OS X.xml	Diff.FocusOppositePaneAndScroll
+Mac OS X.xml	Diff.NextChange
+Mac OS X.xml	Diff.PrevChange
+Mac OS X.xml	EditorChooseLookupItemDot
+Mac OS X.xml	EditorContextInfo
+Mac OS X.xml	EditorDelete
+Mac OS X.xml	EditorDeleteToWordEnd
+Mac OS X.xml	EditorDeleteToWordStart
+Mac OS X.xml	EditorJoinLines
+Mac OS X.xml	EditorLineEnd
+Mac OS X.xml	EditorLineEndWithSelection
+Mac OS X.xml	EditorLineStart
+Mac OS X.xml	EditorLineStartWithSelection
+Mac OS X.xml	EditorLookupDown
+Mac OS X.xml	EditorLookupUp
+Mac OS X.xml	EditorNextWord
+Mac OS X.xml	EditorNextWordWithSelection
+Mac OS X.xml	EditorPreviousWord
+Mac OS X.xml	EditorPreviousWordWithSelection
+Mac OS X.xml	EditorScrollDown
+Mac OS X.xml	EditorScrollToCenter
+Mac OS X.xml	EditorScrollUp
+Mac OS X.xml	EditorStartNewLine
+Mac OS X.xml	EditorToggleColumnMode
+Mac OS X.xml	EmojiAndSymbols
+Mac OS X.xml	Exit
+Mac OS X.xml	ExpandAllToLevel1
+Mac OS X.xml	ExpandAllToLevel2
+Mac OS X.xml	ExpandAllToLevel3
+Mac OS X.xml	ExpandAllToLevel4
+Mac OS X.xml	ExpandAllToLevel5
+Mac OS X.xml	ExportToTextFile
+Mac OS X.xml	ExpressionTypeInfo
+Mac OS X.xml	ExternalJavaDoc
+Mac OS X.xml	FileChooser.TogglePathShowing
+Mac OS X.xml	FindInPath
+Mac OS X.xml	FindNext
+Mac OS X.xml	FindPrevious
+Mac OS X.xml	ForceRefresh
+Mac OS X.xml	Generate
+Mac OS X.xml	GotoBookmark0
+Mac OS X.xml	GotoBookmark1
+Mac OS X.xml	GotoBookmark2
+Mac OS X.xml	GotoBookmark3
+Mac OS X.xml	GotoBookmark4
+Mac OS X.xml	GotoBookmark5
+Mac OS X.xml	GotoBookmark6
+Mac OS X.xml	GotoBookmark7
+Mac OS X.xml	GotoBookmark8
+Mac OS X.xml	GotoBookmark9
+Mac OS X.xml	GotoDeclaration
+Mac OS X.xml	GotoNextElementUnderCaretUsage
+Mac OS X.xml	GotoPrevElementUnderCaretUsage
+Mac OS X.xml	GotoTypeDeclaration
+Mac OS X.xml	MethodDown
+Mac OS X.xml	MethodUp
+Mac OS X.xml	MinimizeCurrentWindow
+Mac OS X.xml	NewElement
+Mac OS X.xml	NewElementSamePlace
+Mac OS X.xml	NewScratchFile
+Mac OS X.xml	NextEditorTab
+Mac OS X.xml	NextSplitter
+Mac OS X.xml	NextTab
+Mac OS X.xml	NextWindow
+Mac OS X.xml	PreviousEditorTab
+Mac OS X.xml	PreviousTab
+Mac OS X.xml	PreviousWindow
+Mac OS X.xml	PrevSplitter
+Mac OS X.xml	QuickChangeScheme
+Mac OS X.xml	QuickJavaDoc
+Mac OS X.xml	Refresh
+Mac OS X.xml	ReplaceInPath
+Mac OS X.xml	Rerun
+Mac OS X.xml	RerunTests
+Mac OS X.xml	RunClass
+Mac OS X.xml	RunClass
+Mac OS X.xml	RunToCursor
+Mac OS X.xml	SafeDelete
+Mac OS X.xml	SearchEverywhere.NavigateToNextGroup
+Mac OS X.xml	SearchEverywhere.NavigateToPrevGroup
+Mac OS X.xml	SelectAllOccurrences
+Mac OS X.xml	SelectNextOccurrence
+Mac OS X.xml	ServiceView.GroupByContributor
+Mac OS X.xml	ServiceView.GroupByServiceGroups
+Mac OS X.xml	ServiceView.ShowServices
+Mac OS X.xml	ShowContent
+Mac OS X.xml	ShowFilterPopup
+Mac OS X.xml	ShowPopupMenu
+Mac OS X.xml	ShowProjectStructureSettings
+Mac OS X.xml	ShowSearchHistory
+Mac OS X.xml	ShowSettings
+Mac OS X.xml	SmartTypeCompletion
+Mac OS X.xml	Switcher
+Mac OS X.xml	TestGestureAction
+Mac OS X.xml	TodoViewGroupByFlattenPackage
+Mac OS X.xml	TodoViewGroupByShowModules
+Mac OS X.xml	TodoViewGroupByShowPackages
+Mac OS X.xml	ToggleBookmark0
+Mac OS X.xml	ToggleBookmark1
+Mac OS X.xml	ToggleBookmark2
+Mac OS X.xml	ToggleBookmark3
+Mac OS X.xml	ToggleBookmark4
+Mac OS X.xml	ToggleBookmark5
+Mac OS X.xml	ToggleBookmark6
+Mac OS X.xml	ToggleBookmark7
+Mac OS X.xml	ToggleBookmark8
+Mac OS X.xml	ToggleBookmark9
+Mac OS X.xml	ToggleFindInSelection
+Mac OS X.xml	ToggleFullScreen
+Mac OS X.xml	TogglePopupHints
+Mac OS X.xml	ToggleReadOnlyAttribute
+Mac OS X.xml	ToggleRenderedDocPresentation
+Mac OS X.xml	TypeHierarchy
+Mac OS X.xml	UiInspector
+Mac OS X.xml	UnselectPreviousOccurrence
+Mac OS X.xml	UsageGrouping.Directory
+Mac OS X.xml	UsageGrouping.DirectoryStructure
+Mac OS X.xml	UsageGrouping.FileStructure
+Mac OS X.xml	UsageGrouping.FlattenModules
+Mac OS X.xml	UsageGrouping.Module
+Mac OS X.xml	UsageGrouping.UsageType
+Mac OS X.xml	ValidateXml
+Mac OS X.xml	Vcs.MoveChangedLinesToChangelist
+Mac OS X.xml	Vcs.MoveChangedLinesToChangelist
+Mac OS X.xml	Vcs.QuickListPopupAction
+Mac OS X.xml	Vcs.ShowMessageHistory
+Mac OS X.xml	Vcs.ToggleAmendCommitMode
+Mac OS X.xml	VcsShowNextChangeMarker
+Mac OS X.xml	VcsShowPrevChangeMarker
+Mac OS X.xml	XDebugger.AttachToProcess
+Mac OS X.xml	ZoomCurrentWindow
+macOS System Shortcuts.xml	ActivateTerminalToolWindow
+macOS System Shortcuts.xml	Back
+macOS System Shortcuts.xml	CallHierarchy
+macOS System Shortcuts.xml	ChangeSignature
+macOS System Shortcuts.xml	ChangesView.Move
+macOS System Shortcuts.xml	CollapseAllRegions
+macOS System Shortcuts.xml	CommentByBlockComment
+macOS System Shortcuts.xml	CompileDirty
+macOS System Shortcuts.xml	CopyElement
+macOS System Shortcuts.xml	Debug
+macOS System Shortcuts.xml	EditorBackSpace
+macOS System Shortcuts.xml	EditorDecreaseFontSize
+macOS System Shortcuts.xml	EditorDelete
+macOS System Shortcuts.xml	EditorIncreaseFontSize
+macOS System Shortcuts.xml	EditorLookupDown
+macOS System Shortcuts.xml	EditorLookupUp
+macOS System Shortcuts.xml	EditorPageDown
+macOS System Shortcuts.xml	EditorPageDownWithSelection
+macOS System Shortcuts.xml	EditorSplitLine
+macOS System Shortcuts.xml	EditorTextEnd
+macOS System Shortcuts.xml	EditorTextEndWithSelection
+macOS System Shortcuts.xml	EditorTextStart
+macOS System Shortcuts.xml	EditorTextStartWithSelection
+macOS System Shortcuts.xml	EditorTranspose
+macOS System Shortcuts.xml	EditSource
+macOS System Shortcuts.xml	EditSourceNotInEditor
+macOS System Shortcuts.xml	EvaluateExpression
+macOS System Shortcuts.xml	ExpandAllRegions
+macOS System Shortcuts.xml	FileStructurePopup
+macOS System Shortcuts.xml	FindUsages
+macOS System Shortcuts.xml	FindUsagesInFile
+macOS System Shortcuts.xml	ForceRunToCursor
+macOS System Shortcuts.xml	ForceStepInto
+macOS System Shortcuts.xml	ForceStepOver
+macOS System Shortcuts.xml	Forward
+macOS System Shortcuts.xml	Generate
+macOS System Shortcuts.xml	GotoAction
+macOS System Shortcuts.xml	GotoNextElementUnderCaretUsage
+macOS System Shortcuts.xml	GotoNextError
+macOS System Shortcuts.xml	GotoPrevElementUnderCaretUsage
+macOS System Shortcuts.xml	GotoPreviousError
+macOS System Shortcuts.xml	GotoRelated
+macOS System Shortcuts.xml	GotoTest
+macOS System Shortcuts.xml	hg4idea.QFold
+macOS System Shortcuts.xml	HighlightUsagesInFile
+macOS System Shortcuts.xml	ImplementMethods
+macOS System Shortcuts.xml	List-selectFirstRow
+macOS System Shortcuts.xml	List-selectFirstRowExtendSelection
+macOS System Shortcuts.xml	List-selectLastRow
+macOS System Shortcuts.xml	List-selectLastRowExtendSelection
+macOS System Shortcuts.xml	MaximizeToolWindow
+macOS System Shortcuts.xml	MethodDown
+macOS System Shortcuts.xml	MethodUp
+macOS System Shortcuts.xml	Move
+macOS System Shortcuts.xml	MoveStatementDown
+macOS System Shortcuts.xml	MoveStatementUp
+macOS System Shortcuts.xml	NewDir
+macOS System Shortcuts.xml	NewElement
+macOS System Shortcuts.xml	NewScratchFile
+macOS System Shortcuts.xml	NextDiff
+macOS System Shortcuts.xml	NextTab
+macOS System Shortcuts.xml	OverrideMethods
+macOS System Shortcuts.xml	PreviousDiff
+macOS System Shortcuts.xml	PreviousTab
+macOS System Shortcuts.xml	QuickImplementations
+macOS System Shortcuts.xml	QuickJavaDoc
+macOS System Shortcuts.xml	Refactorings.QuickListPopupAction
+macOS System Shortcuts.xml	RenameElement
+macOS System Shortcuts.xml	ReopenClosedTab
+macOS System Shortcuts.xml	RerunTests
+macOS System Shortcuts.xml	Resume
+macOS System Shortcuts.xml	Run
+macOS System Shortcuts.xml	RunToCursor
+macOS System Shortcuts.xml	SelectIn
+macOS System Shortcuts.xml	ShowBookmarks
+macOS System Shortcuts.xml	ShowNavBar
+macOS System Shortcuts.xml	ShowProjectStructureSettings
+macOS System Shortcuts.xml	ShowSettingsAndFindUsages
+macOS System Shortcuts.xml	ShowUsages
+macOS System Shortcuts.xml	SmartStepInto
+macOS System Shortcuts.xml	StepInto
+macOS System Shortcuts.xml	StepOut
+macOS System Shortcuts.xml	StepOver
+macOS System Shortcuts.xml	Stop
+macOS System Shortcuts.xml	Synchronize
+macOS System Shortcuts.xml	ToggleBookmark
+macOS System Shortcuts.xml	ToggleBookmarkWithMnemonic
+macOS System Shortcuts.xml	ToggleLineBreakpoint
+macOS System Shortcuts.xml	ToggleTemporaryLineBreakpoint
+macOS System Shortcuts.xml	Tree-selectFirst
+macOS System Shortcuts.xml	Tree-selectFirstExtendSelection
+macOS System Shortcuts.xml	Tree-selectLast
+macOS System Shortcuts.xml	Tree-selectLastExtendSelection
+macOS System Shortcuts.xml	TypeHierarchy
+macOS System Shortcuts.xml	Vcs.MoveChangedLinesToChangelist
+macOS System Shortcuts.xml	Vcs.QuickListPopupAction
+NetBeans 6.5.xml	$Redo
+NetBeans 6.5.xml	ActivateFavoritesToolWindow
+NetBeans 6.5.xml	ActivateFindToolWindow
+NetBeans 6.5.xml	ActivateMessagesToolWindow
+NetBeans 6.5.xml	ActivatePaletteToolWindow
+NetBeans 6.5.xml	ActivateProblemsViewToolWindow
+NetBeans 6.5.xml	ActivateProjectToolWindow
+NetBeans 6.5.xml	ActivateStructureToolWindow
+NetBeans 6.5.xml	AddToFavoritesPopup
+NetBeans 6.5.xml	Back
+NetBeans 6.5.xml	ChangesView.Move
+NetBeans 6.5.xml	ChangesView.Rename
+NetBeans 6.5.xml	CheckinProject
+NetBeans 6.5.xml	ClassNameCompletion
+NetBeans 6.5.xml	CloseActiveTab
+NetBeans 6.5.xml	CloseAllEditors
+NetBeans 6.5.xml	CloseContent
+NetBeans 6.5.xml	CodeCompletion
+NetBeans 6.5.xml	CollapseBlock
+NetBeans 6.5.xml	CollapseRegionRecursively
+NetBeans 6.5.xml	CollapseSelection
+NetBeans 6.5.xml	CommentByLineComment
+NetBeans 6.5.xml	Compile
+NetBeans 6.5.xml	CompileDirty
+NetBeans 6.5.xml	CompileProject
+NetBeans 6.5.xml	CopyElement
+NetBeans 6.5.xml	CopyPaths
+NetBeans 6.5.xml	Debug
+NetBeans 6.5.xml	DebugClass
+NetBeans 6.5.xml	Debugger.ResumeThread
+NetBeans 6.5.xml	Diff.ApplyLeftSide
+NetBeans 6.5.xml	Diff.ApplyRightSide
+NetBeans 6.5.xml	Diff.NextChange
+NetBeans 6.5.xml	Diff.PrevChange
+NetBeans 6.5.xml	EditorChooseLookupItemDot
+NetBeans 6.5.xml	EditorCompleteStatement
+NetBeans 6.5.xml	EditorDeleteLine
+NetBeans 6.5.xml	EditorDuplicate
+NetBeans 6.5.xml	EditorIndentLineOrSelection
+NetBeans 6.5.xml	EditorIndentSelection
+NetBeans 6.5.xml	EditorMatchBrace
+NetBeans 6.5.xml	EditorMoveToPageBottom
+NetBeans 6.5.xml	EditorMoveToPageTop
+NetBeans 6.5.xml	EditorScrollToCenter
+NetBeans 6.5.xml	EditorSelectWord
+NetBeans 6.5.xml	EditorToggleCase
+NetBeans 6.5.xml	EditorUnindentSelection
+NetBeans 6.5.xml	EditorUnSelectWord
+NetBeans 6.5.xml	EvaluateExpression
+NetBeans 6.5.xml	ExpandAllToLevel1
+NetBeans 6.5.xml	ExpandAllToLevel2
+NetBeans 6.5.xml	ExpandAllToLevel3
+NetBeans 6.5.xml	ExpandAllToLevel4
+NetBeans 6.5.xml	ExpandAllToLevel5
+NetBeans 6.5.xml	ExpandRegionRecursively
+NetBeans 6.5.xml	ExpandToLevel1
+NetBeans 6.5.xml	ExpandToLevel2
+NetBeans 6.5.xml	ExpandToLevel3
+NetBeans 6.5.xml	ExpandToLevel4
+NetBeans 6.5.xml	ExpandToLevel5
+NetBeans 6.5.xml	ExpressionTypeInfo
+NetBeans 6.5.xml	ExtractMethod
+NetBeans 6.5.xml	FileChooser.GotoHome
+NetBeans 6.5.xml	FileStructurePopup
+NetBeans 6.5.xml	FindUsagesInFile
+NetBeans 6.5.xml	ForceRefresh
+NetBeans 6.5.xml	Forward
+NetBeans 6.5.xml	Git.Rename.Local.Branch
+NetBeans 6.5.xml	Git.Reword.Commit
+NetBeans 6.5.xml	GotoAction
+NetBeans 6.5.xml	GotoBookmark0
+NetBeans 6.5.xml	GotoBookmark1
+NetBeans 6.5.xml	GotoBookmark2
+NetBeans 6.5.xml	GotoBookmark3
+NetBeans 6.5.xml	GotoBookmark4
+NetBeans 6.5.xml	GotoBookmark5
+NetBeans 6.5.xml	GotoBookmark6
+NetBeans 6.5.xml	GotoBookmark7
+NetBeans 6.5.xml	GotoBookmark8
+NetBeans 6.5.xml	GotoBookmark9
+NetBeans 6.5.xml	GotoChangedFile
+NetBeans 6.5.xml	GotoClass
+NetBeans 6.5.xml	GotoFile
+NetBeans 6.5.xml	GotoNextBookmark
+NetBeans 6.5.xml	GotoNextElementUnderCaretUsage
+NetBeans 6.5.xml	GotoNextError
+NetBeans 6.5.xml	GotoPrevElementUnderCaretUsage
+NetBeans 6.5.xml	GotoPreviousBookmark
+NetBeans 6.5.xml	GotoPreviousError
+NetBeans 6.5.xml	GotoSuperMethod
+NetBeans 6.5.xml	GotoSymbol
+NetBeans 6.5.xml	GuiDesigner.ReloadCustomComponents
+NetBeans 6.5.xml	HideAllWindows
+NetBeans 6.5.xml	HippieBackwardCompletion
+NetBeans 6.5.xml	HippieCompletion
+NetBeans 6.5.xml	ImplementMethods
+NetBeans 6.5.xml	IntroduceConstant
+NetBeans 6.5.xml	IntroduceField
+NetBeans 6.5.xml	IntroduceFunctionalParameter
+NetBeans 6.5.xml	IntroduceVariable
+NetBeans 6.5.xml	MethodDown
+NetBeans 6.5.xml	MethodHierarchy
+NetBeans 6.5.xml	MethodUp
+NetBeans 6.5.xml	Move
+NetBeans 6.5.xml	MoveLineDown
+NetBeans 6.5.xml	MoveLineUp
+NetBeans 6.5.xml	MoveStatementDown
+NetBeans 6.5.xml	MoveStatementUp
+NetBeans 6.5.xml	NewElement
+NetBeans 6.5.xml	NewProject
+NetBeans 6.5.xml	NextEditorTab
+NetBeans 6.5.xml	NextTab
+NetBeans 6.5.xml	OpenFile
+NetBeans 6.5.xml	OptimizeImports
+NetBeans 6.5.xml	OverrideMethods
+NetBeans 6.5.xml	PreviousEditorTab
+NetBeans 6.5.xml	PreviousTab
+NetBeans 6.5.xml	Print
+NetBeans 6.5.xml	QuickImplementations
+NetBeans 6.5.xml	RecentChangedFiles
+NetBeans 6.5.xml	RecentChanges
+NetBeans 6.5.xml	RecentFiles
+NetBeans 6.5.xml	ReformatCode
+NetBeans 6.5.xml	Refresh
+NetBeans 6.5.xml	RenameElement
+NetBeans 6.5.xml	Replace
+NetBeans 6.5.xml	ReplaceInPath
+NetBeans 6.5.xml	Rerun
+NetBeans 6.5.xml	Resume
+NetBeans 6.5.xml	Run
+NetBeans 6.5.xml	RunClass
+NetBeans 6.5.xml	RunToCursor
+NetBeans 6.5.xml	SaveAll
+NetBeans 6.5.xml	SelectIn
+NetBeans 6.5.xml	SelectVirtualTemplateElement
+NetBeans 6.5.xml	ShelvedChanges.Rename
+NetBeans 6.5.xml	ShowBookmarks
+NetBeans 6.5.xml	ShowPopupMenu
+NetBeans 6.5.xml	SmartTypeCompletion
+NetBeans 6.5.xml	StepOut
+NetBeans 6.5.xml	Stop
+NetBeans 6.5.xml	StructuralSearchPlugin.StructuralReplaceAction
+NetBeans 6.5.xml	StructuralSearchPlugin.StructuralSearchAction
+NetBeans 6.5.xml	SwitcherIterateItems
+NetBeans 6.5.xml	SwitcherRecentEditedChangedToggleCheckBox
+NetBeans 6.5.xml	ToggleBookmark
+NetBeans 6.5.xml	ToggleBookmark0
+NetBeans 6.5.xml	ToggleBookmark1
+NetBeans 6.5.xml	ToggleBookmark2
+NetBeans 6.5.xml	ToggleBookmark3
+NetBeans 6.5.xml	ToggleBookmark4
+NetBeans 6.5.xml	ToggleBookmark5
+NetBeans 6.5.xml	ToggleBookmark6
+NetBeans 6.5.xml	ToggleBookmark7
+NetBeans 6.5.xml	ToggleBookmark8
+NetBeans 6.5.xml	ToggleBookmark9
+NetBeans 6.5.xml	ToggleDockMode
+NetBeans 6.5.xml	ToggleFloatingMode
+NetBeans 6.5.xml	TypeHierarchy
+NetBeans 6.5.xml	Unwrap
+NetBeans 6.5.xml	ValidateJsp
+NetBeans 6.5.xml	ValidateXml
+NetBeans 6.5.xml	Vcs.MoveChangedLinesToChangelist
+NetBeans 6.5.xml	Vcs.ShowMessageHistory
+NetBeans 6.5.xml	XDebugger.NewWatch
+QtCreator (Mac OS X).xml	$Copy
+QtCreator (Mac OS X).xml	$Cut
+QtCreator (Mac OS X).xml	$Delete
+QtCreator (Mac OS X).xml	$Paste
+QtCreator (Mac OS X).xml	$Redo
+QtCreator (Mac OS X).xml	$SelectAll
+QtCreator (Mac OS X).xml	$Undo
+QtCreator (Mac OS X).xml	ActivateFavoritesToolWindow
+QtCreator (Mac OS X).xml	ActivateFindToolWindow
+QtCreator (Mac OS X).xml	ActivateMessagesToolWindow
+QtCreator (Mac OS X).xml	ActivateProblemsViewToolWindow
+QtCreator (Mac OS X).xml	ActivateProjectToolWindow
+QtCreator (Mac OS X).xml	ActivateRunToolWindow
+QtCreator (Mac OS X).xml	Annotate
+QtCreator (Mac OS X).xml	AutoIndentLines
+QtCreator (Mac OS X).xml	Back
+QtCreator (Mac OS X).xml	BuildProfile
+QtCreator (Mac OS X).xml	BuildProject
+QtCreator (Mac OS X).xml	ChangesView.AddUnversioned
+QtCreator (Mac OS X).xml	ChangesView.GroupBy.Module
+QtCreator (Mac OS X).xml	ChangesView.Rename
+QtCreator (Mac OS X).xml	ChangesView.Rename
+QtCreator (Mac OS X).xml	ChangesView.Revert
+QtCreator (Mac OS X).xml	CheckinProject
+QtCreator (Mac OS X).xml	ChooseRunConfiguration
+QtCreator (Mac OS X).xml	CIDR.Lang.ImportsHierarchy
+QtCreator (Mac OS X).xml	CloseAllEditors
+QtCreator (Mac OS X).xml	CloseContent
+QtCreator (Mac OS X).xml	CloseEditor
+QtCreator (Mac OS X).xml	CodeCompletion
+QtCreator (Mac OS X).xml	CollapseAll
+QtCreator (Mac OS X).xml	CollapseBlock
+QtCreator (Mac OS X).xml	CollapseExpandableComponent
+QtCreator (Mac OS X).xml	CollapseRegion
+QtCreator (Mac OS X).xml	CommentByLineComment
+QtCreator (Mac OS X).xml	Compare.SameVersion
+QtCreator (Mac OS X).xml	Compile
+QtCreator (Mac OS X).xml	Console.Execute.Multiline
+QtCreator (Mac OS X).xml	Console.TableResult.EditValue
+QtCreator (Mac OS X).xml	Console.TableResult.NextPage
+QtCreator (Mac OS X).xml	ContextHelp
+QtCreator (Mac OS X).xml	CPP.CreateCMakeProject
+QtCreator (Mac OS X).xml	DatabaseView.PropertiesAction
+QtCreator (Mac OS X).xml	Debug
+QtCreator (Mac OS X).xml	Diff.NextChange
+QtCreator (Mac OS X).xml	Diff.PrevChange
+QtCreator (Mac OS X).xml	DirDiffMenu.SynchronizeDiff.All
+QtCreator (Mac OS X).xml	DuplicatesForm.SendToLeft
+QtCreator (Mac OS X).xml	DuplicatesForm.SendToRight
+QtCreator (Mac OS X).xml	EditorChooseLookupItemDot
+QtCreator (Mac OS X).xml	EditorCodeBlockEnd
+QtCreator (Mac OS X).xml	EditorCodeBlockEndWithSelection
+QtCreator (Mac OS X).xml	EditorCodeBlockStart
+QtCreator (Mac OS X).xml	EditorCodeBlockStartWithSelection
+QtCreator (Mac OS X).xml	EditorCompleteStatement
+QtCreator (Mac OS X).xml	EditorDecreaseFontSize
+QtCreator (Mac OS X).xml	EditorDeleteLine
+QtCreator (Mac OS X).xml	EditorDuplicateLines
+QtCreator (Mac OS X).xml	EditorIncreaseFontSize
+QtCreator (Mac OS X).xml	EditorJoinLines
+QtCreator (Mac OS X).xml	EditorLineEnd
+QtCreator (Mac OS X).xml	EditorMatchBrace
+QtCreator (Mac OS X).xml	EditorResetFontSize
+QtCreator (Mac OS X).xml	EditorScrollToCenter
+QtCreator (Mac OS X).xml	EditorSelectWord
+QtCreator (Mac OS X).xml	EditorSplitLine
+QtCreator (Mac OS X).xml	EditorStartNewLine
+QtCreator (Mac OS X).xml	EditorStartNewLineBefore
+QtCreator (Mac OS X).xml	EditorToggleCase
+QtCreator (Mac OS X).xml	EditorToggleShowWhitespaces
+QtCreator (Mac OS X).xml	EditorToggleUseSoftWraps
+QtCreator (Mac OS X).xml	EditorUnSelectWord
+QtCreator (Mac OS X).xml	EditSource
+QtCreator (Mac OS X).xml	Exit
+QtCreator (Mac OS X).xml	ExpandAll
+QtCreator (Mac OS X).xml	ExpandExpandableComponent
+QtCreator (Mac OS X).xml	ExpandRegion
+QtCreator (Mac OS X).xml	ExportToTextFile
+QtCreator (Mac OS X).xml	ExternalSystem.ProjectRefreshAction
+QtCreator (Mac OS X).xml	FileChooser.GotoHome
+QtCreator (Mac OS X).xml	FileChooser.GotoModule
+QtCreator (Mac OS X).xml	FileChooser.GotoProject
+QtCreator (Mac OS X).xml	FileChooser.NewFolder
+QtCreator (Mac OS X).xml	FileChooser.TogglePathShowing
+QtCreator (Mac OS X).xml	Find
+QtCreator (Mac OS X).xml	FindInPath
+QtCreator (Mac OS X).xml	FindNext
+QtCreator (Mac OS X).xml	FindPrevious
+QtCreator (Mac OS X).xml	FindUsages
+QtCreator (Mac OS X).xml	FindWordAtCaret
+QtCreator (Mac OS X).xml	Forward
+QtCreator (Mac OS X).xml	Generate
+QtCreator (Mac OS X).xml	Git.Rename.Local.Branch
+QtCreator (Mac OS X).xml	Git.Rename.Local.Branch
+QtCreator (Mac OS X).xml	Git.Reword.Commit
+QtCreator (Mac OS X).xml	Git.Reword.Commit
+QtCreator (Mac OS X).xml	GotoBookmark0
+QtCreator (Mac OS X).xml	GotoChangedFile
+QtCreator (Mac OS X).xml	GotoClass
+QtCreator (Mac OS X).xml	GotoDeclaration
+QtCreator (Mac OS X).xml	GotoFile
+QtCreator (Mac OS X).xml	GotoImplementation
+QtCreator (Mac OS X).xml	GotoLine
+QtCreator (Mac OS X).xml	GotoNextBookmark
+QtCreator (Mac OS X).xml	GotoNextError
+QtCreator (Mac OS X).xml	GotoPreviousBookmark
+QtCreator (Mac OS X).xml	GotoPreviousError
+QtCreator (Mac OS X).xml	GotoRelated
+QtCreator (Mac OS X).xml	GotoSuperMethod
+QtCreator (Mac OS X).xml	GotoTest
+QtCreator (Mac OS X).xml	GotoTypeDeclaration
+QtCreator (Mac OS X).xml	InsertLiveTemplate
+QtCreator (Mac OS X).xml	Move
+QtCreator (Mac OS X).xml	MoveLineDown
+QtCreator (Mac OS X).xml	MoveLineUp
+QtCreator (Mac OS X).xml	MoveStatementDown
+QtCreator (Mac OS X).xml	MoveStatementUp
+QtCreator (Mac OS X).xml	NewElement
+QtCreator (Mac OS X).xml	NewFile
+QtCreator (Mac OS X).xml	NewScratchFile
+QtCreator (Mac OS X).xml	NextOccurence
+QtCreator (Mac OS X).xml	NextTab
+QtCreator (Mac OS X).xml	OpenFile
+QtCreator (Mac OS X).xml	OverrideMethods
+QtCreator (Mac OS X).xml	ParameterInfo
+QtCreator (Mac OS X).xml	PasteMultiple
+QtCreator (Mac OS X).xml	Pause
+QtCreator (Mac OS X).xml	PreviousTab
+QtCreator (Mac OS X).xml	Print
+QtCreator (Mac OS X).xml	QuickImplementations
+QtCreator (Mac OS X).xml	QuickImplementations
+QtCreator (Mac OS X).xml	QuickJavaDoc
+QtCreator (Mac OS X).xml	RecentFiles
+QtCreator (Mac OS X).xml	ReformatCode
+QtCreator (Mac OS X).xml	Refresh
+QtCreator (Mac OS X).xml	RenameElement
+QtCreator (Mac OS X).xml	Replace
+QtCreator (Mac OS X).xml	ReplaceInPath
+QtCreator (Mac OS X).xml	Rerun
+QtCreator (Mac OS X).xml	RerunTests
+QtCreator (Mac OS X).xml	ResizeToolWindowDown
+QtCreator (Mac OS X).xml	ResizeToolWindowUp
+QtCreator (Mac OS X).xml	Resume
+QtCreator (Mac OS X).xml	Run
+QtCreator (Mac OS X).xml	RunToCursor
+QtCreator (Mac OS X).xml	SaveAll
+QtCreator (Mac OS X).xml	SaveDocument
+QtCreator (Mac OS X).xml	SelectNextOccurrence
+QtCreator (Mac OS X).xml	ServiceView.ShowServices
+QtCreator (Mac OS X).xml	ShelveChanges.UnshelveWithDialog
+QtCreator (Mac OS X).xml	ShelvedChanges.Rename
+QtCreator (Mac OS X).xml	ShowBookmarks
+QtCreator (Mac OS X).xml	ShowIntentionActions
+QtCreator (Mac OS X).xml	ShowProjectStructureSettings
+QtCreator (Mac OS X).xml	ShowUmlDiagram
+QtCreator (Mac OS X).xml	SplitHorizontally
+QtCreator (Mac OS X).xml	SplitVertically
+QtCreator (Mac OS X).xml	StepInto
+QtCreator (Mac OS X).xml	StepOut
+QtCreator (Mac OS X).xml	StepOver
+QtCreator (Mac OS X).xml	Stop
+QtCreator (Mac OS X).xml	SwitchHeaderSource
+QtCreator (Mac OS X).xml	Terminal.SmartCommandExecution.Debug
+QtCreator (Mac OS X).xml	Terminal.SmartCommandExecution.Run
+QtCreator (Mac OS X).xml	TodoViewGroupByShowModules
+QtCreator (Mac OS X).xml	ToggleBookmark
+QtCreator (Mac OS X).xml	ToggleFullScreen
+QtCreator (Mac OS X).xml	ToggleLineBreakpoint
+QtCreator (Mac OS X).xml	TypeHierarchy
+QtCreator (Mac OS X).xml	Unsplit
+QtCreator (Mac OS X).xml	UnsplitAll
+QtCreator (Mac OS X).xml	UpdateRunningApplication
+QtCreator (Mac OS X).xml	UsageGrouping.FlattenModules
+QtCreator (Mac OS X).xml	UsageGrouping.Module
+QtCreator (Mac OS X).xml	Vcs.Show.Log
+QtCreator (Mac OS X).xml	Vcs.ShowMessageHistory
+QtCreator (Mac OS X).xml	Vcs.ShowTabbedFileHistory
+QtCreator (Mac OS X).xml	Vcs.ToggleAmendCommitMode
+QtCreator (Mac OS X).xml	Vcs.UpdateProject
+QtCreator (Mac OS X).xml	ViewSource
+QtCreator (Mac OS X).xml	XDebugger.SetValue
+QtCreator.xml	$Copy
+QtCreator.xml	$Cut
+QtCreator.xml	$Delete
+QtCreator.xml	$Paste
+QtCreator.xml	$Redo
+QtCreator.xml	$SelectAll
+QtCreator.xml	$Undo
+QtCreator.xml	ActivateFavoritesToolWindow
+QtCreator.xml	ActivateFindToolWindow
+QtCreator.xml	ActivateMessagesToolWindow
+QtCreator.xml	ActivateProblemsViewToolWindow
+QtCreator.xml	ActivateProjectToolWindow
+QtCreator.xml	ActivateRunToolWindow
+QtCreator.xml	Annotate
+QtCreator.xml	AutoIndentLines
+QtCreator.xml	Back
+QtCreator.xml	BuildProfile
+QtCreator.xml	BuildProject
+QtCreator.xml	ChangesView.AddUnversioned
+QtCreator.xml	ChangesView.Rename
+QtCreator.xml	ChangesView.Rename
+QtCreator.xml	ChangesView.Revert
+QtCreator.xml	CheckinProject
+QtCreator.xml	ChooseRunConfiguration
+QtCreator.xml	CIDR.Lang.ImportsHierarchy
+QtCreator.xml	CloseAllEditors
+QtCreator.xml	CloseContent
+QtCreator.xml	CloseEditor
+QtCreator.xml	CodeCompletion
+QtCreator.xml	CollapseAll
+QtCreator.xml	CollapseBlock
+QtCreator.xml	CollapseExpandableComponent
+QtCreator.xml	CollapseRegion
+QtCreator.xml	CollapseSelection
+QtCreator.xml	CommentByLineComment
+QtCreator.xml	Compare.SameVersion
+QtCreator.xml	Compile
+QtCreator.xml	Console.TableResult.EditValue
+QtCreator.xml	Console.TableResult.NextPage
+QtCreator.xml	ContextHelp
+QtCreator.xml	CopyElement
+QtCreator.xml	CPP.CreateCMakeProject
+QtCreator.xml	Debug
+QtCreator.xml	Diff.NextChange
+QtCreator.xml	Diff.PrevChange
+QtCreator.xml	EditorChooseLookupItemDot
+QtCreator.xml	EditorCodeBlockEnd
+QtCreator.xml	EditorCodeBlockEndWithSelection
+QtCreator.xml	EditorCodeBlockStart
+QtCreator.xml	EditorCodeBlockStartWithSelection
+QtCreator.xml	EditorCompleteStatement
+QtCreator.xml	EditorDecreaseFontSize
+QtCreator.xml	EditorDeleteLine
+QtCreator.xml	EditorDeleteLine
+QtCreator.xml	EditorDuplicateLines
+QtCreator.xml	EditorIncreaseFontSize
+QtCreator.xml	EditorJoinLines
+QtCreator.xml	EditorResetFontSize
+QtCreator.xml	EditorScrollToCenter
+QtCreator.xml	EditorSelectWord
+QtCreator.xml	EditorStartNewLine
+QtCreator.xml	EditorStartNewLineBefore
+QtCreator.xml	EditorToggleCase
+QtCreator.xml	EditorToggleShowWhitespaces
+QtCreator.xml	EditorToggleUseSoftWraps
+QtCreator.xml	EditorUnSelectWord
+QtCreator.xml	EditSource
+QtCreator.xml	Exit
+QtCreator.xml	ExpandAll
+QtCreator.xml	ExpandExpandableComponent
+QtCreator.xml	ExpandRegion
+QtCreator.xml	ExportToTextFile
+QtCreator.xml	FileChooser.NewFolder
+QtCreator.xml	FileChooser.TogglePathShowing
+QtCreator.xml	Find
+QtCreator.xml	FindInPath
+QtCreator.xml	FindNext
+QtCreator.xml	FindPrevious
+QtCreator.xml	FindUsages
+QtCreator.xml	FindWordAtCaret
+QtCreator.xml	FocusTracer
+QtCreator.xml	Forward
+QtCreator.xml	Git.Rename.Local.Branch
+QtCreator.xml	Git.Rename.Local.Branch
+QtCreator.xml	Git.Reword.Commit
+QtCreator.xml	Git.Reword.Commit
+QtCreator.xml	GotoBookmark0
+QtCreator.xml	GotoChangedFile
+QtCreator.xml	GotoClass
+QtCreator.xml	GotoDeclaration
+QtCreator.xml	GotoFile
+QtCreator.xml	GotoImplementation
+QtCreator.xml	GotoLine
+QtCreator.xml	GotoNextBookmark
+QtCreator.xml	GotoNextError
+QtCreator.xml	GotoPreviousBookmark
+QtCreator.xml	GotoPreviousError
+QtCreator.xml	GotoRelated
+QtCreator.xml	GotoSuperMethod
+QtCreator.xml	GotoTest
+QtCreator.xml	GotoTypeDeclaration
+QtCreator.xml	Graph.ApplyCurrentLayout
+QtCreator.xml	ImplementMethods
+QtCreator.xml	InsertLiveTemplate
+QtCreator.xml	Move
+QtCreator.xml	MoveLineDown
+QtCreator.xml	MoveLineUp
+QtCreator.xml	MoveStatementDown
+QtCreator.xml	MoveStatementUp
+QtCreator.xml	NewFile
+QtCreator.xml	NextOccurence
+QtCreator.xml	NextTab
+QtCreator.xml	OpenFile
+QtCreator.xml	OverrideMethods
+QtCreator.xml	ParameterInfo
+QtCreator.xml	PasteMultiple
+QtCreator.xml	Pause
+QtCreator.xml	PreviousTab
+QtCreator.xml	Print
+QtCreator.xml	QuickImplementations
+QtCreator.xml	QuickJavaDoc
+QtCreator.xml	RecentFiles
+QtCreator.xml	ReformatCode
+QtCreator.xml	RenameElement
+QtCreator.xml	Replace
+QtCreator.xml	ReplaceInPath
+QtCreator.xml	ResizeToolWindowDown
+QtCreator.xml	ResizeToolWindowUp
+QtCreator.xml	Resume
+QtCreator.xml	Run
+QtCreator.xml	RunToCursor
+QtCreator.xml	SaveAll
+QtCreator.xml	SaveDocument
+QtCreator.xml	ServiceView.ShowServices
+QtCreator.xml	ShelveChanges.UnshelveWithDialog
+QtCreator.xml	ShelvedChanges.Rename
+QtCreator.xml	ShowBookmarks
+QtCreator.xml	ShowIntentionActions
+QtCreator.xml	ShowUmlDiagram
+QtCreator.xml	SplitHorizontally
+QtCreator.xml	SplitVertically
+QtCreator.xml	StepInto
+QtCreator.xml	StepOut
+QtCreator.xml	StepOver
+QtCreator.xml	Stop
+QtCreator.xml	SwitcherIterateItems
+QtCreator.xml	SwitcherRecentEditedChangedToggleCheckBox
+QtCreator.xml	SwitchHeaderSource
+QtCreator.xml	Terminal.ClearBuffer
+QtCreator.xml	Terminal.SmartCommandExecution.Debug
+QtCreator.xml	ToggleBookmark
+QtCreator.xml	ToggleFullScreen
+QtCreator.xml	ToggleLineBreakpoint
+QtCreator.xml	TypeHierarchy
+QtCreator.xml	Unsplit
+QtCreator.xml	UnsplitAll
+QtCreator.xml	UpdateRunningApplication
+QtCreator.xml	Vcs.Show.Log
+QtCreator.xml	Vcs.ShowMessageHistory
+QtCreator.xml	Vcs.ShowMessageHistory
+QtCreator.xml	Vcs.ShowTabbedFileHistory
+QtCreator.xml	Vcs.ToggleAmendCommitMode
+QtCreator.xml	Vcs.UpdateProject
+QtCreator.xml	XDebugger.SetValue
+ReSharper OSX.xml	ActivateFindToolWindow
+ReSharper OSX.xml	ActivateInspectionResultsToolWindow
+ReSharper OSX.xml	ActivateProjectToolWindow
+ReSharper OSX.xml	ActivateStructureToolWindow
+ReSharper OSX.xml	CallHierarchy
+ReSharper OSX.xml	ChangeSignature
+ReSharper OSX.xml	CheckinProject
+ReSharper OSX.xml	ClassNameCompletion
+ReSharper OSX.xml	CodeCleanup
+ReSharper OSX.xml	CodeCompletion
+ReSharper OSX.xml	CommentByLineComment
+ReSharper OSX.xml	EditorDeleteToWordEnd
+ReSharper OSX.xml	EditorSelectWord
+ReSharper OSX.xml	EditorToggleShowWhitespaces
+ReSharper OSX.xml	EditorToggleUseSoftWraps
+ReSharper OSX.xml	EditorUnSelectWord
+ReSharper OSX.xml	ExtractMethod
+ReSharper OSX.xml	FileStructurePopup
+ReSharper OSX.xml	FindUsages
+ReSharper OSX.xml	FindUsagesInFile
+ReSharper OSX.xml	Generate
+ReSharper OSX.xml	GotoChangedFile
+ReSharper OSX.xml	GotoDeclaration
+ReSharper OSX.xml	GotoFile
+ReSharper OSX.xml	GotoImplementation
+ReSharper OSX.xml	GotoNextBookmark
+ReSharper OSX.xml	GotoPreviousBookmark
+ReSharper OSX.xml	GotoPreviousError
+ReSharper OSX.xml	GotoRelated
+ReSharper OSX.xml	GotoSuperMethod
+ReSharper OSX.xml	GotoSymbol
+ReSharper OSX.xml	GotoTypeDeclaration
+ReSharper OSX.xml	HighlightUsagesInFile
+ReSharper OSX.xml	Inline
+ReSharper OSX.xml	InsertLiveTemplate
+ReSharper OSX.xml	IntroduceField
+ReSharper OSX.xml	IntroduceParameter
+ReSharper OSX.xml	IntroduceVariable
+ReSharper OSX.xml	JumpToLastChange
+ReSharper OSX.xml	Move
+ReSharper OSX.xml	NewElement
+ReSharper OSX.xml	QuickJavaDoc
+ReSharper OSX.xml	RecentChangedFiles
+ReSharper OSX.xml	RecentFiles
+ReSharper OSX.xml	Refactorings.QuickListPopupAction
+ReSharper OSX.xml	ReformatCode
+ReSharper OSX.xml	Refresh
+ReSharper OSX.xml	RenameElement
+ReSharper OSX.xml	SafeDelete
+ReSharper OSX.xml	SearchEverywhere
+ReSharper OSX.xml	SearchEverywhere.NavigateToNextGroup
+ReSharper OSX.xml	SearchEverywhere.NavigateToPrevGroup
+ReSharper OSX.xml	ShowBookmarks
+ReSharper OSX.xml	ShowNavBar
+ReSharper OSX.xml	ShowSettingsAndFindUsages
+ReSharper OSX.xml	ShowUsages
+ReSharper OSX.xml	SilentCodeCleanup
+ReSharper OSX.xml	SmartTypeCompletion
+ReSharper OSX.xml	SurroundWithLiveTemplate
+ReSharper OSX.xml	SwitchHeaderSource
+ReSharper OSX.xml	ToggleBookmark
+ReSharper OSX.xml	TypeHierarchy
+ReSharper OSX.xml	Unscramble
+ReSharper OSX.xml	VcsShowNextChangeMarker
+ReSharper OSX.xml	VcsShowPrevChangeMarker
+ReSharper OSX.xml	ViewBreakpoints
+ReSharper OSX.xml	XDebugger.AttachToProcess
+ReSharper.xml	ActivateFindToolWindow
+ReSharper.xml	ActivateInspectionResultsToolWindow
+ReSharper.xml	ActivateProjectToolWindow
+ReSharper.xml	ActivateStructureToolWindow
+ReSharper.xml	CallHierarchy
+ReSharper.xml	ChangeSignature
+ReSharper.xml	CheckinProject
+ReSharper.xml	ClassNameCompletion
+ReSharper.xml	CodeCleanup
+ReSharper.xml	CodeCompletion
+ReSharper.xml	CommentByBlockComment
+ReSharper.xml	CommentByLineComment
+ReSharper.xml	EditorSelectWord
+ReSharper.xml	EditorStartNewLine
+ReSharper.xml	EditorToggleShowWhitespaces
+ReSharper.xml	EditorToggleUseSoftWraps
+ReSharper.xml	EditorUnSelectWord
+ReSharper.xml	ExtractMethod
+ReSharper.xml	FileStructurePopup
+ReSharper.xml	FindUsages
+ReSharper.xml	FindUsagesInFile
+ReSharper.xml	GotoChangedFile
+ReSharper.xml	GotoDeclaration
+ReSharper.xml	GotoFile
+ReSharper.xml	GotoImplementation
+ReSharper.xml	GotoNextBookmark
+ReSharper.xml	GotoNextError
+ReSharper.xml	GotoPreviousBookmark
+ReSharper.xml	GotoPreviousError
+ReSharper.xml	GotoRelated
+ReSharper.xml	GotoSuperMethod
+ReSharper.xml	GotoSymbol
+ReSharper.xml	GotoTypeDeclaration
+ReSharper.xml	HighlightUsagesInFile
+ReSharper.xml	ImplementMethods
+ReSharper.xml	IncrementalSearch
+ReSharper.xml	Inline
+ReSharper.xml	InsertLiveTemplate
+ReSharper.xml	IntroduceField
+ReSharper.xml	IntroduceParameter
+ReSharper.xml	IntroduceVariable
+ReSharper.xml	JumpToLastWindow
+ReSharper.xml	Move
+ReSharper.xml	NewElement
+ReSharper.xml	ParameterInfo
+ReSharper.xml	Print
+ReSharper.xml	QuickImplementations
+ReSharper.xml	QuickJavaDoc
+ReSharper.xml	RecentChangedFiles
+ReSharper.xml	RecentFiles
+ReSharper.xml	RecentLocations
+ReSharper.xml	ReformatCode
+ReSharper.xml	Refresh
+ReSharper.xml	RenameElement
+ReSharper.xml	SafeDelete
+ReSharper.xml	SearchEverywhere
+ReSharper.xml	ShowBookmarks
+ReSharper.xml	ShowNavBar
+ReSharper.xml	ShowSettingsAndFindUsages
+ReSharper.xml	ShowUsages
+ReSharper.xml	SilentCodeCleanup
+ReSharper.xml	SmartTypeCompletion
+ReSharper.xml	SurroundWithLiveTemplate
+ReSharper.xml	SwitchHeaderSource
+ReSharper.xml	ToggleBookmark
+ReSharper.xml	ToggleBookmarkWithMnemonic
+ReSharper.xml	TypeHierarchy
+ReSharper.xml	Unscramble
+ReSharper.xml	Vcs.QuickListPopupAction
+ReSharper.xml	VcsShowNextChangeMarker
+ReSharper.xml	VcsShowPrevChangeMarker
+ReSharper.xml	ViewBreakpoints
+ReSharper.xml	XDebugger.AttachToProcess
+Sublime Text (Mac OS X).xml	$Paste
+Sublime Text (Mac OS X).xml	$Redo
+Sublime Text (Mac OS X).xml	Back
+Sublime Text (Mac OS X).xml	ChangeSignature
+Sublime Text (Mac OS X).xml	ChangeTypeSignature
+Sublime Text (Mac OS X).xml	CheckinProject
+Sublime Text (Mac OS X).xml	CIDR.Lang.Cpp.GenerateDefinitions
+Sublime Text (Mac OS X).xml	CollapseAllRegions
+Sublime Text (Mac OS X).xml	CollapseRegion
+Sublime Text (Mac OS X).xml	Compile
+Sublime Text (Mac OS X).xml	CompileDirty
+Sublime Text (Mac OS X).xml	CopyElement
+Sublime Text (Mac OS X).xml	Debugger.EditTypeSource
+Sublime Text (Mac OS X).xml	Diff.ShowSettingsPopup
+Sublime Text (Mac OS X).xml	EditorAddOrRemoveCaret
+Sublime Text (Mac OS X).xml	EditorAddRectangularSelectionOnMouseDrag
+Sublime Text (Mac OS X).xml	EditorCloneCaretAbove
+Sublime Text (Mac OS X).xml	EditorCloneCaretBelow
+Sublime Text (Mac OS X).xml	EditorCodeBlockEnd
+Sublime Text (Mac OS X).xml	EditorCodeBlockStart
+Sublime Text (Mac OS X).xml	EditorCompleteStatement
+Sublime Text (Mac OS X).xml	EditorContextInfo
+Sublime Text (Mac OS X).xml	EditorDecreaseFontSize
+Sublime Text (Mac OS X).xml	EditorDeleteLine
+Sublime Text (Mac OS X).xml	EditorDeleteToLineEnd
+Sublime Text (Mac OS X).xml	EditorDeleteToLineStart
+Sublime Text (Mac OS X).xml	EditorDeleteToWordEndInDifferentHumpsMode
+Sublime Text (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode
+Sublime Text (Mac OS X).xml	EditorDuplicate
+Sublime Text (Mac OS X).xml	EditorIncreaseFontSize
+Sublime Text (Mac OS X).xml	EditorIndentLineOrSelection
+Sublime Text (Mac OS X).xml	EditorJoinLines
+Sublime Text (Mac OS X).xml	EditorNextWordInDifferentHumpsMode
+Sublime Text (Mac OS X).xml	EditorNextWordInDifferentHumpsModeWithSelection
+Sublime Text (Mac OS X).xml	EditorPageDown
+Sublime Text (Mac OS X).xml	EditorPasteSimple
+Sublime Text (Mac OS X).xml	EditorPreviousWordInDifferentHumpsMode
+Sublime Text (Mac OS X).xml	EditorPreviousWordInDifferentHumpsModeWithSelection
+Sublime Text (Mac OS X).xml	EditorScrollDown
+Sublime Text (Mac OS X).xml	EditorScrollToCenter
+Sublime Text (Mac OS X).xml	EditorScrollUp
+Sublime Text (Mac OS X).xml	EditorSelectWord
+Sublime Text (Mac OS X).xml	EditorSortLines
+Sublime Text (Mac OS X).xml	EditorSplitLine
+Sublime Text (Mac OS X).xml	EditorStartNewLine
+Sublime Text (Mac OS X).xml	EditorStartNewLineBefore
+Sublime Text (Mac OS X).xml	EditorTextEnd
+Sublime Text (Mac OS X).xml	EditorTextStart
+Sublime Text (Mac OS X).xml	EditorToggleCase
+Sublime Text (Mac OS X).xml	EditorToggleInsertState
+Sublime Text (Mac OS X).xml	EditorUnindentSelection
+Sublime Text (Mac OS X).xml	EditorUnSelectWord
+Sublime Text (Mac OS X).xml	EditSource
+Sublime Text (Mac OS X).xml	EditSourceInNewWindow
+Sublime Text (Mac OS X).xml	EmmetNextEditPoint
+Sublime Text (Mac OS X).xml	EmmetPreviousEditPoint
+Sublime Text (Mac OS X).xml	ExpandAllRegions
+Sublime Text (Mac OS X).xml	ExpandRegion
+Sublime Text (Mac OS X).xml	FileStructurePopup
+Sublime Text (Mac OS X).xml	FillParagraph
+Sublime Text (Mac OS X).xml	FindNext
+Sublime Text (Mac OS X).xml	FindPrevious
+Sublime Text (Mac OS X).xml	FindWordAtCaret
+Sublime Text (Mac OS X).xml	Forward
+Sublime Text (Mac OS X).xml	GotoAction
+Sublime Text (Mac OS X).xml	GotoChangedFile
+Sublime Text (Mac OS X).xml	GotoClass
+Sublime Text (Mac OS X).xml	GotoDeclaration
+Sublime Text (Mac OS X).xml	GotoFile
+Sublime Text (Mac OS X).xml	GotoImplementation
+Sublime Text (Mac OS X).xml	GotoLine
+Sublime Text (Mac OS X).xml	GotoNextBookmark
+Sublime Text (Mac OS X).xml	GotoNextElementUnderCaretUsage
+Sublime Text (Mac OS X).xml	GotoNextError
+Sublime Text (Mac OS X).xml	GotoPrevElementUnderCaretUsage
+Sublime Text (Mac OS X).xml	GotoPreviousBookmark
+Sublime Text (Mac OS X).xml	GotoPreviousError
+Sublime Text (Mac OS X).xml	GotoRelated
+Sublime Text (Mac OS X).xml	GotoSymbol
+Sublime Text (Mac OS X).xml	GotoTest
+Sublime Text (Mac OS X).xml	GotoTypeDeclaration
+Sublime Text (Mac OS X).xml	ImplementMethods
+Sublime Text (Mac OS X).xml	IncrementalSearch
+Sublime Text (Mac OS X).xml	InsertLiveTemplate
+Sublime Text (Mac OS X).xml	IntroduceField
+Sublime Text (Mac OS X).xml	IntroduceVariable
+Sublime Text (Mac OS X).xml	JumpToLastWindow
+Sublime Text (Mac OS X).xml	MethodHierarchy
+Sublime Text (Mac OS X).xml	Move
+Sublime Text (Mac OS X).xml	MoveLineDown
+Sublime Text (Mac OS X).xml	MoveLineUp
+Sublime Text (Mac OS X).xml	Mvc.RunTarget
+Sublime Text (Mac OS X).xml	NewElement
+Sublime Text (Mac OS X).xml	NextOccurence
+Sublime Text (Mac OS X).xml	NextTab
+Sublime Text (Mac OS X).xml	OpenFile
+Sublime Text (Mac OS X).xml	OverrideMethods
+Sublime Text (Mac OS X).xml	ParameterInfo
+Sublime Text (Mac OS X).xml	PasteMultiple
+Sublime Text (Mac OS X).xml	PlaybackLastMacro
+Sublime Text (Mac OS X).xml	PreviousOccurence
+Sublime Text (Mac OS X).xml	PreviousTab
+Sublime Text (Mac OS X).xml	QuickImplementations
+Sublime Text (Mac OS X).xml	QuickJavaDoc
+Sublime Text (Mac OS X).xml	ReopenClosedTab
+Sublime Text (Mac OS X).xml	Replace
+Sublime Text (Mac OS X).xml	ReplaceInPath
+Sublime Text (Mac OS X).xml	RestoreDefaultLayout
+Sublime Text (Mac OS X).xml	Resume
+Sublime Text (Mac OS X).xml	Run
+Sublime Text (Mac OS X).xml	RunClass
+Sublime Text (Mac OS X).xml	SelectNextOccurrence
+Sublime Text (Mac OS X).xml	ServiceView.GroupByContributor
+Sublime Text (Mac OS X).xml	ServiceView.GroupByServiceGroups
+Sublime Text (Mac OS X).xml	ShowBookmarks
+Sublime Text (Mac OS X).xml	ShowNavBar
+Sublime Text (Mac OS X).xml	ShowPopupMenu
+Sublime Text (Mac OS X).xml	ShowUsages
+Sublime Text (Mac OS X).xml	SmartTypeCompletion
+Sublime Text (Mac OS X).xml	StartStopMacroRecording
+Sublime Text (Mac OS X).xml	Stop
+Sublime Text (Mac OS X).xml	StopBackgroundProcesses
+Sublime Text (Mac OS X).xml	TagDocumentationNavigation
+Sublime Text (Mac OS X).xml	TodoViewGroupByShowPackages
+Sublime Text (Mac OS X).xml	ToggleBookmark
+Sublime Text (Mac OS X).xml	ToggleDistractionFreeMode
+Sublime Text (Mac OS X).xml	TypeHierarchy
+Sublime Text (Mac OS X).xml	Vcs.QuickListPopupAction
+Sublime Text (Mac OS X).xml	Vcs.UpdateProject
+Sublime Text (Mac OS X).xml	WebOpenInAction
+Sublime Text.xml	$Paste
+Sublime Text.xml	$Redo
+Sublime Text.xml	Back
+Sublime Text.xml	ChangeSignature
+Sublime Text.xml	ChangeTypeSignature
+Sublime Text.xml	CheckinProject
+Sublime Text.xml	CIDR.Lang.Cpp.GenerateDefinitions
+Sublime Text.xml	CloseContent
+Sublime Text.xml	CollapseAllRegions
+Sublime Text.xml	CollapseRegion
+Sublime Text.xml	Compile
+Sublime Text.xml	CompileDirty
+Sublime Text.xml	Diff.ApplyLeftSide
+Sublime Text.xml	Diff.ApplyRightSide
+Sublime Text.xml	Diff.NextChange
+Sublime Text.xml	Diff.PrevChange
+Sublime Text.xml	Diff.ShowSettingsPopup
+Sublime Text.xml	EditorAddOrRemoveCaret
+Sublime Text.xml	EditorAddRectangularSelectionOnMouseDrag
+Sublime Text.xml	EditorCloneCaretAbove
+Sublime Text.xml	EditorCloneCaretBelow
+Sublime Text.xml	EditorCodeBlockEnd
+Sublime Text.xml	EditorCodeBlockEndWithSelection
+Sublime Text.xml	EditorCodeBlockStart
+Sublime Text.xml	EditorCodeBlockStartWithSelection
+Sublime Text.xml	EditorCompleteStatement
+Sublime Text.xml	EditorContextInfo
+Sublime Text.xml	EditorDecreaseFontSize
+Sublime Text.xml	EditorDeleteLine
+Sublime Text.xml	EditorDeleteToLineEnd
+Sublime Text.xml	EditorDeleteToLineStart
+Sublime Text.xml	EditorDuplicate
+Sublime Text.xml	EditorIncreaseFontSize
+Sublime Text.xml	EditorIndentLineOrSelection
+Sublime Text.xml	EditorJoinLines
+Sublime Text.xml	EditorMatchBrace
+Sublime Text.xml	EditorMoveToPageBottom
+Sublime Text.xml	EditorMoveToPageTop
+Sublime Text.xml	EditorNextWordInDifferentHumpsMode
+Sublime Text.xml	EditorNextWordInDifferentHumpsModeWithSelection
+Sublime Text.xml	EditorPasteSimple
+Sublime Text.xml	EditorPreviousWordInDifferentHumpsMode
+Sublime Text.xml	EditorPreviousWordInDifferentHumpsModeWithSelection
+Sublime Text.xml	EditorScrollToCenter
+Sublime Text.xml	EditorSelectWord
+Sublime Text.xml	EditorSortLines
+Sublime Text.xml	EditorSplitLine
+Sublime Text.xml	EditorStartNewLine
+Sublime Text.xml	EditorStartNewLineBefore
+Sublime Text.xml	EditorToggleCase
+Sublime Text.xml	EditorUnindentSelection
+Sublime Text.xml	EditorUnSelectWord
+Sublime Text.xml	ExpandAllRegions
+Sublime Text.xml	ExpandRegion
+Sublime Text.xml	ExpressionTypeInfo
+Sublime Text.xml	FileStructurePopup
+Sublime Text.xml	FillParagraph
+Sublime Text.xml	Find
+Sublime Text.xml	FindNext
+Sublime Text.xml	FindPrevious
+Sublime Text.xml	Forward
+Sublime Text.xml	GotoAction
+Sublime Text.xml	GotoChangedFile
+Sublime Text.xml	GotoClass
+Sublime Text.xml	GotoDeclaration
+Sublime Text.xml	GotoFile
+Sublime Text.xml	GotoNextBookmark
+Sublime Text.xml	GotoNextError
+Sublime Text.xml	GotoPreviousBookmark
+Sublime Text.xml	GotoPreviousError
+Sublime Text.xml	GotoSymbol
+Sublime Text.xml	GotoTest
+Sublime Text.xml	GotoTypeDeclaration
+Sublime Text.xml	ImplementMethods
+Sublime Text.xml	IncrementalSearch
+Sublime Text.xml	InsertLiveTemplate
+Sublime Text.xml	JumpToLastChange
+Sublime Text.xml	JumpToLastWindow
+Sublime Text.xml	MethodHierarchy
+Sublime Text.xml	Move
+Sublime Text.xml	MoveLineDown
+Sublime Text.xml	MoveLineUp
+Sublime Text.xml	MoveStatementDown
+Sublime Text.xml	MoveStatementUp
+Sublime Text.xml	NewElement
+Sublime Text.xml	NextEditorTab
+Sublime Text.xml	NextOccurence
+Sublime Text.xml	NextTab
+Sublime Text.xml	OpenFile
+Sublime Text.xml	OverrideMethods
+Sublime Text.xml	ParameterInfo
+Sublime Text.xml	PasteMultiple
+Sublime Text.xml	PlaybackLastMacro
+Sublime Text.xml	PreviousEditorTab
+Sublime Text.xml	PreviousOccurence
+Sublime Text.xml	PreviousTab
+Sublime Text.xml	QuickJavaDoc
+Sublime Text.xml	ReopenClosedTab
+Sublime Text.xml	Replace
+Sublime Text.xml	ReplaceInPath
+Sublime Text.xml	RestoreDefaultLayout
+Sublime Text.xml	Resume
+Sublime Text.xml	SelectAllOccurrences
+Sublime Text.xml	SelectNextOccurrence
+Sublime Text.xml	ServiceView.GroupByContributor
+Sublime Text.xml	ServiceView.GroupByServiceGroups
+Sublime Text.xml	ShowBookmarks
+Sublime Text.xml	ShowUsages
+Sublime Text.xml	SmartTypeCompletion
+Sublime Text.xml	StartStopMacroRecording
+Sublime Text.xml	Stop
+Sublime Text.xml	StopBackgroundProcesses
+Sublime Text.xml	TagDocumentationNavigation
+Sublime Text.xml	TodoViewGroupByShowPackages
+Sublime Text.xml	ToggleBookmark
+Sublime Text.xml	ToggleDistractionFreeMode
+Sublime Text.xml	ToggleFullScreen
+Sublime Text.xml	TypeHierarchy
+Sublime Text.xml	Vcs.Push
+Sublime Text.xml	Vcs.UpdateProject
+Visual Assist OSX.xml	EditorAddCaretPerSelectedLine
+Visual Assist OSX.xml	EditorSelectWord
+Visual Assist OSX.xml	EditorUnSelectWord
+Visual Assist OSX.xml	FileStructurePopup
+Visual Assist OSX.xml	GotoFile
+Visual Assist OSX.xml	GotoImplementation
+Visual Assist OSX.xml	GotoRelated
+Visual Assist OSX.xml	GotoSymbol
+Visual Assist OSX.xml	Replace
+Visual Assist.xml	AddToFavoritesPopup
+Visual Assist.xml	Back
+Visual Assist.xml	Diff.NextChange
+Visual Assist.xml	Diff.PrevChange
+Visual Assist.xml	EditorAddCaretPerSelectedLine
+Visual Assist.xml	EditorSelectWord
+Visual Assist.xml	EditorUnSelectWord
+Visual Assist.xml	FileStructurePopup
+Visual Assist.xml	FindUsages
+Visual Assist.xml	Forward
+Visual Assist.xml	GotoDeclaration
+Visual Assist.xml	GotoFile
+Visual Assist.xml	GotoImplementation
+Visual Assist.xml	GotoRelated
+Visual Assist.xml	GotoSymbol
+Visual Assist.xml	hg4idea.QGotoFromPatches
+Visual Assist.xml	HighlightUsagesInFile
+Visual Assist.xml	NextTab
+Visual Assist.xml	PreviousTab
+Visual Assist.xml	Refactorings.QuickListPopupAction
+Visual Assist.xml	RenameElement
+Visual Assist.xml	ReSharperNavigateTo
+Visual Assist.xml	WD.UploadCurrentRemoteFileAction
+Visual Studio for Mac.xml	$Redo
+Visual Studio for Mac.xml	$SelectAll
+Visual Studio for Mac.xml	BuildProject
+Visual Studio for Mac.xml	BuildSolutionAction
+Visual Studio for Mac.xml	CloseAllEditors
+Visual Studio for Mac.xml	CloseContent
+Visual Studio for Mac.xml	CloseProject
+Visual Studio for Mac.xml	CodeCompletion
+Visual Studio for Mac.xml	CommentByLineComment
+Visual Studio for Mac.xml	Debug
+Visual Studio for Mac.xml	EditorBackSpace
+Visual Studio for Mac.xml	EditorDecreaseFontSize
+Visual Studio for Mac.xml	EditorDelete
+Visual Studio for Mac.xml	EditorDeleteToLineEnd
+Visual Studio for Mac.xml	EditorDeleteToWordEnd
+Visual Studio for Mac.xml	EditorDeleteToWordStart
+Visual Studio for Mac.xml	EditorDuplicate
+Visual Studio for Mac.xml	EditorIncreaseFontSize
+Visual Studio for Mac.xml	EditorIndentLineOrSelection
+Visual Studio for Mac.xml	EditorNextWord
+Visual Studio for Mac.xml	EditorPreviousWord
+Visual Studio for Mac.xml	EditorResetFontSize
+Visual Studio for Mac.xml	EditorUnindentSelection
+Visual Studio for Mac.xml	Exit
+Visual Studio for Mac.xml	FileChooser.NewFile
+Visual Studio for Mac.xml	Find
+Visual Studio for Mac.xml	FindNext
+Visual Studio for Mac.xml	FindPrevious
+Visual Studio for Mac.xml	FindUsages
+Visual Studio for Mac.xml	GotoDeclaration
+Visual Studio for Mac.xml	GotoFile
+Visual Studio for Mac.xml	GotoImplementation
+Visual Studio for Mac.xml	GotoLine
+Visual Studio for Mac.xml	MinimizeCurrentWindow
+Visual Studio for Mac.xml	MoveTabRight
+Visual Studio for Mac.xml	PinActiveTab
+Visual Studio for Mac.xml	RebuildProject
+Visual Studio for Mac.xml	RebuildSolutionAction
+Visual Studio for Mac.xml	ReformatCode
+Visual Studio for Mac.xml	RenameElement
+Visual Studio for Mac.xml	Replace
+Visual Studio for Mac.xml	ReplaceInPath
+Visual Studio for Mac.xml	RiderNewSolution
+Visual Studio for Mac.xml	RiderOpenSolution
+Visual Studio for Mac.xml	RiderRemoveAllLineBreakpoints
+Visual Studio for Mac.xml	Run
+Visual Studio for Mac.xml	RunToCursor
+Visual Studio for Mac.xml	SaveAll
+Visual Studio for Mac.xml	SaveAll
+Visual Studio for Mac.xml	SearchEverywhere
+Visual Studio for Mac.xml	ShowIntentionActions
+Visual Studio for Mac.xml	ShowSettings
+Visual Studio for Mac.xml	StepInto
+Visual Studio for Mac.xml	StepOut
+Visual Studio for Mac.xml	StepOver
+Visual Studio for Mac.xml	Stop
+Visual Studio for Mac.xml	SwitchHeaderSource
+Visual Studio for Mac.xml	ToggleFullScreen
+Visual Studio for Mac.xml	ToggleLineBreakpoint
+Visual Studio for Mac.xml	ViewBreakpoints
+Visual Studio OSX.xml	$Copy
+Visual Studio OSX.xml	$Cut
+Visual Studio OSX.xml	$Paste
+Visual Studio OSX.xml	$Redo
+Visual Studio OSX.xml	ActivateBuildToolWindow
+Visual Studio OSX.xml	ActivateCommitToolWindow
+Visual Studio OSX.xml	ActivateDatabaseToolWindow
+Visual Studio OSX.xml	ActivateErrorsInSolutionToolWindow
+Visual Studio OSX.xml	ActivateFindToolWindow
+Visual Studio OSX.xml	ActivateInspectionResultsToolWindow
+Visual Studio OSX.xml	ActivateNuGetToolWindow
+Visual Studio OSX.xml	ActivateProjectToolWindow
+Visual Studio OSX.xml	ActivateServicesToolWindow
+Visual Studio OSX.xml	ActivateStructureToolWindow
+Visual Studio OSX.xml	ActivateStructureToolWindow
+Visual Studio OSX.xml	ActivateTerminalToolWindow
+Visual Studio OSX.xml	ActivateUnitTestsToolWindow
+Visual Studio OSX.xml	ActivateWebToolWindow
+Visual Studio OSX.xml	Back
+Visual Studio OSX.xml	BuildProject
+Visual Studio OSX.xml	ChangeSignature
+Visual Studio OSX.xml	CheckinProject
+Visual Studio OSX.xml	ChooseRunConfiguration
+Visual Studio OSX.xml	ClassNameCompletion
+Visual Studio OSX.xml	CloseContent
+Visual Studio OSX.xml	CodeCleanup
+Visual Studio OSX.xml	CodeCompletion
+Visual Studio OSX.xml	CollapseAllRegions
+Visual Studio OSX.xml	CollapseRegion
+Visual Studio OSX.xml	CommentByBlockComment
+Visual Studio OSX.xml	CommentByLineComment
+Visual Studio OSX.xml	Compile
+Visual Studio OSX.xml	CompileDirty
+Visual Studio OSX.xml	Console.TableResult.EditValueMaximized
+Visual Studio OSX.xml	ContextHelp
+Visual Studio OSX.xml	CopyElement
+Visual Studio OSX.xml	Debug
+Visual Studio OSX.xml	EditBreakpoint
+Visual Studio OSX.xml	EditorDeleteLine
+Visual Studio OSX.xml	EditorLeftWithSelection
+Visual Studio OSX.xml	EditorMatchBrace
+Visual Studio OSX.xml	EditorMoveToPageBottomWithSelection
+Visual Studio OSX.xml	EditorMoveToPageTopWithSelection
+Visual Studio OSX.xml	EditorRightWithSelection
+Visual Studio OSX.xml	EditorSelectWord
+Visual Studio OSX.xml	EditorSplitLine
+Visual Studio OSX.xml	EditorStartNewLineBefore
+Visual Studio OSX.xml	EditorToggleShowWhitespaces
+Visual Studio OSX.xml	EditorToggleUseSoftWraps
+Visual Studio OSX.xml	EditorUnSelectWord
+Visual Studio OSX.xml	EmmetPreviousEditPoint
+Visual Studio OSX.xml	EvaluateExpression
+Visual Studio OSX.xml	ExpandAllRegions
+Visual Studio OSX.xml	ExpandRegion
+Visual Studio OSX.xml	ExpressionTypeInfo
+Visual Studio OSX.xml	ExternalJavaDoc
+Visual Studio OSX.xml	ExtractMethod
+Visual Studio OSX.xml	FileStructurePopup
+Visual Studio OSX.xml	FindNext
+Visual Studio OSX.xml	FindPrevious
+Visual Studio OSX.xml	FindUsages
+Visual Studio OSX.xml	FindUsagesInFile
+Visual Studio OSX.xml	FindWordAtCaret
+Visual Studio OSX.xml	ForceStepInto
+Visual Studio OSX.xml	Forward
+Visual Studio OSX.xml	Generate
+Visual Studio OSX.xml	GotoChangedFile
+Visual Studio OSX.xml	GotoClass
+Visual Studio OSX.xml	GotoDeclaration
+Visual Studio OSX.xml	GotoFile
+Visual Studio OSX.xml	GotoImplementation
+Visual Studio OSX.xml	GotoLine
+Visual Studio OSX.xml	GotoNextBookmark
+Visual Studio OSX.xml	GotoNextError
+Visual Studio OSX.xml	GotoPreviousBookmark
+Visual Studio OSX.xml	GotoPreviousError
+Visual Studio OSX.xml	GotoRelated
+Visual Studio OSX.xml	GotoSuperMethod
+Visual Studio OSX.xml	GotoSymbol
+Visual Studio OSX.xml	GotoTest
+Visual Studio OSX.xml	GotoTypeDeclaration
+Visual Studio OSX.xml	HighlightUsagesInFile
+Visual Studio OSX.xml	ImplementMethods
+Visual Studio OSX.xml	IncrementalSearch
+Visual Studio OSX.xml	Inline
+Visual Studio OSX.xml	InsertLiveTemplate
+Visual Studio OSX.xml	IntroduceField
+Visual Studio OSX.xml	IntroduceParameter
+Visual Studio OSX.xml	IntroduceVariable
+Visual Studio OSX.xml	JumpToLastChange
+Visual Studio OSX.xml	JumpToLastChange
+Visual Studio OSX.xml	JumpToLastWindow
+Visual Studio OSX.xml	MethodHierarchy
+Visual Studio OSX.xml	Move
+Visual Studio OSX.xml	MoveLineDown
+Visual Studio OSX.xml	MoveLineUp
+Visual Studio OSX.xml	MoveStatementDown
+Visual Studio OSX.xml	MoveStatementUp
+Visual Studio OSX.xml	NewElement
+Visual Studio OSX.xml	NextEditorTab
+Visual Studio OSX.xml	OpenFile
+Visual Studio OSX.xml	OverrideMethods
+Visual Studio OSX.xml	Pause
+Visual Studio OSX.xml	PreviousEditorTab
+Visual Studio OSX.xml	QuickChangeScheme
+Visual Studio OSX.xml	QuickJavaDoc
+Visual Studio OSX.xml	RecentChangedFiles
+Visual Studio OSX.xml	RecentChanges
+Visual Studio OSX.xml	RecentFiles
+Visual Studio OSX.xml	RecentLocations
+Visual Studio OSX.xml	Refactorings.QuickListPopupAction
+Visual Studio OSX.xml	ReformatCode
+Visual Studio OSX.xml	Refresh
+Visual Studio OSX.xml	RenameElement
+Visual Studio OSX.xml	Replace
+Visual Studio OSX.xml	ReplaceInPath
+Visual Studio OSX.xml	Rerun
+Visual Studio OSX.xml	RerunTests
+Visual Studio OSX.xml	RestoreDefaultLayout
+Visual Studio OSX.xml	Resume
+Visual Studio OSX.xml	RiderBackendAction-EncapsulateField
+Visual Studio OSX.xml	Run
+Visual Studio OSX.xml	RunClass
+Visual Studio OSX.xml	RunToCursor
+Visual Studio OSX.xml	SafeDelete
+Visual Studio OSX.xml	SaveAll
+Visual Studio OSX.xml	SaveDocument
+Visual Studio OSX.xml	SearchEverywhere
+Visual Studio OSX.xml	SelectAllOccurrences
+Visual Studio OSX.xml	SelectNextOccurrence
+Visual Studio OSX.xml	ServiceView.ShowServices
+Visual Studio OSX.xml	ShowBookmarks
+Visual Studio OSX.xml	ShowErrorDescription
+Visual Studio OSX.xml	ShowExecutionPoint
+Visual Studio OSX.xml	ShowFilePath
+Visual Studio OSX.xml	ShowNavBar
+Visual Studio OSX.xml	ShowSettingsAndFindUsages
+Visual Studio OSX.xml	ShowUsages
+Visual Studio OSX.xml	SilentCodeCleanup
+Visual Studio OSX.xml	SmartTypeCompletion
+Visual Studio OSX.xml	SmartTypeCompletion
+Visual Studio OSX.xml	SplitChooser
+Visual Studio OSX.xml	StepInto
+Visual Studio OSX.xml	StepOut
+Visual Studio OSX.xml	StepOver
+Visual Studio OSX.xml	Stop
+Visual Studio OSX.xml	SurroundWith
+Visual Studio OSX.xml	SurroundWithLiveTemplate
+Visual Studio OSX.xml	SwitchHeaderSource
+Visual Studio OSX.xml	tasks.goto
+Visual Studio OSX.xml	ToggleBookmark
+Visual Studio OSX.xml	ToggleBookmark
+Visual Studio OSX.xml	ToggleBreakpointEnabled
+Visual Studio OSX.xml	ToggleFindInSelection
+Visual Studio OSX.xml	ToggleFullScreen
+Visual Studio OSX.xml	ToggleLineBreakpoint
+Visual Studio OSX.xml	TypeHierarchy
+Visual Studio OSX.xml	Unscramble
+Visual Studio OSX.xml	UnselectPreviousOccurrence
+Visual Studio OSX.xml	Vcs.ShowMessageHistory
+Visual Studio OSX.xml	Vcs.UpdateProject
+Visual Studio OSX.xml	VcsShowNextChangeMarker
+Visual Studio OSX.xml	VcsShowPrevChangeMarker
+Visual Studio OSX.xml	ViewBreakpoints
+Visual Studio OSX.xml	XDebugger.AttachToProcess
+Visual Studio OSX.xml	XDebugger.MuteBreakpoints
+Visual Studio.xml	$Copy
+Visual Studio.xml	$Cut
+Visual Studio.xml	$Paste
+Visual Studio.xml	$Redo
+Visual Studio.xml	ActivateBuildToolWindow
+Visual Studio.xml	ActivateCommitToolWindow
+Visual Studio.xml	ActivateDatabaseToolWindow
+Visual Studio.xml	ActivateErrorsInSolutionToolWindow
+Visual Studio.xml	ActivateFindToolWindow
+Visual Studio.xml	ActivateInspectionResultsToolWindow
+Visual Studio.xml	ActivateNuGetToolWindow
+Visual Studio.xml	ActivateProjectToolWindow
+Visual Studio.xml	ActivateServicesToolWindow
+Visual Studio.xml	ActivateStructureToolWindow
+Visual Studio.xml	ActivateTerminalToolWindow
+Visual Studio.xml	ActivateUnitTestsToolWindow
+Visual Studio.xml	ActivateWebToolWindow
+Visual Studio.xml	Back
+Visual Studio.xml	BuildProject
+Visual Studio.xml	ChangeSignature
+Visual Studio.xml	ChangesView.Rename
+Visual Studio.xml	CheckinProject
+Visual Studio.xml	ChooseRunConfiguration
+Visual Studio.xml	ClassNameCompletion
+Visual Studio.xml	CodeCleanup
+Visual Studio.xml	CodeCompletion
+Visual Studio.xml	CollapseAllRegions
+Visual Studio.xml	CollapseRegion
+Visual Studio.xml	CommentByLineComment
+Visual Studio.xml	Compile
+Visual Studio.xml	CompileDirty
+Visual Studio.xml	Console.TableResult.EditValueMaximized
+Visual Studio.xml	CopyElement
+Visual Studio.xml	Debug
+Visual Studio.xml	EditBreakpoint
+Visual Studio.xml	EditorCodeBlockEnd
+Visual Studio.xml	EditorCodeBlockEnd
+Visual Studio.xml	EditorCodeBlockEndWithSelection
+Visual Studio.xml	EditorCodeBlockStart
+Visual Studio.xml	EditorCodeBlockStartWithSelection
+Visual Studio.xml	EditorDeleteLine
+Visual Studio.xml	EditorLeftWithSelection
+Visual Studio.xml	EditorMatchBrace
+Visual Studio.xml	EditorRightWithSelection
+Visual Studio.xml	EditorScrollToCenter
+Visual Studio.xml	EditorSelectWord
+Visual Studio.xml	EditorSplitLine
+Visual Studio.xml	EditorStartNewLineBefore
+Visual Studio.xml	EditorToggleShowWhitespaces
+Visual Studio.xml	EditorToggleUseSoftWraps
+Visual Studio.xml	EditorUnSelectWord
+Visual Studio.xml	EvaluateExpression
+Visual Studio.xml	ExpandAllRegions
+Visual Studio.xml	ExpandRegion
+Visual Studio.xml	ExpressionTypeInfo
+Visual Studio.xml	ExternalJavaDoc
+Visual Studio.xml	ExtractMethod
+Visual Studio.xml	FileStructurePopup
+Visual Studio.xml	FindNext
+Visual Studio.xml	FindPrevious
+Visual Studio.xml	FindUsages
+Visual Studio.xml	FindUsagesInFile
+Visual Studio.xml	ForceRefresh
+Visual Studio.xml	ForceStepInto
+Visual Studio.xml	Forward
+Visual Studio.xml	Git.Commit.And.Push.Executor
+Visual Studio.xml	Git.Rename.Local.Branch
+Visual Studio.xml	Git.Reword.Commit
+Visual Studio.xml	GotoChangedFile
+Visual Studio.xml	GotoClass
+Visual Studio.xml	GotoDeclaration
+Visual Studio.xml	GotoFile
+Visual Studio.xml	GotoImplementation
+Visual Studio.xml	GotoLine
+Visual Studio.xml	GotoNextBookmark
+Visual Studio.xml	GotoNextError
+Visual Studio.xml	GotoPreviousBookmark
+Visual Studio.xml	GotoPreviousError
+Visual Studio.xml	GotoRelated
+Visual Studio.xml	GotoSuperMethod
+Visual Studio.xml	GotoSymbol
+Visual Studio.xml	GotoTest
+Visual Studio.xml	GotoTypeDeclaration
+Visual Studio.xml	Hg.Commit.And.Push.Executor
+Visual Studio.xml	HighlightUsagesInFile
+Visual Studio.xml	ImplementMethods
+Visual Studio.xml	IncrementalSearch
+Visual Studio.xml	Inline
+Visual Studio.xml	InsertLiveTemplate
+Visual Studio.xml	IntroduceField
+Visual Studio.xml	IntroduceParameter
+Visual Studio.xml	IntroduceVariable
+Visual Studio.xml	JumpToLastChange
+Visual Studio.xml	JumpToLastWindow
+Visual Studio.xml	MethodHierarchy
+Visual Studio.xml	Move
+Visual Studio.xml	MoveLineDown
+Visual Studio.xml	MoveLineUp
+Visual Studio.xml	MoveStatementDown
+Visual Studio.xml	MoveStatementUp
+Visual Studio.xml	NewElement
+Visual Studio.xml	NextEditorTab
+Visual Studio.xml	OpenFile
+Visual Studio.xml	OverrideMethods
+Visual Studio.xml	ParameterInfo
+Visual Studio.xml	Pause
+Visual Studio.xml	PreviousEditorTab
+Visual Studio.xml	Print
+Visual Studio.xml	QuickActionPopup
+Visual Studio.xml	QuickChangeScheme
+Visual Studio.xml	QuickImplementations
+Visual Studio.xml	QuickJavaDoc
+Visual Studio.xml	RecentChangedFiles
+Visual Studio.xml	RecentChanges
+Visual Studio.xml	RecentFiles
+Visual Studio.xml	Refactorings.QuickListPopupAction
+Visual Studio.xml	ReformatCode
+Visual Studio.xml	Refresh
+Visual Studio.xml	RenameElement
+Visual Studio.xml	Replace
+Visual Studio.xml	ReplaceInPath
+Visual Studio.xml	Rerun
+Visual Studio.xml	RerunTests
+Visual Studio.xml	RestoreDefaultLayout
+Visual Studio.xml	Resume
+Visual Studio.xml	RiderBackendAction-EncapsulateField
+Visual Studio.xml	Run
+Visual Studio.xml	RunClass
+Visual Studio.xml	RunToCursor
+Visual Studio.xml	SafeDelete
+Visual Studio.xml	SaveAll
+Visual Studio.xml	SaveDocument
+Visual Studio.xml	SearchEverywhere
+Visual Studio.xml	SelectAllOccurrences
+Visual Studio.xml	SelectNextOccurrence
+Visual Studio.xml	ServiceView.ShowServices
+Visual Studio.xml	ShelvedChanges.Rename
+Visual Studio.xml	ShowBookmarks
+Visual Studio.xml	ShowErrorDescription
+Visual Studio.xml	ShowExecutionPoint
+Visual Studio.xml	ShowFilePath
+Visual Studio.xml	ShowNavBar
+Visual Studio.xml	ShowPopupMenu
+Visual Studio.xml	ShowSettingsAndFindUsages
+Visual Studio.xml	ShowUsages
+Visual Studio.xml	SilentCodeCleanup
+Visual Studio.xml	SmartTypeCompletion
+Visual Studio.xml	SplitChooser
+Visual Studio.xml	StepInto
+Visual Studio.xml	StepOut
+Visual Studio.xml	StepOver
+Visual Studio.xml	Stop
+Visual Studio.xml	SurroundWith
+Visual Studio.xml	SurroundWithLiveTemplate
+Visual Studio.xml	SwitchHeaderSource
+Visual Studio.xml	tasks.goto
+Visual Studio.xml	ToggleBookmark
+Visual Studio.xml	ToggleBreakpointEnabled
+Visual Studio.xml	ToggleFindInSelection
+Visual Studio.xml	ToggleFullScreen
+Visual Studio.xml	ToggleLineBreakpoint
+Visual Studio.xml	ToggleRenderedDocPresentation
+Visual Studio.xml	TypeHierarchy
+Visual Studio.xml	Unscramble
+Visual Studio.xml	UnselectPreviousOccurrence
+Visual Studio.xml	Vcs.QuickListPopupAction
+Visual Studio.xml	Vcs.ShowMessageHistory
+Visual Studio.xml	Vcs.UpdateProject
+Visual Studio.xml	VcsShowNextChangeMarker
+Visual Studio.xml	VcsShowPrevChangeMarker
+Visual Studio.xml	ViewBreakpoints
+Visual Studio.xml	XDebugger.AttachToProcess
+Visual Studio.xml	XDebugger.MuteBreakpoints
+VSCode OSX.xml	$Delete
+VSCode OSX.xml	ActivateDebugToolWindow
+VSCode OSX.xml	ActivateMessagesToolWindow
+VSCode OSX.xml	ActivateProjectToolWindow
+VSCode OSX.xml	ActivateRunToolWindow
+VSCode OSX.xml	ActivateTerminalToolWindow
+VSCode OSX.xml	ActivateVersionControlToolWindow
+VSCode OSX.xml	AddToFavoritesPopup
+VSCode OSX.xml	Arrangement.Alias.Rule.Edit
+VSCode OSX.xml	Arrangement.Alias.Rule.Match.Condition.Move.Up
+VSCode OSX.xml	Arrangement.Alias.Rule.Remove
+VSCode OSX.xml	Arrangement.Rule.Edit
+VSCode OSX.xml	Arrangement.Rule.Match.Condition.Move.Down
+VSCode OSX.xml	Arrangement.Rule.Match.Condition.Move.Up
+VSCode OSX.xml	Arrangement.Rule.Remove
+VSCode OSX.xml	Back
+VSCode OSX.xml	BraceOrQuoteOut
+VSCode OSX.xml	BuildSolutionAction
+VSCode OSX.xml	ChangeSplitOrientation
+VSCode OSX.xml	ChangesView.Diff
+VSCode OSX.xml	ChangesView.GroupBy.Directory
+VSCode OSX.xml	ChangesView.Move
+VSCode OSX.xml	ChangesView.Rename
+VSCode OSX.xml	ChangesView.SetDefault
+VSCode OSX.xml	CheckinProject
+VSCode OSX.xml	CloseActiveTab
+VSCode OSX.xml	CloseAllEditors
+VSCode OSX.xml	CloseProject
+VSCode OSX.xml	CodeInspection.OnEditor
+VSCode OSX.xml	CollapseAll
+VSCode OSX.xml	CollapseAllRegions
+VSCode OSX.xml	CollapseExpandableComponent
+VSCode OSX.xml	CollapseRegion
+VSCode OSX.xml	CollapseRegionRecursively
+VSCode OSX.xml	CommentByBlockComment
+VSCode OSX.xml	CommentByLineComment
+VSCode OSX.xml	CompareClipboardWithSelection
+VSCode OSX.xml	CompareTwoFiles
+VSCode OSX.xml	CompileDirty
+VSCode OSX.xml	Console.Execute.Multiline
+VSCode OSX.xml	Console.Jdbc.Execute
+VSCode OSX.xml	Console.Jpa.GenerateSql
+VSCode OSX.xml	Console.TableResult.CloneRow
+VSCode OSX.xml	Console.TableResult.ColumnsList
+VSCode OSX.xml	Console.TableResult.CompareCells
+VSCode OSX.xml	Console.TableResult.DeleteRows
+VSCode OSX.xml	Console.TableResult.EditValue
+VSCode OSX.xml	Console.TableResult.NavigateAction
+VSCode OSX.xml	Console.TableResult.NextPage
+VSCode OSX.xml	Console.TableResult.PreviousPage
+VSCode OSX.xml	Console.TableResult.Submit
+VSCode OSX.xml	CopyElement
+VSCode OSX.xml	CopyPaths
+VSCode OSX.xml	DatabaseView.CopyAction
+VSCode OSX.xml	DatabaseView.CopyTable
+VSCode OSX.xml	DatabaseView.PropertiesAction
+VSCode OSX.xml	Debug
+VSCode OSX.xml	Debugger.EditArrayFilter
+VSCode OSX.xml	Debugger.EditFrameSource
+VSCode OSX.xml	Debugger.RemoveArrayFilter
+VSCode OSX.xml	Debugger.RemoveCustomField
+VSCode OSX.xml	Diff.ShowDiff
+VSCode OSX.xml	Diff.ShowSettingsPopup
+VSCode OSX.xml	DirDiffMenu.SynchronizeDiff.All
+VSCode OSX.xml	DomCollectionControl.Edit
+VSCode OSX.xml	DomElementsTreeView.DeleteElement
+VSCode OSX.xml	DomElementsTreeView.GotoDomElementDeclarationAction
+VSCode OSX.xml	DSM.OpenInEditor
+VSCode OSX.xml	DSM.ZoomIn
+VSCode OSX.xml	EditorAddOrRemoveCaret
+VSCode OSX.xml	EditorChooseLookupItemCompleteStatement
+VSCode OSX.xml	EditorChooseLookupItemDot
+VSCode OSX.xml	EditorChooseLookupItemReplace
+VSCode OSX.xml	EditorCloneCaretAbove
+VSCode OSX.xml	EditorCloneCaretBelow
+VSCode OSX.xml	EditorCodeBlockEnd
+VSCode OSX.xml	EditorCodeBlockStart
+VSCode OSX.xml	EditorCompleteStatement
+VSCode OSX.xml	EditorCreateRectangularSelectionOnMouseDrag
+VSCode OSX.xml	EditorCutLineEnd
+VSCode OSX.xml	EditorDecreaseFontSize
+VSCode OSX.xml	EditorDeleteLine
+VSCode OSX.xml	EditorDeleteToLineEnd
+VSCode OSX.xml	EditorDeleteToLineStart
+VSCode OSX.xml	EditorDuplicate
+VSCode OSX.xml	EditorIncreaseFontSize
+VSCode OSX.xml	EditorIndentLineOrSelection
+VSCode OSX.xml	EditorIndentSelection
+VSCode OSX.xml	EditorJoinLines
+VSCode OSX.xml	EditorLineEnd
+VSCode OSX.xml	EditorLineStart
+VSCode OSX.xml	EditorMatchBrace
+VSCode OSX.xml	EditorMoveToPageBottom
+VSCode OSX.xml	EditorMoveToPageTop
+VSCode OSX.xml	EditorNextWord
+VSCode OSX.xml	EditorPreviousWord
+VSCode OSX.xml	EditorScrollDown
+VSCode OSX.xml	EditorScrollUp
+VSCode OSX.xml	EditorSelectLine
+VSCode OSX.xml	EditorSelectWord
+VSCode OSX.xml	EditorSplitLine
+VSCode OSX.xml	EditorStartNewLine
+VSCode OSX.xml	EditorStartNewLineBefore
+VSCode OSX.xml	EditorTab
+VSCode OSX.xml	EditorTextEnd
+VSCode OSX.xml	EditorTextStart
+VSCode OSX.xml	EditorToggleCase
+VSCode OSX.xml	EditorToggleColumnMode
+VSCode OSX.xml	EditorToggleUseSoftWraps
+VSCode OSX.xml	EditorTranspose
+VSCode OSX.xml	EditorUnindentSelection
+VSCode OSX.xml	EditorUnSelectWord
+VSCode OSX.xml	EditSource
+VSCode OSX.xml	EditSourceInNewWindow
+VSCode OSX.xml	ExpandAll
+VSCode OSX.xml	ExpandAllRegions
+VSCode OSX.xml	ExpandExpandableComponent
+VSCode OSX.xml	ExpandRegion
+VSCode OSX.xml	ExpandRegionRecursively
+VSCode OSX.xml	ExportToTextFile
+VSCode OSX.xml	ExternalSystem.ExpandAll
+VSCode OSX.xml	ExternalSystem.OpenConfig
+VSCode OSX.xml	FileChooser.GotoDesktop
+VSCode OSX.xml	FileChooser.NewFile
+VSCode OSX.xml	FileChooser.NewFolder
+VSCode OSX.xml	FileChooser.TogglePathShowing
+VSCode OSX.xml	FileStructurePopup
+VSCode OSX.xml	FindNext
+VSCode OSX.xml	FindPrevious
+VSCode OSX.xml	Forward
+VSCode OSX.xml	Generate
+VSCode OSX.xml	Git.Reword.Commit
+VSCode OSX.xml	GotoAction
+VSCode OSX.xml	GotoChangedFile
+VSCode OSX.xml	GotoClass
+VSCode OSX.xml	GotoDeclaration
+VSCode OSX.xml	GotoFile
+VSCode OSX.xml	GotoImplementation
+VSCode OSX.xml	GotoLine
+VSCode OSX.xml	GotoNextError
+VSCode OSX.xml	GotoNextIncompletePropertyAction
+VSCode OSX.xml	GotoPreviousError
+VSCode OSX.xml	GotoSuperMethod
+VSCode OSX.xml	GotoSymbol
+VSCode OSX.xml	GotoTest
+VSCode OSX.xml	GotoTypeDeclaration
+VSCode OSX.xml	Graph.Delete
+VSCode OSX.xml	Graph.Faces.OpenSelectedPages
+VSCode OSX.xml	Graph.ZoomIn
+VSCode OSX.xml	Graph.ZoomOut
+VSCode OSX.xml	Groovy.Shell.Execute
+VSCode OSX.xml	GuiDesigner.CreateListener
+VSCode OSX.xml	GuiDesigner.Duplicate
+VSCode OSX.xml	GuiDesigner.EditComponent
+VSCode OSX.xml	GuiDesigner.EditGroup
+VSCode OSX.xml	GuiDesigner.ExpandSelection
+VSCode OSX.xml	GuiDesigner.QuickJavadoc
+VSCode OSX.xml	Help.KeymapReference
+VSCode OSX.xml	HideAllWindows
+VSCode OSX.xml	HideSideWindows
+VSCode OSX.xml	Images.Editor.ActualSize
+VSCode OSX.xml	Images.Editor.ZoomIn
+VSCode OSX.xml	Images.ShowThumbnails
+VSCode OSX.xml	InsertLiveTemplate
+VSCode OSX.xml	IntroduceConstant
+VSCode OSX.xml	IntroduceField
+VSCode OSX.xml	IntroduceProperty
+VSCode OSX.xml	Jdbc.OpenEditor
+VSCode OSX.xml	Jdbc.RunSqlScript
+VSCode OSX.xml	JumpToLastChange
+VSCode OSX.xml	JumpToLastWindow
+VSCode OSX.xml	KotlinShellExecute
+VSCode OSX.xml	Maven.ExpandAll
+VSCode OSX.xml	MethodHierarchy
+VSCode OSX.xml	MethodHierarchy.OverrideMethodAction
+VSCode OSX.xml	MethodOverloadSwitchDown
+VSCode OSX.xml	MethodOverloadSwitchUp
+VSCode OSX.xml	MoveLineDown
+VSCode OSX.xml	MoveLineUp
+VSCode OSX.xml	MoveStatementDown
+VSCode OSX.xml	MoveStatementUp
+VSCode OSX.xml	MoveTabRight
+VSCode OSX.xml	NewElement
+VSCode OSX.xml	NewFile
+VSCode OSX.xml	NextDiff
+VSCode OSX.xml	NextOccurence
+VSCode OSX.xml	NextParameter
+VSCode OSX.xml	NextTab
+VSCode OSX.xml	NextTemplateParameter
+VSCode OSX.xml	NextTemplateVariable
+VSCode OSX.xml	openAssertEqualsDiff
+VSCode OSX.xml	OpenFile
+VSCode OSX.xml	OpenModuleSettings
+VSCode OSX.xml	OptimizeImports
+VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction
+VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction
+VSCode OSX.xml	OverrideMethods
+VSCode OSX.xml	ParameterInfo
+VSCode OSX.xml	PasteMultiple
+VSCode OSX.xml	PreviousOccurence
+VSCode OSX.xml	PreviousTab
+VSCode OSX.xml	PropertyInspectorActions.RemoveProperty
+VSCode OSX.xml	QuickChangeScheme
+VSCode OSX.xml	QuickEvaluateExpression
+VSCode OSX.xml	QuickImplementations
+VSCode OSX.xml	QuickJavaDoc
+VSCode OSX.xml	RecentChangedFiles
+VSCode OSX.xml	RecentFiles
+VSCode OSX.xml	RecentLocations
+VSCode OSX.xml	Refactorings.QuickListPopupAction
+VSCode OSX.xml	ReformatCode
+VSCode OSX.xml	RemoteHost.NewRemoteItem
+VSCode OSX.xml	RemoteHostView.EditSource
+VSCode OSX.xml	RemoteHostView.Rename
+VSCode OSX.xml	RenameElement
+VSCode OSX.xml	ReopenClosedTab
+VSCode OSX.xml	Replace
+VSCode OSX.xml	ReplaceInPath
+VSCode OSX.xml	RestoreDefaultLayout
+VSCode OSX.xml	Resume
+VSCode OSX.xml	RevealIn
+VSCode OSX.xml	Run
+VSCode OSX.xml	RunClass
+VSCode OSX.xml	RunDashboard.CopyConfiguration
+VSCode OSX.xml	RunDashboard.EditConfiguration
+VSCode OSX.xml	RunDashboard.RemoveConfiguration
+VSCode OSX.xml	RunDashboard.Run
+VSCode OSX.xml	RunDashboard.ShowConfigurations
+VSCode OSX.xml	RunDashboard.UngroupConfigurations
+VSCode OSX.xml	SafeDelete
+VSCode OSX.xml	SaveAll
+VSCode OSX.xml	ScrollPane-scrollDown
+VSCode OSX.xml	ScrollPane-scrollUp
+VSCode OSX.xml	SearchEverywhere.CompleteCommand
+VSCode OSX.xml	SearchEverywhere.NavigateToNextGroup
+VSCode OSX.xml	SearchEverywhere.NavigateToPrevGroup
+VSCode OSX.xml	SearchEverywhere.NextTab
+VSCode OSX.xml	SelectAllOccurrences
+VSCode OSX.xml	SelectNextOccurrence
+VSCode OSX.xml	SendEOF
+VSCode OSX.xml	SetShortcutAction
+VSCode OSX.xml	ShelveChanges.UnshelveWithDialog
+VSCode OSX.xml	ShelvedChanges.Rename
+VSCode OSX.xml	ShowIntentionActions
+VSCode OSX.xml	ShowNavBar
+VSCode OSX.xml	ShowRecentTests
+VSCode OSX.xml	ShowSearchHistory
+VSCode OSX.xml	ShowUsages
+VSCode OSX.xml	SmartSelect
+VSCode OSX.xml	SplitVertically
+VSCode OSX.xml	Sql.EditParameter
+VSCode OSX.xml	StepInto
+VSCode OSX.xml	StepOut
+VSCode OSX.xml	StepOver
+VSCode OSX.xml	Stop
+VSCode OSX.xml	SwitchHeaderSource
+VSCode OSX.xml	Tab
+VSCode OSX.xml	TableResult.GrowSelection
+VSCode OSX.xml	TableResult.ShrinkSelection
+VSCode OSX.xml	TableResult.UnselectPreviousOccurrence
+VSCode OSX.xml	TagDocumentationNavigation
+VSCode OSX.xml	TodoViewGroupByShowPackages
+VSCode OSX.xml	ToggleBookmark
+VSCode OSX.xml	ToggleBookmarkWithMnemonic
+VSCode OSX.xml	ToggleLineBreakpoint
+VSCode OSX.xml	ToggleZenMode
+VSCode OSX.xml	UML.ActualSize
+VSCode OSX.xml	UML.ApplyCurrentLayout
+VSCode OSX.xml	Uml.NodeIntentions
+VSCode OSX.xml	Uml.ShowDiff
+VSCode OSX.xml	UML.ShowStructure
+VSCode OSX.xml	UML.ZoomIn
+VSCode OSX.xml	UnselectPreviousOccurrence
+VSCode OSX.xml	Vcs.EditSource
+VSCode OSX.xml	Vcs.MoveChangedLinesToChangelist
+VSCode OSX.xml	Vcs.Push
+VSCode OSX.xml	Vcs.UpdateProject
+VSCode OSX.xml	VcsShowNextChangeMarker
+VSCode OSX.xml	VcsShowPrevChangeMarker
+VSCode OSX.xml	ViewSource
+VSCode OSX.xml	WelcomeScreen.Plugins
+VSCode OSX.xml	XDebugger.EditWatch
+VSCode OSX.xml	XDebugger.JumpToSource
+VSCode OSX.xml	XDebugger.RemoveWatch
+VSCode OSX.xml	XDebugger.SetValue
+VSCode.xml	ActivateDebugToolWindow
+VSCode.xml	ActivateMessagesToolWindow
+VSCode.xml	ActivateProjectToolWindow
+VSCode.xml	ActivateRunToolWindow
+VSCode.xml	ActivateTerminalToolWindow
+VSCode.xml	ActivateVersionControlToolWindow
+VSCode.xml	AddToFavoritesPopup
+VSCode.xml	Arrangement.Alias.Rule.Edit
+VSCode.xml	Arrangement.Alias.Rule.Match.Condition.Move.Up
+VSCode.xml	Arrangement.Rule.Edit
+VSCode.xml	Arrangement.Rule.Match.Condition.Move.Down
+VSCode.xml	Arrangement.Rule.Match.Condition.Move.Up
+VSCode.xml	Back
+VSCode.xml	BaseOnThisFunction
+VSCode.xml	BraceOrQuoteOut
+VSCode.xml	BuildSolutionAction
+VSCode.xml	ChangeSplitOrientation
+VSCode.xml	ChangesView.GroupBy.Directory
+VSCode.xml	ChangesView.Rename
+VSCode.xml	ChangesView.SetDefault
+VSCode.xml	CheckinProject
+VSCode.xml	ChoosePrevSubsequentPropertyValueEditorAction
+VSCode.xml	ClassTemplateNavigation
+VSCode.xml	CloseAllEditors
+VSCode.xml	CloseContent
+VSCode.xml	CloseProject
+VSCode.xml	CodeInspection.OnEditor
+VSCode.xml	CollapseAll
+VSCode.xml	CollapseAllRegions
+VSCode.xml	CollapseExpandableComponent
+VSCode.xml	CollapseRegion
+VSCode.xml	CollapseRegionRecursively
+VSCode.xml	CollapseSelection
+VSCode.xml	CommentByBlockComment
+VSCode.xml	CommentByLineComment
+VSCode.xml	CompareClipboardWithSelection
+VSCode.xml	CompareTwoFiles
+VSCode.xml	CompileDirty
+VSCode.xml	Console.Execute.Multiline
+VSCode.xml	Console.Jdbc.Execute
+VSCode.xml	Console.Jpa.GenerateSql
+VSCode.xml	Console.TableResult.CloneRow
+VSCode.xml	Console.TableResult.ColumnsList
+VSCode.xml	Console.TableResult.CompareCells
+VSCode.xml	Console.TableResult.EditValue
+VSCode.xml	Console.TableResult.NextPage
+VSCode.xml	Console.TableResult.PreviousPage
+VSCode.xml	Console.TableResult.Reload
+VSCode.xml	ContextHelp
+VSCode.xml	CopyElement
+VSCode.xml	CopyPaths
+VSCode.xml	DatabaseView.CopyAction
+VSCode.xml	DatabaseView.CopyTable
+VSCode.xml	Debug
+VSCode.xml	Debugger.EditArrayFilter
+VSCode.xml	Diff.NextChange
+VSCode.xml	Diff.PrevChange
+VSCode.xml	Diff.ShowDiff
+VSCode.xml	Diff.ShowSettingsPopup
+VSCode.xml	DirDiffMenu.SynchronizeDiff.All
+VSCode.xml	DSM.ZoomIn
+VSCode.xml	EditorAddOrRemoveCaret
+VSCode.xml	EditorChooseLookupItemCompleteStatement
+VSCode.xml	EditorChooseLookupItemDot
+VSCode.xml	EditorChooseLookupItemReplace
+VSCode.xml	EditorCloneCaretAbove
+VSCode.xml	EditorCloneCaretBelow
+VSCode.xml	EditorCodeBlockEnd
+VSCode.xml	EditorCodeBlockEndWithSelection
+VSCode.xml	EditorCodeBlockStart
+VSCode.xml	EditorCodeBlockStartWithSelection
+VSCode.xml	EditorCompleteStatement
+VSCode.xml	EditorCreateRectangularSelectionOnMouseDrag
+VSCode.xml	EditorDecreaseFontSize
+VSCode.xml	EditorDeleteLine
+VSCode.xml	EditorDuplicate
+VSCode.xml	EditorIncreaseFontSize
+VSCode.xml	EditorIndentLineOrSelection
+VSCode.xml	EditorIndentSelection
+VSCode.xml	EditorJoinLines
+VSCode.xml	EditorLineEnd
+VSCode.xml	EditorLineStart
+VSCode.xml	EditorLookupDown
+VSCode.xml	EditorLookupUp
+VSCode.xml	EditorMatchBrace
+VSCode.xml	EditorMoveToPageBottom
+VSCode.xml	EditorMoveToPageTop
+VSCode.xml	EditorNextWord
+VSCode.xml	EditorPageDownWithSelection
+VSCode.xml	EditorPageUpWithSelection
+VSCode.xml	EditorPreviousWord
+VSCode.xml	EditorScrollDown
+VSCode.xml	EditorScrollUp
+VSCode.xml	EditorSelectLine
+VSCode.xml	EditorSelectWord
+VSCode.xml	EditorSplitLine
+VSCode.xml	EditorStartNewLine
+VSCode.xml	EditorStartNewLineBefore
+VSCode.xml	EditorTab
+VSCode.xml	EditorToggleCase
+VSCode.xml	EditorToggleColumnMode
+VSCode.xml	EditorToggleUseSoftWraps
+VSCode.xml	EditorUnindentSelection
+VSCode.xml	EditorUnSelectWord
+VSCode.xml	EditSourceInNewWindow
+VSCode.xml	EvaluateExpression
+VSCode.xml	ExpandAll
+VSCode.xml	ExpandAllRegions
+VSCode.xml	ExpandExpandableComponent
+VSCode.xml	ExpandRegion
+VSCode.xml	ExpandRegionRecursively
+VSCode.xml	ExpressionTypeInfo
+VSCode.xml	ExternalSystem.ExpandAll
+VSCode.xml	FileChooser.GotoDesktop
+VSCode.xml	FileChooser.NewFile
+VSCode.xml	FileChooser.NewFolder
+VSCode.xml	FileChooser.TogglePathShowing
+VSCode.xml	FileStructurePopup
+VSCode.xml	Find
+VSCode.xml	FindNext
+VSCode.xml	FindPrevious
+VSCode.xml	Forward
+VSCode.xml	Generate.Missing.Members.ES6
+VSCode.xml	Generate.Missing.Members.TypeScript
+VSCode.xml	Git.Reword.Commit
+VSCode.xml	GotoAction
+VSCode.xml	GotoChangedFile
+VSCode.xml	GoToClass
+VSCode.xml	GotoClass
+VSCode.xml	GotoDeclaration
+VSCode.xml	GotoFile
+VSCode.xml	GotoImplementation
+VSCode.xml	GotoNextError
+VSCode.xml	GotoNextIncompletePropertyAction
+VSCode.xml	GotoPreviousError
+VSCode.xml	GotoSuperMethod
+VSCode.xml	GotoSymbol
+VSCode.xml	GotoTest
+VSCode.xml	GotoTypeDeclaration
+VSCode.xml	Graph.ZoomIn
+VSCode.xml	Graph.ZoomOut
+VSCode.xml	Groovy.Shell.Execute
+VSCode.xml	GuiDesigner.CreateListener
+VSCode.xml	GuiDesigner.Duplicate
+VSCode.xml	GuiDesigner.EditComponent
+VSCode.xml	GuiDesigner.EditGroup
+VSCode.xml	GuiDesigner.QuickJavadoc
+VSCode.xml	Help.KeymapReference
+VSCode.xml	hg4idea.QRefresh
+VSCode.xml	HideAllWindows
+VSCode.xml	HideSideWindows
+VSCode.xml	Images.Editor.ActualSize
+VSCode.xml	Images.Editor.ZoomIn
+VSCode.xml	Images.ShowThumbnails
+VSCode.xml	ImplementMethods
+VSCode.xml	InsertLiveTemplate
+VSCode.xml	JumpToLastChange
+VSCode.xml	JumpToLastWindow
+VSCode.xml	KotlinShellExecute
+VSCode.xml	Maven.ExpandAll
+VSCode.xml	MethodDown
+VSCode.xml	MethodHierarchy
+VSCode.xml	MethodHierarchy.OverrideMethodAction
+VSCode.xml	MethodOverloadSwitchDown
+VSCode.xml	MethodOverloadSwitchUp
+VSCode.xml	MethodUp
+VSCode.xml	MoveLineDown
+VSCode.xml	MoveLineUp
+VSCode.xml	MoveStatementDown
+VSCode.xml	MoveStatementUp
+VSCode.xml	MoveTabRight
+VSCode.xml	NextEditorTab
+VSCode.xml	NextOccurence
+VSCode.xml	NextParameter
+VSCode.xml	NextSplitter
+VSCode.xml	NextTab
+VSCode.xml	NextTemplateParameter
+VSCode.xml	NextTemplateVariable
+VSCode.xml	openAssertEqualsDiff
+VSCode.xml	OpenFile
+VSCode.xml	OptimizeImports
+VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction
+VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction
+VSCode.xml	OverrideMethods
+VSCode.xml	ParameterInfo
+VSCode.xml	PasteMultiple
+VSCode.xml	PreviousEditorTab
+VSCode.xml	PreviousOccurence
+VSCode.xml	PreviousTab
+VSCode.xml	PrevSplitter
+VSCode.xml	QuickChangeScheme
+VSCode.xml	QuickEvaluateExpression
+VSCode.xml	QuickImplementations
+VSCode.xml	QuickJavaDoc
+VSCode.xml	RecentChangedFiles
+VSCode.xml	RecentChanges
+VSCode.xml	RecentFiles
+VSCode.xml	RecentLocations
+VSCode.xml	Refactorings.QuickListPopupAction
+VSCode.xml	ReformatCode
+VSCode.xml	Refresh
+VSCode.xml	RenameElement
+VSCode.xml	ReopenClosedTab
+VSCode.xml	Replace
+VSCode.xml	ReplaceInPath
+VSCode.xml	Rerun
+VSCode.xml	RestoreDefaultLayout
+VSCode.xml	Resume
+VSCode.xml	RevealIn
+VSCode.xml	Run
+VSCode.xml	RunDashboard.CopyConfiguration
+VSCode.xml	RunDashboard.ShowConfigurations
+VSCode.xml	SaveAll
+VSCode.xml	ScrollPane-scrollDown
+VSCode.xml	ScrollPane-scrollUp
+VSCode.xml	ScrollPane-unitScrollDown
+VSCode.xml	ScrollPane-unitScrollUp
+VSCode.xml	SearchEverywhere
+VSCode.xml	SearchEverywhere.CompleteCommand
+VSCode.xml	SearchEverywhere.NavigateToNextGroup
+VSCode.xml	SearchEverywhere.NavigateToPrevGroup
+VSCode.xml	SearchEverywhere.NextTab
+VSCode.xml	SelectAllOccurrences
+VSCode.xml	SelectNextOccurrence
+VSCode.xml	SendEOF
+VSCode.xml	ShelveChanges.UnshelveWithDialog
+VSCode.xml	ShelvedChanges.Rename
+VSCode.xml	ShowBookmarks
+VSCode.xml	ShowContent
+VSCode.xml	ShowIntentionActions
+VSCode.xml	ShowNavBar
+VSCode.xml	ShowRecentTests
+VSCode.xml	ShowSearchHistory
+VSCode.xml	ShowSettings
+VSCode.xml	ShowUsages
+VSCode.xml	SmartTypeCompletion
+VSCode.xml	SplitVertically
+VSCode.xml	Sql.EditParameter
+VSCode.xml	StepInto
+VSCode.xml	StepOut
+VSCode.xml	StepOver
+VSCode.xml	Stop
+VSCode.xml	SwitchHeaderSource
+VSCode.xml	Tab
+VSCode.xml	TableResult.UnselectPreviousOccurrence
+VSCode.xml	TagDocumentationNavigation
+VSCode.xml	TodoViewGroupByShowPackages
+VSCode.xml	ToggleBookmark
+VSCode.xml	ToggleLineBreakpoint
+VSCode.xml	ToggleZenMode
+VSCode.xml	TypeHierarchy
+VSCode.xml	TypeHierarchyBase.BaseOnThisType
+VSCode.xml	UML.ActualSize
+VSCode.xml	UML.ApplyCurrentLayout
+VSCode.xml	Uml.ShowDiff
+VSCode.xml	UML.ShowStructure
+VSCode.xml	UML.ZoomIn
+VSCode.xml	UnselectPreviousOccurrence
+VSCode.xml	Vcs.Log.Refresh
+VSCode.xml	Vcs.Log.ShowAllAffected
+VSCode.xml	Vcs.Push
+VSCode.xml	Vcs.UpdateProject
+VSCode.xml	VcsHistory.ShowAllAffected
+VSCode.xml	VcsShowNextChangeMarker
+VSCode.xml	VcsShowPrevChangeMarker
+VSCode.xml	ViewSource
+VSCode.xml	WelcomeScreen.Plugins
+VSCode.xml	XDebugger.CopyWatch
+VSCode.xml	XDebugger.EditWatch
+VSCode.xml	XDebugger.MoveWatchDown
+VSCode.xml	XDebugger.MoveWatchUp
+VSCode.xml	XDebugger.SetValue
+Xcode.xml	$Cut
+Xcode.xml	$Delete
+Xcode.xml	ActivateDebugToolWindow
+Xcode.xml	ActivateFavoritesToolWindow
+Xcode.xml	ActivateFindToolWindow
+Xcode.xml	ActivateHierarchyToolWindow
+Xcode.xml	ActivateMessagesToolWindow
+Xcode.xml	ActivateProblemsViewToolWindow
+Xcode.xml	ActivateProjectToolWindow
+Xcode.xml	ActivateRunToolWindow
+Xcode.xml	ActivateStructureToolWindow
+Xcode.xml	ActivateVersionControlToolWindow
+Xcode.xml	AddFilesToProjectAction
+Xcode.xml	AppCode.CreateXcodeProject
+Xcode.xml	AutoIndentLines
+Xcode.xml	Back
+Xcode.xml	CallHierarchy
+Xcode.xml	ChangesView.Rename
+Xcode.xml	CheckinProject
+Xcode.xml	ChooseDebugConfiguration
+Xcode.xml	ChooseRunConfiguration
+Xcode.xml	CleanBuildFolder
+Xcode.xml	CloseProject
+Xcode.xml	CodeCompletion
+Xcode.xml	CollapseDocComments
+Xcode.xml	CollapseRegion
+Xcode.xml	CollapseSelection
+Xcode.xml	CommentByBlockComment
+Xcode.xml	Compare.SameVersion
+Xcode.xml	CompileDirty
+Xcode.xml	Debug
+Xcode.xml	DebugClass
+Xcode.xml	Diff.ApplyLeftSide
+Xcode.xml	Diff.ApplyRightSide
+Xcode.xml	Diff.NextChange
+Xcode.xml	Diff.PrevChange
+Xcode.xml	DuplicatesForm.SendToLeft
+Xcode.xml	DuplicatesForm.SendToRight
+Xcode.xml	EditorBackSpace
+Xcode.xml	EditorCodeBlockEnd
+Xcode.xml	EditorCodeBlockEndWithSelection
+Xcode.xml	EditorCodeBlockStart
+Xcode.xml	EditorCodeBlockStartWithSelection
+Xcode.xml	EditorDelete
+Xcode.xml	EditorDeleteLine
+Xcode.xml	EditorDeleteToLineStart
+Xcode.xml	EditorDeleteToWordEndInDifferentHumpsMode
+Xcode.xml	EditorDeleteToWordStart
+Xcode.xml	EditorDeleteToWordStartInDifferentHumpsMode
+Xcode.xml	EditorDownWithSelection
+Xcode.xml	EditorIndentLineOrSelection
+Xcode.xml	EditorIndentSelection
+Xcode.xml	EditorLeftWithSelection
+Xcode.xml	EditorLineEnd
+Xcode.xml	EditorLineEnd
+Xcode.xml	EditorLineEndWithSelection
+Xcode.xml	EditorLineStart
+Xcode.xml	EditorLineStart
+Xcode.xml	EditorLineStartWithSelection
+Xcode.xml	EditorNextWordInDifferentHumpsMode
+Xcode.xml	EditorNextWordInDifferentHumpsModeWithSelection
+Xcode.xml	EditorPageDown
+Xcode.xml	EditorPageDownWithSelection
+Xcode.xml	EditorPageUp
+Xcode.xml	EditorPreviousWordInDifferentHumpsMode
+Xcode.xml	EditorPreviousWordInDifferentHumpsModeWithSelection
+Xcode.xml	EditorRightWithSelection
+Xcode.xml	EditorScrollBottom
+Xcode.xml	EditorScrollToCenter
+Xcode.xml	EditorScrollTop
+Xcode.xml	EditorSelectWord
+Xcode.xml	EditorSplitLine
+Xcode.xml	EditorTextEnd
+Xcode.xml	EditorTextEndWithSelection
+Xcode.xml	EditorTextStart
+Xcode.xml	EditorTextStartWithSelection
+Xcode.xml	EditorTranspose
+Xcode.xml	EditorUnindentSelection
+Xcode.xml	EditorUnSelectWord
+Xcode.xml	EditorUpWithSelection
+Xcode.xml	editRunConfigurations
+Xcode.xml	EmmetNextEditPoint
+Xcode.xml	EmmetPreviousEditPoint
+Xcode.xml	ExpandDocComments
+Xcode.xml	ExpandRegion
+Xcode.xml	ExportToTextFile
+Xcode.xml	ExpressionTypeInfo
+Xcode.xml	ExternalJavaDoc
+Xcode.xml	ExtractMethod
+Xcode.xml	FileChooser.GotoHome
+Xcode.xml	FileChooser.GotoProject
+Xcode.xml	FileChooser.NewFolder
+Xcode.xml	FileChooser.TogglePathShowing
+Xcode.xml	FileStructurePopup
+Xcode.xml	FindInPath
+Xcode.xml	FindNext
+Xcode.xml	FindPrevious
+Xcode.xml	FindUsages
+Xcode.xml	ForceRunToCursor
+Xcode.xml	ForceStepInto
+Xcode.xml	ForceStepOver
+Xcode.xml	Forward
+Xcode.xml	Generate
+Xcode.xml	Git.Commit.And.Push.Executor
+Xcode.xml	Git.Rename.Local.Branch
+Xcode.xml	Git.Reword.Commit
+Xcode.xml	GotoBookmark0
+Xcode.xml	GotoBookmark1
+Xcode.xml	GotoBookmark2
+Xcode.xml	GotoBookmark3
+Xcode.xml	GotoBookmark4
+Xcode.xml	GotoBookmark5
+Xcode.xml	GotoBookmark6
+Xcode.xml	GotoBookmark7
+Xcode.xml	GotoBookmark8
+Xcode.xml	GotoBookmark9
+Xcode.xml	GotoClass
+Xcode.xml	GotoDeclaration
+Xcode.xml	GotoFile
+Xcode.xml	GotoImplementation
+Xcode.xml	GotoNextError
+Xcode.xml	GotoPreviousError
+Xcode.xml	GotoRelated
+Xcode.xml	GotoSuperMethod
+Xcode.xml	GotoSymbol
+Xcode.xml	GotoTypeDeclaration
+Xcode.xml	HelpTopics
+Xcode.xml	Hg.Commit.And.Push.Executor
+Xcode.xml	HighlightUsagesInFile
+Xcode.xml	Images.Editor.ToggleGrid
+Xcode.xml	ImplementMethods
+Xcode.xml	InspectCode
+Xcode.xml	Instruments
+Xcode.xml	IntroduceConstant
+Xcode.xml	IntroduceField
+Xcode.xml	IntroduceParameter
+Xcode.xml	IntroduceVariable
+Xcode.xml	LocalHistory.PutLabel
+Xcode.xml	MaintenanceAction
+Xcode.xml	MaximizeToolWindow
+Xcode.xml	MethodDown
+Xcode.xml	MethodUp
+Xcode.xml	Move
+Xcode.xml	MoveLineDown
+Xcode.xml	MoveLineUp
+Xcode.xml	MoveStatementDown
+Xcode.xml	MoveStatementUp
+Xcode.xml	NewElement
+Xcode.xml	NewScratchFile
+Xcode.xml	NextEditorTab
+Xcode.xml	NextOccurence
+Xcode.xml	NextProjectWindow
+Xcode.xml	NextTab
+Xcode.xml	OpenFile
+Xcode.xml	OverrideMethods
+Xcode.xml	ParameterInfo
+Xcode.xml	PasteMultiple
+Xcode.xml	Pause
+Xcode.xml	PreviousEditorTab
+Xcode.xml	PreviousOccurence
+Xcode.xml	PreviousProjectWindow
+Xcode.xml	PreviousTab
+Xcode.xml	Print
+Xcode.xml	QuickImplementations
+Xcode.xml	QuickJavaDoc
+Xcode.xml	RecentChangedFiles
+Xcode.xml	RecentFiles
+Xcode.xml	Refactorings.QuickListPopupAction
+Xcode.xml	RenameElement
+Xcode.xml	Replace
+Xcode.xml	ReplaceInPath
+Xcode.xml	Rerun
+Xcode.xml	RerunFailedTests
+Xcode.xml	Resume
+Xcode.xml	Run
+Xcode.xml	RunClass
+Xcode.xml	RunToCursor
+Xcode.xml	SafeDelete
+Xcode.xml	SelectIn
+Xcode.xml	ShelvedChanges.Rename
+Xcode.xml	ShowNavBar
+Xcode.xml	ShowUmlDiagramPopup
+Xcode.xml	SmartStepInto
+Xcode.xml	StepInto
+Xcode.xml	StepOut
+Xcode.xml	StepOver
+Xcode.xml	Stop
+Xcode.xml	SwiftGenerateDocComment
+Xcode.xml	SwitcherIterateItems
+Xcode.xml	SwitcherRecentEditedChangedToggleCheckBox
+Xcode.xml	tasks.open.in.browser
+Xcode.xml	ToggleBookmark
+Xcode.xml	ToggleLineBreakpoint
+Xcode.xml	ToggleRenderedDocPresentation
+Xcode.xml	Vcs.Push
+Xcode.xml	Vcs.QuickListPopupAction
+Xcode.xml	Vcs.ShowMessageHistory
+Xcode.xml	Vcs.UpdateProject
+Xcode.xml	ViewBreakpoints
+Xcode.xml	XDebugger.MuteBreakpoints
+Xcode.xml	XPathView.Actions.Evaluate
+Xcode.xml	XPathView.Actions.FindByExpression
+Xcode.xml	XPathView.Actions.ShowPath
+

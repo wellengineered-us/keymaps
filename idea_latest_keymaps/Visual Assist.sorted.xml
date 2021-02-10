@@ -1,0 +1,69 @@
+<keymap name="Visual Assist" parent="Visual Studio" version="1" disable-mnemonics="false">
+  <action id="AddToFavoritesPopup" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="CONTROL MINUS" />
+    <keyboard-shortcut first-keystroke="CONTROL SUBTRACT" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ALT LEFT" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorAddCaretPerSelectedLine" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="CTRL ALT RIGHT" />
+    <keyboard-shortcut first-keystroke="CTRL W" />
+    <keyboard-shortcut first-keystroke="ALT CLOSE_BRACKET" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="CTRL ALT LEFT" />
+    <keyboard-shortcut first-keystroke="SHIFT CTRL W" />
+    <keyboard-shortcut first-keystroke="ALT OPEN_BRACKET" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ALT BACK_SLASH" />
+    <keyboard-shortcut first-keystroke="ALT M" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="SHIFT ALT F" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT MINUS" />
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT SUBTRACT" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ALT RIGHT" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="ALT G" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="SHIFT ALT O" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
+  <action id="GotoRelated" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="SHIFT ALT S" />
+  </action>
+  <action id="hg4idea.QGotoFromPatches" />
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="ALT K" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT R" />
+    <keyboard-shortcut first-keystroke="SHIFT ALT Q" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="SHIFT ALT R" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="ALT BACK_QUOTE" />
+    <keyboard-shortcut first-keystroke="ALT DEAD_GRAVE" />
+    <keyboard-shortcut first-keystroke="SHIFT ALT G" />
+  </action>
+  <action id="WD.UploadCurrentRemoteFileAction" />
+</keymap>

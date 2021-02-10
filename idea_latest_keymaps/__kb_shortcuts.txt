@@ -1,0 +1,3485 @@
+KEYMAP_FILE_NAME	ACTION_ID	STROKE_NO	KB_SHORTCUT
+$default.xml	$Copy	1	CONTROL C
+$default.xml	$Copy	1	CONTROL INSERT
+$default.xml	$Cut	1	CONTROL X
+$default.xml	$Cut	1	SHIFT DELETE
+$default.xml	$Delete	1	DELETE
+$default.xml	$Paste	1	CONTROL V
+$default.xml	$Paste	1	SHIFT INSERT
+$default.xml	$Redo	1	CONTROL SHIFT Z
+$default.xml	$Redo	1	ALT SHIFT BACK_SPACE
+$default.xml	$SelectAll	1	CONTROL A
+$default.xml	$Undo	1	CONTROL Z
+$default.xml	$Undo	1	ALT BACK_SPACE
+$default.xml	ActivateCommitToolWindow	1	ALT 0
+$default.xml	ActivateDebugToolWindow	1	ALT 5
+$default.xml	ActivateFavoritesToolWindow	1	ALT 2
+$default.xml	ActivateFindToolWindow	1	ALT 3
+$default.xml	ActivateNuGetToolWindow	1	ALT SHIFT 7
+$default.xml	ActivateProblemsViewToolWindow	1	ALT 6
+$default.xml	ActivateProjectToolWindow	1	ALT 1
+$default.xml	ActivateRunToolWindow	1	ALT 4
+$default.xml	ActivateServicesToolWindow	1	ALT 8
+$default.xml	ActivateStructureToolWindow	1	ALT 7
+$default.xml	ActivateTerminalToolWindow	1	ALT F12
+$default.xml	ActivateUnitTestsToolWindow	1	ALT SHIFT 8
+$default.xml	ActivateVersionControlToolWindow	1	ALT 9
+$default.xml	AddToFavoritesPopup	1	ALT SHIFT F
+$default.xml	AutoIndentLines	1	CONTROL ALT I
+$default.xml	Back	1	CONTROL ALT LEFT
+$default.xml	BraceOrQuoteOut	1	TAB
+$default.xml	CallHierarchy	1	CONTROL ALT H
+$default.xml	ChangeSignature	1	CONTROL F6
+$default.xml	ChangesView.GroupBy.Directory	1	CONTROL ALT P
+$default.xml	ChangesView.GroupBy.Module	1	CONTROL ALT M
+$default.xml	ChangesView.Move	1	ALT SHIFT M
+$default.xml	ChangesView.Rename	1	F2
+$default.xml	ChangesView.Rename	1	SHIFT F6
+$default.xml	ChangesView.Revert	1	CONTROL ALT Z
+$default.xml	ChangesView.SetDefault	1	CONTROL SPACE
+$default.xml	ChangeTypeSignature	1	CONTROL SHIFT F6
+$default.xml	ChooseDebugConfiguration	1	ALT SHIFT F9
+$default.xml	ChooseRunConfiguration	1	ALT SHIFT F10
+$default.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+$default.xml	CloseActiveTab	1	CONTROL SHIFT F4
+$default.xml	CloseContent	1	CONTROL F4
+$default.xml	CloseGotItTooltip	1	ESCAPE
+$default.xml	CodeCompletion	1	CONTROL SPACE
+$default.xml	CodeInspection.OnEditor	1	ALT SHIFT I
+$default.xml	CollapseAll	1	CONTROL SUBTRACT
+$default.xml	CollapseAll	1	CONTROL MINUS
+$default.xml	CollapseAllRegions	1	CONTROL SHIFT SUBTRACT
+$default.xml	CollapseAllRegions	1	CONTROL SHIFT MINUS
+$default.xml	CollapseBlock	1	CONTROL SHIFT PERIOD
+$default.xml	CollapseExpandableComponent	1	SHIFT ENTER
+$default.xml	CollapseExpandableComponent	1	CONTROL SUBTRACT
+$default.xml	CollapseExpandableComponent	1	CONTROL MINUS
+$default.xml	CollapseRegion	1	CONTROL SUBTRACT
+$default.xml	CollapseRegion	1	CONTROL MINUS
+$default.xml	CollapseRegionRecursively	1	CONTROL ALT SUBTRACT
+$default.xml	CollapseRegionRecursively	1	CONTROL ALT MINUS
+$default.xml	CollapseSelection	1	CONTROL PERIOD
+$default.xml	CollapseTreeNode	1	SUBTRACT
+$default.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+$default.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+$default.xml	CommentByLineComment	1	CONTROL SLASH
+$default.xml	CommentByLineComment	1	CONTROL DIVIDE
+$default.xml	CompareTwoFiles	1	CONTROL D
+$default.xml	Compile	1	CONTROL SHIFT F9
+$default.xml	CompileDirty	1	CONTROL F9
+$default.xml	Console.Execute	1	ENTER
+$default.xml	Console.Execute.Multiline	1	CONTROL ENTER
+$default.xml	Console.History.Browse	1	CONTROL ALT E
+$default.xml	Console.Open	1	CONTROL SHIFT F10
+$default.xml	ContextHelp	1	F1
+$default.xml	CopyElement	1	F5
+$default.xml	CopyPaths	1	CONTROL SHIFT C
+$default.xml	CopyReference	1	CONTROL ALT SHIFT C
+$default.xml	Debug	1	SHIFT F9
+$default.xml	Debugger.EditTypeSource	1	SHIFT F4
+$default.xml	Diff.ApplyLeftSide	1	ALT SHIFT RIGHT
+$default.xml	Diff.ApplyRightSide	1	ALT SHIFT LEFT
+$default.xml	Diff.FocusOppositePane	1	CONTROL TAB
+$default.xml	Diff.FocusOppositePaneAndScroll	1	CONTROL SHIFT TAB
+$default.xml	Diff.NextChange	1	ALT RIGHT
+$default.xml	Diff.PrevChange	1	ALT LEFT
+$default.xml	Diff.ShowDiff	1	CONTROL D
+$default.xml	Diff.ShowSettingsPopup	1	CONTROL SHIFT D
+$default.xml	DirDiffMenu.SynchronizeDiff	1	ENTER
+$default.xml	DirDiffMenu.SynchronizeDiff.All	1	CONTROL ENTER
+$default.xml	DumpLookupElementWeights	1	CONTROL ALT SHIFT W
+$default.xml	DuplicatesForm.SendToLeft	1	CONTROL 1
+$default.xml	DuplicatesForm.SendToRight	1	CONTROL 2
+$default.xml	EditBreakpoint	1	CONTROL SHIFT F8
+$default.xml	EditorAddCaretPerSelectedLine	1	SHIFT ALT G
+$default.xml	EditorBackSpace	1	BACK_SPACE
+$default.xml	EditorBackSpace	1	SHIFT BACK_SPACE
+$default.xml	EditorChooseLookupItem	1	ENTER
+$default.xml	EditorChooseLookupItemDot	1	CONTROL PERIOD
+$default.xml	EditorChooseLookupItemReplace	1	TAB
+$default.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+$default.xml	EditorCodeBlockEndWithSelection	1	CONTROL SHIFT CLOSE_BRACKET
+$default.xml	EditorCodeBlockStart	1	CONTROL OPEN_BRACKET
+$default.xml	EditorCodeBlockStartWithSelection	1	CONTROL SHIFT OPEN_BRACKET
+$default.xml	EditorCompleteStatement	1	CONTROL SHIFT ENTER
+$default.xml	EditorContextInfo	1	ALT Q
+$default.xml	EditorDeleteLine	1	CONTROL Y
+$default.xml	EditorDeleteToWordEnd	1	CONTROL DELETE
+$default.xml	EditorDeleteToWordStart	1	CONTROL BACK_SPACE
+$default.xml	EditorDown	1	DOWN
+$default.xml	EditorDownWithSelection	1	SHIFT DOWN
+$default.xml	EditorDuplicate	1	CONTROL D
+$default.xml	EditorEnter	1	ENTER
+$default.xml	EditorEscape	1	ESCAPE
+$default.xml	EditorFocusGutter	1	ALT SHIFT 6
+$default.xml	EditorFocusGutter	2	F
+$default.xml	EditorIndentSelection	1	TAB
+$default.xml	EditorJoinLines	1	CONTROL SHIFT J
+$default.xml	EditorLeft	1	LEFT
+$default.xml	EditorLeftWithSelection	1	SHIFT LEFT
+$default.xml	EditorLineEnd	1	END
+$default.xml	EditorLineEndWithSelection	1	SHIFT END
+$default.xml	EditorLineStart	1	HOME
+$default.xml	EditorLineStartWithSelection	1	SHIFT HOME
+$default.xml	EditorLookupDown	1	CONTROL DOWN
+$default.xml	EditorLookupUp	1	CONTROL UP
+$default.xml	EditorMatchBrace	1	CONTROL SHIFT M
+$default.xml	EditorMoveToPageBottom	1	CONTROL PAGE_DOWN
+$default.xml	EditorMoveToPageBottomWithSelection	1	CONTROL SHIFT PAGE_DOWN
+$default.xml	EditorMoveToPageTop	1	CONTROL PAGE_UP
+$default.xml	EditorMoveToPageTopWithSelection	1	CONTROL SHIFT PAGE_UP
+$default.xml	EditorNextWord	1	CONTROL RIGHT
+$default.xml	EditorNextWordWithSelection	1	CONTROL SHIFT RIGHT
+$default.xml	EditorPageDown	1	PAGE_DOWN
+$default.xml	EditorPageDownWithSelection	1	SHIFT PAGE_DOWN
+$default.xml	EditorPageUp	1	PAGE_UP
+$default.xml	EditorPageUpWithSelection	1	SHIFT PAGE_UP
+$default.xml	EditorPasteSimple	1	CONTROL ALT SHIFT V
+$default.xml	EditorPreviousWord	1	CONTROL LEFT
+$default.xml	EditorPreviousWordWithSelection	1	CONTROL SHIFT LEFT
+$default.xml	EditorRight	1	RIGHT
+$default.xml	EditorRightWithSelection	1	SHIFT RIGHT
+$default.xml	EditorScrollDown	1	CONTROL DOWN
+$default.xml	EditorScrollToCenter	1	CONTROL M
+$default.xml	EditorScrollUp	1	CONTROL UP
+$default.xml	EditorSelectWord	1	CONTROL W
+$default.xml	EditorShowGutterIconTooltip	1	ALT SHIFT 6
+$default.xml	EditorShowGutterIconTooltip	2	T
+$default.xml	EditorSplitLine	1	CONTROL ENTER
+$default.xml	EditorStartNewLine	1	SHIFT ENTER
+$default.xml	EditorStartNewLineBefore	1	CONTROL ALT ENTER
+$default.xml	EditorTab	1	TAB
+$default.xml	EditorTextEnd	1	CONTROL END
+$default.xml	EditorTextEndWithSelection	1	CONTROL SHIFT END
+$default.xml	EditorTextStart	1	CONTROL HOME
+$default.xml	EditorTextStartWithSelection	1	CONTROL SHIFT HOME
+$default.xml	EditorToggleCase	1	CONTROL SHIFT U
+$default.xml	EditorToggleColumnMode	1	ALT SHIFT INSERT
+$default.xml	EditorToggleInsertState	1	INSERT
+$default.xml	EditorUnindentSelection	1	SHIFT TAB
+$default.xml	EditorUnSelectWord	1	CONTROL SHIFT W
+$default.xml	EditorUp	1	UP
+$default.xml	EditorUpWithSelection	1	SHIFT UP
+$default.xml	EditSource	1	F4
+$default.xml	EditSourceInNewWindow	1	SHIFT F4
+$default.xml	EvaluateExpression	1	ALT F8
+$default.xml	ExpandAll	1	CONTROL ADD
+$default.xml	ExpandAll	1	CONTROL EQUALS
+$default.xml	ExpandAllRegions	1	CONTROL SHIFT ADD
+$default.xml	ExpandAllRegions	1	CONTROL SHIFT EQUALS
+$default.xml	ExpandAllToLevel1	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel1	2	1
+$default.xml	ExpandAllToLevel1	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel1	2	NUMPAD1
+$default.xml	ExpandAllToLevel2	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel2	2	2
+$default.xml	ExpandAllToLevel2	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel2	2	NUMPAD2
+$default.xml	ExpandAllToLevel3	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel3	2	3
+$default.xml	ExpandAllToLevel3	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel3	2	NUMPAD3
+$default.xml	ExpandAllToLevel4	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel4	2	4
+$default.xml	ExpandAllToLevel4	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel4	2	NUMPAD4
+$default.xml	ExpandAllToLevel5	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel5	2	5
+$default.xml	ExpandAllToLevel5	1	CONTROL SHIFT MULTIPLY
+$default.xml	ExpandAllToLevel5	2	NUMPAD5
+$default.xml	ExpandExpandableComponent	1	SHIFT ENTER
+$default.xml	ExpandExpandableComponent	1	CONTROL ADD
+$default.xml	ExpandExpandableComponent	1	CONTROL EQUALS
+$default.xml	ExpandLiveTemplateByTab	1	TAB
+$default.xml	ExpandRegion	1	CONTROL ADD
+$default.xml	ExpandRegion	1	CONTROL EQUALS
+$default.xml	ExpandRegionRecursively	1	CONTROL ALT ADD
+$default.xml	ExpandRegionRecursively	1	CONTROL ALT EQUALS
+$default.xml	ExpandToLevel1	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel1	2	1
+$default.xml	ExpandToLevel1	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel1	2	NUMPAD1
+$default.xml	ExpandToLevel2	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel2	2	2
+$default.xml	ExpandToLevel2	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel2	2	NUMPAD2
+$default.xml	ExpandToLevel3	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel3	2	3
+$default.xml	ExpandToLevel3	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel3	2	NUMPAD3
+$default.xml	ExpandToLevel4	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel4	2	4
+$default.xml	ExpandToLevel4	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel4	2	NUMPAD4
+$default.xml	ExpandToLevel5	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel5	2	5
+$default.xml	ExpandToLevel5	1	CONTROL MULTIPLY
+$default.xml	ExpandToLevel5	2	NUMPAD5
+$default.xml	ExpandTreeNode	1	ADD
+$default.xml	ExportToTextFile	1	ALT O
+$default.xml	ExpressionTypeInfo	1	CONTROL SHIFT P
+$default.xml	ExternalJavaDoc	1	SHIFT F1
+$default.xml	ExtractMethod	1	CONTROL ALT M
+$default.xml	FileChooser.GotoDesktop	1	CONTROL D
+$default.xml	FileChooser.GotoHome	1	CONTROL 1
+$default.xml	FileChooser.GotoModule	1	CONTROL 3
+$default.xml	FileChooser.GotoProject	1	CONTROL 2
+$default.xml	FileChooser.NewFolder	1	ALT INSERT
+$default.xml	FileChooser.NewFolder	1	CONTROL N
+$default.xml	FileChooser.TogglePathShowing	1	CONTROL P
+$default.xml	FileStructurePopup	1	CONTROL F12
+$default.xml	Find	1	CONTROL F
+$default.xml	Find	1	ALT F3
+$default.xml	FindInPath	1	CONTROL SHIFT F
+$default.xml	FindNext	1	F3
+$default.xml	FindNext	1	CONTROL L
+$default.xml	FindPrevious	1	SHIFT F3
+$default.xml	FindPrevious	1	CONTROL SHIFT L
+$default.xml	FindUsages	1	ALT F7
+$default.xml	FindUsagesInFile	1	CONTROL F7
+$default.xml	FindWordAtCaret	1	CONTROL F3
+$default.xml	FocusEditor	1	ESCAPE
+$default.xml	ForceRefresh	1	CONTROL SHIFT F5
+$default.xml	ForceRunToCursor	1	CONTROL ALT F9
+$default.xml	ForceStepInto	1	ALT SHIFT F7
+$default.xml	ForceStepOver	1	ALT SHIFT F8
+$default.xml	Forward	1	CONTROL ALT RIGHT
+$default.xml	FullyExpandTreeNode	1	MULTIPLY
+$default.xml	Generate	1	ALT INSERT
+$default.xml	Git.Rename.Local.Branch	1	F2
+$default.xml	Git.Rename.Local.Branch	1	SHIFT F6
+$default.xml	Git.Reword.Commit	1	F2
+$default.xml	Git.Reword.Commit	1	SHIFT F6
+$default.xml	GotoAction	1	CONTROL SHIFT A
+$default.xml	GotoBookmark0	1	CONTROL 0
+$default.xml	GotoBookmark1	1	CONTROL 1
+$default.xml	GotoBookmark2	1	CONTROL 2
+$default.xml	GotoBookmark3	1	CONTROL 3
+$default.xml	GotoBookmark4	1	CONTROL 4
+$default.xml	GotoBookmark5	1	CONTROL 5
+$default.xml	GotoBookmark6	1	CONTROL 6
+$default.xml	GotoBookmark7	1	CONTROL 7
+$default.xml	GotoBookmark8	1	CONTROL 8
+$default.xml	GotoBookmark9	1	CONTROL 9
+$default.xml	GotoChangedFile	1	CONTROL N
+$default.xml	GotoClass	1	CONTROL N
+$default.xml	GotoCustomRegion	1	CONTROL ALT PERIOD
+$default.xml	GotoDeclaration	1	CONTROL B
+$default.xml	GotoFile	1	CONTROL SHIFT N
+$default.xml	GotoImplementation	1	CONTROL ALT B
+$default.xml	GotoLine	1	CONTROL G
+$default.xml	GotoNextError	1	F2
+$default.xml	GotoPreviousError	1	SHIFT F2
+$default.xml	GotoRelated	1	CONTROL ALT HOME
+$default.xml	GotoSuperMethod	1	CONTROL U
+$default.xml	GotoSymbol	1	CONTROL SHIFT ALT N
+$default.xml	GotoTest	1	CONTROL SHIFT T
+$default.xml	GotoTypeDeclaration	1	CONTROL SHIFT B
+$default.xml	HideActiveWindow	1	SHIFT ESCAPE
+$default.xml	HideAllWindows	1	CONTROL SHIFT F12
+$default.xml	HighlightUsagesInFile	1	CONTROL SHIFT F7
+$default.xml	HippieBackwardCompletion	1	ALT SHIFT SLASH
+$default.xml	HippieCompletion	1	ALT SLASH
+$default.xml	ImplementMethods	1	CONTROL I
+$default.xml	Inline	1	CONTROL ALT N
+$default.xml	InsertLiveTemplate	1	CONTROL J
+$default.xml	IntroduceConstant	1	CONTROL ALT C
+$default.xml	IntroduceField	1	CONTROL ALT F
+$default.xml	IntroduceParameter	1	CONTROL ALT P
+$default.xml	IntroduceVariable	1	CONTROL ALT V
+$default.xml	JumpToLastChange	1	CONTROL SHIFT BACK_SPACE
+$default.xml	JumpToLastWindow	1	F12
+$default.xml	MaintenanceAction	1	CTRL ALT SHIFT SLASH
+$default.xml	MaximizeToolWindow	1	CONTROL SHIFT QUOTE
+$default.xml	MethodDown	1	ALT DOWN
+$default.xml	MethodHierarchy	1	CONTROL SHIFT H
+$default.xml	MethodOverloadSwitchDown	1	CONTROL DOWN
+$default.xml	MethodOverloadSwitchUp	1	CONTROL UP
+$default.xml	MethodUp	1	ALT UP
+$default.xml	Move	1	F6
+$default.xml	MoveElementLeft	1	CONTROL ALT SHIFT LEFT
+$default.xml	MoveElementRight	1	CONTROL ALT SHIFT RIGHT
+$default.xml	MoveLineDown	1	ALT SHIFT DOWN
+$default.xml	MoveLineUp	1	ALT SHIFT UP
+$default.xml	MoveStatementDown	1	CONTROL SHIFT DOWN
+$default.xml	MoveStatementUp	1	CONTROL SHIFT UP
+$default.xml	NewElement	1	ALT INSERT
+$default.xml	NewElementSamePlace	1	CONTROL ALT INSERT
+$default.xml	NewScratchFile	1	CONTROL ALT SHIFT INSERT
+$default.xml	NextDiff	1	F7
+$default.xml	NextEditorTab	1	ALT SHIFT RIGHT
+$default.xml	NextOccurence	1	CONTROL ALT DOWN
+$default.xml	NextParameter	1	TAB
+$default.xml	NextProjectWindow	1	CONTROL ALT CLOSE_BRACKET
+$default.xml	NextTab	1	ALT RIGHT
+$default.xml	NextTemplateVariable	1	TAB
+$default.xml	NextTemplateVariable	1	ENTER
+$default.xml	OpenInRightSplit	1	SHIFT ENTER
+$default.xml	OptimizeImports	1	CONTROL ALT O
+$default.xml	OverrideMethods	1	CONTROL O
+$default.xml	ParameterInfo	1	CONTROL P
+$default.xml	PasteMultiple	1	CONTROL SHIFT V
+$default.xml	PasteMultiple	1	CONTROL SHIFT INSERT
+$default.xml	PopupHector	1	CTRL ALT SHIFT H
+$default.xml	PreviousDiff	1	SHIFT F7
+$default.xml	PreviousEditorTab	1	ALT SHIFT LEFT
+$default.xml	PreviousOccurence	1	CONTROL ALT UP
+$default.xml	PreviousProjectWindow	1	CONTROL ALT OPEN_BRACKET
+$default.xml	PreviousTab	1	ALT LEFT
+$default.xml	PreviousTemplateVariable	1	SHIFT TAB
+$default.xml	PrevParameter	1	SHIFT TAB
+$default.xml	ProjectViewChangeView	1	ALT F1
+$default.xml	QuickActionPopup	1	CONTROL ALT ENTER
+$default.xml	QuickChangeScheme	1	CONTROL BACK_QUOTE
+$default.xml	QuickEvaluateExpression	1	CONTROL ALT F8
+$default.xml	QuickImplementations	1	CONTROL SHIFT I
+$default.xml	QuickJavaDoc	1	CONTROL Q
+$default.xml	RecentFiles	1	CONTROL E
+$default.xml	RecentLocations	1	CONTROL SHIFT E
+$default.xml	Refactorings.QuickListPopupAction	1	CONTROL ALT SHIFT T
+$default.xml	ReformatCode	1	CONTROL ALT L
+$default.xml	Refresh	1	CONTROL F5
+$default.xml	RenameElement	1	SHIFT F6
+$default.xml	Replace	1	CONTROL R
+$default.xml	ReplaceInPath	1	CONTROL SHIFT R
+$default.xml	Rerun	1	CONTROL F5
+$default.xml	RerunTests	1	SHIFT ALT R
+$default.xml	ResizeToolWindowDown	1	CONTROL SHIFT DOWN
+$default.xml	ResizeToolWindowLeft	1	CONTROL SHIFT LEFT
+$default.xml	ResizeToolWindowRight	1	CONTROL SHIFT RIGHT
+$default.xml	ResizeToolWindowUp	1	CONTROL SHIFT UP
+$default.xml	RestoreDefaultLayout	1	SHIFT F12
+$default.xml	Resume	1	F9
+$default.xml	Run	1	SHIFT F10
+$default.xml	RunClass	1	CONTROL SHIFT F10
+$default.xml	RunInspection	1	CONTROL SHIFT ALT I
+$default.xml	RunToCursor	1	ALT F9
+$default.xml	SafeDelete	1	ALT DELETE
+$default.xml	SaveAll	1	CONTROL S
+$default.xml	SearchEverywhere.CompleteCommand	1	TAB
+$default.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+$default.xml	SearchEverywhere.NavigateToNextGroup	1	CONTROL DOWN
+$default.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+$default.xml	SearchEverywhere.NavigateToPrevGroup	1	CONTROL UP
+$default.xml	SearchEverywhere.NextTab	1	TAB
+$default.xml	SearchEverywhere.PrevTab	1	SHIFT TAB
+$default.xml	SearchEverywhere.SelectItem	1	ENTER
+$default.xml	SelectAllOccurrences	1	CONTROL ALT SHIFT J
+$default.xml	SelectIn	1	ALT F1
+$default.xml	SelectNextOccurrence	1	ALT J
+$default.xml	SelectVirtualTemplateElement	1	ALT SHIFT O
+$default.xml	SendEOF	1	CONTROL D
+$default.xml	ServiceView.GroupByContributor	1	CONTROL ALT T
+$default.xml	ServiceView.GroupByServiceGroups	1	CONTROL ALT P
+$default.xml	ServiceView.ShowServices	1	CONTROL SHIFT T
+$default.xml	ShelveChanges.UnshelveWithDialog	1	CONTROL SHIFT U
+$default.xml	ShelvedChanges.Rename	1	F2
+$default.xml	ShelvedChanges.Rename	1	SHIFT F6
+$default.xml	ShowBookmarks	1	SHIFT F11
+$default.xml	ShowContent	1	ALT DOWN
+$default.xml	ShowErrorDescription	1	CONTROL F1
+$default.xml	ShowExecutionPoint	1	ALT F10
+$default.xml	ShowFilePath	1	CONTROL ALT F12
+$default.xml	ShowFilterPopup	1	CONTROL ALT F
+$default.xml	ShowIntentionActions	1	ALT ENTER
+$default.xml	ShowNavBar	1	ALT HOME
+$default.xml	ShowPopupMenu	1	CONTEXT_MENU
+$default.xml	ShowProjectStructureSettings	1	CONTROL ALT SHIFT S
+$default.xml	ShowReformatFileDialog	1	CONTROL SHIFT ALT L
+$default.xml	ShowSearchHistory	1	ALT DOWN
+$default.xml	ShowSettings	1	CONTROL ALT S
+$default.xml	ShowSettingsAndFindUsages	1	CONTROL SHIFT ALT F7
+$default.xml	ShowUsages	1	CONTROL ALT F7
+$default.xml	SmartStepInto	1	SHIFT F7
+$default.xml	SmartTypeCompletion	1	CONTROL SHIFT SPACE
+$default.xml	SplitChooser	1	ALT SHIFT ENTER
+$default.xml	SplitChooser.Duplicate	1	CTRL ENTER
+$default.xml	SplitChooser.NextWindow	1	TAB
+$default.xml	SplitChooser.PreviousWindow	1	SHIFT TAB
+$default.xml	SplitChooser.Split	1	ENTER
+$default.xml	SplitChooser.SplitCenter	1	SPACE
+$default.xml	StepInto	1	F7
+$default.xml	StepOut	1	SHIFT F8
+$default.xml	StepOver	1	F8
+$default.xml	Stop	1	CONTROL F2
+$default.xml	StopBackgroundProcesses	1	CONTROL SHIFT F2
+$default.xml	SurroundWith	1	CONTROL ALT T
+$default.xml	SurroundWithLiveTemplate	1	CONTROL ALT J
+$default.xml	SwitchCoverage	1	CONTROL ALT F6
+$default.xml	Switcher	1	CTRL TAB
+$default.xml	Switcher	1	CTRL SHIFT TAB
+$default.xml	SwitcherIterateItems	1	CONTROL E
+$default.xml	SwitcherRecentEditedChangedToggleCheckBox	1	CONTROL E
+$default.xml	SwitchHeaderSource	1	F10
+$default.xml	Synchronize	1	CONTROL ALT Y
+$default.xml	TodoViewGroupByFlattenPackage	1	CONTROL ALT C
+$default.xml	TodoViewGroupByShowModules	1	CONTROL ALT M
+$default.xml	TodoViewGroupByShowPackages	1	CONTROL ALT P
+$default.xml	ToggleBookmark	1	F11
+$default.xml	ToggleBookmark0	1	CONTROL SHIFT 0
+$default.xml	ToggleBookmark1	1	CONTROL SHIFT 1
+$default.xml	ToggleBookmark2	1	CONTROL SHIFT 2
+$default.xml	ToggleBookmark3	1	CONTROL SHIFT 3
+$default.xml	ToggleBookmark4	1	CONTROL SHIFT 4
+$default.xml	ToggleBookmark5	1	CONTROL SHIFT 5
+$default.xml	ToggleBookmark6	1	CONTROL SHIFT 6
+$default.xml	ToggleBookmark7	1	CONTROL SHIFT 7
+$default.xml	ToggleBookmark8	1	CONTROL SHIFT 8
+$default.xml	ToggleBookmark9	1	CONTROL SHIFT 9
+$default.xml	ToggleBookmarkWithMnemonic	1	CONTROL F11
+$default.xml	ToggleFindInSelection	1	CONTROL ALT E
+$default.xml	ToggleLineBreakpoint	1	CONTROL F8
+$default.xml	ToggleRenderedDocPresentation	1	CONTROL ALT Q
+$default.xml	ToggleTemporaryLineBreakpoint	1	CONTROL SHIFT ALT F8
+$default.xml	TypeHierarchy	1	CONTROL H
+$default.xml	UnselectPreviousOccurrence	1	ALT SHIFT J
+$default.xml	Unwrap	1	CONTROL SHIFT DELETE
+$default.xml	UsageGrouping.Directory	1	CONTROL ALT P
+$default.xml	UsageGrouping.DirectoryStructure	1	CONTROL ALT D
+$default.xml	UsageGrouping.FileStructure	1	CONTROL ALT F
+$default.xml	UsageGrouping.FlattenModules	1	CONTROL ALT O
+$default.xml	UsageGrouping.Module	1	CONTROL ALT M
+$default.xml	UsageGrouping.UsageType	1	CONTROL ALT T
+$default.xml	UsageView.Include	1	INSERT
+$default.xml	Vcs.MoveChangedLinesToChangelist	1	ALT SHIFT M
+$default.xml	Vcs.QuickListPopupAction	1	ALT BACK_QUOTE
+$default.xml	Vcs.RollbackChangedLines	1	CONTROL ALT Z
+$default.xml	Vcs.ShowMessageHistory	1	CONTROL M
+$default.xml	Vcs.ShowMessageHistory	1	CONTROL E
+$default.xml	Vcs.ToggleAmendCommitMode	1	ALT M
+$default.xml	VcsHistory.ShowAllAffected	1	ALT SHIFT A
+$default.xml	VcsShowNextChangeMarker	1	SHIFT CONTROL ALT DOWN
+$default.xml	VcsShowPrevChangeMarker	1	SHIFT CONTROL ALT UP
+$default.xml	ViewBreakpoints	1	CONTROL SHIFT F8
+$default.xml	ViewSource	1	CONTROL ENTER
+$default.xml	XDebugger.AttachToProcess	1	CONTROL ALT F5
+$default.xml	XDebugger.NewWatch	1	INSERT
+$default.xml	XDebugger.SetValue	1	F2
+Default for GNOME.xml	Back	1	SHIFT ALT LEFT
+Default for GNOME.xml	EvaluateExpression	1	SHIFT ALT 8
+Default for GNOME.xml	Find	1	CONTROL F
+Default for GNOME.xml	Find	1	SHIFT ALT 3
+Default for GNOME.xml	FindUsages	1	SHIFT ALT 7
+Default for GNOME.xml	Forward	1	SHIFT ALT RIGHT
+Default for GNOME.xml	IDEtalk.SearchUserHistory	1	SHIFT ALT 7
+Default for GNOME.xml	NextOccurence	1	SHIFT ALT DOWN
+Default for GNOME.xml	PreviousOccurence	1	SHIFT ALT UP
+Default for GNOME.xml	ProjectViewChangeView	1	SHIFT ALT 1
+Default for GNOME.xml	ProjectViewChangeView	1	ALT F1
+Default for GNOME.xml	SelectIn	1	SHIFT ALT 1
+Default for GNOME.xml	SelectIn	1	ALT F1
+Default for GNOME.xml	ShowExecutionPoint	1	SHIFT ALT 0
+Default for KDE.xml	ChangeSignature	1	CONTROL 6
+Default for KDE.xml	CloseActiveTab	1	SHIFT CONTROL 4
+Default for KDE.xml	CloseContent	1	CONTROL 4
+Default for KDE.xml	CompileDirty	1	CONTROL 9
+Default for KDE.xml	EvaluateExpression	1	SHIFT ALT 8
+Default for KDE.xml	FileStructurePopup	1	CONTROL 0
+Default for KDE.xml	Find	1	CONTROL F
+Default for KDE.xml	Find	1	SHIFT ALT 3
+Default for KDE.xml	FindUsages	1	SHIFT ALT 7
+Default for KDE.xml	FindUsagesInFile	1	CONTROL 7
+Default for KDE.xml	FindWordAtCaret	1	CONTROL 3
+Default for KDE.xml	ForceRefresh	1	CONTROL SHIFT 5
+Default for KDE.xml	HighlightUsagesInFile	1	SHIFT CONTROL 7
+Default for KDE.xml	IDEtalk.SearchUserHistory	1	SHIFT ALT 7
+Default for KDE.xml	IntroduceVariable	1	SHIFT ALT V
+Default for KDE.xml	ProjectViewChangeView	1	SHIFT ALT 1
+Default for KDE.xml	ReformatCode	1	SHIFT ALT L
+Default for KDE.xml	Refresh	1	CONTROL 5
+Default for KDE.xml	Rerun	1	CONTROL 5
+Default for KDE.xml	RestoreDefaultLayout	1	SHIFT ALT F12
+Default for KDE.xml	SelectIn	1	SHIFT ALT 1
+Default for KDE.xml	ShowErrorDescription	1	CONTROL 1
+Default for KDE.xml	ShowExecutionPoint	1	SHIFT ALT 0
+Default for KDE.xml	Stop	1	CONTROL 2
+Default for KDE.xml	ToggleLineBreakpoint	1	CONTROL 8
+Default for KDE.xml	ViewBreakpoints	1	SHIFT CONTROL 8
+Default for XWin.xml	ForceRunToCursor	1	CONTROL ALT 9
+Default for XWin.xml	Images.EditExternally	1	CONTROL ALT 4
+Default for XWin.xml	QuickEvaluateExpression	1	CONTROL ALT 8
+Default for XWin.xml	RunToCursor	1	SHIFT ALT 9
+Default for XWin.xml	ShowFilePath	1	CONTROL ALT SHIFT 2
+Default for XWin.xml	ShowSettingsAndFindUsages	1	CONTROL SHIFT ALT 7
+Default for XWin.xml	ShowUsages	1	CONTROL ALT 7
+Default for XWin.xml	SwitchCoverage	1	CONTROL ALT 6
+Default for XWin.xml	XDebugger.AttachToProcess	1	CONTROL ALT 5
+Eclipse (Mac OS X).xml	$Redo	1	META SHIFT Z
+Eclipse (Mac OS X).xml	$Undo	1	META Z
+Eclipse (Mac OS X).xml	ActivateFindToolWindow	1	ALT META Q
+Eclipse (Mac OS X).xml	ActivateFindToolWindow	2	S
+Eclipse (Mac OS X).xml	AutoIndentLines	1	META I
+Eclipse (Mac OS X).xml	Back	1	META OPEN_BRACKET
+Eclipse (Mac OS X).xml	ChangeSignature	1	ALT META C
+Eclipse (Mac OS X).xml	ChangesView.Revert	1	CONTROL SHIFT ALT Z
+Eclipse (Mac OS X).xml	CloseActiveTab	1	META W
+Eclipse (Mac OS X).xml	CloseAllEditors	1	META SHIFT W
+Eclipse (Mac OS X).xml	CollapseAllRegions	1	SHIFT META DIVIDE
+Eclipse (Mac OS X).xml	CommentByBlockComment	1	SHIFT CONTROL SLASH
+Eclipse (Mac OS X).xml	CompileDirty	1	META B
+Eclipse (Mac OS X).xml	Debug	1	META F11
+Eclipse (Mac OS X).xml	Diff.NextChange	1	META F6
+Eclipse (Mac OS X).xml	Diff.NextChange	1	META ALT RIGHT
+Eclipse (Mac OS X).xml	Diff.PrevChange	1	SHIFT META F6
+Eclipse (Mac OS X).xml	Diff.PrevChange	1	META ALT LEFT
+Eclipse (Mac OS X).xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Eclipse (Mac OS X).xml	EditorCodeBlockEnd	1	SHIFT CONTROL P
+Eclipse (Mac OS X).xml	EditorDeleteLine	1	META D
+Eclipse (Mac OS X).xml	EditorDeleteToLineEnd	1	SHIFT META DELETE
+Eclipse (Mac OS X).xml	EditorDeleteToWordEnd	1	META DELETE
+Eclipse (Mac OS X).xml	EditorDeleteToWordEndInDifferentHumpsMode	1	ALT DELETE
+Eclipse (Mac OS X).xml	EditorDeleteToWordStart	1	META BACK_SPACE
+Eclipse (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode	1	ALT BACK_SPACE
+Eclipse (Mac OS X).xml	EditorDuplicateLines	1	META ALT DOWN
+Eclipse (Mac OS X).xml	EditorIndentSelection	1	TAB
+Eclipse (Mac OS X).xml	EditorNextWordWithSelection	1	SHIFT ALT RIGHT
+Eclipse (Mac OS X).xml	EditorPreviousWordWithSelection	1	SHIFT ALT LEFT
+Eclipse (Mac OS X).xml	EditorSelectWord	1	SHIFT CONTROL UP
+Eclipse (Mac OS X).xml	EditorToggleCase	1	SHIFT META X
+Eclipse (Mac OS X).xml	EditorToggleCase	1	SHIFT META Y
+Eclipse (Mac OS X).xml	EditorUnSelectWord	1	SHIFT CONTROL DOWN
+Eclipse (Mac OS X).xml	EditSource	1	F3
+Eclipse (Mac OS X).xml	EvaluateExpression	1	META U
+Eclipse (Mac OS X).xml	ExpandAllRegions	1	META MULTIPLY
+Eclipse (Mac OS X).xml	ExternalJavaDoc	1	SHIFT F2
+Eclipse (Mac OS X).xml	ExtractMethod	1	META ALT M
+Eclipse (Mac OS X).xml	FileChooser.TogglePathShowing	1	META P
+Eclipse (Mac OS X).xml	FileStructurePopup	1	META O
+Eclipse (Mac OS X).xml	FindInPath	1	CONTROL H
+Eclipse (Mac OS X).xml	FindNext	1	META K
+Eclipse (Mac OS X).xml	FindPrevious	1	SHIFT META K
+Eclipse (Mac OS X).xml	FindUsages	1	META SHIFT G
+Eclipse (Mac OS X).xml	FindUsagesInFile	1	META SHIFT U
+Eclipse (Mac OS X).xml	ForceStepInto	1	META CONTROL F5
+Eclipse (Mac OS X).xml	ForceStepOver	1	META CONTROL F6
+Eclipse (Mac OS X).xml	Forward	1	META CLOSE_BRACKET
+Eclipse (Mac OS X).xml	GotoAction	1	META 3
+Eclipse (Mac OS X).xml	GotoChangedFile	1	SHIFT META T
+Eclipse (Mac OS X).xml	GotoClass	1	SHIFT META T
+Eclipse (Mac OS X).xml	GotoDeclaration	1	F3
+Eclipse (Mac OS X).xml	GotoFile	1	SHIFT META R
+Eclipse (Mac OS X).xml	GotoLine	1	META L
+Eclipse (Mac OS X).xml	GotoNextError	1	META PERIOD
+Eclipse (Mac OS X).xml	GotoPreviousError	1	META SHIFT PERIOD
+Eclipse (Mac OS X).xml	HippieCompletion	1	CONTROL PERIOD
+Eclipse (Mac OS X).xml	IncrementalSearch	1	META J
+Eclipse (Mac OS X).xml	Inline	1	META ALT I
+Eclipse (Mac OS X).xml	IntroduceVariable	1	META ALT L
+Eclipse (Mac OS X).xml	JumpToLastChange	1	CONTROL Q
+Eclipse (Mac OS X).xml	MethodDown	1	CONTROL ALT DOWN
+Eclipse (Mac OS X).xml	MethodUp	1	CONTROL ALT UP
+Eclipse (Mac OS X).xml	Move	1	META ALT V
+Eclipse (Mac OS X).xml	MoveStatementDown	1	ALT DOWN
+Eclipse (Mac OS X).xml	MoveStatementUp	1	ALT UP
+Eclipse (Mac OS X).xml	NextDiff	1	CONTROL F7
+Eclipse (Mac OS X).xml	NextTab	1	META F6
+Eclipse (Mac OS X).xml	NextTab	1	META ALT RIGHT
+Eclipse (Mac OS X).xml	OptimizeImports	1	SHIFT META O
+Eclipse (Mac OS X).xml	ParameterInfo	1	CONTROL SHIFT SPACE
+Eclipse (Mac OS X).xml	PreviousTab	1	SHIFT META F6
+Eclipse (Mac OS X).xml	PreviousTab	1	META ALT LEFT
+Eclipse (Mac OS X).xml	Print	1	META P
+Eclipse (Mac OS X).xml	QuickJavaDoc	1	F2
+Eclipse (Mac OS X).xml	ReformatCode	1	SHIFT META F
+Eclipse (Mac OS X).xml	Resume	1	F8
+Eclipse (Mac OS X).xml	Run	1	META SHIFT F11
+Eclipse (Mac OS X).xml	RunToCursor	1	META R
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToNextGroup	1	META DOWN
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+Eclipse (Mac OS X).xml	SearchEverywhere.NavigateToPrevGroup	1	META UP
+Eclipse (Mac OS X).xml	SelectIn	1	ALT META W
+Eclipse (Mac OS X).xml	ServiceView.ShowServices	1	ALT META H
+Eclipse (Mac OS X).xml	ShowIntentionActions	1	META 1
+Eclipse (Mac OS X).xml	ShowIntentionActions	1	META 1
+Eclipse (Mac OS X).xml	ShowNavBar	1	ALT META B
+Eclipse (Mac OS X).xml	SmartStepInto	1	ALT F5
+Eclipse (Mac OS X).xml	SmartTypeCompletion	1	SHIFT ALT SPACE
+Eclipse (Mac OS X).xml	StepInto	1	F5
+Eclipse (Mac OS X).xml	StepOut	1	F7
+Eclipse (Mac OS X).xml	StepOver	1	F6
+Eclipse (Mac OS X).xml	SurroundWith	1	META ALT Z
+Eclipse (Mac OS X).xml	tasks.goto	1	ALT META F12
+Eclipse (Mac OS X).xml	tasks.switch	1	META F9
+Eclipse (Mac OS X).xml	ToggleLineBreakpoint	1	SHIFT META B
+Eclipse (Mac OS X).xml	TypeHierarchy	1	F4
+Eclipse (Mac OS X).xml	Vcs.RollbackChangedLines	1	CONTROL SHIFT ALT Z
+Eclipse (Mac OS X).xml	XDebugger.Inspect	1	SHIFT META I
+Eclipse.xml	$Redo	1	CONTROL Y
+Eclipse.xml	$Undo	1	CONTROL Z
+Eclipse.xml	ActivateNavBar	1	ALT F11
+Eclipse.xml	AutoIndentLines	1	CONTROL I
+Eclipse.xml	Back	1	ALT LEFT
+Eclipse.xml	ChangeSignature	1	SHIFT ALT C
+Eclipse.xml	ChangesView.Rename	1	SHIFT ALT R
+Eclipse.xml	CloseActiveTab	1	CONTROL W
+Eclipse.xml	CloseAllEditors	1	SHIFT CONTROL F4
+Eclipse.xml	CloseAllEditors	1	SHIFT CONTROL W
+Eclipse.xml	CollapseAllRegions	1	SHIFT CONTROL DIVIDE
+Eclipse.xml	CommentByBlockComment	1	SHIFT CONTROL SLASH
+Eclipse.xml	CompileDirty	1	CONTROL F9
+Eclipse.xml	CompileDirty	1	CONTROL B
+Eclipse.xml	Debug	1	SHIFT ALT D
+Eclipse.xml	Debug	1	SHIFT F9
+Eclipse.xml	DelegateMethods	1	SHIFT ALT E
+Eclipse.xml	Diff.NextChange	1	CONTROL F6
+Eclipse.xml	Diff.NextChange	1	CONTROL ALT LEFT
+Eclipse.xml	Diff.NextChange	1	CONTROL PAGE_DOWN
+Eclipse.xml	Diff.PrevChange	1	SHIFT CONTROL F6
+Eclipse.xml	Diff.PrevChange	1	CONTROL ALT RIGHT
+Eclipse.xml	Diff.PrevChange	1	CONTROL PAGE_UP
+Eclipse.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Eclipse.xml	EditorDeleteLine	1	CONTROL D
+Eclipse.xml	EditorDeleteToLineEnd	1	SHIFT CONTROL DELETE
+Eclipse.xml	EditorDuplicateLines	1	CONTROL ALT DOWN
+Eclipse.xml	EditorIndentSelection	1	TAB
+Eclipse.xml	EditorMatchBrace	1	SHIFT CONTROL P
+Eclipse.xml	EditorNextWordWithSelection	1	SHIFT CONTROL RIGHT
+Eclipse.xml	EditorPreviousWordWithSelection	1	SHIFT CONTROL LEFT
+Eclipse.xml	EditorSelectWord	1	SHIFT ALT UP
+Eclipse.xml	EditorToggleCase	1	SHIFT CONTROL U
+Eclipse.xml	EditorToggleCase	1	SHIFT CONTROL X
+Eclipse.xml	EditorToggleCase	1	SHIFT CONTROL Y
+Eclipse.xml	EditorUnSelectWord	1	SHIFT ALT DOWN
+Eclipse.xml	EditSource	1	F12
+Eclipse.xml	EditSource	1	SHIFT CONTROL E
+Eclipse.xml	EvaluateExpression	1	CONTROL U
+Eclipse.xml	ExpandAllRegions	1	CONTROL MULTIPLY
+Eclipse.xml	ExternalJavaDoc	1	SHIFT F2
+Eclipse.xml	ExtractMethod	1	SHIFT ALT M
+Eclipse.xml	FileChooser.TogglePathShowing	1	CONTROL P
+Eclipse.xml	FileStructurePopup	1	CONTROL F3
+Eclipse.xml	FileStructurePopup	1	CONTROL O
+Eclipse.xml	FindInPath	1	CONTROL H
+Eclipse.xml	FindNext	1	CONTROL K
+Eclipse.xml	FindPrevious	1	SHIFT CONTROL K
+Eclipse.xml	FindUsages	1	CONTROL G
+Eclipse.xml	FindUsagesInFile	1	SHIFT CONTROL G
+Eclipse.xml	FindWordAtCaret	1	CONTROL F12
+Eclipse.xml	Forward	1	ALT RIGHT
+Eclipse.xml	Git.Rename.Local.Branch	1	SHIFT ALT R
+Eclipse.xml	Git.Reword.Commit	1	SHIFT ALT R
+Eclipse.xml	GotoChangedFile	1	SHIFT CONTROL T
+Eclipse.xml	GotoClass	1	SHIFT CONTROL T
+Eclipse.xml	GotoDeclaration	1	F3
+Eclipse.xml	GotoFile	1	SHIFT CONTROL R
+Eclipse.xml	GotoImplementation	1	CONTROL T
+Eclipse.xml	GotoImplementation	1	CONTROL ALT B
+Eclipse.xml	GotoLine	1	CONTROL L
+Eclipse.xml	GotoPreviousError	1	SHIFT F1
+Eclipse.xml	HighlightUsagesInFile	1	SHIFT ALT O
+Eclipse.xml	HighlightUsagesInFile	1	SHIFT CONTROL F7
+Eclipse.xml	ImplementMethods	1	SHIFT ALT P
+Eclipse.xml	IncrementalSearch	1	CONTROL J
+Eclipse.xml	Inline	1	SHIFT ALT I
+Eclipse.xml	InsertLiveTemplate	1	SHIFT CONTROL ALT J
+Eclipse.xml	IntroduceVariable	1	SHIFT ALT L
+Eclipse.xml	IntroduceVariable	1	CONTROL ALT V
+Eclipse.xml	JumpToLastChange	1	CONTROL Q
+Eclipse.xml	MethodDown	1	SHIFT CONTROL DOWN
+Eclipse.xml	MethodUp	1	SHIFT CONTROL UP
+Eclipse.xml	Move	1	SHIFT ALT V
+Eclipse.xml	MoveElementLeft	1	ALT SHIFT LEFT
+Eclipse.xml	MoveElementRight	1	ALT SHIFT RIGHT
+Eclipse.xml	MoveStatementDown	1	ALT DOWN
+Eclipse.xml	MoveStatementUp	1	ALT UP
+Eclipse.xml	NextDiff	1	CONTROL F7
+Eclipse.xml	NextEditorTab	1	CONTROL SHIFT ALT LEFT
+Eclipse.xml	NextTab	1	CONTROL F6
+Eclipse.xml	NextTab	1	CONTROL ALT LEFT
+Eclipse.xml	NextTab	1	CONTROL PAGE_DOWN
+Eclipse.xml	OptimizeImports	1	CONTROL ALT O
+Eclipse.xml	OptimizeImports	1	SHIFT CONTROL O
+Eclipse.xml	PreviousEditorTab	1	CONTROL ALT SHIFT RIGHT
+Eclipse.xml	PreviousTab	1	SHIFT CONTROL F6
+Eclipse.xml	PreviousTab	1	CONTROL ALT RIGHT
+Eclipse.xml	PreviousTab	1	CONTROL PAGE_UP
+Eclipse.xml	Print	1	CONTROL P
+Eclipse.xml	QuickJavaDoc	1	SHIFT CONTROL SPACE
+Eclipse.xml	QuickJavaDoc	1	F2
+Eclipse.xml	ReformatCode	1	CONTROL ALT L
+Eclipse.xml	ReformatCode	1	SHIFT CONTROL F
+Eclipse.xml	RenameElement	1	SHIFT ALT R
+Eclipse.xml	Replace	1	CONTROL F
+Eclipse.xml	Rerun	1	CONTROL F11
+Eclipse.xml	RerunTests	1	SHIFT ALT G
+Eclipse.xml	Resume	1	F8
+Eclipse.xml	Resume	1	F9
+Eclipse.xml	Run	1	SHIFT ALT X
+Eclipse.xml	Run	1	SHIFT F10
+Eclipse.xml	RunToCursor	1	CONTROL R
+Eclipse.xml	SelectAllOccurrences	1	ALT CONTROL Y
+Eclipse.xml	SelectNextOccurrence	1	ALT Y
+Eclipse.xml	ServiceView.ShowServices	1	SHIFT ALT H
+Eclipse.xml	ShelvedChanges.Rename	1	SHIFT ALT R
+Eclipse.xml	ShowIntentionActions	1	CTRL 1
+Eclipse.xml	ShowIntentionActions	1	ALT ENTER
+Eclipse.xml	ShowIntentionActions	1	ALT ENTER
+Eclipse.xml	ShowIntentionActions	1	SHIFT ALT J
+Eclipse.xml	ShowIntentionActions	1	SHIFT CONTROL M
+Eclipse.xml	ShowPopupMenu	1	CONTROL N
+Eclipse.xml	ShowPopupMenu	1	SHIFT ALT S
+Eclipse.xml	ShowPopupMenu	1	CONTROL F10
+Eclipse.xml	ShowPopupMenu	1	SHIFT ALT T
+Eclipse.xml	SmartStepInto	1	CONTROL F5
+Eclipse.xml	SmartTypeCompletion	1	SHIFT ALT SPACE
+Eclipse.xml	StepInto	1	F5
+Eclipse.xml	StepOut	1	F7
+Eclipse.xml	StepOut	1	SHIFT F8
+Eclipse.xml	StepOver	1	F6
+Eclipse.xml	SurroundWith	1	SHIFT ALT Z
+Eclipse.xml	SurroundWith	1	CONTROL ALT T
+Eclipse.xml	ToggleBookmark	1	SHIFT CONTROL F11
+Eclipse.xml	ToggleBookmarkWithMnemonic	1	SHIFT ALT CONTROL F11
+Eclipse.xml	ToggleLineBreakpoint	1	SHIFT CONTROL B
+Eclipse.xml	ToggleLineBreakpoint	1	CONTROL F8
+Eclipse.xml	TypeHierarchy	1	F4
+Eclipse.xml	UnselectPreviousOccurrence	1	ALT SHIFT Y
+Eclipse.xml	Unwrap	1	ALT R
+Eclipse.xml	ViewNavigationBar	1	ALT HOME
+Eclipse.xml	XDebugger.Inspect	1	SHIFT CONTROL I
+Emacs.xml	$Copy	1	CONTROL INSERT
+Emacs.xml	$Copy	1	ALT C
+Emacs.xml	$Copy	1	ESCAPE
+Emacs.xml	$Copy	2	W
+Emacs.xml	$Cut	1	SHIFT DELETE
+Emacs.xml	$Delete	1	DELETE
+Emacs.xml	$Delete	1	CONTROL D
+Emacs.xml	$Paste	1	SHIFT INSERT
+Emacs.xml	$Paste	1	CONTROL Y
+Emacs.xml	$Redo	1	SHIFT CONTROL Z
+Emacs.xml	$Redo	1	SHIFT ALT MINUS
+Emacs.xml	$SelectAll	1	CONTROL X
+Emacs.xml	$SelectAll	2	H
+Emacs.xml	$Undo	1	SHIFT CONTROL MINUS
+Emacs.xml	$Undo	1	CONTROL SLASH
+Emacs.xml	AutoIndentLines	1	CONTROL ALT I
+Emacs.xml	AutoIndentLines	1	CONTROL ALT Q
+Emacs.xml	CloseAllEditors	1	CONTROL X
+Emacs.xml	CloseAllEditors	2	CONTROL C
+Emacs.xml	CloseContent	1	CONTROL F4
+Emacs.xml	CloseContent	1	CONTROL X
+Emacs.xml	CloseContent	2	K
+Emacs.xml	CloseContent	1	CONTROL X
+Emacs.xml	CloseContent	2	0
+Emacs.xml	CodeCompletion	1	ALT SLASH
+Emacs.xml	CommentByLineComment	1	ALT SEMICOLON
+Emacs.xml	CompileProject	1	SHIFT ALT M
+Emacs.xml	Console.Execute	1	ENTER
+Emacs.xml	Console.Execute	1	CONTROL M
+Emacs.xml	Diff.NextChange	1	ALT RIGHT
+Emacs.xml	Diff.NextChange	1	CONTROL X
+Emacs.xml	Diff.NextChange	2	N
+Emacs.xml	Diff.PrevChange	1	ALT LEFT
+Emacs.xml	Diff.PrevChange	1	CONTROL X
+Emacs.xml	Diff.PrevChange	2	P
+Emacs.xml	EditorBackwardParagraph	1	CONTROL UP
+Emacs.xml	EditorBackwardParagraphWithSelection	1	CONTROL SHIFT UP
+Emacs.xml	EditorChooseLookupItem	1	ENTER
+Emacs.xml	EditorChooseLookupItem	1	CONTROL M
+Emacs.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Emacs.xml	EditorCodeBlockEnd	1	CONTROL ALT CLOSE_BRACKET
+Emacs.xml	EditorCodeBlockStart	1	CONTROL OPEN_BRACKET
+Emacs.xml	EditorCodeBlockStart	1	CONTROL ALT OPEN_BRACKET
+Emacs.xml	EditorCutLineBackward	1	ALT MINUS
+Emacs.xml	EditorCutLineBackward	2	CONTROL K
+Emacs.xml	EditorCutLineEnd	1	CONTROL K
+Emacs.xml	EditorDeleteToWordStart	1	CONTROL BACK_SPACE
+Emacs.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Emacs.xml	EditorDeleteToWordStart	1	ESCAPE
+Emacs.xml	EditorDeleteToWordStart	2	BACK_SPACE
+Emacs.xml	EditorDown	1	DOWN
+Emacs.xml	EditorDown	1	CONTROL N
+Emacs.xml	EditorDuplicate	1	META D
+Emacs.xml	EditorEnter	1	ENTER
+Emacs.xml	EditorEnter	1	CONTROL M
+Emacs.xml	EditorEscape	1	ESCAPE
+Emacs.xml	EditorEscape	2	ESCAPE
+Emacs.xml	EditorEscape	1	CONTROL G
+Emacs.xml	EditorForwardParagraph	1	CONTROL DOWN
+Emacs.xml	EditorForwardParagraphWithSelection	1	CONTROL SHIFT DOWN
+Emacs.xml	EditorKillRegion	1	CONTROL W
+Emacs.xml	EditorKillRingSave	1	ALT W
+Emacs.xml	EditorKillToWordEnd	1	ALT D
+Emacs.xml	EditorKillToWordStart	1	ALT DELETE
+Emacs.xml	EditorLeft	1	LEFT
+Emacs.xml	EditorLeft	1	CONTROL B
+Emacs.xml	EditorLineEnd	1	END
+Emacs.xml	EditorLineEnd	1	CONTROL E
+Emacs.xml	EditorLineStart	1	HOME
+Emacs.xml	EditorLineStart	1	CONTROL A
+Emacs.xml	EditorLineStart	1	ALT M
+Emacs.xml	EditorNextWord	1	CONTROL RIGHT
+Emacs.xml	EditorNextWord	1	ALT F
+Emacs.xml	EditorNextWord	1	ESCAPE
+Emacs.xml	EditorNextWord	2	CONTROL F
+Emacs.xml	EditorPageDown	1	PAGE_DOWN
+Emacs.xml	EditorPageDown	1	CONTROL V
+Emacs.xml	EditorPageUp	1	PAGE_UP
+Emacs.xml	EditorPageUp	1	CONTROL Z
+Emacs.xml	EditorPageUp	1	ALT V
+Emacs.xml	EditorPreviousWord	1	CONTROL LEFT
+Emacs.xml	EditorPreviousWord	1	ALT B
+Emacs.xml	EditorPreviousWord	1	ESCAPE
+Emacs.xml	EditorPreviousWord	2	CONTROL B
+Emacs.xml	EditorRight	1	RIGHT
+Emacs.xml	EditorRight	1	CONTROL F
+Emacs.xml	EditorScrollToCenter	1	CONTROL L
+Emacs.xml	EditorSelectWord	1	CONTROL ALT W
+Emacs.xml	EditorSplitLine	1	CONTROL O
+Emacs.xml	EditorSwapSelectionBoundaries	1	CONTROL X
+Emacs.xml	EditorSwapSelectionBoundaries	2	X
+Emacs.xml	EditorTextEnd	1	CONTROL END
+Emacs.xml	EditorTextEnd	1	SHIFT ALT PERIOD
+Emacs.xml	EditorTextStart	1	CONTROL HOME
+Emacs.xml	EditorTextStart	1	SHIFT ALT COMMA
+Emacs.xml	EditorTextStart	1	ESCAPE
+Emacs.xml	EditorTextStart	2	COMMA
+Emacs.xml	EditorToggleStickySelection	1	CONTROL SPACE
+Emacs.xml	EditorToggleStickySelection	1	CONTROL SHIFT 2
+Emacs.xml	EditorUp	1	UP
+Emacs.xml	EditorUp	1	CONTROL P
+Emacs.xml	EmacsStyleIndent	1	TAB
+Emacs.xml	Find	1	CONTROL ALT S
+Emacs.xml	Find	1	ALT F3
+Emacs.xml	Find	1	CONTROL S
+Emacs.xml	FindNext	1	F3
+Emacs.xml	FindNext	1	ALT S
+Emacs.xml	FindPrevious	1	SHIFT F3
+Emacs.xml	FindPrevious	1	ALT R
+Emacs.xml	FindPrevious	1	CONTROL R
+Emacs.xml	FindUsages	1	ALT F7
+Emacs.xml	FindUsages	1	SHIFT ALT S
+Emacs.xml	GotoAction	1	ESCAPE
+Emacs.xml	GotoAction	2	X
+Emacs.xml	GotoAction	1	ALT X
+Emacs.xml	GotoChangedFile	1	SHIFT ALT G
+Emacs.xml	GotoClass	1	SHIFT ALT G
+Emacs.xml	GotoDeclaration	1	CONTROL ALT G
+Emacs.xml	GotoDeclaration	1	ESCAPE
+Emacs.xml	GotoDeclaration	2	PERIOD
+Emacs.xml	GotoDeclaration	1	ALT PERIOD
+Emacs.xml	GotoFile	1	CONTROL X
+Emacs.xml	GotoFile	2	CONTROL F
+Emacs.xml	GotoLine	1	ALT G
+Emacs.xml	GotoNextError	1	F2
+Emacs.xml	GotoNextError	1	CONTROL X
+Emacs.xml	GotoNextError	2	BACK_QUOTE
+Emacs.xml	GotoPreviousError	1	SHIFT F2
+Emacs.xml	GotoPreviousError	1	SHIFT CONTROL X
+Emacs.xml	GotoPreviousError	2	BACK_QUOTE
+Emacs.xml	MethodDown	1	ALT DOWN
+Emacs.xml	MethodDown	1	CONTROL ALT E
+Emacs.xml	MethodUp	1	ALT UP
+Emacs.xml	MethodUp	1	CONTROL ALT A
+Emacs.xml	NextEditorTab	1	ALT SHIFT RIGHT
+Emacs.xml	NextProjectWindow	1	CONTROL X
+Emacs.xml	NextProjectWindow	2	CONTROL O
+Emacs.xml	NextSplitter	1	CONTROL X
+Emacs.xml	NextSplitter	2	O
+Emacs.xml	NextTab	1	ALT RIGHT
+Emacs.xml	NextTab	1	CONTROL X
+Emacs.xml	NextTab	2	N
+Emacs.xml	NextTemplateVariable	1	TAB
+Emacs.xml	NextTemplateVariable	1	ENTER
+Emacs.xml	NextTemplateVariable	1	CONTROL M
+Emacs.xml	ParameterInfo	1	SHIFT ALT P
+Emacs.xml	PasteMultiple	1	ALT Y
+Emacs.xml	PreviousEditorTab	1	ALT SHIFT LEFT
+Emacs.xml	PreviousTab	1	ALT LEFT
+Emacs.xml	PreviousTab	1	CONTROL X
+Emacs.xml	PreviousTab	2	P
+Emacs.xml	Replace	1	SHIFT ALT 5
+Emacs.xml	SaveAll	1	CONTROL X
+Emacs.xml	SaveAll	2	CONTROL S
+Emacs.xml	SelectVirtualTemplateElement	1	ALT SHIFT O
+Emacs.xml	SmartTypeCompletion	1	SHIFT CONTROL SPACE
+Emacs.xml	SmartTypeCompletion	1	CONTROL ALT SLASH
+Emacs.xml	SplitHorizontally	1	CONTROL X
+Emacs.xml	SplitHorizontally	2	2
+Emacs.xml	SplitVertically	1	CONTROL X
+Emacs.xml	SplitVertically	2	3
+Emacs.xml	Switcher	1	CONTROL X
+Emacs.xml	Switcher	2	B
+Emacs.xml	SynchronizeCurrentFile	1	ALT U
+Emacs.xml	SynchronizeCurrentFile	1	ESCAPE
+Emacs.xml	SynchronizeCurrentFile	2	U
+Emacs.xml	UnsplitAll	1	CONTROL X
+Emacs.xml	UnsplitAll	2	1
+Emacs.xml	VcsShowNextChangeMarker	1	SHIFT CONTROL ALT DOWN
+Emacs.xml	VcsShowPrevChangeMarker	1	SHIFT CONTROL ALT UP
+Mac OS X 10.5+.xml	$Delete	1	DELETE
+Mac OS X 10.5+.xml	$Delete	1	BACK_SPACE
+Mac OS X 10.5+.xml	$Delete	1	META BACK_SPACE
+Mac OS X 10.5+.xml	$Undo	1	META Z
+Mac OS X 10.5+.xml	ActivateCommitToolWindow	1	META 0
+Mac OS X 10.5+.xml	ActivateDebugToolWindow	1	META 5
+Mac OS X 10.5+.xml	ActivateFavoritesToolWindow	1	META 2
+Mac OS X 10.5+.xml	ActivateFindToolWindow	1	META 3
+Mac OS X 10.5+.xml	ActivateNuGetToolWindow	1	META ALT 7
+Mac OS X 10.5+.xml	ActivateProblemsViewToolWindow	1	META 6
+Mac OS X 10.5+.xml	ActivateProjectToolWindow	1	META 1
+Mac OS X 10.5+.xml	ActivateRunToolWindow	1	META 4
+Mac OS X 10.5+.xml	ActivateServicesToolWindow	1	META 8
+Mac OS X 10.5+.xml	ActivateStructureToolWindow	1	META 7
+Mac OS X 10.5+.xml	ActivateUnitTestsToolWindow	1	META ALT 8
+Mac OS X 10.5+.xml	ActivateVersionControlToolWindow	1	META 9
+Mac OS X 10.5+.xml	AutoIndentLines	1	CONTROL ALT I
+Mac OS X 10.5+.xml	Back	1	META OPEN_BRACKET
+Mac OS X 10.5+.xml	Back	1	META ALT LEFT
+Mac OS X 10.5+.xml	CallHierarchy	1	CONTROL ALT H
+Mac OS X 10.5+.xml	ChangesView.GroupBy.Directory	1	CONTROL P
+Mac OS X 10.5+.xml	ChangesView.GroupBy.Module	1	CONTROL M
+Mac OS X 10.5+.xml	ChangesView.Move	1	META SHIFT M
+Mac OS X 10.5+.xml	ChangesView.SetDefault	1	CONTROL SPACE
+Mac OS X 10.5+.xml	ChooseDebugConfiguration	1	CONTROL ALT D
+Mac OS X 10.5+.xml	ChooseRunConfiguration	1	CONTROL ALT R
+Mac OS X 10.5+.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+Mac OS X 10.5+.xml	CloseActiveTab	1	CONTROL SHIFT F4
+Mac OS X 10.5+.xml	CloseContent	1	META W
+Mac OS X 10.5+.xml	CodeCompletion	1	CONTROL SPACE
+Mac OS X 10.5+.xml	CommentByBlockComment	1	META ALT SLASH
+Mac OS X 10.5+.xml	CommentByBlockComment	1	META ALT DIVIDE
+Mac OS X 10.5+.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+Mac OS X 10.5+.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+Mac OS X 10.5+.xml	CommentByBlockComment	1	META SHIFT SLASH
+Mac OS X 10.5+.xml	CommentByBlockComment	1	META SHIFT DIVIDE
+Mac OS X 10.5+.xml	CommentByBlockComment	1	META SHIFT DIVIDE
+Mac OS X 10.5+.xml	ContextHelp	1	META SHIFT F1
+Mac OS X 10.5+.xml	Debug	1	CONTROL D
+Mac OS X 10.5+.xml	DebugClass	1	CONTROL SHIFT D
+Mac OS X 10.5+.xml	DebugClass	1	CONTROL SHIFT F9
+Mac OS X 10.5+.xml	Diff.ApplyLeftSide	1	CONTROL SHIFT RIGHT
+Mac OS X 10.5+.xml	Diff.ApplyRightSide	1	CONTROL SHIFT LEFT
+Mac OS X 10.5+.xml	Diff.FocusOppositePane	1	CONTROL TAB
+Mac OS X 10.5+.xml	Diff.FocusOppositePaneAndScroll	1	CONTROL SHIFT TAB
+Mac OS X 10.5+.xml	Diff.NextChange	1	META SHIFT CLOSE_BRACKET
+Mac OS X 10.5+.xml	Diff.PrevChange	1	META SHIFT OPEN_BRACKET
+Mac OS X 10.5+.xml	EditorBackSpace	1	BACK_SPACE
+Mac OS X 10.5+.xml	EditorBackSpace	1	SHIFT BACK_SPACE
+Mac OS X 10.5+.xml	EditorChooseLookupItemDot	1	CONTROL PERIOD
+Mac OS X 10.5+.xml	EditorCodeBlockEnd	1	META ALT CLOSE_BRACKET
+Mac OS X 10.5+.xml	EditorCodeBlockEndWithSelection	1	META ALT SHIFT CLOSE_BRACKET
+Mac OS X 10.5+.xml	EditorCodeBlockStart	1	META ALT OPEN_BRACKET
+Mac OS X 10.5+.xml	EditorCodeBlockStartWithSelection	1	META ALT SHIFT OPEN_BRACKET
+Mac OS X 10.5+.xml	EditorContextInfo	1	CONTROL SHIFT Q
+Mac OS X 10.5+.xml	EditorCutLineEnd	1	CONTROL K
+Mac OS X 10.5+.xml	EditorDelete	1	DELETE
+Mac OS X 10.5+.xml	EditorDeleteLine	1	META BACK_SPACE
+Mac OS X 10.5+.xml	EditorDeleteToWordEnd	1	ALT DELETE
+Mac OS X 10.5+.xml	EditorDeleteToWordEnd	1	ALT DELETE
+Mac OS X 10.5+.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Mac OS X 10.5+.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Mac OS X 10.5+.xml	EditorDown	1	DOWN
+Mac OS X 10.5+.xml	EditorDown	1	CONTROL N
+Mac OS X 10.5+.xml	EditorJoinLines	1	CONTROL SHIFT J
+Mac OS X 10.5+.xml	EditorLeft	1	LEFT
+Mac OS X 10.5+.xml	EditorLeft	1	CONTROL B
+Mac OS X 10.5+.xml	EditorLineEnd	1	END
+Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
+Mac OS X 10.5+.xml	EditorLineEnd	1	END
+Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
+Mac OS X 10.5+.xml	EditorLineEnd	1	CONTROL E
+Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	SHIFT END
+Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	META SHIFT RIGHT
+Mac OS X 10.5+.xml	EditorLineStart	1	HOME
+Mac OS X 10.5+.xml	EditorLineStart	1	META LEFT
+Mac OS X 10.5+.xml	EditorLineStart	1	HOME
+Mac OS X 10.5+.xml	EditorLineStart	1	META LEFT
+Mac OS X 10.5+.xml	EditorLineStart	1	CONTROL A
+Mac OS X 10.5+.xml	EditorLineStartWithSelection	1	SHIFT HOME
+Mac OS X 10.5+.xml	EditorLineStartWithSelection	1	META SHIFT LEFT
+Mac OS X 10.5+.xml	EditorLookupDown	1	CONTROL DOWN
+Mac OS X 10.5+.xml	EditorLookupUp	1	CONTROL UP
+Mac OS X 10.5+.xml	EditorMatchBrace	1	CONTROL M
+Mac OS X 10.5+.xml	EditorNextWord	1	ALT RIGHT
+Mac OS X 10.5+.xml	EditorNextWord	1	CONTROL ALT F
+Mac OS X 10.5+.xml	EditorNextWordWithSelection	1	ALT SHIFT RIGHT
+Mac OS X 10.5+.xml	EditorNextWordWithSelection	1	CONTROL ALT SHIFT F
+Mac OS X 10.5+.xml	EditorPreviousWord	1	ALT LEFT
+Mac OS X 10.5+.xml	EditorPreviousWord	1	CONTROL ALT B
+Mac OS X 10.5+.xml	EditorPreviousWordWithSelection	1	ALT SHIFT LEFT
+Mac OS X 10.5+.xml	EditorPreviousWordWithSelection	1	CONTROL ALT SHIFT B
+Mac OS X 10.5+.xml	EditorRight	1	RIGHT
+Mac OS X 10.5+.xml	EditorRight	1	CONTROL F
+Mac OS X 10.5+.xml	EditorScrollToCenter	1	CONTROL L
+Mac OS X 10.5+.xml	EditorSelectWord	1	ALT UP
+Mac OS X 10.5+.xml	EditorStartNewLine	1	SHIFT ENTER
+Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
+Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META MULTIPLY
+Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
+Mac OS X 10.5+.xml	EditorUnSelectWord	1	ALT DOWN
+Mac OS X 10.5+.xml	EditorUp	1	UP
+Mac OS X 10.5+.xml	EditorUp	1	CONTROL P
+Mac OS X 10.5+.xml	EditSource	1	META DOWN
+Mac OS X 10.5+.xml	EditSource	1	F4
+Mac OS X 10.5+.xml	EmojiAndSymbols	1	CONTROL META SPACE
+Mac OS X 10.5+.xml	Exit	1	META Q
+Mac OS X 10.5+.xml	ExpandAllToLevel1	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel1	2	1
+Mac OS X 10.5+.xml	ExpandAllToLevel1	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel1	2	NUMPAD1
+Mac OS X 10.5+.xml	ExpandAllToLevel2	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel2	2	2
+Mac OS X 10.5+.xml	ExpandAllToLevel2	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel2	2	NUMPAD2
+Mac OS X 10.5+.xml	ExpandAllToLevel3	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel3	2	3
+Mac OS X 10.5+.xml	ExpandAllToLevel3	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel3	2	NUMPAD3
+Mac OS X 10.5+.xml	ExpandAllToLevel4	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel4	2	4
+Mac OS X 10.5+.xml	ExpandAllToLevel4	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel4	2	NUMPAD4
+Mac OS X 10.5+.xml	ExpandAllToLevel5	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel5	2	5
+Mac OS X 10.5+.xml	ExpandAllToLevel5	1	META ALT MULTIPLY
+Mac OS X 10.5+.xml	ExpandAllToLevel5	2	NUMPAD5
+Mac OS X 10.5+.xml	ExportToTextFile	1	CONTROL O
+Mac OS X 10.5+.xml	ExpressionTypeInfo	1	CONTROL SHIFT P
+Mac OS X 10.5+.xml	ExternalJavaDoc	1	SHIFT F1
+Mac OS X 10.5+.xml	FileChooser.TogglePathShowing	1	META P
+Mac OS X 10.5+.xml	Find	1	META F
+Mac OS X 10.5+.xml	FindInPath	1	META SHIFT F
+Mac OS X 10.5+.xml	FindNext	1	META G
+Mac OS X 10.5+.xml	FindNext	1	F3
+Mac OS X 10.5+.xml	FindNext	1	CONTROL L
+Mac OS X 10.5+.xml	FindPrevious	1	META SHIFT G
+Mac OS X 10.5+.xml	FindPrevious	1	SHIFT F3
+Mac OS X 10.5+.xml	FindPrevious	1	CONTROL SHIFT L
+Mac OS X 10.5+.xml	ForceRefresh	1	META ALT SHIFT R
+Mac OS X 10.5+.xml	Forward	1	META CLOSE_BRACKET
+Mac OS X 10.5+.xml	Forward	1	META ALT RIGHT
+Mac OS X 10.5+.xml	Generate	1	META N
+Mac OS X 10.5+.xml	Generate	1	CONTROL ENTER
+Mac OS X 10.5+.xml	GotoBookmark0	1	CONTROL 0
+Mac OS X 10.5+.xml	GotoBookmark1	1	CONTROL 1
+Mac OS X 10.5+.xml	GotoBookmark2	1	CONTROL 2
+Mac OS X 10.5+.xml	GotoBookmark3	1	CONTROL 3
+Mac OS X 10.5+.xml	GotoBookmark4	1	CONTROL 4
+Mac OS X 10.5+.xml	GotoBookmark5	1	CONTROL 5
+Mac OS X 10.5+.xml	GotoBookmark6	1	CONTROL 6
+Mac OS X 10.5+.xml	GotoBookmark7	1	CONTROL 7
+Mac OS X 10.5+.xml	GotoBookmark8	1	CONTROL 8
+Mac OS X 10.5+.xml	GotoBookmark9	1	CONTROL 9
+Mac OS X 10.5+.xml	GotoChangedFile	1	META O
+Mac OS X 10.5+.xml	GotoClass	1	META O
+Mac OS X 10.5+.xml	GotoDeclaration	1	META B
+Mac OS X 10.5+.xml	GotoFile	1	META SHIFT O
+Mac OS X 10.5+.xml	GotoLine	1	META L
+Mac OS X 10.5+.xml	GotoNextElementUnderCaretUsage	1	CTRL ALT DOWN
+Mac OS X 10.5+.xml	GotoPrevElementUnderCaretUsage	1	CTRL ALT UP
+Mac OS X 10.5+.xml	GotoRelated	1	CONTROL META UP
+Mac OS X 10.5+.xml	GotoSymbol	1	META ALT O
+Mac OS X 10.5+.xml	GotoTypeDeclaration	1	META SHIFT B
+Mac OS X 10.5+.xml	GotoTypeDeclaration	1	CONTROL SHIFT B
+Mac OS X 10.5+.xml	ImplementMethods	1	CONTROL I
+Mac OS X 10.5+.xml	List-selectFirstRow	1	ALT UP
+Mac OS X 10.5+.xml	List-selectFirstRowExtendSelection	1	ALT SHIFT UP
+Mac OS X 10.5+.xml	List-selectLastRow	1	ALT DOWN
+Mac OS X 10.5+.xml	List-selectLastRowExtendSelection	1	ALT SHIFT DOWN
+Mac OS X 10.5+.xml	MethodDown	1	CONTROL DOWN
+Mac OS X 10.5+.xml	MethodOverloadSwitchDown	1	ALT DOWN
+Mac OS X 10.5+.xml	MethodOverloadSwitchUp	1	ALT UP
+Mac OS X 10.5+.xml	MethodUp	1	CONTROL UP
+Mac OS X 10.5+.xml	MinimizeCurrentWindow	1	META M
+Mac OS X 10.5+.xml	NewElement	1	META N
+Mac OS X 10.5+.xml	NewElement	1	CONTROL ENTER
+Mac OS X 10.5+.xml	NewElementSamePlace	1	CONTROL ALT N
+Mac OS X 10.5+.xml	NewScratchFile	1	META SHIFT N
+Mac OS X 10.5+.xml	NextEditorTab	1	CONTROL SHIFT RIGHT
+Mac OS X 10.5+.xml	NextProjectWindow	1	META ALT BACK_QUOTE
+Mac OS X 10.5+.xml	NextSplitter	1	ALT TAB
+Mac OS X 10.5+.xml	NextTab	1	META SHIFT CLOSE_BRACKET
+Mac OS X 10.5+.xml	NextTab	1	CONTROL RIGHT
+Mac OS X 10.5+.xml	NextWindow	1	META BACK_QUOTE
+Mac OS X 10.5+.xml	OptimizeImports	1	CONTROL ALT O
+Mac OS X 10.5+.xml	OverrideMethods	1	CONTROL O
+Mac OS X 10.5+.xml	PreviousEditorTab	1	CONTROL SHIFT LEFT
+Mac OS X 10.5+.xml	PreviousProjectWindow	1	META SHIFT ALT BACK_QUOTE
+Mac OS X 10.5+.xml	PreviousTab	1	META SHIFT OPEN_BRACKET
+Mac OS X 10.5+.xml	PreviousTab	1	CONTROL LEFT
+Mac OS X 10.5+.xml	PreviousWindow	1	META SHIFT BACK_QUOTE
+Mac OS X 10.5+.xml	PrevSplitter	1	ALT SHIFT TAB
+Mac OS X 10.5+.xml	QuickChangeScheme	1	CONTROL BACK_QUOTE
+Mac OS X 10.5+.xml	QuickImplementations	1	ALT SPACE
+Mac OS X 10.5+.xml	QuickImplementations	1	META Y
+Mac OS X 10.5+.xml	QuickJavaDoc	1	F1
+Mac OS X 10.5+.xml	QuickJavaDoc	1	CONTROL J
+Mac OS X 10.5+.xml	Refactorings.QuickListPopupAction	1	CONTROL T
+Mac OS X 10.5+.xml	Refresh	1	META R
+Mac OS X 10.5+.xml	ReplaceInPath	1	META SHIFT R
+Mac OS X 10.5+.xml	Rerun	1	META R
+Mac OS X 10.5+.xml	RerunTests	1	CONTROL META R
+Mac OS X 10.5+.xml	RerunTests	1	SHIFT ALT R
+Mac OS X 10.5+.xml	Resume	1	META ALT R
+Mac OS X 10.5+.xml	Resume	1	F9
+Mac OS X 10.5+.xml	Run	1	CONTROL R
+Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT F10
+Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT R
+Mac OS X 10.5+.xml	RunToCursor	1	ALT F9
+Mac OS X 10.5+.xml	SafeDelete	1	META DELETE
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToNextGroup	1	META DOWN
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+Mac OS X 10.5+.xml	SearchEverywhere.NavigateToPrevGroup	1	META UP
+Mac OS X 10.5+.xml	SelectAllOccurrences	1	META CONTROL G
+Mac OS X 10.5+.xml	SelectNextOccurrence	1	CONTROL G
+Mac OS X 10.5+.xml	ServiceView.GroupByContributor	1	CONTROL T
+Mac OS X 10.5+.xml	ServiceView.GroupByServiceGroups	1	CONTROL P
+Mac OS X 10.5+.xml	ServiceView.ShowServices	1	SHIFT META T
+Mac OS X 10.5+.xml	ShowBookmarks	1	META F3
+Mac OS X 10.5+.xml	ShowFilterPopup	1	CONTROL ALT F
+Mac OS X 10.5+.xml	ShowNavBar	1	META UP
+Mac OS X 10.5+.xml	ShowNavBar	1	ALT HOME
+Mac OS X 10.5+.xml	ShowProjectStructureSettings	1	META SEMICOLON
+Mac OS X 10.5+.xml	ShowSearchHistory	1	ALT DOWN
+Mac OS X 10.5+.xml	ShowSettings	1	META COMMA
+Mac OS X 10.5+.xml	SmartTypeCompletion	1	CONTROL SHIFT SPACE
+Mac OS X 10.5+.xml	Switcher	1	CTRL TAB
+Mac OS X 10.5+.xml	Switcher	1	CTRL SHIFT TAB
+Mac OS X 10.5+.xml	TodoViewGroupByFlattenPackage	1	CONTROL F
+Mac OS X 10.5+.xml	TodoViewGroupByShowModules	1	CONTROL M
+Mac OS X 10.5+.xml	TodoViewGroupByShowPackages	1	CONTROL P
+Mac OS X 10.5+.xml	ToggleBookmark	1	F3
+Mac OS X 10.5+.xml	ToggleBookmark0	1	CONTROL SHIFT 0
+Mac OS X 10.5+.xml	ToggleBookmark1	1	CONTROL SHIFT 1
+Mac OS X 10.5+.xml	ToggleBookmark2	1	CONTROL SHIFT 2
+Mac OS X 10.5+.xml	ToggleBookmark3	1	CONTROL SHIFT 3
+Mac OS X 10.5+.xml	ToggleBookmark4	1	CONTROL SHIFT 4
+Mac OS X 10.5+.xml	ToggleBookmark5	1	CONTROL SHIFT 5
+Mac OS X 10.5+.xml	ToggleBookmark6	1	CONTROL SHIFT 6
+Mac OS X 10.5+.xml	ToggleBookmark7	1	CONTROL SHIFT 7
+Mac OS X 10.5+.xml	ToggleBookmark8	1	CONTROL SHIFT 8
+Mac OS X 10.5+.xml	ToggleBookmark9	1	CONTROL SHIFT 9
+Mac OS X 10.5+.xml	ToggleBookmarkWithMnemonic	1	ALT F3
+Mac OS X 10.5+.xml	ToggleFindInSelection	1	CONTROL ALT E
+Mac OS X 10.5+.xml	ToggleFullScreen	1	META CONTROL F
+Mac OS X 10.5+.xml	ToggleRenderedDocPresentation	1	CONTROL ALT Q
+Mac OS X 10.5+.xml	TypeHierarchy	1	CONTROL H
+Mac OS X 10.5+.xml	UnselectPreviousOccurrence	1	CONTROL SHIFT G
+Mac OS X 10.5+.xml	UsageGrouping.Directory	1	CONTROL P
+Mac OS X 10.5+.xml	UsageGrouping.DirectoryStructure	1	CONTROL D
+Mac OS X 10.5+.xml	UsageGrouping.FileStructure	1	CONTROL S
+Mac OS X 10.5+.xml	UsageGrouping.FlattenModules	1	CONTROL O
+Mac OS X 10.5+.xml	UsageGrouping.Module	1	CONTROL M
+Mac OS X 10.5+.xml	UsageGrouping.UsageType	1	CONTROL T
+Mac OS X 10.5+.xml	UsageView.Include	1	SHIFT BACK_SPACE
+Mac OS X 10.5+.xml	Vcs.MoveChangedLinesToChangelist	1	META SHIFT M
+Mac OS X 10.5+.xml	Vcs.QuickListPopupAction	1	CTRL V
+Mac OS X 10.5+.xml	Vcs.ShowMessageHistory	1	CONTROL M
+Mac OS X 10.5+.xml	Vcs.ShowMessageHistory	1	META E
+Mac OS X 10.5+.xml	Vcs.ToggleAmendCommitMode	1	CONTROL ALT M
+Mac OS X 10.5+.xml	VcsHistory.ShowAllAffected	1	META CTRL A
+Mac OS X 10.5+.xml	VcsShowNextChangeMarker	1	SHIFT CONTROL ALT DOWN
+Mac OS X 10.5+.xml	VcsShowPrevChangeMarker	1	SHIFT CONTROL ALT UP
+Mac OS X 10.5+.xml	XDebugger.AttachToProcess	1	ALT SHIFT F5
+Mac OS X 10.5+.xml	ZoomCurrentWindow	1	META CONTROL EQUALS
+Mac OS X.xml	$Delete	1	DELETE
+Mac OS X.xml	$Delete	1	BACK_SPACE
+Mac OS X.xml	$Delete	1	META BACK_SPACE
+Mac OS X.xml	$Undo	1	META Z
+Mac OS X.xml	ActivateCommitToolWindow	1	META 0
+Mac OS X.xml	ActivateDebugToolWindow	1	META 5
+Mac OS X.xml	ActivateFavoritesToolWindow	1	META 2
+Mac OS X.xml	ActivateFindToolWindow	1	META 3
+Mac OS X.xml	ActivateProblemsViewToolWindow	1	META 6
+Mac OS X.xml	ActivateProjectToolWindow	1	META 1
+Mac OS X.xml	ActivateRunToolWindow	1	META 4
+Mac OS X.xml	ActivateServicesToolWindow	1	META 8
+Mac OS X.xml	ActivateStructureToolWindow	1	META 7
+Mac OS X.xml	ActivateVersionControlToolWindow	1	META 9
+Mac OS X.xml	CallHierarchy	1	CONTROL ALT H
+Mac OS X.xml	ChangesView.GroupBy.Directory	1	CONTROL P
+Mac OS X.xml	ChangesView.GroupBy.Module	1	CONTROL M
+Mac OS X.xml	ChangesView.Move	1	META SHIFT M
+Mac OS X.xml	ChangesView.SetDefault	1	CONTROL SPACE
+Mac OS X.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+Mac OS X.xml	CodeCompletion	1	CONTROL SPACE
+Mac OS X.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+Mac OS X.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+Mac OS X.xml	CommentByBlockComment	1	META SHIFT SLASH
+Mac OS X.xml	CommentByBlockComment	1	META SHIFT DIVIDE
+Mac OS X.xml	ContextHelp	1	F1
+Mac OS X.xml	DebugClass	1	CONTROL SHIFT F9
+Mac OS X.xml	Diff.ApplyLeftSide	1	CONTROL SHIFT RIGHT
+Mac OS X.xml	Diff.ApplyRightSide	1	CONTROL SHIFT LEFT
+Mac OS X.xml	Diff.FocusOppositePane	1	CONTROL TAB
+Mac OS X.xml	Diff.FocusOppositePaneAndScroll	1	CONTROL SHIFT TAB
+Mac OS X.xml	Diff.NextChange	1	CONTROL RIGHT
+Mac OS X.xml	Diff.PrevChange	1	CONTROL LEFT
+Mac OS X.xml	EditorChooseLookupItemDot	1	CONTROL PERIOD
+Mac OS X.xml	EditorContextInfo	1	CONTROL SHIFT Q
+Mac OS X.xml	EditorDelete	1	DELETE
+Mac OS X.xml	EditorDeleteToWordEnd	1	ALT DELETE
+Mac OS X.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Mac OS X.xml	EditorJoinLines	1	CONTROL SHIFT J
+Mac OS X.xml	EditorLineEnd	1	END
+Mac OS X.xml	EditorLineEnd	1	META RIGHT
+Mac OS X.xml	EditorLineEndWithSelection	1	SHIFT END
+Mac OS X.xml	EditorLineEndWithSelection	1	META SHIFT RIGHT
+Mac OS X.xml	EditorLineStart	1	HOME
+Mac OS X.xml	EditorLineStart	1	META LEFT
+Mac OS X.xml	EditorLineStartWithSelection	1	SHIFT HOME
+Mac OS X.xml	EditorLineStartWithSelection	1	META SHIFT LEFT
+Mac OS X.xml	EditorLookupDown	1	CONTROL DOWN
+Mac OS X.xml	EditorLookupUp	1	CONTROL UP
+Mac OS X.xml	EditorNextWord	1	ALT RIGHT
+Mac OS X.xml	EditorNextWordWithSelection	1	ALT SHIFT RIGHT
+Mac OS X.xml	EditorPreviousWord	1	ALT LEFT
+Mac OS X.xml	EditorPreviousWordWithSelection	1	ALT SHIFT LEFT
+Mac OS X.xml	EditorScrollDown	1	META DOWN
+Mac OS X.xml	EditorScrollUp	1	META UP
+Mac OS X.xml	EditorStartNewLine	1	SHIFT ENTER
+Mac OS X.xml	EditorToggleColumnMode	1	SHIFT META 8
+Mac OS X.xml	EditorToggleColumnMode	1	META SHIFT MULTIPLY
+Mac OS X.xml	EmojiAndSymbols	1	CONTROL META SPACE
+Mac OS X.xml	Exit	1	META Q
+Mac OS X.xml	ExpandAllToLevel1	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel1	2	1
+Mac OS X.xml	ExpandAllToLevel1	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel1	2	NUMPAD1
+Mac OS X.xml	ExpandAllToLevel2	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel2	2	2
+Mac OS X.xml	ExpandAllToLevel2	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel2	2	NUMPAD2
+Mac OS X.xml	ExpandAllToLevel3	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel3	2	3
+Mac OS X.xml	ExpandAllToLevel3	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel3	2	NUMPAD3
+Mac OS X.xml	ExpandAllToLevel4	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel4	2	4
+Mac OS X.xml	ExpandAllToLevel4	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel4	2	NUMPAD4
+Mac OS X.xml	ExpandAllToLevel5	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel5	2	5
+Mac OS X.xml	ExpandAllToLevel5	1	META ALT MULTIPLY
+Mac OS X.xml	ExpandAllToLevel5	2	NUMPAD5
+Mac OS X.xml	ExportToTextFile	1	CONTROL O
+Mac OS X.xml	ExpressionTypeInfo	1	CONTROL SHIFT P
+Mac OS X.xml	ExternalJavaDoc	1	SHIFT F1
+Mac OS X.xml	FileChooser.TogglePathShowing	1	META P
+Mac OS X.xml	FindInPath	1	CONTROL SHIFT F
+Mac OS X.xml	FindNext	1	F3
+Mac OS X.xml	FindNext	1	CONTROL L
+Mac OS X.xml	FindPrevious	1	SHIFT F3
+Mac OS X.xml	FindPrevious	1	CONTROL SHIFT L
+Mac OS X.xml	ForceRefresh	1	CONTROL SHIFT F5
+Mac OS X.xml	Generate	1	CONTROL N
+Mac OS X.xml	Generate	1	CONTROL ENTER
+Mac OS X.xml	GotoBookmark0	1	CONTROL 0
+Mac OS X.xml	GotoBookmark1	1	CONTROL 1
+Mac OS X.xml	GotoBookmark2	1	CONTROL 2
+Mac OS X.xml	GotoBookmark3	1	CONTROL 3
+Mac OS X.xml	GotoBookmark4	1	CONTROL 4
+Mac OS X.xml	GotoBookmark5	1	CONTROL 5
+Mac OS X.xml	GotoBookmark6	1	CONTROL 6
+Mac OS X.xml	GotoBookmark7	1	CONTROL 7
+Mac OS X.xml	GotoBookmark8	1	CONTROL 8
+Mac OS X.xml	GotoBookmark9	1	CONTROL 9
+Mac OS X.xml	GotoDeclaration	1	META B
+Mac OS X.xml	GotoNextElementUnderCaretUsage	1	CTRL ALT DOWN
+Mac OS X.xml	GotoPrevElementUnderCaretUsage	1	CTRL ALT UP
+Mac OS X.xml	GotoTypeDeclaration	1	CONTROL SHIFT B
+Mac OS X.xml	MethodDown	1	CONTROL DOWN
+Mac OS X.xml	MethodUp	1	CONTROL UP
+Mac OS X.xml	MinimizeCurrentWindow	1	META M
+Mac OS X.xml	NewElement	1	CONTROL N
+Mac OS X.xml	NewElement	1	CONTROL ENTER
+Mac OS X.xml	NewElementSamePlace	1	CONTROL ALT N
+Mac OS X.xml	NewScratchFile	1	CONTROL SHIFT N
+Mac OS X.xml	NextEditorTab	1	CONTROL SHIFT RIGHT
+Mac OS X.xml	NextSplitter	1	ALT TAB
+Mac OS X.xml	NextTab	1	CONTROL RIGHT
+Mac OS X.xml	NextWindow	1	META BACK_QUOTE
+Mac OS X.xml	PreviousEditorTab	1	CONTROL SHIFT LEFT
+Mac OS X.xml	PreviousTab	1	CONTROL LEFT
+Mac OS X.xml	PreviousWindow	1	META SHIFT BACK_QUOTE
+Mac OS X.xml	PrevSplitter	1	ALT SHIFT TAB
+Mac OS X.xml	QuickChangeScheme	1	CONTROL BACK_QUOTE
+Mac OS X.xml	QuickJavaDoc	1	CONTROL J
+Mac OS X.xml	Refresh	1	CONTROL F5
+Mac OS X.xml	ReplaceInPath	1	CONTROL SHIFT R
+Mac OS X.xml	Rerun	1	CONTROL F5
+Mac OS X.xml	RerunTests	1	CONTROL META R
+Mac OS X.xml	RerunTests	1	SHIFT ALT R
+Mac OS X.xml	RunClass	1	CONTROL SHIFT F10
+Mac OS X.xml	RunToCursor	1	ALT F9
+Mac OS X.xml	SafeDelete	1	META DELETE
+Mac OS X.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+Mac OS X.xml	SearchEverywhere.NavigateToNextGroup	1	META DOWN
+Mac OS X.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+Mac OS X.xml	SearchEverywhere.NavigateToPrevGroup	1	META UP
+Mac OS X.xml	SelectAllOccurrences	1	META CONTROL G
+Mac OS X.xml	SelectNextOccurrence	1	CONTROL G
+Mac OS X.xml	ServiceView.GroupByContributor	1	CONTROL T
+Mac OS X.xml	ServiceView.GroupByServiceGroups	1	CONTROL P
+Mac OS X.xml	ServiceView.ShowServices	1	SHIFT META T
+Mac OS X.xml	ShowFilterPopup	1	CONTROL ALT F
+Mac OS X.xml	ShowProjectStructureSettings	1	META SEMICOLON
+Mac OS X.xml	ShowSearchHistory	1	ALT DOWN
+Mac OS X.xml	ShowSettings	1	META COMMA
+Mac OS X.xml	SmartTypeCompletion	1	CONTROL SHIFT SPACE
+Mac OS X.xml	Switcher	1	CTRL TAB
+Mac OS X.xml	Switcher	1	CTRL SHIFT TAB
+Mac OS X.xml	TodoViewGroupByFlattenPackage	1	CONTROL F
+Mac OS X.xml	TodoViewGroupByShowModules	1	CONTROL M
+Mac OS X.xml	TodoViewGroupByShowPackages	1	CONTROL P
+Mac OS X.xml	ToggleBookmark0	1	CONTROL SHIFT 0
+Mac OS X.xml	ToggleBookmark1	1	CONTROL SHIFT 1
+Mac OS X.xml	ToggleBookmark2	1	CONTROL SHIFT 2
+Mac OS X.xml	ToggleBookmark3	1	CONTROL SHIFT 3
+Mac OS X.xml	ToggleBookmark4	1	CONTROL SHIFT 4
+Mac OS X.xml	ToggleBookmark5	1	CONTROL SHIFT 5
+Mac OS X.xml	ToggleBookmark6	1	CONTROL SHIFT 6
+Mac OS X.xml	ToggleBookmark7	1	CONTROL SHIFT 7
+Mac OS X.xml	ToggleBookmark8	1	CONTROL SHIFT 8
+Mac OS X.xml	ToggleBookmark9	1	CONTROL SHIFT 9
+Mac OS X.xml	ToggleFindInSelection	1	CONTROL ALT E
+Mac OS X.xml	ToggleFullScreen	1	META CONTROL F
+Mac OS X.xml	ToggleRenderedDocPresentation	1	CONTROL ALT Q
+Mac OS X.xml	TypeHierarchy	1	CONTROL H
+Mac OS X.xml	UnselectPreviousOccurrence	1	CONTROL SHIFT G
+Mac OS X.xml	UsageGrouping.Directory	1	CONTROL P
+Mac OS X.xml	UsageGrouping.DirectoryStructure	1	CONTROL D
+Mac OS X.xml	UsageGrouping.FileStructure	1	CONTROL S
+Mac OS X.xml	UsageGrouping.FlattenModules	1	CONTROL O
+Mac OS X.xml	UsageGrouping.Module	1	CONTROL M
+Mac OS X.xml	UsageGrouping.UsageType	1	CONTROL T
+Mac OS X.xml	Vcs.MoveChangedLinesToChangelist	1	META SHIFT M
+Mac OS X.xml	Vcs.QuickListPopupAction	1	CTRL V
+Mac OS X.xml	Vcs.ShowMessageHistory	1	CONTROL M
+Mac OS X.xml	Vcs.ShowMessageHistory	1	META E
+Mac OS X.xml	Vcs.ToggleAmendCommitMode	1	CONTROL ALT M
+Mac OS X.xml	VcsShowNextChangeMarker	1	SHIFT CONTROL ALT DOWN
+Mac OS X.xml	VcsShowPrevChangeMarker	1	SHIFT CONTROL ALT UP
+Mac OS X.xml	XDebugger.AttachToProcess	1	ALT SHIFT F5
+Mac OS X.xml	ZoomCurrentWindow	1	META CONTROL EQUALS
+macOS System Shortcuts.xml	ActivateTerminalToolWindow	1	CTRL META T
+macOS System Shortcuts.xml	ActivateTerminalToolWindow	1	ALT F12
+macOS System Shortcuts.xml	Back	1	META OPEN_BRACKET
+macOS System Shortcuts.xml	CallHierarchy	1	CTRL SHIFT H
+macOS System Shortcuts.xml	ChangeSignature	1	META ALT S
+macOS System Shortcuts.xml	ChangeSignature	1	META F6
+macOS System Shortcuts.xml	ChangesView.Move	1	CTRL META M
+macOS System Shortcuts.xml	CollapseAllRegions	1	SHIFT ALT MINUS
+macOS System Shortcuts.xml	CommentByBlockComment	1	META ALT SLASH
+macOS System Shortcuts.xml	CommentByBlockComment	1	META ALT DIVIDE
+macOS System Shortcuts.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+macOS System Shortcuts.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+macOS System Shortcuts.xml	CompileDirty	1	CTRL META B
+macOS System Shortcuts.xml	CompileDirty	1	META F9
+macOS System Shortcuts.xml	CopyElement	1	META ALT Y
+macOS System Shortcuts.xml	CopyElement	1	F5
+macOS System Shortcuts.xml	Debug	1	SHIFT ALT D
+macOS System Shortcuts.xml	EditorBackSpace	1	BACK_SPACE
+macOS System Shortcuts.xml	EditorBackSpace	1	SHIFT BACK_SPACE
+macOS System Shortcuts.xml	EditorBackSpace	1	CTRL H
+macOS System Shortcuts.xml	EditorDecreaseFontSize	1	META SHIFT MINUS
+macOS System Shortcuts.xml	EditorDelete	1	DELETE
+macOS System Shortcuts.xml	EditorDelete	1	CTRL D
+macOS System Shortcuts.xml	EditorIncreaseFontSize	1	META SHIFT PLUS
+macOS System Shortcuts.xml	EditorPageDown	1	PAGE_DOWN
+macOS System Shortcuts.xml	EditorPageDown	1	CTRL V
+macOS System Shortcuts.xml	EditorPageDownWithSelection	1	SHIFT PAGE_DOWN
+macOS System Shortcuts.xml	EditorPageDownWithSelection	1	CTRL SHIFT V
+macOS System Shortcuts.xml	EditorSplitLine	1	CTRL O
+macOS System Shortcuts.xml	EditorSplitLine	1	CONTROL ENTER
+macOS System Shortcuts.xml	EditorTextEnd	1	META DOWN
+macOS System Shortcuts.xml	EditorTextEnd	1	META END
+macOS System Shortcuts.xml	EditorTextEndWithSelection	1	META SHIFT DOWN
+macOS System Shortcuts.xml	EditorTextEndWithSelection	1	META SHIFT END
+macOS System Shortcuts.xml	EditorTextStart	1	META UP
+macOS System Shortcuts.xml	EditorTextStart	1	META HOME
+macOS System Shortcuts.xml	EditorTextStartWithSelection	1	META SHIFT UP
+macOS System Shortcuts.xml	EditorTextStartWithSelection	1	META SHIFT HOME
+macOS System Shortcuts.xml	EditorTranspose	1	CTRL T
+macOS System Shortcuts.xml	EditSource	1	F4
+macOS System Shortcuts.xml	EditSourceNotInEditor	1	META DOWN
+macOS System Shortcuts.xml	EvaluateExpression	1	META CTRL L
+macOS System Shortcuts.xml	EvaluateExpression	1	ALT F8
+macOS System Shortcuts.xml	ExpandAllRegions	1	SHIFT ALT PLUS
+macOS System Shortcuts.xml	FileStructurePopup	1	META SHIFT 7
+macOS System Shortcuts.xml	FileStructurePopup	1	META F12
+macOS System Shortcuts.xml	FindUsages	1	CTRL U
+macOS System Shortcuts.xml	FindUsages	1	ALT F7
+macOS System Shortcuts.xml	FindUsagesInFile	1	CTRL SHIFT U
+macOS System Shortcuts.xml	FindUsagesInFile	1	META F7
+macOS System Shortcuts.xml	ForceRunToCursor	1	SHIFT CTRL ALT BACK_SLASH
+macOS System Shortcuts.xml	ForceRunToCursor	1	META ALT F9
+macOS System Shortcuts.xml	ForceStepInto	1	SHIFT ALT SEMICOLON
+macOS System Shortcuts.xml	ForceStepInto	1	ALT SHIFT F7
+macOS System Shortcuts.xml	ForceStepOver	1	SHIFT ALT QUOTE
+macOS System Shortcuts.xml	ForceStepOver	1	ALT SHIFT F8
+macOS System Shortcuts.xml	Forward	1	META CLOSE_BRACKET
+macOS System Shortcuts.xml	Generate	1	META N
+macOS System Shortcuts.xml	GotoAction	1	META SHIFT P
+macOS System Shortcuts.xml	GotoAction	1	META SHIFT A
+macOS System Shortcuts.xml	GotoNextElementUnderCaretUsage	1	META ALT E
+macOS System Shortcuts.xml	GotoNextError	1	CTRL COMMA
+macOS System Shortcuts.xml	GotoNextError	1	F2
+macOS System Shortcuts.xml	GotoPrevElementUnderCaretUsage	1	META ALT SHIFT E
+macOS System Shortcuts.xml	GotoPreviousError	1	SHIFT CTRL COMMA
+macOS System Shortcuts.xml	GotoPreviousError	1	SHIFT F2
+macOS System Shortcuts.xml	GotoRelated	1	CONTROL ALT HOME
+macOS System Shortcuts.xml	GotoRelated	1	CTRL META DOWN
+macOS System Shortcuts.xml	GotoTest	1	CTRL SHIFT T
+macOS System Shortcuts.xml	HighlightUsagesInFile	1	CTRL META U
+macOS System Shortcuts.xml	HighlightUsagesInFile	1	META SHIFT F7
+macOS System Shortcuts.xml	ImplementMethods	1	SHIFT CTRL I
+macOS System Shortcuts.xml	List-selectFirstRow	1	ALT UP
+macOS System Shortcuts.xml	List-selectFirstRowExtendSelection	1	ALT SHIFT UP
+macOS System Shortcuts.xml	List-selectLastRow	1	ALT DOWN
+macOS System Shortcuts.xml	List-selectLastRowExtendSelection	1	ALT SHIFT DOWN
+macOS System Shortcuts.xml	MaximizeToolWindow	1	CTRL SHIFT QUOTE
+macOS System Shortcuts.xml	MethodDown	1	CTRL ALT DOWN
+macOS System Shortcuts.xml	MethodUp	1	CTRL ALT UP
+macOS System Shortcuts.xml	Move	1	META ALT I
+macOS System Shortcuts.xml	Move	1	F6
+macOS System Shortcuts.xml	MoveStatementDown	1	SHIFT CTRL DOWN
+macOS System Shortcuts.xml	MoveStatementUp	1	SHIFT CTRL UP
+macOS System Shortcuts.xml	NewDir	1	META SHIFT N
+macOS System Shortcuts.xml	NewElement	1	META N
+macOS System Shortcuts.xml	NewScratchFile	1	CTRL SHIFT N
+macOS System Shortcuts.xml	NextDiff	1	META CLOSE_BRACKET
+macOS System Shortcuts.xml	NextDiff	1	F7
+macOS System Shortcuts.xml	NextTab	1	META ALT RIGHT
+macOS System Shortcuts.xml	NextTab	1	META SHIFT CLOSE_BRACKET
+macOS System Shortcuts.xml	OverrideMethods	1	CTRL SHIFT O
+macOS System Shortcuts.xml	PreviousDiff	1	META OPEN_BRACKET
+macOS System Shortcuts.xml	PreviousDiff	1	SHIFT F7
+macOS System Shortcuts.xml	PreviousTab	1	META ALT LEFT
+macOS System Shortcuts.xml	PreviousTab	1	META SHIFT OPEN_BRACKET
+macOS System Shortcuts.xml	QuickImplementations	1	META Y
+macOS System Shortcuts.xml	QuickJavaDoc	1	META I
+macOS System Shortcuts.xml	QuickJavaDoc	1	F1
+macOS System Shortcuts.xml	Refactorings.QuickListPopupAction	1	CTRL S
+macOS System Shortcuts.xml	RenameElement	1	META ALT R
+macOS System Shortcuts.xml	RenameElement	1	SHIFT F6
+macOS System Shortcuts.xml	ReopenClosedTab	1	META SHIFT T
+macOS System Shortcuts.xml	RerunTests	1	CTRL META R
+macOS System Shortcuts.xml	Resume	1	CTRL BACK_SLASH
+macOS System Shortcuts.xml	Resume	1	F9
+macOS System Shortcuts.xml	Run	1	ALT SHIFT R
+macOS System Shortcuts.xml	RunToCursor	1	SHIFT CTRL BACK_SLASH
+macOS System Shortcuts.xml	RunToCursor	1	ALT F9
+macOS System Shortcuts.xml	SelectIn	1	CTRL Q
+macOS System Shortcuts.xml	SelectIn	1	ALT F1
+macOS System Shortcuts.xml	ShowBookmarks	1	CTRL META K
+macOS System Shortcuts.xml	ShowBookmarks	1	META F3
+macOS System Shortcuts.xml	ShowNavBar	1	CTRL META UP
+macOS System Shortcuts.xml	ShowNavBar	1	ALT HOME
+macOS System Shortcuts.xml	ShowProjectStructureSettings	1	META SHIFT COMMA
+macOS System Shortcuts.xml	ShowSettingsAndFindUsages	1	CONTROL SHIFT ALT U
+macOS System Shortcuts.xml	ShowSettingsAndFindUsages	1	META SHIFT ALT F7
+macOS System Shortcuts.xml	ShowUsages	1	CTRL ALT U
+macOS System Shortcuts.xml	ShowUsages	1	META ALT F7
+macOS System Shortcuts.xml	SmartStepInto	1	META ALT SEMICOLON
+macOS System Shortcuts.xml	SmartStepInto	1	SHIFT F7
+macOS System Shortcuts.xml	StepInto	1	META SEMICOLON
+macOS System Shortcuts.xml	StepInto	1	F7
+macOS System Shortcuts.xml	StepOut	1	META BACK_SLASH
+macOS System Shortcuts.xml	StepOut	1	SHIFT F8
+macOS System Shortcuts.xml	StepOver	1	META QUOTE
+macOS System Shortcuts.xml	StepOver	1	F8
+macOS System Shortcuts.xml	Stop	1	SHIFT CONTROL PERIOD
+macOS System Shortcuts.xml	Stop	1	META F2
+macOS System Shortcuts.xml	Synchronize	1	META CTRL Y
+macOS System Shortcuts.xml	ToggleBookmark	1	SHIFT CTRL K
+macOS System Shortcuts.xml	ToggleBookmark	1	F3
+macOS System Shortcuts.xml	ToggleBookmarkWithMnemonic	1	SHIFT CTRL ALT K
+macOS System Shortcuts.xml	ToggleBookmarkWithMnemonic	1	META F11
+macOS System Shortcuts.xml	ToggleLineBreakpoint	1	CTRL QUOTE
+macOS System Shortcuts.xml	ToggleLineBreakpoint	1	META F8
+macOS System Shortcuts.xml	ToggleTemporaryLineBreakpoint	1	SHIFT META ALT BACK_SLASH
+macOS System Shortcuts.xml	ToggleTemporaryLineBreakpoint	1	META SHIFT ALT F8
+macOS System Shortcuts.xml	Tree-selectFirst	1	ALT UP
+macOS System Shortcuts.xml	Tree-selectFirstExtendSelection	1	ALT SHIFT UP
+macOS System Shortcuts.xml	Tree-selectLast	1	ALT DOWN
+macOS System Shortcuts.xml	Tree-selectLastExtendSelection	1	ALT SHIFT DOWN
+macOS System Shortcuts.xml	TypeHierarchy	1	CTRL ALT H
+macOS System Shortcuts.xml	Vcs.MoveChangedLinesToChangelist	1	CTRL META M
+macOS System Shortcuts.xml	Vcs.QuickListPopupAction	1	CTRL C
+NetBeans 6.5.xml	$Redo	1	SHIFT CONTROL Z
+NetBeans 6.5.xml	$Redo	1	SHIFT ALT BACK_SPACE
+NetBeans 6.5.xml	$Redo	1	CONTROL Y
+NetBeans 6.5.xml	ActivateFindToolWindow	1	SHIFT ALT U
+NetBeans 6.5.xml	ActivateFindToolWindow	1	SHIFT CONTROL 0
+NetBeans 6.5.xml	ActivateFindToolWindow	1	ALT 2
+NetBeans 6.5.xml	ActivateMessagesToolWindow	1	CONTROL 4
+NetBeans 6.5.xml	ActivatePaletteToolWindow	1	SHIFT CONTROL 8
+NetBeans 6.5.xml	ActivateProblemsViewToolWindow	1	ALT 6
+NetBeans 6.5.xml	ActivateProblemsViewToolWindow	1	CONTROL 6
+NetBeans 6.5.xml	ActivateProjectToolWindow	1	CONTROL 1
+NetBeans 6.5.xml	ActivateProjectToolWindow	1	CONTROL 2
+NetBeans 6.5.xml	ActivateProjectToolWindow	1	CONTROL 3
+NetBeans 6.5.xml	ActivateProjectToolWindow	1	ALT 1
+NetBeans 6.5.xml	ActivateStructureToolWindow	1	CONTROL 7
+NetBeans 6.5.xml	ActivateStructureToolWindow	1	ALT 7
+NetBeans 6.5.xml	Back	1	ALT LEFT
+NetBeans 6.5.xml	ChangesView.Rename	1	CONTROL R
+NetBeans 6.5.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+NetBeans 6.5.xml	ClassNameCompletion	1	CONTROL ALT BACK_SLASH
+NetBeans 6.5.xml	CloseAllEditors	1	SHIFT CONTROL W
+NetBeans 6.5.xml	CloseAllEditors	1	SHIFT CONTROL F4
+NetBeans 6.5.xml	CloseContent	1	CONTROL F4
+NetBeans 6.5.xml	CloseContent	1	CONTROL W
+NetBeans 6.5.xml	CodeCompletion	1	CONTROL SPACE
+NetBeans 6.5.xml	CodeCompletion	1	CONTROL BACK_SLASH
+NetBeans 6.5.xml	CollapseRegionRecursively	1	CONTROL DIVIDE
+NetBeans 6.5.xml	CommentByLineComment	1	CONTROL SLASH
+NetBeans 6.5.xml	CommentByLineComment	1	SHIFT CONTROL C
+NetBeans 6.5.xml	Compile	1	F9
+NetBeans 6.5.xml	CompileDirty	1	F11
+NetBeans 6.5.xml	CompileProject	1	SHIFT F11
+NetBeans 6.5.xml	Debug	1	CONTROL F5
+NetBeans 6.5.xml	DebugClass	1	SHIFT CONTROL F5
+NetBeans 6.5.xml	DebugClass	1	SHIFT ALT F5
+NetBeans 6.5.xml	Debugger.ResumeThread	1	F5
+NetBeans 6.5.xml	Diff.NextChange	1	CONTROL PAGE_DOWN
+NetBeans 6.5.xml	Diff.PrevChange	1	CONTROL PAGE_UP
+NetBeans 6.5.xml	EditorChooseLookupItemDot	1	CONTROL PERIOD
+NetBeans 6.5.xml	EditorCompleteStatement	1	SHIFT CONTROL ENTER
+NetBeans 6.5.xml	EditorCompleteStatement	1	CONTROL SEMICOLON
+NetBeans 6.5.xml	EditorDeleteLine	1	CONTROL E
+NetBeans 6.5.xml	EditorDuplicate	1	CONTROL D
+NetBeans 6.5.xml	EditorDuplicate	1	SHIFT CONTROL DOWN
+NetBeans 6.5.xml	EditorDuplicate	1	SHIFT CONTROL UP
+NetBeans 6.5.xml	EditorIndentLineOrSelection	1	SHIFT ALT RIGHT
+NetBeans 6.5.xml	EditorIndentSelection	1	TAB
+NetBeans 6.5.xml	EditorMoveToPageBottom	1	SHIFT ALT END
+NetBeans 6.5.xml	EditorMoveToPageTop	1	SHIFT ALT HOME
+NetBeans 6.5.xml	EditorSelectWord	1	SHIFT ALT PERIOD
+NetBeans 6.5.xml	EditorToggleCase	1	CONTROL U
+NetBeans 6.5.xml	EditorToggleCase	2	S
+NetBeans 6.5.xml	EditorUnindentSelection	1	SHIFT ALT LEFT
+NetBeans 6.5.xml	EditorUnindentSelection	1	SHIFT TAB
+NetBeans 6.5.xml	EditorUnSelectWord	1	SHIFT ALT COMMA
+NetBeans 6.5.xml	EvaluateExpression	1	CONTROL F9
+NetBeans 6.5.xml	ExpandRegionRecursively	1	CONTROL MULTIPLY
+NetBeans 6.5.xml	ExtractMethod	1	SHIFT ALT M
+NetBeans 6.5.xml	FileStructurePopup	1	CONTROL F12
+NetBeans 6.5.xml	FileStructurePopup	1	SHIFT CONTROL F12
+NetBeans 6.5.xml	Forward	1	ALT RIGHT
+NetBeans 6.5.xml	Git.Rename.Local.Branch	1	CONTROL R
+NetBeans 6.5.xml	Git.Reword.Commit	1	CONTROL R
+NetBeans 6.5.xml	GotoAction	1	CONTROL I
+NetBeans 6.5.xml	GotoChangedFile	1	CONTROL O
+NetBeans 6.5.xml	GotoClass	1	CONTROL O
+NetBeans 6.5.xml	GotoFile	1	SHIFT ALT O
+NetBeans 6.5.xml	GotoNextBookmark	1	SHIFT CONTROL PERIOD
+NetBeans 6.5.xml	GotoNextElementUnderCaretUsage	1	ALT DOWN
+NetBeans 6.5.xml	GotoNextError	1	F2
+NetBeans 6.5.xml	GotoNextError	1	CONTROL PERIOD
+NetBeans 6.5.xml	GotoPrevElementUnderCaretUsage	1	ALT UP
+NetBeans 6.5.xml	GotoPreviousBookmark	1	SHIFT CONTROL COMMA
+NetBeans 6.5.xml	GotoPreviousError	1	SHIFT F2
+NetBeans 6.5.xml	GotoPreviousError	1	CONTROL COMMA
+NetBeans 6.5.xml	GotoSuperMethod	1	SHIFT CONTROL P
+NetBeans 6.5.xml	GotoSymbol	1	SHIFT CONTROL ALT O
+NetBeans 6.5.xml	GuiDesigner.ReloadCustomComponents	1	SHIFT CONTROL R
+NetBeans 6.5.xml	HippieBackwardCompletion	1	CONTROL K
+NetBeans 6.5.xml	HippieCompletion	1	SHIFT CONTROL K
+NetBeans 6.5.xml	IntroduceConstant	1	SHIFT ALT C
+NetBeans 6.5.xml	IntroduceField	1	SHIFT ALT E
+NetBeans 6.5.xml	IntroduceVariable	1	SHIFT ALT V
+NetBeans 6.5.xml	MethodDown	1	CONTROL ALT DOWN
+NetBeans 6.5.xml	MethodUp	1	CONTROL ALT UP
+NetBeans 6.5.xml	Move	1	CONTROL M
+NetBeans 6.5.xml	MoveLineDown	1	SHIFT ALT DOWN
+NetBeans 6.5.xml	MoveLineUp	1	SHIFT ALT UP
+NetBeans 6.5.xml	MoveStatementDown	1	SHIFT ALT PAGE_DOWN
+NetBeans 6.5.xml	MoveStatementUp	1	SHIFT ALT PAGE_UP
+NetBeans 6.5.xml	NewElement	1	ALT INSERT
+NetBeans 6.5.xml	NewElement	1	CONTROL N
+NetBeans 6.5.xml	NewProject	1	SHIFT CONTROL N
+NetBeans 6.5.xml	NextEditorTab	1	CONTROL ALT PAGE_DOWN
+NetBeans 6.5.xml	NextTab	1	CONTROL PAGE_DOWN
+NetBeans 6.5.xml	OpenFile	1	SHIFT CONTROL O
+NetBeans 6.5.xml	OptimizeImports	1	SHIFT CONTROL I
+NetBeans 6.5.xml	PreviousEditorTab	1	CONTROL ALT PAGE_UP
+NetBeans 6.5.xml	PreviousTab	1	CONTROL PAGE_UP
+NetBeans 6.5.xml	Print	1	SHIFT CONTROL ALT P
+NetBeans 6.5.xml	RecentFiles	1	SHIFT F4
+NetBeans 6.5.xml	ReformatCode	1	SHIFT ALT F
+NetBeans 6.5.xml	RenameElement	1	CONTROL R
+NetBeans 6.5.xml	Replace	1	CONTROL H
+NetBeans 6.5.xml	ReplaceInPath	1	SHIFT CONTROL H
+NetBeans 6.5.xml	Resume	1	F5
+NetBeans 6.5.xml	Run	1	F6
+NetBeans 6.5.xml	RunClass	1	SHIFT ALT F6
+NetBeans 6.5.xml	RunClass	1	SHIFT F6
+NetBeans 6.5.xml	RunToCursor	1	F4
+NetBeans 6.5.xml	SaveAll	1	CONTROL S
+NetBeans 6.5.xml	SaveAll	1	SHIFT CONTROL S
+NetBeans 6.5.xml	SelectIn	1	SHIFT CONTROL 1
+NetBeans 6.5.xml	SelectIn	1	SHIFT CONTROL 2
+NetBeans 6.5.xml	SelectIn	1	SHIFT CONTROL 3
+NetBeans 6.5.xml	SelectIn	1	SHIFT CONTROL 9
+NetBeans 6.5.xml	ShelvedChanges.Rename	1	CONTROL R
+NetBeans 6.5.xml	ShowBookmarks	1	SHIFT CONTROL M
+NetBeans 6.5.xml	ShowPopupMenu	1	CONTEXT_MENU
+NetBeans 6.5.xml	ShowPopupMenu	1	SHIFT F10
+NetBeans 6.5.xml	SmartTypeCompletion	1	SHIFT CONTROL SPACE
+NetBeans 6.5.xml	SmartTypeCompletion	1	SHIFT CONTROL BACK_SLASH
+NetBeans 6.5.xml	StepOut	1	CONTROL F7
+NetBeans 6.5.xml	Stop	1	SHIFT F5
+NetBeans 6.5.xml	Stop	1	SHIFT CONTROL DELETE
+NetBeans 6.5.xml	SwitcherIterateItems	1	SHIFT F4
+NetBeans 6.5.xml	SwitcherRecentEditedChangedToggleCheckBox	1	SHIFT F4
+NetBeans 6.5.xml	ToggleDockMode	1	CONTROL BACK_SPACE
+NetBeans 6.5.xml	ToggleFloatingMode	1	SHIFT ALT D
+NetBeans 6.5.xml	TypeHierarchy	1	SHIFT ALT F12
+NetBeans 6.5.xml	ValidateJsp	1	SHIFT ALT F9
+NetBeans 6.5.xml	ValidateXml	1	SHIFT ALT F9
+NetBeans 6.5.xml	Vcs.ShowMessageHistory	1	CONTROL M
+NetBeans 6.5.xml	Vcs.ShowMessageHistory	1	SHIFT F4
+NetBeans 6.5.xml	XDebugger.NewWatch	1	SHIFT CONTROL F7
+QtCreator (Mac OS X).xml	$Copy	1	META C
+QtCreator (Mac OS X).xml	$Cut	1	META X
+QtCreator (Mac OS X).xml	$Delete	1	DELETE
+QtCreator (Mac OS X).xml	$Paste	1	META V
+QtCreator (Mac OS X).xml	$Redo	1	META SHIFT Z
+QtCreator (Mac OS X).xml	$SelectAll	1	META A
+QtCreator (Mac OS X).xml	$Undo	1	META Z
+QtCreator (Mac OS X).xml	ActivateFindToolWindow	1	META 2
+QtCreator (Mac OS X).xml	ActivateMessagesToolWindow	1	META 4
+QtCreator (Mac OS X).xml	ActivateProblemsViewToolWindow	1	META 1
+QtCreator (Mac OS X).xml	ActivateProjectToolWindow	1	CONTROL X
+QtCreator (Mac OS X).xml	ActivateRunToolWindow	1	META 3
+QtCreator (Mac OS X).xml	Annotate	1	CONTROL G
+QtCreator (Mac OS X).xml	Annotate	2	CONTROL B
+QtCreator (Mac OS X).xml	AutoIndentLines	1	META I
+QtCreator (Mac OS X).xml	Back	1	META ALT LEFT
+QtCreator (Mac OS X).xml	BuildProfile	1	META SHIFT B
+QtCreator (Mac OS X).xml	BuildProject	1	META B
+QtCreator (Mac OS X).xml	ChangesView.AddUnversioned	1	CONTROL G
+QtCreator (Mac OS X).xml	ChangesView.AddUnversioned	2	CONTROL A
+QtCreator (Mac OS X).xml	ChangesView.Revert	1	CONTROL G
+QtCreator (Mac OS X).xml	ChangesView.Revert	2	CONTROL U
+QtCreator (Mac OS X).xml	CheckinProject	1	CONTROL G
+QtCreator (Mac OS X).xml	CheckinProject	2	CONTROL C
+QtCreator (Mac OS X).xml	ChooseRunConfiguration	1	META T
+QtCreator (Mac OS X).xml	CIDR.Lang.ImportsHierarchy	1	CONTROL SHIFT I
+QtCreator (Mac OS X).xml	CloseAllEditors	1	META SHIFT W
+QtCreator (Mac OS X).xml	CloseEditor	1	META F4
+QtCreator (Mac OS X).xml	CloseEditor	1	META W
+QtCreator (Mac OS X).xml	CodeCompletion	1	CONTROL SPACE
+QtCreator (Mac OS X).xml	CollapseRegion	1	META SHIFT COMMA
+QtCreator (Mac OS X).xml	CommentByLineComment	1	META SLASH
+QtCreator (Mac OS X).xml	Compare.SameVersion	1	CONTROL H
+QtCreator (Mac OS X).xml	Compare.SameVersion	1	CONTROL G
+QtCreator (Mac OS X).xml	Compare.SameVersion	2	CONTROL D
+QtCreator (Mac OS X).xml	Compile	1	META ALT B
+QtCreator (Mac OS X).xml	ContextHelp	1	F1
+QtCreator (Mac OS X).xml	CPP.CreateCMakeProject	1	META SHIFT N
+QtCreator (Mac OS X).xml	Debug	1	META Y
+QtCreator (Mac OS X).xml	EditorCodeBlockEnd	1	META CLOSE_BRACKET
+QtCreator (Mac OS X).xml	EditorCodeBlockEndWithSelection	1	META SHIFT CLOSE_BRACKET
+QtCreator (Mac OS X).xml	EditorCodeBlockStart	1	META OPEN_BRACKET
+QtCreator (Mac OS X).xml	EditorCodeBlockStartWithSelection	1	META SHIFT OPEN_BRACKET
+QtCreator (Mac OS X).xml	EditorDecreaseFontSize	1	META SUBTRACT
+QtCreator (Mac OS X).xml	EditorDecreaseFontSize	1	META MINUS
+QtCreator (Mac OS X).xml	EditorDeleteLine	1	SHIFT DELETE
+QtCreator (Mac OS X).xml	EditorDuplicateLines	1	META ALT DOWN
+QtCreator (Mac OS X).xml	EditorIncreaseFontSize	1	META ADD
+QtCreator (Mac OS X).xml	EditorIncreaseFontSize	1	META EQUALS
+QtCreator (Mac OS X).xml	EditorJoinLines	1	META J
+QtCreator (Mac OS X).xml	EditorResetFontSize	1	CONTROL 0
+QtCreator (Mac OS X).xml	EditorSelectWord	1	META U
+QtCreator (Mac OS X).xml	EditorStartNewLine	1	META ENTER
+QtCreator (Mac OS X).xml	EditorStartNewLineBefore	1	META SHIFT ENTER
+QtCreator (Mac OS X).xml	EditorToggleCase	1	CONTROL U
+QtCreator (Mac OS X).xml	EditorToggleShowWhitespaces	1	CONTROL E
+QtCreator (Mac OS X).xml	EditorToggleShowWhitespaces	2	CONTROL V
+QtCreator (Mac OS X).xml	EditorToggleUseSoftWraps	1	CONTROL E
+QtCreator (Mac OS X).xml	EditorToggleUseSoftWraps	2	CONTROL W
+QtCreator (Mac OS X).xml	EditorUnSelectWord	1	ALT SHIFT META U
+QtCreator (Mac OS X).xml	Exit	1	META Q
+QtCreator (Mac OS X).xml	ExpandRegion	1	META SHIFT PERIOD
+QtCreator (Mac OS X).xml	Find	1	META F
+QtCreator (Mac OS X).xml	FindInPath	1	META SHIFT F
+QtCreator (Mac OS X).xml	FindNext	1	META G
+QtCreator (Mac OS X).xml	FindPrevious	1	META SHIFT G
+QtCreator (Mac OS X).xml	FindUsages	1	META SHIFT U
+QtCreator (Mac OS X).xml	FindWordAtCaret	1	META F3
+QtCreator (Mac OS X).xml	Forward	1	META ALT RIGHT
+QtCreator (Mac OS X).xml	GotoDeclaration	1	F2
+QtCreator (Mac OS X).xml	GotoLine	1	META L
+QtCreator (Mac OS X).xml	GotoNextBookmark	1	CONTROL PERIOD
+QtCreator (Mac OS X).xml	GotoNextError	1	F6
+QtCreator (Mac OS X).xml	GotoPreviousBookmark	1	CONTROL COMMA
+QtCreator (Mac OS X).xml	GotoPreviousError	1	SHIFT F6
+QtCreator (Mac OS X).xml	GotoRelated	1	SHIFT F2
+QtCreator (Mac OS X).xml	MoveLineDown	1	META SHIFT DOWN
+QtCreator (Mac OS X).xml	MoveLineUp	1	META SHIFT UP
+QtCreator (Mac OS X).xml	NewFile	1	META N
+QtCreator (Mac OS X).xml	OpenFile	1	META O
+QtCreator (Mac OS X).xml	PasteMultiple	1	META SHIFT V
+QtCreator (Mac OS X).xml	Pause	1	META Y
+QtCreator (Mac OS X).xml	Print	1	META P
+QtCreator (Mac OS X).xml	RecentFiles	1	CONTROL O
+QtCreator (Mac OS X).xml	ReformatCode	1	META SEMICOLON
+QtCreator (Mac OS X).xml	RenameElement	1	META CONTROL R
+QtCreator (Mac OS X).xml	Resume	1	META Y
+QtCreator (Mac OS X).xml	Run	1	META R
+QtCreator (Mac OS X).xml	RunToCursor	1	SHIFT F8
+QtCreator (Mac OS X).xml	SaveAll	1	META SHIFT S
+QtCreator (Mac OS X).xml	SaveDocument	1	META S
+QtCreator (Mac OS X).xml	ShowBookmarks	1	ALT CONTROL M
+QtCreator (Mac OS X).xml	ShowIntentionActions	1	ALT ENTER
+QtCreator (Mac OS X).xml	SplitHorizontally	1	CONTROL E
+QtCreator (Mac OS X).xml	SplitHorizontally	2	3
+QtCreator (Mac OS X).xml	SplitVertically	1	CONTROL E
+QtCreator (Mac OS X).xml	SplitVertically	2	2
+QtCreator (Mac OS X).xml	StepInto	1	META SHIFT I
+QtCreator (Mac OS X).xml	StepOut	1	META SHIFT T
+QtCreator (Mac OS X).xml	StepOver	1	META SHIFT O
+QtCreator (Mac OS X).xml	Stop	1	META SHIFT Y
+QtCreator (Mac OS X).xml	SwitchHeaderSource	1	F4
+QtCreator (Mac OS X).xml	ToggleBookmark	1	CONTROL M
+QtCreator (Mac OS X).xml	ToggleFullScreen	1	META CONTROL F
+QtCreator (Mac OS X).xml	ToggleLineBreakpoint	1	F8
+QtCreator (Mac OS X).xml	TypeHierarchy	1	CONTROL SHIFT T
+QtCreator (Mac OS X).xml	Unsplit	1	CONTROL E
+QtCreator (Mac OS X).xml	Unsplit	2	0
+QtCreator (Mac OS X).xml	UnsplitAll	1	CONTROL E
+QtCreator (Mac OS X).xml	UnsplitAll	2	1
+QtCreator (Mac OS X).xml	Vcs.Show.Log	1	CONTROL G
+QtCreator (Mac OS X).xml	Vcs.Show.Log	2	CONTROL K
+QtCreator (Mac OS X).xml	Vcs.ShowTabbedFileHistory	1	CONTROL G
+QtCreator (Mac OS X).xml	Vcs.ShowTabbedFileHistory	2	CONTROL L
+QtCreator.xml	$Copy	1	CONTROL C
+QtCreator.xml	$Cut	1	CONTROL X
+QtCreator.xml	$Delete	1	DELETE
+QtCreator.xml	$Paste	1	CONTROL V
+QtCreator.xml	$Redo	1	CONTROL Y
+QtCreator.xml	$SelectAll	1	CONTROL A
+QtCreator.xml	$Undo	1	CONTROL Z
+QtCreator.xml	ActivateFindToolWindow	1	ALT 2
+QtCreator.xml	ActivateMessagesToolWindow	1	ALT 4
+QtCreator.xml	ActivateProblemsViewToolWindow	1	ALT 1
+QtCreator.xml	ActivateProjectToolWindow	1	ALT X
+QtCreator.xml	ActivateRunToolWindow	1	ALT 3
+QtCreator.xml	Annotate	1	ALT G
+QtCreator.xml	Annotate	2	ALT B
+QtCreator.xml	AutoIndentLines	1	CONTROL I
+QtCreator.xml	Back	1	ALT LEFT
+QtCreator.xml	BuildProfile	1	CONTROL SHIFT B
+QtCreator.xml	BuildProject	1	CONTROL B
+QtCreator.xml	ChangesView.AddUnversioned	1	ALT G
+QtCreator.xml	ChangesView.AddUnversioned	2	ALT A
+QtCreator.xml	ChangesView.Revert	1	ALT G
+QtCreator.xml	ChangesView.Revert	2	ALT U
+QtCreator.xml	CheckinProject	1	ALT G
+QtCreator.xml	CheckinProject	2	ALT C
+QtCreator.xml	ChooseRunConfiguration	1	CONTROL T
+QtCreator.xml	CIDR.Lang.ImportsHierarchy	1	CONTROL SHIFT I
+QtCreator.xml	CloseAllEditors	1	CONTROL SHIFT W
+QtCreator.xml	CloseEditor	1	CONTROL F4
+QtCreator.xml	CloseEditor	1	CONTROL W
+QtCreator.xml	CodeCompletion	1	CONTROL SPACE
+QtCreator.xml	CollapseRegion	1	CONTROL SHIFT COMMA
+QtCreator.xml	CommentByLineComment	1	CONTROL SLASH
+QtCreator.xml	Compare.SameVersion	1	CONTROL H
+QtCreator.xml	Compare.SameVersion	1	ALT G
+QtCreator.xml	Compare.SameVersion	2	ALT D
+QtCreator.xml	Compile	1	CONTROL ALT B
+QtCreator.xml	ContextHelp	1	F1
+QtCreator.xml	CPP.CreateCMakeProject	1	CONTROL SHIFT N
+QtCreator.xml	Debug	1	F5
+QtCreator.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+QtCreator.xml	EditorCodeBlockEndWithSelection	1	CONTROL SHIFT CLOSE_BRACKET
+QtCreator.xml	EditorCodeBlockStart	1	CONTROL OPEN_BRACKET
+QtCreator.xml	EditorCodeBlockStartWithSelection	1	CONTROL SHIFT OPEN_BRACKET
+QtCreator.xml	EditorDecreaseFontSize	1	CONTROL SUBTRACT
+QtCreator.xml	EditorDecreaseFontSize	1	CONTROL MINUS
+QtCreator.xml	EditorDeleteLine	1	SHIFT DELETE
+QtCreator.xml	EditorDuplicateLines	1	CONTROL ALT DOWN
+QtCreator.xml	EditorIncreaseFontSize	1	CONTROL ADD
+QtCreator.xml	EditorIncreaseFontSize	1	CONTROL EQUALS
+QtCreator.xml	EditorJoinLines	1	CONTROL J
+QtCreator.xml	EditorResetFontSize	1	CONTROL 0
+QtCreator.xml	EditorSelectWord	1	CONTROL U
+QtCreator.xml	EditorStartNewLine	1	SHIFT ENTER
+QtCreator.xml	EditorStartNewLineBefore	1	CONTROL SHIFT ENTER
+QtCreator.xml	EditorToggleCase	1	ALT U
+QtCreator.xml	EditorToggleShowWhitespaces	1	CONTROL E
+QtCreator.xml	EditorToggleShowWhitespaces	2	CONTROL V
+QtCreator.xml	EditorToggleUseSoftWraps	1	CONTROL E
+QtCreator.xml	EditorToggleUseSoftWraps	2	CONTROL W
+QtCreator.xml	EditorUnSelectWord	1	CONTROL ALT SHIFT U
+QtCreator.xml	Exit	1	CONTROL Q
+QtCreator.xml	ExpandRegion	1	CONTROL SHIFT PERIOD
+QtCreator.xml	Find	1	CONTROL F
+QtCreator.xml	FindInPath	1	CONTROL SHIFT F
+QtCreator.xml	FindNext	1	F3
+QtCreator.xml	FindPrevious	1	SHIFT F3
+QtCreator.xml	FindUsages	1	CONTROL SHIFT U
+QtCreator.xml	FindWordAtCaret	1	CONTROL F3
+QtCreator.xml	Forward	1	ALT RIGHT
+QtCreator.xml	GotoDeclaration	1	F2
+QtCreator.xml	GotoLine	1	CONTROL L
+QtCreator.xml	GotoNextBookmark	1	CONTROL PERIOD
+QtCreator.xml	GotoNextError	1	F6
+QtCreator.xml	GotoPreviousBookmark	1	CONTROL COMMA
+QtCreator.xml	GotoPreviousError	1	SHIFT F6
+QtCreator.xml	GotoRelated	1	SHIFT F2
+QtCreator.xml	MoveLineDown	1	CONTROL SHIFT DOWN
+QtCreator.xml	MoveLineUp	1	CONTROL SHIFT UP
+QtCreator.xml	NewFile	1	CONTROL N
+QtCreator.xml	OpenFile	1	CONTROL O
+QtCreator.xml	PasteMultiple	1	CONTROL SHIFT V
+QtCreator.xml	Pause	1	F5
+QtCreator.xml	Print	1	CONTROL P
+QtCreator.xml	RecentFiles	1	ALT O
+QtCreator.xml	ReformatCode	1	CONTROL SEMICOLON
+QtCreator.xml	RenameElement	1	CONTROL SHIFT R
+QtCreator.xml	Resume	1	F5
+QtCreator.xml	Run	1	CONTROL R
+QtCreator.xml	RunToCursor	1	CONTROL F10
+QtCreator.xml	SaveAll	1	CONTROL SHIFT S
+QtCreator.xml	SaveDocument	1	CONTROL S
+QtCreator.xml	ShowBookmarks	1	ALT M
+QtCreator.xml	ShowIntentionActions	1	ALT ENTER
+QtCreator.xml	SplitHorizontally	1	CONTROL E
+QtCreator.xml	SplitHorizontally	2	3
+QtCreator.xml	SplitVertically	1	CONTROL E
+QtCreator.xml	SplitVertically	2	2
+QtCreator.xml	StepInto	1	F11
+QtCreator.xml	StepOut	1	SHIFT F11
+QtCreator.xml	StepOver	1	F10
+QtCreator.xml	Stop	1	SHIFT F5
+QtCreator.xml	SwitchHeaderSource	1	F4
+QtCreator.xml	ToggleBookmark	1	CONTROL M
+QtCreator.xml	ToggleFullScreen	1	CONTROL SHIFT F11
+QtCreator.xml	ToggleLineBreakpoint	1	F9
+QtCreator.xml	TypeHierarchy	1	CONTROL SHIFT T
+QtCreator.xml	Unsplit	1	CONTROL E
+QtCreator.xml	Unsplit	2	0
+QtCreator.xml	UnsplitAll	1	CONTROL E
+QtCreator.xml	UnsplitAll	2	1
+QtCreator.xml	Vcs.Show.Log	1	ALT G
+QtCreator.xml	Vcs.Show.Log	2	ALT K
+QtCreator.xml	Vcs.ShowTabbedFileHistory	1	ALT G
+QtCreator.xml	Vcs.ShowTabbedFileHistory	2	ALT L
+ReSharper OSX.xml	ActivateFindToolWindow	1	META 3
+ReSharper OSX.xml	ActivateFindToolWindow	1	META ALT U
+ReSharper OSX.xml	ActivateInspectionResultsToolWindow	1	META CONTROL 4
+ReSharper OSX.xml	ActivateInspectionResultsToolWindow	1	META ALT COMMA
+ReSharper OSX.xml	ActivateProjectToolWindow	1	META 1
+ReSharper OSX.xml	ActivateStructureToolWindow	1	CONTROL F11
+ReSharper OSX.xml	ChangeSignature	1	META F6
+ReSharper OSX.xml	CheckinProject	1	META K
+ReSharper OSX.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+ReSharper OSX.xml	CodeCleanup	1	META ALT F
+ReSharper OSX.xml	CodeCompletion	1	CONTROL SPACE
+ReSharper OSX.xml	CommentByLineComment	1	META SLASH
+ReSharper OSX.xml	CommentByLineComment	1	META DIVIDE
+ReSharper OSX.xml	EditorSelectWord	1	ALT UP
+ReSharper OSX.xml	EditorUnSelectWord	1	ALT DOWN
+ReSharper OSX.xml	ExtractMethod	1	META ALT M
+ReSharper OSX.xml	FileStructurePopup	1	META F12
+ReSharper OSX.xml	FindUsages	1	ALT F7
+ReSharper OSX.xml	FindUsagesInFile	1	META SHIFT F7
+ReSharper OSX.xml	Generate	1	CONTROL META N
+ReSharper OSX.xml	Generate	1	ALT INSERT
+ReSharper OSX.xml	GotoChangedFile	1	META N
+ReSharper OSX.xml	GotoDeclaration	1	META B
+ReSharper OSX.xml	GotoFile	1	META SHIFT N
+ReSharper OSX.xml	GotoImplementation	1	META ALT B
+ReSharper OSX.xml	GotoPreviousError	1	SHIFT F12
+ReSharper OSX.xml	GotoRelated	1	META SHIFT ALT G
+ReSharper OSX.xml	GotoSuperMethod	1	META U
+ReSharper OSX.xml	GotoSymbol	1	META SHIFT ALT N
+ReSharper OSX.xml	GotoTypeDeclaration	1	META SHIFT T
+ReSharper OSX.xml	HighlightUsagesInFile	1	META SHIFT F7
+ReSharper OSX.xml	Inline	1	META ALT N
+ReSharper OSX.xml	InsertLiveTemplate	1	META J
+ReSharper OSX.xml	IntroduceField	1	META ALT D
+ReSharper OSX.xml	IntroduceParameter	1	META ALT P
+ReSharper OSX.xml	IntroduceVariable	1	META ALT V
+ReSharper OSX.xml	JumpToLastChange	1	META SHIFT BACK_SPACE
+ReSharper OSX.xml	Move	1	F6
+ReSharper OSX.xml	NewElement	1	ALT INSERT
+ReSharper OSX.xml	QuickJavaDoc	1	CONTROL Q
+ReSharper OSX.xml	RecentChangedFiles	1	META SHIFT ALT BACK_SPACE
+ReSharper OSX.xml	RecentFiles	1	META E
+ReSharper OSX.xml	Refactorings.QuickListPopupAction	1	META SHIFT R
+ReSharper OSX.xml	ReformatCode	1	META ALT L
+ReSharper OSX.xml	RenameElement	1	F2
+ReSharper OSX.xml	SafeDelete	1	ALT DELETE
+ReSharper OSX.xml	SearchEverywhere	1	META N
+ReSharper OSX.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+ReSharper OSX.xml	SearchEverywhere.NavigateToNextGroup	1	META DOWN
+ReSharper OSX.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+ReSharper OSX.xml	SearchEverywhere.NavigateToPrevGroup	1	META UP
+ReSharper OSX.xml	ShowBookmarks	1	CONTROL BACK_QUOTE
+ReSharper OSX.xml	ShowNavBar	1	ALT HOME
+ReSharper OSX.xml	ShowNavBar	1	CONTROL ALT LEFT
+ReSharper OSX.xml	ShowSettingsAndFindUsages	1	SHIFT ALT F17
+ReSharper OSX.xml	ShowUsages	1	META ALT F7
+ReSharper OSX.xml	SilentCodeCleanup	1	META SHIFT ALT F
+ReSharper OSX.xml	SmartTypeCompletion	1	CONTROL SHIFT SPACE
+ReSharper OSX.xml	SurroundWithLiveTemplate	1	META ALT J
+ReSharper OSX.xml	SwitchHeaderSource	1	CONTROL META O
+ReSharper OSX.xml	TypeHierarchy	1	META ALT H
+ReSharper OSX.xml	Unscramble	1	META SHIFT E
+ReSharper OSX.xml	ViewBreakpoints	1	META SHIFT F8
+ReSharper OSX.xml	XDebugger.AttachToProcess	1	CONTROL ALT F5
+ReSharper.xml	ActivateFindToolWindow	1	ALT 3
+ReSharper.xml	ActivateFindToolWindow	1	CONTROL ALT U
+ReSharper.xml	ActivateInspectionResultsToolWindow	1	ALT CONTROL 4
+ReSharper.xml	ActivateInspectionResultsToolWindow	1	CONTROL ALT COMMA
+ReSharper.xml	ActivateProjectToolWindow	1	ALT 1
+ReSharper.xml	ActivateStructureToolWindow	1	CONTROL F11
+ReSharper.xml	ChangeSignature	1	CONTROL F6
+ReSharper.xml	CheckinProject	1	CONTROL K
+ReSharper.xml	ClassNameCompletion	1	CONTROL ALT SPACE
+ReSharper.xml	CodeCleanup	1	CONTROL ALT F
+ReSharper.xml	CodeCompletion	1	CONTROL SPACE
+ReSharper.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+ReSharper.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+ReSharper.xml	CommentByLineComment	1	CONTROL SLASH
+ReSharper.xml	CommentByLineComment	1	CONTROL DIVIDE
+ReSharper.xml	EditorSelectWord	1	CONTROL W
+ReSharper.xml	EditorStartNewLine	1	SHIFT ENTER
+ReSharper.xml	EditorUnSelectWord	1	CONTROL SHIFT W
+ReSharper.xml	ExtractMethod	1	CONTROL ALT M
+ReSharper.xml	FileStructurePopup	1	CONTROL F12
+ReSharper.xml	FindUsages	1	ALT F7
+ReSharper.xml	FindUsagesInFile	1	CONTROL SHIFT F7
+ReSharper.xml	GotoChangedFile	1	CONTROL N
+ReSharper.xml	GotoDeclaration	1	CONTROL B
+ReSharper.xml	GotoFile	1	CONTROL SHIFT N
+ReSharper.xml	GotoImplementation	1	CONTROL ALT B
+ReSharper.xml	GotoNextError	1	F12
+ReSharper.xml	GotoPreviousError	1	SHIFT F12
+ReSharper.xml	GotoRelated	1	CTRL SHIFT ALT G
+ReSharper.xml	GotoSuperMethod	1	CONTROL U
+ReSharper.xml	GotoSymbol	1	CONTROL SHIFT ALT N
+ReSharper.xml	GotoTypeDeclaration	1	CTRL SHIFT T
+ReSharper.xml	HighlightUsagesInFile	1	CONTROL SHIFT F7
+ReSharper.xml	ImplementMethods	1	CONTROL I
+ReSharper.xml	Inline	1	CONTROL ALT N
+ReSharper.xml	InsertLiveTemplate	1	CONTROL J
+ReSharper.xml	IntroduceField	1	CONTROL ALT D
+ReSharper.xml	IntroduceParameter	1	CONTROL ALT P
+ReSharper.xml	IntroduceVariable	1	CONTROL ALT V
+ReSharper.xml	JumpToLastWindow	1	CONTROL ALT BACK_SPACE
+ReSharper.xml	JumpToLastWindow	1	SHIFT ALT F6
+ReSharper.xml	Move	1	F6
+ReSharper.xml	NewElement	1	ALT INSERT
+ReSharper.xml	ParameterInfo	1	CONTROL P
+ReSharper.xml	QuickImplementations	1	CONTROL SHIFT I
+ReSharper.xml	QuickJavaDoc	1	CONTROL Q
+ReSharper.xml	RecentChangedFiles	1	CONTROL SHIFT ALT BACK_SPACE
+ReSharper.xml	RecentFiles	1	CONTROL E
+ReSharper.xml	ReformatCode	1	CONTROL ALT L
+ReSharper.xml	RenameElement	1	F2
+ReSharper.xml	SafeDelete	1	ALT DELETE
+ReSharper.xml	SearchEverywhere	1	CONTROL N
+ReSharper.xml	ShowBookmarks	1	CONTROL BACK_QUOTE
+ReSharper.xml	ShowNavBar	1	ALT HOME
+ReSharper.xml	ShowSettingsAndFindUsages	1	SHIFT ALT F7
+ReSharper.xml	ShowUsages	1	CONTROL ALT F7
+ReSharper.xml	SilentCodeCleanup	1	CONTROL SHIFT ALT F
+ReSharper.xml	SmartTypeCompletion	1	CONTROL SHIFT SPACE
+ReSharper.xml	SurroundWithLiveTemplate	1	CONTROL ALT J
+ReSharper.xml	SwitchHeaderSource	1	ALT O
+ReSharper.xml	TypeHierarchy	1	CONTROL ALT H
+ReSharper.xml	Unscramble	1	CONTROL SHIFT E
+ReSharper.xml	Vcs.QuickListPopupAction	1	ALT BACK_QUOTE
+ReSharper.xml	ViewBreakpoints	1	CONTROL SHIFT F8
+ReSharper.xml	XDebugger.AttachToProcess	1	CONTROL ALT F5
+Sublime Text (Mac OS X).xml	$Paste	1	META SHIFT V
+Sublime Text (Mac OS X).xml	$Redo	1	META Y
+Sublime Text (Mac OS X).xml	$Redo	1	META SHIFT Z
+Sublime Text (Mac OS X).xml	Back	1	CONTROL SUBTRACT
+Sublime Text (Mac OS X).xml	Back	1	CONTROL MINUS
+Sublime Text (Mac OS X).xml	CollapseAllRegions	1	META K
+Sublime Text (Mac OS X).xml	CollapseAllRegions	2	META 1
+Sublime Text (Mac OS X).xml	CollapseRegion	1	META ALT OPEN_BRACKET
+Sublime Text (Mac OS X).xml	Compile	1	META B
+Sublime Text (Mac OS X).xml	EditorCloneCaretAbove	1	CONTROL SHIFT UP
+Sublime Text (Mac OS X).xml	EditorCloneCaretBelow	1	CONTROL SHIFT DOWN
+Sublime Text (Mac OS X).xml	EditorDecreaseFontSize	1	META SUBTRACT
+Sublime Text (Mac OS X).xml	EditorDecreaseFontSize	1	META MINUS
+Sublime Text (Mac OS X).xml	EditorDeleteLine	1	CONTROL SHIFT K
+Sublime Text (Mac OS X).xml	EditorDeleteToLineEnd	1	META K
+Sublime Text (Mac OS X).xml	EditorDeleteToLineEnd	2	META K
+Sublime Text (Mac OS X).xml	EditorDeleteToLineStart	1	META BACK_SPACE
+Sublime Text (Mac OS X).xml	EditorDeleteToLineStart	1	META K
+Sublime Text (Mac OS X).xml	EditorDeleteToLineStart	2	META BACK_SPACE
+Sublime Text (Mac OS X).xml	EditorDeleteToWordEndInDifferentHumpsMode	1	CONTROL DELETE
+Sublime Text (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode	1	CONTROL BACK_SPACE
+Sublime Text (Mac OS X).xml	EditorDuplicate	1	META SHIFT D
+Sublime Text (Mac OS X).xml	EditorIncreaseFontSize	1	META ADD
+Sublime Text (Mac OS X).xml	EditorIncreaseFontSize	1	META EQUALS
+Sublime Text (Mac OS X).xml	EditorIndentLineOrSelection	1	META CLOSE_BRACKET
+Sublime Text (Mac OS X).xml	EditorJoinLines	1	META J
+Sublime Text (Mac OS X).xml	EditorNextWordInDifferentHumpsMode	1	CONTROL ALT RIGHT
+Sublime Text (Mac OS X).xml	EditorNextWordInDifferentHumpsModeWithSelection	1	CONTROL ALT SHIFT RIGHT
+Sublime Text (Mac OS X).xml	EditorPageDown	1	PAGE_DOWN
+Sublime Text (Mac OS X).xml	EditorPageDown	1	CONTROL V
+Sublime Text (Mac OS X).xml	EditorPasteSimple	1	META V
+Sublime Text (Mac OS X).xml	EditorPreviousWordInDifferentHumpsMode	1	CONTROL ALT LEFT
+Sublime Text (Mac OS X).xml	EditorPreviousWordInDifferentHumpsModeWithSelection	1	CONTROL ALT SHIFT LEFT
+Sublime Text (Mac OS X).xml	EditorScrollDown	1	CONTROL ALT DOWN
+Sublime Text (Mac OS X).xml	EditorScrollToCenter	1	CONTROL L
+Sublime Text (Mac OS X).xml	EditorScrollToCenter	1	META K
+Sublime Text (Mac OS X).xml	EditorScrollToCenter	2	META C
+Sublime Text (Mac OS X).xml	EditorScrollUp	1	CONTROL ALT UP
+Sublime Text (Mac OS X).xml	EditorSelectWord	1	META L
+Sublime Text (Mac OS X).xml	EditorSelectWord	1	META SHIFT A
+Sublime Text (Mac OS X).xml	EditorSelectWord	1	META SHIFT J
+Sublime Text (Mac OS X).xml	EditorSelectWord	1	META SHIFT SPACE
+Sublime Text (Mac OS X).xml	EditorSelectWord	1	CONTROL SHIFT M
+Sublime Text (Mac OS X).xml	EditorSortLines	1	CONTROL F5
+Sublime Text (Mac OS X).xml	EditorSplitLine	1	SHIFT ENTER
+Sublime Text (Mac OS X).xml	EditorStartNewLine	1	META ENTER
+Sublime Text (Mac OS X).xml	EditorStartNewLineBefore	1	META SHIFT ENTER
+Sublime Text (Mac OS X).xml	EditorTextEnd	1	META DOWN
+Sublime Text (Mac OS X).xml	EditorTextStart	1	META UP
+Sublime Text (Mac OS X).xml	EditorToggleCase	1	META K
+Sublime Text (Mac OS X).xml	EditorToggleCase	2	META U
+Sublime Text (Mac OS X).xml	EditorToggleCase	1	META K
+Sublime Text (Mac OS X).xml	EditorToggleCase	2	META L
+Sublime Text (Mac OS X).xml	EditorToggleInsertState	1	META ALT O
+Sublime Text (Mac OS X).xml	EditorUnindentSelection	1	META OPEN_BRACKET
+Sublime Text (Mac OS X).xml	ExpandAllRegions	1	META K
+Sublime Text (Mac OS X).xml	ExpandAllRegions	2	META J
+Sublime Text (Mac OS X).xml	ExpandAllRegions	1	META K
+Sublime Text (Mac OS X).xml	ExpandAllRegions	2	META 0
+Sublime Text (Mac OS X).xml	ExpandRegion	1	META ALT CLOSE_BRACKET
+Sublime Text (Mac OS X).xml	FileStructurePopup	1	META R
+Sublime Text (Mac OS X).xml	FillParagraph	1	META ALT Q
+Sublime Text (Mac OS X).xml	FindNext	1	META G
+Sublime Text (Mac OS X).xml	FindNext	1	META K
+Sublime Text (Mac OS X).xml	FindNext	2	META D
+Sublime Text (Mac OS X).xml	FindPrevious	1	META SHIFT G
+Sublime Text (Mac OS X).xml	FindWordAtCaret	1	META ALT G
+Sublime Text (Mac OS X).xml	Forward	1	CONTROL SHIFT SUBTRACT
+Sublime Text (Mac OS X).xml	Forward	1	CONTROL SHIFT MINUS
+Sublime Text (Mac OS X).xml	GotoAction	1	SHIFT META P
+Sublime Text (Mac OS X).xml	GotoDeclaration	1	F12
+Sublime Text (Mac OS X).xml	GotoDeclaration	1	META ALT DOWN
+Sublime Text (Mac OS X).xml	GotoFile	1	META P
+Sublime Text (Mac OS X).xml	GotoFile	1	META T
+Sublime Text (Mac OS X).xml	GotoImplementation	1	META ALT B
+Sublime Text (Mac OS X).xml	GotoLine	1	CONTROL G
+Sublime Text (Mac OS X).xml	GotoNextBookmark	1	F2
+Sublime Text (Mac OS X).xml	GotoNextBookmark	1	CONTROL R
+Sublime Text (Mac OS X).xml	GotoPreviousBookmark	1	SHIFT F2
+Sublime Text (Mac OS X).xml	GotoSymbol	1	META SHIFT R
+Sublime Text (Mac OS X).xml	IncrementalSearch	1	META I
+Sublime Text (Mac OS X).xml	MoveLineDown	1	META CONTROL DOWN
+Sublime Text (Mac OS X).xml	MoveLineUp	1	META CONTROL UP
+Sublime Text (Mac OS X).xml	NewElement	1	META N
+Sublime Text (Mac OS X).xml	NextTab	1	META SHIFT CLOSE_BRACKET
+Sublime Text (Mac OS X).xml	NextTab	1	META ALT RIGHT
+Sublime Text (Mac OS X).xml	NextTab	1	CONTROL PAGE_DOWN
+Sublime Text (Mac OS X).xml	OpenFile	1	META O
+Sublime Text (Mac OS X).xml	PasteMultiple	1	META K
+Sublime Text (Mac OS X).xml	PasteMultiple	2	META V
+Sublime Text (Mac OS X).xml	PasteMultiple	1	META K
+Sublime Text (Mac OS X).xml	PasteMultiple	2	V
+Sublime Text (Mac OS X).xml	PasteMultiple	1	META ALT V
+Sublime Text (Mac OS X).xml	PlaybackLastMacro	1	CONTROL SHIFT Q
+Sublime Text (Mac OS X).xml	PreviousTab	1	META SHIFT OPEN_BRACKET
+Sublime Text (Mac OS X).xml	PreviousTab	1	META ALT LEFT
+Sublime Text (Mac OS X).xml	PreviousTab	1	CONTROL PAGE_UP
+Sublime Text (Mac OS X).xml	QuickImplementations	1	ALT SPACE
+Sublime Text (Mac OS X).xml	ReopenClosedTab	1	META SHIFT T
+Sublime Text (Mac OS X).xml	Replace	1	META ALT F
+Sublime Text (Mac OS X).xml	SelectNextOccurrence	1	META D
+Sublime Text (Mac OS X).xml	ShowNavBar	1	ALT HOME
+Sublime Text (Mac OS X).xml	ShowPopupMenu	1	ALT F2
+Sublime Text (Mac OS X).xml	ShowUsages	1	SHIFT F12
+Sublime Text (Mac OS X).xml	ShowUsages	1	META ALT SHIFT DOWN
+Sublime Text (Mac OS X).xml	StartStopMacroRecording	1	CONTROL Q
+Sublime Text (Mac OS X).xml	ToggleBookmark	1	META F2
+Sublime Text (Mac OS X).xml	ToggleBookmark	1	CONTROL SHIFT R
+Sublime Text (Mac OS X).xml	ToggleDistractionFreeMode	1	META CTRL SHIFT F
+Sublime Text.xml	$Paste	1	CONTROL SHIFT V
+Sublime Text.xml	$Redo	1	CONTROL SHIFT Z
+Sublime Text.xml	$Redo	1	CONTROL Y
+Sublime Text.xml	Back	1	ALT SUBTRACT
+Sublime Text.xml	Back	1	ALT MINUS
+Sublime Text.xml	CloseContent	1	CONTROL F4
+Sublime Text.xml	CloseContent	1	CONTROL W
+Sublime Text.xml	CollapseAllRegions	1	CONTROL K
+Sublime Text.xml	CollapseAllRegions	2	CONTROL 1
+Sublime Text.xml	CollapseRegion	1	CONTROL SHIFT OPEN_BRACKET
+Sublime Text.xml	Compile	1	CONTROL B
+Sublime Text.xml	EditorCloneCaretAbove	1	CONTROL ALT UP
+Sublime Text.xml	EditorCloneCaretBelow	1	CONTROL ALT DOWN
+Sublime Text.xml	EditorDecreaseFontSize	1	CONTROL SUBTRACT
+Sublime Text.xml	EditorDecreaseFontSize	1	CONTROL MINUS
+Sublime Text.xml	EditorDecreaseFontSize	1	CONTROL SHIFT ADD
+Sublime Text.xml	EditorDecreaseFontSize	1	CONTROL SHIFT EQUALS
+Sublime Text.xml	EditorDeleteLine	1	CONTROL SHIFT K
+Sublime Text.xml	EditorDeleteToLineEnd	1	CONTROL K
+Sublime Text.xml	EditorDeleteToLineEnd	2	CONTROL K
+Sublime Text.xml	EditorDeleteToLineStart	1	CONTROL SHIFT BACK_SPACE
+Sublime Text.xml	EditorDeleteToLineStart	1	CONTROL K
+Sublime Text.xml	EditorDeleteToLineStart	2	CONTROL BACK_SPACE
+Sublime Text.xml	EditorDuplicate	1	CONTROL SHIFT D
+Sublime Text.xml	EditorIncreaseFontSize	1	CONTROL ADD
+Sublime Text.xml	EditorIncreaseFontSize	1	CONTROL EQUALS
+Sublime Text.xml	EditorIndentLineOrSelection	1	CONTROL CLOSE_BRACKET
+Sublime Text.xml	EditorJoinLines	1	CONTROL J
+Sublime Text.xml	EditorMatchBrace	1	CONTROL M
+Sublime Text.xml	EditorNextWordInDifferentHumpsMode	1	ALT RIGHT
+Sublime Text.xml	EditorNextWordInDifferentHumpsModeWithSelection	1	ALT SHIFT RIGHT
+Sublime Text.xml	EditorPasteSimple	1	CONTROL V
+Sublime Text.xml	EditorPasteSimple	1	SHIFT INSERT
+Sublime Text.xml	EditorPreviousWordInDifferentHumpsMode	1	ALT LEFT
+Sublime Text.xml	EditorPreviousWordInDifferentHumpsModeWithSelection	1	ALT SHIFT LEFT
+Sublime Text.xml	EditorScrollToCenter	1	CONTROL K
+Sublime Text.xml	EditorScrollToCenter	2	CONTROL C
+Sublime Text.xml	EditorSelectWord	1	CONTROL SHIFT SPACE
+Sublime Text.xml	EditorSelectWord	1	CONTROL L
+Sublime Text.xml	EditorSelectWord	1	CONTROL SHIFT A
+Sublime Text.xml	EditorSelectWord	1	CONTROL SHIFT J
+Sublime Text.xml	EditorSelectWord	1	CONTROL SHIFT M
+Sublime Text.xml	EditorSortLines	1	CONTROL F9
+Sublime Text.xml	EditorSplitLine	1	SHIFT ENTER
+Sublime Text.xml	EditorStartNewLine	1	CONTROL ENTER
+Sublime Text.xml	EditorStartNewLineBefore	1	CONTROL SHIFT ENTER
+Sublime Text.xml	EditorToggleCase	1	CONTROL K
+Sublime Text.xml	EditorToggleCase	2	CONTROL U
+Sublime Text.xml	EditorToggleCase	1	CONTROL K
+Sublime Text.xml	EditorToggleCase	2	CONTROL L
+Sublime Text.xml	EditorUnindentSelection	1	CONTROL OPEN_BRACKET
+Sublime Text.xml	ExpandAllRegions	1	CONTROL K
+Sublime Text.xml	ExpandAllRegions	2	CONTROL J
+Sublime Text.xml	ExpandAllRegions	1	CONTROL K
+Sublime Text.xml	ExpandAllRegions	2	CONTROL 0
+Sublime Text.xml	ExpandRegion	1	CONTROL SHIFT CLOSE_BRACKET
+Sublime Text.xml	FileStructurePopup	1	CONTROL R
+Sublime Text.xml	FillParagraph	1	ALT Q
+Sublime Text.xml	Find	1	CONTROL F
+Sublime Text.xml	FindNext	1	F3
+Sublime Text.xml	FindNext	1	CONTROL K
+Sublime Text.xml	FindNext	2	CONTROL D
+Sublime Text.xml	FindPrevious	1	SHIFT F3
+Sublime Text.xml	Forward	1	ALT SHIFT SUBTRACT
+Sublime Text.xml	Forward	1	ALT SHIFT MINUS
+Sublime Text.xml	GotoAction	1	SHIFT CONTROL P
+Sublime Text.xml	GotoDeclaration	1	F12
+Sublime Text.xml	GotoFile	1	CONTROL P
+Sublime Text.xml	GotoNextBookmark	1	F2
+Sublime Text.xml	GotoPreviousBookmark	1	SHIFT F2
+Sublime Text.xml	GotoSymbol	1	CONTROL SHIFT R
+Sublime Text.xml	IncrementalSearch	1	CONTROL I
+Sublime Text.xml	MoveLineDown	1	CONTROL SHIFT DOWN
+Sublime Text.xml	MoveLineUp	1	CONTROL SHIFT UP
+Sublime Text.xml	NewElement	1	CONTROL N
+Sublime Text.xml	NextTab	1	CONTROL PAGE_DOWN
+Sublime Text.xml	OpenFile	1	CONTROL O
+Sublime Text.xml	PasteMultiple	1	CONTROL K
+Sublime Text.xml	PasteMultiple	2	CONTROL V
+Sublime Text.xml	PasteMultiple	1	CONTROL K
+Sublime Text.xml	PasteMultiple	2	V
+Sublime Text.xml	PlaybackLastMacro	1	CONTROL SHIFT Q
+Sublime Text.xml	PreviousTab	1	CONTROL PAGE_UP
+Sublime Text.xml	ReopenClosedTab	1	CONTROL SHIFT T
+Sublime Text.xml	Replace	1	CONTROL H
+Sublime Text.xml	SelectAllOccurrences	1	ALT F3
+Sublime Text.xml	SelectNextOccurrence	1	CONTROL D
+Sublime Text.xml	ShowUsages	1	SHIFT F12
+Sublime Text.xml	StartStopMacroRecording	1	CONTROL Q
+Sublime Text.xml	ToggleBookmark	1	CONTROL F2
+Sublime Text.xml	ToggleDistractionFreeMode	1	SHIFT F11
+Sublime Text.xml	ToggleFullScreen	1	F11
+Visual Assist OSX.xml	EditorSelectWord	1	META ALT RIGHT
+Visual Assist OSX.xml	EditorSelectWord	1	ALT CLOSE_BRACKET
+Visual Assist OSX.xml	EditorUnSelectWord	1	META ALT LEFT
+Visual Assist OSX.xml	EditorUnSelectWord	1	ALT OPEN_BRACKET
+Visual Assist OSX.xml	FileStructurePopup	1	ALT BACK_SLASH
+Visual Assist OSX.xml	FileStructurePopup	1	ALT M
+Visual Assist OSX.xml	GotoFile	1	SHIFT ALT O
+Visual Assist OSX.xml	GotoImplementation	1	ALT G
+Visual Assist OSX.xml	GotoRelated	1	SHIFT ALT G
+Visual Assist OSX.xml	GotoSymbol	1	SHIFT ALT S
+Visual Assist.xml	Back	1	CONTROL MINUS
+Visual Assist.xml	Back	1	CONTROL SUBTRACT
+Visual Assist.xml	Back	1	ALT LEFT
+Visual Assist.xml	EditorSelectWord	1	CTRL ALT RIGHT
+Visual Assist.xml	EditorSelectWord	1	CTRL W
+Visual Assist.xml	EditorSelectWord	1	ALT CLOSE_BRACKET
+Visual Assist.xml	EditorUnSelectWord	1	CTRL ALT LEFT
+Visual Assist.xml	EditorUnSelectWord	1	SHIFT CTRL W
+Visual Assist.xml	EditorUnSelectWord	1	ALT OPEN_BRACKET
+Visual Assist.xml	FileStructurePopup	1	ALT BACK_SLASH
+Visual Assist.xml	FileStructurePopup	1	ALT M
+Visual Assist.xml	FindUsages	1	SHIFT ALT F
+Visual Assist.xml	Forward	1	CONTROL SHIFT MINUS
+Visual Assist.xml	Forward	1	CONTROL SHIFT SUBTRACT
+Visual Assist.xml	Forward	1	ALT RIGHT
+Visual Assist.xml	GotoDeclaration	1	ALT G
+Visual Assist.xml	GotoFile	1	SHIFT ALT O
+Visual Assist.xml	GotoSymbol	1	SHIFT ALT S
+Visual Assist.xml	HighlightUsagesInFile	1	ALT K
+Visual Assist.xml	Refactorings.QuickListPopupAction	1	CONTROL SHIFT R
+Visual Assist.xml	Refactorings.QuickListPopupAction	1	SHIFT ALT Q
+Visual Assist.xml	RenameElement	1	SHIFT ALT R
+Visual Assist.xml	ReSharperNavigateTo	1	ALT BACK_QUOTE
+Visual Assist.xml	ReSharperNavigateTo	1	ALT DEAD_GRAVE
+Visual Assist.xml	ReSharperNavigateTo	1	SHIFT ALT G
+Visual Studio for Mac.xml	$Redo	1	SHIFT META Z
+Visual Studio for Mac.xml	$SelectAll	1	META A
+Visual Studio for Mac.xml	BuildProject	1	META B
+Visual Studio for Mac.xml	BuildProject	1	F6
+Visual Studio for Mac.xml	BuildSolutionAction	1	META B
+Visual Studio for Mac.xml	BuildSolutionAction	1	F6
+Visual Studio for Mac.xml	CloseAllEditors	1	SHIFT META W
+Visual Studio for Mac.xml	CloseContent	1	META W
+Visual Studio for Mac.xml	CloseProject	1	ALT META W
+Visual Studio for Mac.xml	CodeCompletion	1	CONTROL SPACE
+Visual Studio for Mac.xml	CommentByLineComment	1	META SLASH
+Visual Studio for Mac.xml	Debug	1	META ENTER
+Visual Studio for Mac.xml	Debug	1	F5
+Visual Studio for Mac.xml	EditorBackSpace	1	BACK_SPACE
+Visual Studio for Mac.xml	EditorDecreaseFontSize	1	META MINUS
+Visual Studio for Mac.xml	EditorDecreaseFontSize	1	META SUBTRACT
+Visual Studio for Mac.xml	EditorDelete	1	META BACK_SPACE
+Visual Studio for Mac.xml	EditorDeleteToLineEnd	1	CONTROL K
+Visual Studio for Mac.xml	EditorDeleteToWordEnd	1	ALT DELETE
+Visual Studio for Mac.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Visual Studio for Mac.xml	EditorDuplicate	1	SHIFT META D
+Visual Studio for Mac.xml	EditorIncreaseFontSize	1	META ADD
+Visual Studio for Mac.xml	EditorIncreaseFontSize	1	META EQUALS
+Visual Studio for Mac.xml	EditorIndentLineOrSelection	1	META CLOSE_BRACKET
+Visual Studio for Mac.xml	EditorNextWord	1	ALT RIGHT
+Visual Studio for Mac.xml	EditorPreviousWord	1	ALT LEFT
+Visual Studio for Mac.xml	EditorResetFontSize	1	META 0
+Visual Studio for Mac.xml	EditorUnindentSelection	1	META OPEN_BRACKET
+Visual Studio for Mac.xml	Exit	1	META Q
+Visual Studio for Mac.xml	FileChooser.NewFile	1	META N
+Visual Studio for Mac.xml	Find	1	META F
+Visual Studio for Mac.xml	FindNext	1	META G
+Visual Studio for Mac.xml	FindNext	1	F3
+Visual Studio for Mac.xml	FindPrevious	1	SHIFT META G
+Visual Studio for Mac.xml	FindPrevious	1	SHIFT F3
+Visual Studio for Mac.xml	FindUsages	1	SHIFT META R
+Visual Studio for Mac.xml	FindUsages	1	SHIFT F12
+Visual Studio for Mac.xml	GotoDeclaration	1	META D
+Visual Studio for Mac.xml	GotoDeclaration	1	F12
+Visual Studio for Mac.xml	GotoFile	1	META P
+Visual Studio for Mac.xml	GotoImplementation	1	META I
+Visual Studio for Mac.xml	GotoLine	1	META L
+Visual Studio for Mac.xml	MinimizeCurrentWindow	1	META M
+Visual Studio for Mac.xml	MoveTabRight	1	CONTROL META RIGHT
+Visual Studio for Mac.xml	PinActiveTab	1	ALT META P
+Visual Studio for Mac.xml	RebuildProject	1	CONTROL META B
+Visual Studio for Mac.xml	RebuildSolutionAction	1	CONTROL META B
+Visual Studio for Mac.xml	ReformatCode	1	CONTROL I
+Visual Studio for Mac.xml	RenameElement	1	META R
+Visual Studio for Mac.xml	RenameElement	1	F2
+Visual Studio for Mac.xml	Replace	1	ALT META F
+Visual Studio for Mac.xml	ReplaceInPath	1	ALT SHIFT META F
+Visual Studio for Mac.xml	RiderNewSolution	1	SHIFT META N
+Visual Studio for Mac.xml	RiderOpenSolution	1	META O
+Visual Studio for Mac.xml	RiderRemoveAllLineBreakpoints	1	SHIFT META F9
+Visual Studio for Mac.xml	Run	1	ALT META ENTER
+Visual Studio for Mac.xml	Run	1	CONTROL F5
+Visual Studio for Mac.xml	RunToCursor	1	META F10
+Visual Studio for Mac.xml	SaveAll	1	ALT META S
+Visual Studio for Mac.xml	SaveAll	1	META S
+Visual Studio for Mac.xml	SearchEverywhere	1	META PERIOD
+Visual Studio for Mac.xml	ShowIntentionActions	1	ALT ENTER
+Visual Studio for Mac.xml	ShowSettings	1	META COMMA
+Visual Studio for Mac.xml	StepInto	1	SHIFT META I
+Visual Studio for Mac.xml	StepInto	1	META F11
+Visual Studio for Mac.xml	StepOut	1	SHIFT META U
+Visual Studio for Mac.xml	StepOut	1	SHIFT META F11
+Visual Studio for Mac.xml	StepOver	1	SHIFT META O
+Visual Studio for Mac.xml	StepOver	1	F10
+Visual Studio for Mac.xml	Stop	1	SHIFT META ENTER
+Visual Studio for Mac.xml	Stop	1	SHIFT F5
+Visual Studio for Mac.xml	SwitchHeaderSource	1	CONTROL META O
+Visual Studio for Mac.xml	ToggleFullScreen	1	CONTROL META F
+Visual Studio for Mac.xml	ToggleLineBreakpoint	1	META BACK_SLASH
+Visual Studio for Mac.xml	ToggleLineBreakpoint	1	F9
+Visual Studio for Mac.xml	ViewBreakpoints	1	ALT META B
+Visual Studio OSX.xml	$Copy	1	META C
+Visual Studio OSX.xml	$Copy	1	META INSERT
+Visual Studio OSX.xml	$Cut	1	META X
+Visual Studio OSX.xml	$Cut	1	SHIFT DELETE
+Visual Studio OSX.xml	$Cut	1	META L
+Visual Studio OSX.xml	$Paste	1	META V
+Visual Studio OSX.xml	$Paste	1	SHIFT INSERT
+Visual Studio OSX.xml	$Redo	1	META Y
+Visual Studio OSX.xml	$Redo	1	SHIFT META Z
+Visual Studio OSX.xml	$Redo	1	ALT SHIFT BACK_SPACE
+Visual Studio OSX.xml	ActivateBuildToolWindow	1	META 0
+Visual Studio OSX.xml	ActivateDatabaseToolWindow	1	META CONTROL 3
+Visual Studio OSX.xml	ActivateErrorsInSolutionToolWindow	1	META CONTROL 2
+Visual Studio OSX.xml	ActivateFindToolWindow	1	META 3
+Visual Studio OSX.xml	ActivateFindToolWindow	1	META ALT F12
+Visual Studio OSX.xml	ActivateInspectionResultsToolWindow	1	META CONTROL 4
+Visual Studio OSX.xml	ActivateInspectionResultsToolWindow	1	META ALT V
+Visual Studio OSX.xml	ActivateNuGetToolWindow	1	META 7
+Visual Studio OSX.xml	ActivateNuGetToolWindow	1	META SHIFT 7
+Visual Studio OSX.xml	ActivateProjectToolWindow	1	META ALT L
+Visual Studio OSX.xml	ActivateProjectToolWindow	1	META 1
+Visual Studio OSX.xml	ActivateStructureToolWindow	1	META ALT F
+Visual Studio OSX.xml	ActivateStructureToolWindow	1	CONTROL ALT F
+Visual Studio OSX.xml	ActivateTerminalToolWindow	1	META CONTROL 1
+Visual Studio OSX.xml	ActivateUnitTestsToolWindow	1	META 8
+Visual Studio OSX.xml	ActivateUnitTestsToolWindow	1	META SHIFT 8
+Visual Studio OSX.xml	ActivateWebToolWindow	1	META ALT W
+Visual Studio OSX.xml	Back	1	META MINUS
+Visual Studio OSX.xml	Back	1	META SUBTRACT
+Visual Studio OSX.xml	BuildProject	1	META SHIFT B
+Visual Studio OSX.xml	ChangeSignature	1	META R
+Visual Studio OSX.xml	ChangeSignature	2	S
+Visual Studio OSX.xml	ChangeSignature	1	META R
+Visual Studio OSX.xml	ChangeSignature	2	META S
+Visual Studio OSX.xml	CheckinProject	1	META ALT SHIFT K
+Visual Studio OSX.xml	ChooseRunConfiguration	1	META SHIFT ALT R
+Visual Studio OSX.xml	ClassNameCompletion	1	SHIFT ALT SPACE
+Visual Studio OSX.xml	CloseContent	1	META F4
+Visual Studio OSX.xml	CodeCleanup	1	META E
+Visual Studio OSX.xml	CodeCleanup	2	C
+Visual Studio OSX.xml	CodeCleanup	1	META E
+Visual Studio OSX.xml	CodeCleanup	2	META C
+Visual Studio OSX.xml	CodeCompletion	1	CONTROL SPACE
+Visual Studio OSX.xml	CodeCompletion	1	CONTROL J
+Visual Studio OSX.xml	CollapseAllRegions	1	CONTROL M
+Visual Studio OSX.xml	CollapseAllRegions	2	A
+Visual Studio OSX.xml	CollapseAllRegions	1	CONTROL M
+Visual Studio OSX.xml	CollapseAllRegions	2	CONTROL A
+Visual Studio OSX.xml	CollapseRegion	1	CONTROL M
+Visual Studio OSX.xml	CollapseRegion	2	S
+Visual Studio OSX.xml	CollapseRegion	1	CONTROL M
+Visual Studio OSX.xml	CollapseRegion	2	CONTROL S
+Visual Studio OSX.xml	CommentByBlockComment	1	CONTROL META SLASH
+Visual Studio OSX.xml	CommentByBlockComment	1	SHIFT META DIVIDE
+Visual Studio OSX.xml	CommentByLineComment	1	META ALT SLASH
+Visual Studio OSX.xml	CommentByLineComment	1	META ALT DIVIDE
+Visual Studio OSX.xml	CommentByLineComment	1	META K
+Visual Studio OSX.xml	CommentByLineComment	2	C
+Visual Studio OSX.xml	CommentByLineComment	1	META K
+Visual Studio OSX.xml	CommentByLineComment	2	META C
+Visual Studio OSX.xml	CommentByLineComment	1	META K
+Visual Studio OSX.xml	CommentByLineComment	2	META SLASH
+Visual Studio OSX.xml	CommentByLineComment	1	META K
+Visual Studio OSX.xml	CommentByLineComment	2	META U
+Visual Studio OSX.xml	Compile	1	META F7
+Visual Studio OSX.xml	CompileDirty	1	F7
+Visual Studio OSX.xml	Console.TableResult.EditValueMaximized	1	SHIFT ENTER
+Visual Studio OSX.xml	ContextHelp	1	F1
+Visual Studio OSX.xml	Debug	1	ALT F5
+Visual Studio OSX.xml	EditBreakpoint	1	ALT F9
+Visual Studio OSX.xml	EditorDeleteLine	1	META SHIFT L
+Visual Studio OSX.xml	EditorLeftWithSelection	1	SHIFT LEFT
+Visual Studio OSX.xml	EditorLeftWithSelection	1	CONTROL SHIFT LEFT
+Visual Studio OSX.xml	EditorMatchBrace	1	META CLOSE_BRACKET
+Visual Studio OSX.xml	EditorMoveToPageBottomWithSelection	1	META SHIFT DOWN
+Visual Studio OSX.xml	EditorMoveToPageTopWithSelection	1	META SHIFT UP
+Visual Studio OSX.xml	EditorRightWithSelection	1	SHIFT RIGHT
+Visual Studio OSX.xml	EditorRightWithSelection	1	CONTROL SHIFT RIGHT
+Visual Studio OSX.xml	EditorSelectWord	1	META ALT RIGHT
+Visual Studio OSX.xml	EditorStartNewLineBefore	1	META ENTER
+Visual Studio OSX.xml	EditorToggleShowWhitespaces	1	META R
+Visual Studio OSX.xml	EditorToggleShowWhitespaces	2	W
+Visual Studio OSX.xml	EditorToggleShowWhitespaces	1	META R
+Visual Studio OSX.xml	EditorToggleShowWhitespaces	2	META W
+Visual Studio OSX.xml	EditorToggleUseSoftWraps	1	META E
+Visual Studio OSX.xml	EditorToggleUseSoftWraps	2	W
+Visual Studio OSX.xml	EditorToggleUseSoftWraps	1	META E
+Visual Studio OSX.xml	EditorToggleUseSoftWraps	2	META W
+Visual Studio OSX.xml	EditorUnSelectWord	1	META ALT LEFT
+Visual Studio OSX.xml	EvaluateExpression	1	SHIFT F9
+Visual Studio OSX.xml	ExpandAllRegions	1	CONTROL M
+Visual Studio OSX.xml	ExpandAllRegions	2	X
+Visual Studio OSX.xml	ExpandAllRegions	1	CONTROL M
+Visual Studio OSX.xml	ExpandAllRegions	2	CONTROL X
+Visual Studio OSX.xml	ExpandRegion	1	CONTROL M
+Visual Studio OSX.xml	ExpandRegion	2	E
+Visual Studio OSX.xml	ExpandRegion	1	CONTROL M
+Visual Studio OSX.xml	ExpandRegion	2	CONTROL E
+Visual Studio OSX.xml	ExternalJavaDoc	1	SHIFT F1
+Visual Studio OSX.xml	ExternalJavaDoc	1	META F1
+Visual Studio OSX.xml	ExtractMethod	1	META R
+Visual Studio OSX.xml	ExtractMethod	2	M
+Visual Studio OSX.xml	ExtractMethod	1	META R
+Visual Studio OSX.xml	ExtractMethod	2	META M
+Visual Studio OSX.xml	FileStructurePopup	1	ALT BACK_SLASH
+Visual Studio OSX.xml	FindNext	1	F3
+Visual Studio OSX.xml	FindNext	1	META ALT PAGE_DOWN
+Visual Studio OSX.xml	FindPrevious	1	SHIFT F3
+Visual Studio OSX.xml	FindPrevious	1	META ALT PAGE_UP
+Visual Studio OSX.xml	FindUsages	1	SHIFT F12
+Visual Studio OSX.xml	FindUsagesInFile	1	SHIFT ALT F11
+Visual Studio OSX.xml	FindWordAtCaret	1	META F3
+Visual Studio OSX.xml	ForceStepInto	1	ALT F11
+Visual Studio OSX.xml	Forward	1	META SHIFT MINUS
+Visual Studio OSX.xml	Forward	1	META SHIFT SUBTRACT
+Visual Studio OSX.xml	Generate	1	CONTROL META N
+Visual Studio OSX.xml	GotoChangedFile	1	META T
+Visual Studio OSX.xml	GotoDeclaration	1	F12
+Visual Studio OSX.xml	GotoFile	1	META SHIFT T
+Visual Studio OSX.xml	GotoImplementation	1	ALT END
+Visual Studio OSX.xml	GotoLine	1	META G
+Visual Studio OSX.xml	GotoNextBookmark	1	META K
+Visual Studio OSX.xml	GotoNextBookmark	2	N
+Visual Studio OSX.xml	GotoNextBookmark	1	META K
+Visual Studio OSX.xml	GotoNextBookmark	2	META N
+Visual Studio OSX.xml	GotoNextError	1	ALT PAGE_DOWN
+Visual Studio OSX.xml	GotoPreviousBookmark	1	META K
+Visual Studio OSX.xml	GotoPreviousBookmark	2	P
+Visual Studio OSX.xml	GotoPreviousBookmark	1	META K
+Visual Studio OSX.xml	GotoPreviousBookmark	2	META P
+Visual Studio OSX.xml	GotoPreviousError	1	ALT PAGE_UP
+Visual Studio OSX.xml	GotoRelated	1	META SHIFT F7
+Visual Studio OSX.xml	GotoSuperMethod	1	ALT HOME
+Visual Studio OSX.xml	GotoSuperMethod	1	CONTROL ALT LEFT
+Visual Studio OSX.xml	GotoSymbol	1	META SHIFT ALT T
+Visual Studio OSX.xml	GotoTypeDeclaration	1	META SHIFT F11
+Visual Studio OSX.xml	HighlightUsagesInFile	1	SHIFT ALT F11
+Visual Studio OSX.xml	ImplementMethods	1	CONTROL I
+Visual Studio OSX.xml	IncrementalSearch	1	META I
+Visual Studio OSX.xml	Inline	1	META R
+Visual Studio OSX.xml	Inline	2	I
+Visual Studio OSX.xml	Inline	1	META R
+Visual Studio OSX.xml	Inline	2	META I
+Visual Studio OSX.xml	InsertLiveTemplate	1	META E
+Visual Studio OSX.xml	InsertLiveTemplate	2	L
+Visual Studio OSX.xml	InsertLiveTemplate	1	META E
+Visual Studio OSX.xml	InsertLiveTemplate	2	META L
+Visual Studio OSX.xml	IntroduceField	1	META R
+Visual Studio OSX.xml	IntroduceField	2	F
+Visual Studio OSX.xml	IntroduceField	1	META R
+Visual Studio OSX.xml	IntroduceField	2	META F
+Visual Studio OSX.xml	IntroduceParameter	1	META R
+Visual Studio OSX.xml	IntroduceParameter	2	P
+Visual Studio OSX.xml	IntroduceParameter	1	META R
+Visual Studio OSX.xml	IntroduceParameter	2	META P
+Visual Studio OSX.xml	IntroduceVariable	1	META R
+Visual Studio OSX.xml	IntroduceVariable	2	V
+Visual Studio OSX.xml	IntroduceVariable	1	META R
+Visual Studio OSX.xml	IntroduceVariable	2	META V
+Visual Studio OSX.xml	JumpToLastChange	1	SHIFT META BACK_SPACE
+Visual Studio OSX.xml	JumpToLastChange	1	SHIFT META BACK_SPACE
+Visual Studio OSX.xml	JumpToLastWindow	1	SHIFT ALT F6
+Visual Studio OSX.xml	Move	1	META R
+Visual Studio OSX.xml	Move	2	O
+Visual Studio OSX.xml	Move	1	META R
+Visual Studio OSX.xml	Move	2	META O
+Visual Studio OSX.xml	MoveStatementDown	1	CONTROL ALT SHIFT DOWN
+Visual Studio OSX.xml	MoveStatementUp	1	CONTROL ALT SHIFT UP
+Visual Studio OSX.xml	NewElement	1	META N
+Visual Studio OSX.xml	NewElement	1	ALT INSERT
+Visual Studio OSX.xml	OpenFile	1	META O
+Visual Studio OSX.xml	Pause	1	META PAUSE
+Visual Studio OSX.xml	Pause	1	SHIFT META P
+Visual Studio OSX.xml	QuickJavaDoc	1	CONTROL SHIFT F1
+Visual Studio OSX.xml	RecentChangedFiles	1	META SHIFT COMMA
+Visual Studio OSX.xml	RecentFiles	1	CONTROL COMMA
+Visual Studio OSX.xml	Refactorings.QuickListPopupAction	1	META SHIFT R
+Visual Studio OSX.xml	ReformatCode	1	META ALT ENTER
+Visual Studio OSX.xml	ReformatCode	1	META K
+Visual Studio OSX.xml	ReformatCode	2	F
+Visual Studio OSX.xml	ReformatCode	1	META K
+Visual Studio OSX.xml	ReformatCode	2	META F
+Visual Studio OSX.xml	ReformatCode	1	META K
+Visual Studio OSX.xml	ReformatCode	2	D
+Visual Studio OSX.xml	ReformatCode	1	META K
+Visual Studio OSX.xml	ReformatCode	2	META D
+Visual Studio OSX.xml	Refresh	1	META ALT R
+Visual Studio OSX.xml	RenameElement	1	META R
+Visual Studio OSX.xml	RenameElement	2	R
+Visual Studio OSX.xml	RenameElement	1	META R
+Visual Studio OSX.xml	RenameElement	2	META R
+Visual Studio OSX.xml	Replace	1	CONTROL H
+Visual Studio OSX.xml	ReplaceInPath	1	META SHIFT H
+Visual Studio OSX.xml	Rerun	1	ALT SHIFT F5
+Visual Studio OSX.xml	Resume	1	F5
+Visual Studio OSX.xml	RiderBackendAction-EncapsulateField	1	META R
+Visual Studio OSX.xml	RiderBackendAction-EncapsulateField	2	E
+Visual Studio OSX.xml	RiderBackendAction-EncapsulateField	1	META R
+Visual Studio OSX.xml	RiderBackendAction-EncapsulateField	2	META E
+Visual Studio OSX.xml	Run	1	ALT F5
+Visual Studio OSX.xml	RunClass	1	META F5
+Visual Studio OSX.xml	RunToCursor	1	META F10
+Visual Studio OSX.xml	SafeDelete	1	META R
+Visual Studio OSX.xml	SafeDelete	2	D
+Visual Studio OSX.xml	SafeDelete	1	META R
+Visual Studio OSX.xml	SafeDelete	2	META D
+Visual Studio OSX.xml	SafeDelete	1	ALT DELETE
+Visual Studio OSX.xml	SaveAll	1	META SHIFT S
+Visual Studio OSX.xml	SaveDocument	1	META S
+Visual Studio OSX.xml	SearchEverywhere	1	META T
+Visual Studio OSX.xml	SelectAllOccurrences	1	ALT SHIFT SEMICOLON
+Visual Studio OSX.xml	SelectNextOccurrence	1	ALT SHIFT PERIOD
+Visual Studio OSX.xml	ShowBookmarks	1	CONTROL BACK_QUOTE
+Visual Studio OSX.xml	ShowBookmarks	1	META K
+Visual Studio OSX.xml	ShowBookmarks	2	W
+Visual Studio OSX.xml	ShowBookmarks	1	META K
+Visual Studio OSX.xml	ShowBookmarks	2	META W
+Visual Studio OSX.xml	ShowErrorDescription	1	META F1
+Visual Studio OSX.xml	ShowErrorDescription	1	ALT T
+Visual Studio OSX.xml	ShowExecutionPoint	1	ALT MULTIPLY
+Visual Studio OSX.xml	ShowNavBar	1	META F2
+Visual Studio OSX.xml	ShowSettingsAndFindUsages	1	META SHIFT ALT F12
+Visual Studio OSX.xml	ShowUsages	1	SHIFT ALT F12
+Visual Studio OSX.xml	SilentCodeCleanup	1	META E
+Visual Studio OSX.xml	SilentCodeCleanup	2	F
+Visual Studio OSX.xml	SilentCodeCleanup	1	META E
+Visual Studio OSX.xml	SilentCodeCleanup	2	META F
+Visual Studio OSX.xml	SmartTypeCompletion	1	CONTROL ALT SPACE
+Visual Studio OSX.xml	SmartTypeCompletion	1	SHIFT ALT SPACE
+Visual Studio OSX.xml	SplitChooser	1	CONTROL SHIFT ENTER
+Visual Studio OSX.xml	StepInto	1	META F11
+Visual Studio OSX.xml	StepInto	1	F11
+Visual Studio OSX.xml	StepOut	1	SHIFT F11
+Visual Studio OSX.xml	StepOver	1	F10
+Visual Studio OSX.xml	Stop	1	SHIFT F5
+Visual Studio OSX.xml	SurroundWithLiveTemplate	1	META E
+Visual Studio OSX.xml	SurroundWithLiveTemplate	2	U
+Visual Studio OSX.xml	SurroundWithLiveTemplate	1	META E
+Visual Studio OSX.xml	SurroundWithLiveTemplate	2	META U
+Visual Studio OSX.xml	SwitchHeaderSource	1	CONTROL META O
+Visual Studio OSX.xml	SwitchHeaderSource	1	META K
+Visual Studio OSX.xml	SwitchHeaderSource	2	O
+Visual Studio OSX.xml	SwitchHeaderSource	1	META K
+Visual Studio OSX.xml	SwitchHeaderSource	2	META O
+Visual Studio OSX.xml	ToggleBookmark	1	META K
+Visual Studio OSX.xml	ToggleBookmark	2	K
+Visual Studio OSX.xml	ToggleBookmark	1	META K
+Visual Studio OSX.xml	ToggleBookmark	2	META K
+Visual Studio OSX.xml	ToggleBookmark	1	META F2
+Visual Studio OSX.xml	ToggleBreakpointEnabled	1	META F9
+Visual Studio OSX.xml	ToggleFullScreen	1	ALT SHIFT ENTER
+Visual Studio OSX.xml	ToggleLineBreakpoint	1	F9
+Visual Studio OSX.xml	TypeHierarchy	1	META E
+Visual Studio OSX.xml	TypeHierarchy	2	H
+Visual Studio OSX.xml	TypeHierarchy	1	META E
+Visual Studio OSX.xml	TypeHierarchy	2	META H
+Visual Studio OSX.xml	Unscramble	1	META E
+Visual Studio OSX.xml	Unscramble	2	T
+Visual Studio OSX.xml	Unscramble	1	META E
+Visual Studio OSX.xml	Unscramble	2	META T
+Visual Studio OSX.xml	UnselectPreviousOccurrence	1	ALT SHIFT COMMA
+Visual Studio OSX.xml	Vcs.ShowMessageHistory	1	CONTROL H
+Visual Studio OSX.xml	Vcs.UpdateProject	1	META ALT W
+Visual Studio OSX.xml	VcsShowNextChangeMarker	1	SHIFT META ALT N
+Visual Studio OSX.xml	VcsShowPrevChangeMarker	1	SHIFT META ALT P
+Visual Studio OSX.xml	ViewBreakpoints	1	META ALT B
+Visual Studio OSX.xml	XDebugger.AttachToProcess	1	META ALT P
+Visual Studio OSX.xml	XDebugger.MuteBreakpoints	1	META ALT SHIFT F10
+Visual Studio.xml	$Copy	1	CONTROL C
+Visual Studio.xml	$Copy	1	CONTROL INSERT
+Visual Studio.xml	$Cut	1	CONTROL X
+Visual Studio.xml	$Cut	1	SHIFT DELETE
+Visual Studio.xml	$Cut	1	CTRL L
+Visual Studio.xml	$Paste	1	CONTROL V
+Visual Studio.xml	$Paste	1	SHIFT INSERT
+Visual Studio.xml	$Redo	1	CONTROL Y
+Visual Studio.xml	$Redo	1	SHIFT CONTROL Z
+Visual Studio.xml	$Redo	1	ALT SHIFT BACK_SPACE
+Visual Studio.xml	ActivateBuildToolWindow	1	ALT 0
+Visual Studio.xml	ActivateDatabaseToolWindow	1	ALT CONTROL 3
+Visual Studio.xml	ActivateErrorsInSolutionToolWindow	1	ALT CONTROL 2
+Visual Studio.xml	ActivateFindToolWindow	1	ALT 3
+Visual Studio.xml	ActivateFindToolWindow	1	CONTROL ALT F12
+Visual Studio.xml	ActivateInspectionResultsToolWindow	1	ALT CONTROL 4
+Visual Studio.xml	ActivateInspectionResultsToolWindow	1	CONTROL ALT V
+Visual Studio.xml	ActivateNuGetToolWindow	1	ALT 7
+Visual Studio.xml	ActivateNuGetToolWindow	1	ALT SHIFT 7
+Visual Studio.xml	ActivateProjectToolWindow	1	CONTROL ALT L
+Visual Studio.xml	ActivateProjectToolWindow	1	ALT 1
+Visual Studio.xml	ActivateStructureToolWindow	1	CONTROL ALT F
+Visual Studio.xml	ActivateTerminalToolWindow	1	ALT CONTROL 1
+Visual Studio.xml	ActivateUnitTestsToolWindow	1	ALT 8
+Visual Studio.xml	ActivateUnitTestsToolWindow	1	ALT SHIFT 8
+Visual Studio.xml	ActivateWebToolWindow	1	CONTROL ALT W
+Visual Studio.xml	Back	1	CONTROL MINUS
+Visual Studio.xml	Back	1	CONTROL SUBTRACT
+Visual Studio.xml	BuildProject	1	CONTROL SHIFT B
+Visual Studio.xml	ChangeSignature	1	CONTROL R
+Visual Studio.xml	ChangeSignature	2	S
+Visual Studio.xml	ChangeSignature	1	CONTROL R
+Visual Studio.xml	ChangeSignature	2	CONTROL S
+Visual Studio.xml	ChangesView.Rename	1	CONTROL R
+Visual Studio.xml	ChangesView.Rename	2	R
+Visual Studio.xml	CheckinProject	1	CONTROL ALT K
+Visual Studio.xml	ChooseRunConfiguration	1	CONTROL SHIFT ALT R
+Visual Studio.xml	ClassNameCompletion	1	SHIFT ALT SPACE
+Visual Studio.xml	CodeCleanup	1	CONTROL E
+Visual Studio.xml	CodeCleanup	2	C
+Visual Studio.xml	CodeCleanup	1	CONTROL E
+Visual Studio.xml	CodeCleanup	2	CONTROL C
+Visual Studio.xml	CodeCompletion	1	CONTROL SPACE
+Visual Studio.xml	CodeCompletion	1	CONTROL J
+Visual Studio.xml	CollapseAllRegions	1	CONTROL M
+Visual Studio.xml	CollapseAllRegions	2	A
+Visual Studio.xml	CollapseAllRegions	1	CONTROL M
+Visual Studio.xml	CollapseAllRegions	2	CONTROL A
+Visual Studio.xml	CollapseRegion	1	CONTROL M
+Visual Studio.xml	CollapseRegion	2	S
+Visual Studio.xml	CollapseRegion	1	CONTROL M
+Visual Studio.xml	CollapseRegion	2	CONTROL S
+Visual Studio.xml	CommentByLineComment	1	CONTROL ALT SLASH
+Visual Studio.xml	CommentByLineComment	1	CONTROL ALT DIVIDE
+Visual Studio.xml	CommentByLineComment	1	CONTROL K
+Visual Studio.xml	CommentByLineComment	2	C
+Visual Studio.xml	CommentByLineComment	1	CONTROL K
+Visual Studio.xml	CommentByLineComment	2	CONTROL C
+Visual Studio.xml	CommentByLineComment	1	CONTROL K
+Visual Studio.xml	CommentByLineComment	2	CONTROL SLASH
+Visual Studio.xml	CommentByLineComment	1	CONTROL K
+Visual Studio.xml	CommentByLineComment	2	CONTROL U
+Visual Studio.xml	Compile	1	CONTROL F7
+Visual Studio.xml	CompileDirty	1	F7
+Visual Studio.xml	Console.TableResult.EditValueMaximized	1	SHIFT ENTER
+Visual Studio.xml	Debug	1	ALT F5
+Visual Studio.xml	EditBreakpoint	1	ALT F9
+Visual Studio.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Visual Studio.xml	EditorCodeBlockEnd	1	CONTROL ASTERISK
+Visual Studio.xml	EditorCodeBlockEnd	1	SHIFT ALT CLOSE_BRACKET
+Visual Studio.xml	EditorCodeBlockEndWithSelection	1	CONTROL ALT SHIFT CLOSE_BRACKET
+Visual Studio.xml	EditorCodeBlockStart	1	SHIFT ALT OPEN_BRACKET
+Visual Studio.xml	EditorCodeBlockStartWithSelection	1	CONTROL ALT SHIFT OPEN_BRACKET
+Visual Studio.xml	EditorDeleteLine	1	CTRL SHIFT L
+Visual Studio.xml	EditorLeftWithSelection	1	SHIFT LEFT
+Visual Studio.xml	EditorLeftWithSelection	1	SHIFT ALT LEFT
+Visual Studio.xml	EditorMatchBrace	1	CONTROL CLOSE_BRACKET
+Visual Studio.xml	EditorRightWithSelection	1	SHIFT RIGHT
+Visual Studio.xml	EditorRightWithSelection	1	SHIFT ALT RIGHT
+Visual Studio.xml	EditorScrollToCenter	1	CONTROL M
+Visual Studio.xml	EditorScrollToCenter	2	C
+Visual Studio.xml	EditorScrollToCenter	1	CONTROL M
+Visual Studio.xml	EditorScrollToCenter	2	CONTROL C
+Visual Studio.xml	EditorSelectWord	1	CONTROL ALT RIGHT
+Visual Studio.xml	EditorSelectWord	1	CONTROL W
+Visual Studio.xml	EditorStartNewLineBefore	1	CONTROL ENTER
+Visual Studio.xml	EditorToggleShowWhitespaces	1	CONTROL R
+Visual Studio.xml	EditorToggleShowWhitespaces	2	W
+Visual Studio.xml	EditorToggleShowWhitespaces	1	CONTROL R
+Visual Studio.xml	EditorToggleShowWhitespaces	2	CONTROL W
+Visual Studio.xml	EditorToggleUseSoftWraps	1	CONTROL E
+Visual Studio.xml	EditorToggleUseSoftWraps	2	W
+Visual Studio.xml	EditorToggleUseSoftWraps	1	CONTROL E
+Visual Studio.xml	EditorToggleUseSoftWraps	2	CONTROL W
+Visual Studio.xml	EditorUnSelectWord	1	CONTROL ALT LEFT
+Visual Studio.xml	EditorUnSelectWord	1	CONTROL SHIFT W
+Visual Studio.xml	EvaluateExpression	1	SHIFT F9
+Visual Studio.xml	ExpandAllRegions	1	CONTROL M
+Visual Studio.xml	ExpandAllRegions	2	X
+Visual Studio.xml	ExpandAllRegions	1	CONTROL M
+Visual Studio.xml	ExpandAllRegions	2	CONTROL X
+Visual Studio.xml	ExpandRegion	1	CONTROL M
+Visual Studio.xml	ExpandRegion	2	E
+Visual Studio.xml	ExpandRegion	1	CONTROL M
+Visual Studio.xml	ExpandRegion	2	CONTROL E
+Visual Studio.xml	ExternalJavaDoc	1	SHIFT F1
+Visual Studio.xml	ExternalJavaDoc	1	CONTROL F1
+Visual Studio.xml	ExtractMethod	1	CONTROL R
+Visual Studio.xml	ExtractMethod	2	M
+Visual Studio.xml	ExtractMethod	1	CONTROL R
+Visual Studio.xml	ExtractMethod	2	CONTROL M
+Visual Studio.xml	FileStructurePopup	1	ALT BACK_SLASH
+Visual Studio.xml	FindNext	1	F3
+Visual Studio.xml	FindNext	1	CONTROL SHIFT DOWN
+Visual Studio.xml	FindNext	1	CONTROL ALT PAGE_DOWN
+Visual Studio.xml	FindPrevious	1	SHIFT F3
+Visual Studio.xml	FindPrevious	1	CONTROL SHIFT UP
+Visual Studio.xml	FindPrevious	1	CONTROL ALT PAGE_UP
+Visual Studio.xml	FindUsages	1	SHIFT F12
+Visual Studio.xml	FindUsagesInFile	1	SHIFT ALT F11
+Visual Studio.xml	ForceStepInto	1	ALT F11
+Visual Studio.xml	Forward	1	CONTROL SHIFT MINUS
+Visual Studio.xml	Forward	1	CONTROL SHIFT SUBTRACT
+Visual Studio.xml	Git.Commit.And.Push.Executor	1	CONTROL ALT SHIFT K
+Visual Studio.xml	Git.Rename.Local.Branch	1	CONTROL R
+Visual Studio.xml	Git.Rename.Local.Branch	2	R
+Visual Studio.xml	Git.Reword.Commit	1	CONTROL R
+Visual Studio.xml	Git.Reword.Commit	2	R
+Visual Studio.xml	GotoChangedFile	1	CONTROL T
+Visual Studio.xml	GotoDeclaration	1	F12
+Visual Studio.xml	GotoFile	1	CONTROL SHIFT T
+Visual Studio.xml	GotoImplementation	1	ALT END
+Visual Studio.xml	GotoLine	1	CONTROL G
+Visual Studio.xml	GotoNextBookmark	1	CTRL K
+Visual Studio.xml	GotoNextBookmark	2	N
+Visual Studio.xml	GotoNextBookmark	1	CTRL K
+Visual Studio.xml	GotoNextBookmark	2	CTRL N
+Visual Studio.xml	GotoNextError	1	ALT PAGE_DOWN
+Visual Studio.xml	GotoPreviousBookmark	1	CTRL K
+Visual Studio.xml	GotoPreviousBookmark	2	P
+Visual Studio.xml	GotoPreviousBookmark	1	CTRL K
+Visual Studio.xml	GotoPreviousBookmark	2	CTRL P
+Visual Studio.xml	GotoPreviousError	1	ALT PAGE_UP
+Visual Studio.xml	GotoRelated	1	CTRL ALT F7
+Visual Studio.xml	GotoSuperMethod	1	ALT HOME
+Visual Studio.xml	GotoSymbol	1	CONTROL SHIFT ALT T
+Visual Studio.xml	GotoTypeDeclaration	1	CTRL SHIFT F11
+Visual Studio.xml	Hg.Commit.And.Push.Executor	1	CONTROL ALT SHIFT K
+Visual Studio.xml	HighlightUsagesInFile	1	SHIFT ALT F11
+Visual Studio.xml	ImplementMethods	1	SHIFT CONTROL I
+Visual Studio.xml	IncrementalSearch	1	CONTROL I
+Visual Studio.xml	Inline	1	CONTROL R
+Visual Studio.xml	Inline	2	I
+Visual Studio.xml	Inline	1	CONTROL R
+Visual Studio.xml	Inline	2	CONTROL I
+Visual Studio.xml	InsertLiveTemplate	1	CONTROL E
+Visual Studio.xml	InsertLiveTemplate	2	L
+Visual Studio.xml	InsertLiveTemplate	1	CONTROL E
+Visual Studio.xml	InsertLiveTemplate	2	CONTROL L
+Visual Studio.xml	IntroduceField	1	CONTROL R
+Visual Studio.xml	IntroduceField	2	F
+Visual Studio.xml	IntroduceField	1	CONTROL R
+Visual Studio.xml	IntroduceField	2	CONTROL F
+Visual Studio.xml	IntroduceParameter	1	CONTROL R
+Visual Studio.xml	IntroduceParameter	2	P
+Visual Studio.xml	IntroduceParameter	1	CONTROL R
+Visual Studio.xml	IntroduceParameter	2	CONTROL P
+Visual Studio.xml	IntroduceVariable	1	CONTROL R
+Visual Studio.xml	IntroduceVariable	2	V
+Visual Studio.xml	IntroduceVariable	1	CONTROL R
+Visual Studio.xml	IntroduceVariable	2	CONTROL V
+Visual Studio.xml	JumpToLastChange	1	SHIFT CONTROL BACK_SPACE
+Visual Studio.xml	JumpToLastWindow	1	CONTROL ALT BACK_SPACE
+Visual Studio.xml	JumpToLastWindow	1	SHIFT ALT F6
+Visual Studio.xml	Move	1	CONTROL R
+Visual Studio.xml	Move	2	O
+Visual Studio.xml	Move	1	CONTROL R
+Visual Studio.xml	Move	2	CONTROL O
+Visual Studio.xml	MoveStatementDown	1	CONTROL ALT SHIFT DOWN
+Visual Studio.xml	MoveStatementUp	1	CONTROL ALT SHIFT UP
+Visual Studio.xml	NewElement	1	CONTROL N
+Visual Studio.xml	NewElement	1	ALT INSERT
+Visual Studio.xml	OpenFile	1	CONTROL O
+Visual Studio.xml	ParameterInfo	1	SHIFT CONTROL SPACE
+Visual Studio.xml	Pause	1	CONTROL ALT CANCEL
+Visual Studio.xml	Pause	1	CONTROL PAUSE
+Visual Studio.xml	Pause	1	SHIFT CONTROL P
+Visual Studio.xml	Print	1	CONTROL P
+Visual Studio.xml	QuickImplementations	1	ALT F12
+Visual Studio.xml	QuickJavaDoc	1	CONTROL SHIFT F1
+Visual Studio.xml	RecentChangedFiles	1	CONTROL SHIFT COMMA
+Visual Studio.xml	RecentFiles	1	CONTROL COMMA
+Visual Studio.xml	Refactorings.QuickListPopupAction	1	CONTROL SHIFT R
+Visual Studio.xml	ReformatCode	1	CONTROL ALT ENTER
+Visual Studio.xml	ReformatCode	1	CONTROL K
+Visual Studio.xml	ReformatCode	2	F
+Visual Studio.xml	ReformatCode	1	CONTROL K
+Visual Studio.xml	ReformatCode	2	CONTROL F
+Visual Studio.xml	ReformatCode	1	CONTROL K
+Visual Studio.xml	ReformatCode	2	D
+Visual Studio.xml	ReformatCode	1	CONTROL K
+Visual Studio.xml	ReformatCode	2	CONTROL D
+Visual Studio.xml	Refresh	1	CONTROL ALT R
+Visual Studio.xml	RenameElement	1	CONTROL R
+Visual Studio.xml	RenameElement	2	R
+Visual Studio.xml	RenameElement	1	CONTROL R
+Visual Studio.xml	RenameElement	2	CONTROL R
+Visual Studio.xml	Replace	1	CONTROL H
+Visual Studio.xml	ReplaceInPath	1	CONTROL SHIFT H
+Visual Studio.xml	Rerun	1	CONTROL SHIFT F5
+Visual Studio.xml	Resume	1	F5
+Visual Studio.xml	RiderBackendAction-EncapsulateField	1	CONTROL R
+Visual Studio.xml	RiderBackendAction-EncapsulateField	2	E
+Visual Studio.xml	RiderBackendAction-EncapsulateField	1	CONTROL R
+Visual Studio.xml	RiderBackendAction-EncapsulateField	2	CONTROL E
+Visual Studio.xml	Run	1	CONTROL F5
+Visual Studio.xml	RunClass	1	CONTROL F5
+Visual Studio.xml	RunToCursor	1	CONTROL F10
+Visual Studio.xml	SafeDelete	1	CONTROL R
+Visual Studio.xml	SafeDelete	2	D
+Visual Studio.xml	SafeDelete	1	CONTROL R
+Visual Studio.xml	SafeDelete	2	CONTROL D
+Visual Studio.xml	SafeDelete	1	ALT DELETE
+Visual Studio.xml	SaveAll	1	CONTROL SHIFT S
+Visual Studio.xml	SaveDocument	1	CONTROL S
+Visual Studio.xml	SearchEverywhere	1	CONTROL T
+Visual Studio.xml	SelectAllOccurrences	1	ALT SHIFT SEMICOLON
+Visual Studio.xml	SelectNextOccurrence	1	ALT SHIFT PERIOD
+Visual Studio.xml	ShelvedChanges.Rename	1	CONTROL R
+Visual Studio.xml	ShelvedChanges.Rename	2	R
+Visual Studio.xml	ShowBookmarks	1	CONTROL BACK_QUOTE
+Visual Studio.xml	ShowBookmarks	1	CONTROL K
+Visual Studio.xml	ShowBookmarks	2	W
+Visual Studio.xml	ShowBookmarks	1	CONTROL K
+Visual Studio.xml	ShowBookmarks	2	CONTROL W
+Visual Studio.xml	ShowErrorDescription	1	CONTROL F1
+Visual Studio.xml	ShowErrorDescription	1	ALT T
+Visual Studio.xml	ShowExecutionPoint	1	ALT MULTIPLY
+Visual Studio.xml	ShowNavBar	1	CONTROL F2
+Visual Studio.xml	ShowPopupMenu	1	SHIFT F10
+Visual Studio.xml	ShowPopupMenu	1	CONTEXT_MENU
+Visual Studio.xml	ShowSettingsAndFindUsages	1	CONTROL SHIFT ALT F12
+Visual Studio.xml	ShowUsages	1	SHIFT ALT F12
+Visual Studio.xml	SilentCodeCleanup	1	CONTROL E
+Visual Studio.xml	SilentCodeCleanup	2	F
+Visual Studio.xml	SilentCodeCleanup	1	CONTROL E
+Visual Studio.xml	SilentCodeCleanup	2	CONTROL F
+Visual Studio.xml	SmartTypeCompletion	1	CONTROL ALT SPACE
+Visual Studio.xml	SplitChooser	1	CONTROL SHIFT ENTER
+Visual Studio.xml	StepInto	1	F11
+Visual Studio.xml	StepOut	1	SHIFT F11
+Visual Studio.xml	StepOver	1	F10
+Visual Studio.xml	Stop	1	SHIFT F5
+Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL E
+Visual Studio.xml	SurroundWithLiveTemplate	2	U
+Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL E
+Visual Studio.xml	SurroundWithLiveTemplate	2	CONTROL U
+Visual Studio.xml	SwitchHeaderSource	1	ALT O
+Visual Studio.xml	SwitchHeaderSource	1	CONTROL K
+Visual Studio.xml	SwitchHeaderSource	2	O
+Visual Studio.xml	SwitchHeaderSource	1	CONTROL K
+Visual Studio.xml	SwitchHeaderSource	2	CONTROL O
+Visual Studio.xml	ToggleBookmark	1	CONTROL K
+Visual Studio.xml	ToggleBookmark	2	K
+Visual Studio.xml	ToggleBookmark	1	CONTROL K
+Visual Studio.xml	ToggleBookmark	2	CONTROL K
+Visual Studio.xml	ToggleBreakpointEnabled	1	CONTROL F9
+Visual Studio.xml	ToggleFullScreen	1	ALT SHIFT ENTER
+Visual Studio.xml	ToggleLineBreakpoint	1	F9
+Visual Studio.xml	TypeHierarchy	1	CONTROL E
+Visual Studio.xml	TypeHierarchy	2	H
+Visual Studio.xml	TypeHierarchy	1	CONTROL E
+Visual Studio.xml	TypeHierarchy	2	CONTROL H
+Visual Studio.xml	Unscramble	1	CONTROL E
+Visual Studio.xml	Unscramble	2	T
+Visual Studio.xml	Unscramble	1	CONTROL E
+Visual Studio.xml	Unscramble	2	CONTROL T
+Visual Studio.xml	UnselectPreviousOccurrence	1	ALT SHIFT COMMA
+Visual Studio.xml	Vcs.QuickListPopupAction	1	CONTROL ALT Q
+Visual Studio.xml	Vcs.ShowMessageHistory	1	CONTROL H
+Visual Studio.xml	Vcs.UpdateProject	1	CONTROL ALT W
+Visual Studio.xml	VcsShowNextChangeMarker	1	SHIFT CONTROL ALT N
+Visual Studio.xml	VcsShowPrevChangeMarker	1	SHIFT CONTROL ALT P
+Visual Studio.xml	ViewBreakpoints	1	CONTROL ALT B
+Visual Studio.xml	XDebugger.AttachToProcess	1	CONTROL ALT P
+Visual Studio.xml	XDebugger.MuteBreakpoints	1	CONTROL ALT SHIFT F10
+VSCode OSX.xml	$Delete	1	DELETE
+VSCode OSX.xml	$Delete	1	BACK_SPACE
+VSCode OSX.xml	ActivateDebugToolWindow	1	SHIFT META D
+VSCode OSX.xml	ActivateProjectToolWindow	1	SHIFT META E
+VSCode OSX.xml	ActivateRunToolWindow	1	SHIFT META U
+VSCode OSX.xml	ActivateTerminalToolWindow	1	CTRL BACK_QUOTE
+VSCode OSX.xml	ActivateVersionControlToolWindow	1	SHIFT CTRL G
+VSCode OSX.xml	Arrangement.Alias.Rule.Remove	1	DELETE
+VSCode OSX.xml	Arrangement.Alias.Rule.Remove	1	BACK_SPACE
+VSCode OSX.xml	Arrangement.Rule.Remove	1	DELETE
+VSCode OSX.xml	Arrangement.Rule.Remove	1	BACK_SPACE
+VSCode OSX.xml	Back	1	CTRL MINUS
+VSCode OSX.xml	BraceOrQuoteOut	1	TAB
+VSCode OSX.xml	BuildSolutionAction	1	META SHIFT B
+VSCode OSX.xml	ChangeSplitOrientation	1	META ALT 0
+VSCode OSX.xml	ChangesView.Rename	1	SHIFT F6
+VSCode OSX.xml	CloseAllEditors	1	META K
+VSCode OSX.xml	CloseAllEditors	2	META W
+VSCode OSX.xml	CloseProject	1	META K
+VSCode OSX.xml	CloseProject	2	F
+VSCode OSX.xml	CollapseAll	1	META SUBTRACT
+VSCode OSX.xml	CollapseAllRegions	1	META K
+VSCode OSX.xml	CollapseAllRegions	2	META 0
+VSCode OSX.xml	CollapseExpandableComponent	1	SHIFT ENTER
+VSCode OSX.xml	CollapseExpandableComponent	1	META SUBTRACT
+VSCode OSX.xml	CollapseRegion	1	META ALT OPEN_BRACKET
+VSCode OSX.xml	CollapseRegionRecursively	1	META K
+VSCode OSX.xml	CollapseRegionRecursively	2	META OPEN_BRACKET
+VSCode OSX.xml	CommentByBlockComment	1	SHIFT ALT A
+VSCode OSX.xml	CommentByLineComment	1	META K
+VSCode OSX.xml	CommentByLineComment	2	META C
+VSCode OSX.xml	CommentByLineComment	1	META K
+VSCode OSX.xml	CommentByLineComment	2	META U
+VSCode OSX.xml	CommentByLineComment	1	META SLASH
+VSCode OSX.xml	CompareClipboardWithSelection	1	META K
+VSCode OSX.xml	CompareClipboardWithSelection	2	C
+VSCode OSX.xml	CompileDirty	1	SHIFT META B
+VSCode OSX.xml	Console.TableResult.EditValue	1	ENTER
+VSCode OSX.xml	Console.TableResult.NavigateAction	1	F4
+VSCode OSX.xml	CopyPaths	1	META ALT C
+VSCode OSX.xml	CopyPaths	1	META K
+VSCode OSX.xml	CopyPaths	2	P
+VSCode OSX.xml	Debug	1	F5
+VSCode OSX.xml	Debugger.EditFrameSource	1	F4
+VSCode OSX.xml	Debugger.RemoveArrayFilter	1	DELETE
+VSCode OSX.xml	Debugger.RemoveArrayFilter	1	BACK_SPACE
+VSCode OSX.xml	Debugger.RemoveCustomField	1	DELETE
+VSCode OSX.xml	Debugger.RemoveCustomField	1	BACK_SPACE
+VSCode OSX.xml	DomCollectionControl.Edit	1	F4
+VSCode OSX.xml	DomElementsTreeView.DeleteElement	1	DELETE
+VSCode OSX.xml	DomElementsTreeView.DeleteElement	1	BACK_SPACE
+VSCode OSX.xml	DomElementsTreeView.GotoDomElementDeclarationAction	1	F4
+VSCode OSX.xml	DSM.OpenInEditor	1	F4
+VSCode OSX.xml	DSM.ZoomIn	1	META ADD
+VSCode OSX.xml	EditorChooseLookupItemReplace	1	TAB
+VSCode OSX.xml	EditorCloneCaretAbove	1	SHIFT META ALT UP
+VSCode OSX.xml	EditorCloneCaretAbove	1	META ALT UP
+VSCode OSX.xml	EditorCloneCaretBelow	1	SHIFT META ALT DOWN
+VSCode OSX.xml	EditorCloneCaretBelow	1	META ALT DOWN
+VSCode OSX.xml	EditorDecreaseFontSize	1	META MINUS
+VSCode OSX.xml	EditorDeleteLine	1	SHIFT META K
+VSCode OSX.xml	EditorDeleteToLineEnd	1	CTRL K
+VSCode OSX.xml	EditorDeleteToLineEnd	1	META DELETE
+VSCode OSX.xml	EditorDeleteToLineStart	1	META BACK_SPACE
+VSCode OSX.xml	EditorDuplicate	1	SHIFT ALT DOWN
+VSCode OSX.xml	EditorIncreaseFontSize	1	META EQUALS
+VSCode OSX.xml	EditorIndentLineOrSelection	1	META CLOSE_BRACKET
+VSCode OSX.xml	EditorIndentSelection	1	TAB
+VSCode OSX.xml	EditorJoinLines	1	CTRL J
+VSCode OSX.xml	EditorLineEnd	1	META RIGHT
+VSCode OSX.xml	EditorLineStart	1	META LEFT
+VSCode OSX.xml	EditorMatchBrace	1	SHIFT META BACK_SLASH
+VSCode OSX.xml	EditorNextWord	1	ALT RIGHT
+VSCode OSX.xml	EditorPreviousWord	1	ALT LEFT
+VSCode OSX.xml	EditorScrollDown	1	CTRL PAGE_DOWN
+VSCode OSX.xml	EditorScrollUp	1	CTRL PAGE_UP
+VSCode OSX.xml	EditorSelectLine	1	META L
+VSCode OSX.xml	EditorSelectWord	1	SHIFT CTRL META RIGHT
+VSCode OSX.xml	EditorSplitLine	1	CTRL O
+VSCode OSX.xml	EditorStartNewLine	1	META ENTER
+VSCode OSX.xml	EditorStartNewLineBefore	1	SHIFT META ENTER
+VSCode OSX.xml	EditorTab	1	TAB
+VSCode OSX.xml	EditorTextEnd	1	META DOWN
+VSCode OSX.xml	EditorTextStart	1	META UP
+VSCode OSX.xml	EditorToggleColumnMode	1	SHIFT ALT I
+VSCode OSX.xml	EditorToggleUseSoftWraps	1	ALT Z
+VSCode OSX.xml	EditorTranspose	1	CTRL T
+VSCode OSX.xml	EditorUnindentSelection	1	META OPEN_BRACKET
+VSCode OSX.xml	EditorUnindentSelection	1	SHIFT TAB
+VSCode OSX.xml	EditorUnSelectWord	1	SHIFT CTRL META LEFT
+VSCode OSX.xml	EditSource	1	F4
+VSCode OSX.xml	EditSourceInNewWindow	1	META K
+VSCode OSX.xml	EditSourceInNewWindow	2	O
+VSCode OSX.xml	ExpandAll	1	META ADD
+VSCode OSX.xml	ExpandAllRegions	1	META K
+VSCode OSX.xml	ExpandAllRegions	2	META J
+VSCode OSX.xml	ExpandExpandableComponent	1	SHIFT ENTER
+VSCode OSX.xml	ExpandExpandableComponent	1	META ADD
+VSCode OSX.xml	ExpandRegion	1	META ALT CLOSE_BRACKET
+VSCode OSX.xml	ExpandRegionRecursively	1	META K
+VSCode OSX.xml	ExpandRegionRecursively	2	META CLOSE_BRACKET
+VSCode OSX.xml	ExternalSystem.ExpandAll	1	META ADD
+VSCode OSX.xml	ExternalSystem.OpenConfig	1	F4
+VSCode OSX.xml	FileChooser.NewFile	1	META N
+VSCode OSX.xml	FileStructurePopup	1	META ALT O
+VSCode OSX.xml	FileStructurePopup	1	SHIFT META O
+VSCode OSX.xml	FindNext	1	META G
+VSCode OSX.xml	FindNext	1	F3
+VSCode OSX.xml	FindPrevious	1	SHIFT META G
+VSCode OSX.xml	FindPrevious	1	SHIFT F3
+VSCode OSX.xml	Forward	1	SHIFT CTRL MINUS
+VSCode OSX.xml	Generate	1	CTRL ENTER
+VSCode OSX.xml	Git.Reword.Commit	1	SHIFT F6
+VSCode OSX.xml	GotoAction	1	F1
+VSCode OSX.xml	GotoAction	1	SHIFT META P
+VSCode OSX.xml	GotoAction	1	SHIFT META A
+VSCode OSX.xml	GotoDeclaration	1	F12
+VSCode OSX.xml	GotoFile	1	META P
+VSCode OSX.xml	GotoImplementation	1	META F12
+VSCode OSX.xml	GotoLine	1	CTRL G
+VSCode OSX.xml	GotoNextError	1	F8
+VSCode OSX.xml	GotoPreviousError	1	SHIFT F8
+VSCode OSX.xml	GotoSymbol	1	META T
+VSCode OSX.xml	GotoTypeDeclaration	1	SHIFT CTRL B
+VSCode OSX.xml	Graph.Delete	1	DELETE
+VSCode OSX.xml	Graph.Delete	1	BACK_SPACE
+VSCode OSX.xml	Graph.Faces.OpenSelectedPages	1	F4
+VSCode OSX.xml	GuiDesigner.ExpandSelection	1	SHIFT CTRL META RIGHT
+VSCode OSX.xml	Help.KeymapReference	1	META K
+VSCode OSX.xml	Help.KeymapReference	2	META R
+VSCode OSX.xml	HideSideWindows	1	META B
+VSCode OSX.xml	Images.Editor.ActualSize	1	META DIVIDE
+VSCode OSX.xml	Images.Editor.ZoomIn	1	META ADD
+VSCode OSX.xml	Jdbc.OpenEditor	1	F4
+VSCode OSX.xml	JumpToLastChange	1	META K
+VSCode OSX.xml	JumpToLastChange	2	META Q
+VSCode OSX.xml	Maven.ExpandAll	1	META ADD
+VSCode OSX.xml	MoveLineDown	1	ALT DOWN
+VSCode OSX.xml	MoveLineUp	1	ALT UP
+VSCode OSX.xml	MoveTabRight	1	CTRL META RIGHT
+VSCode OSX.xml	NewElement	1	CTRL ENTER
+VSCode OSX.xml	NewFile	1	META N
+VSCode OSX.xml	NextParameter	1	TAB
+VSCode OSX.xml	NextTab	1	SHIFT META CLOSE_BRACKET
+VSCode OSX.xml	NextTab	1	META ALT RIGHT
+VSCode OSX.xml	NextTemplateParameter	1	TAB
+VSCode OSX.xml	NextTemplateParameter	1	ENTER
+VSCode OSX.xml	NextTemplateVariable	1	ENTER
+VSCode OSX.xml	OpenFile	1	META O
+VSCode OSX.xml	OpenModuleSettings	1	F4
+VSCode OSX.xml	OptimizeImports	1	SHIFT ALT O
+VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction	1	META K
+VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction	2	V
+VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction	1	SHIFT META V
+VSCode OSX.xml	ParameterInfo	1	SHIFT META SPACE
+VSCode OSX.xml	PreviousTab	1	SHIFT META OPEN_BRACKET
+VSCode OSX.xml	PreviousTab	1	META ALT LEFT
+VSCode OSX.xml	PropertyInspectorActions.RemoveProperty	1	DELETE
+VSCode OSX.xml	PropertyInspectorActions.RemoveProperty	1	BACK_SPACE
+VSCode OSX.xml	QuickChangeScheme	1	META K
+VSCode OSX.xml	QuickChangeScheme	2	META T
+VSCode OSX.xml	QuickEvaluateExpression	1	META ALT F8
+VSCode OSX.xml	QuickImplementations	1	ALT SPACE
+VSCode OSX.xml	QuickImplementations	1	ALT F12
+VSCode OSX.xml	RecentFiles	1	CTRL R
+VSCode OSX.xml	Refactorings.QuickListPopupAction	1	SHIFT CTRL R
+VSCode OSX.xml	ReformatCode	1	SHIFT ALT F
+VSCode OSX.xml	RemoteHost.NewRemoteItem	1	CTRL ENTER
+VSCode OSX.xml	RemoteHostView.EditSource	1	F4
+VSCode OSX.xml	RenameElement	1	F2
+VSCode OSX.xml	ReopenClosedTab	1	SHIFT META T
+VSCode OSX.xml	Replace	1	META ALT F
+VSCode OSX.xml	ReplaceInPath	1	SHIFT META H
+VSCode OSX.xml	RevealIn	1	META K
+VSCode OSX.xml	RevealIn	2	R
+VSCode OSX.xml	Run	1	CTRL F5
+VSCode OSX.xml	RunDashboard.EditConfiguration	1	F4
+VSCode OSX.xml	RunDashboard.RemoveConfiguration	1	DELETE
+VSCode OSX.xml	RunDashboard.RemoveConfiguration	1	BACK_SPACE
+VSCode OSX.xml	RunDashboard.UngroupConfigurations	1	DELETE
+VSCode OSX.xml	RunDashboard.UngroupConfigurations	1	BACK_SPACE
+VSCode OSX.xml	SaveAll	1	META ALT S
+VSCode OSX.xml	SaveAll	1	META S
+VSCode OSX.xml	ScrollPane-scrollDown	1	META PAGE_DOWN
+VSCode OSX.xml	ScrollPane-scrollUp	1	META PAGE_UP
+VSCode OSX.xml	SearchEverywhere.CompleteCommand	1	TAB
+VSCode OSX.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+VSCode OSX.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+VSCode OSX.xml	SearchEverywhere.NextTab	1	TAB
+VSCode OSX.xml	SelectAllOccurrences	1	META F2
+VSCode OSX.xml	SelectAllOccurrences	1	CTRL META G
+VSCode OSX.xml	SelectAllOccurrences	1	SHIFT META L
+VSCode OSX.xml	SelectNextOccurrence	1	META D
+VSCode OSX.xml	ShelvedChanges.Rename	1	SHIFT F6
+VSCode OSX.xml	ShowIntentionActions	1	META PERIOD
+VSCode OSX.xml	ShowIntentionActions	1	ALT ENTER
+VSCode OSX.xml	ShowNavBar	1	SHIFT META SEMICOLON
+VSCode OSX.xml	ShowUsages	1	SHIFT F12
+VSCode OSX.xml	SplitVertically	1	META BACK_SLASH
+VSCode OSX.xml	Sql.EditParameter	1	F4
+VSCode OSX.xml	StepInto	1	F11
+VSCode OSX.xml	StepInto	1	F7
+VSCode OSX.xml	StepOut	1	SHIFT F11
+VSCode OSX.xml	StepOver	1	F10
+VSCode OSX.xml	Stop	1	SHIFT F5
+VSCode OSX.xml	SwitchHeaderSource	1	CONTROL META O
+VSCode OSX.xml	Tab	1	TAB
+VSCode OSX.xml	ToggleLineBreakpoint	1	F9
+VSCode OSX.xml	ToggleZenMode	1	META K
+VSCode OSX.xml	ToggleZenMode	2	Z
+VSCode OSX.xml	UML.ActualSize	1	META DIVIDE
+VSCode OSX.xml	UML.ZoomIn	1	META ADD
+VSCode OSX.xml	UnselectPreviousOccurrence	1	META U
+VSCode OSX.xml	Vcs.EditSource	1	F4
+VSCode OSX.xml	VcsShowNextChangeMarker	1	ALT F3
+VSCode OSX.xml	VcsShowPrevChangeMarker	1	SHIFT ALT F3
+VSCode OSX.xml	WelcomeScreen.Plugins	1	SHIFT META X
+VSCode OSX.xml	XDebugger.JumpToSource	1	F4
+VSCode OSX.xml	XDebugger.RemoveWatch	1	DELETE
+VSCode OSX.xml	XDebugger.RemoveWatch	1	BACK_SPACE
+VSCode.xml	ActivateDebugToolWindow	1	SHIFT CTRL D
+VSCode.xml	ActivateProjectToolWindow	1	SHIFT CTRL E
+VSCode.xml	ActivateRunToolWindow	1	SHIFT CTRL U
+VSCode.xml	ActivateTerminalToolWindow	1	CTRL BACK_QUOTE
+VSCode.xml	ActivateVersionControlToolWindow	1	SHIFT CTRL G
+VSCode.xml	Back	1	ALT LEFT
+VSCode.xml	BraceOrQuoteOut	1	TAB
+VSCode.xml	BuildSolutionAction	1	CONTROL SHIFT B
+VSCode.xml	ChangeSplitOrientation	1	SHIFT ALT 0
+VSCode.xml	ChangesView.Rename	1	SHIFT F6
+VSCode.xml	CloseAllEditors	1	CTRL K
+VSCode.xml	CloseAllEditors	2	CTRL W
+VSCode.xml	CloseContent	1	CTRL W
+VSCode.xml	CloseProject	1	CTRL K
+VSCode.xml	CloseProject	2	F
+VSCode.xml	CollapseAll	1	CTRL SUBTRACT
+VSCode.xml	CollapseAllRegions	1	CTRL K
+VSCode.xml	CollapseAllRegions	2	CTRL 0
+VSCode.xml	CollapseExpandableComponent	1	SHIFT ENTER
+VSCode.xml	CollapseExpandableComponent	1	CTRL SUBTRACT
+VSCode.xml	CollapseRegion	1	SHIFT CTRL OPEN_BRACKET
+VSCode.xml	CollapseRegionRecursively	1	CTRL K
+VSCode.xml	CollapseRegionRecursively	2	CTRL OPEN_BRACKET
+VSCode.xml	CommentByBlockComment	1	SHIFT ALT A
+VSCode.xml	CommentByLineComment	1	CTRL K
+VSCode.xml	CommentByLineComment	2	CTRL C
+VSCode.xml	CommentByLineComment	1	CTRL K
+VSCode.xml	CommentByLineComment	2	CTRL U
+VSCode.xml	CommentByLineComment	1	CTRL SLASH
+VSCode.xml	CompareClipboardWithSelection	1	CTRL K
+VSCode.xml	CompareClipboardWithSelection	2	C
+VSCode.xml	CompileDirty	1	SHIFT CTRL B
+VSCode.xml	Console.TableResult.EditValue	1	ENTER
+VSCode.xml	Console.TableResult.EditValue	1	ALT ENTER
+VSCode.xml	CopyPaths	1	SHIFT ALT C
+VSCode.xml	CopyPaths	1	CTRL K
+VSCode.xml	CopyPaths	2	P
+VSCode.xml	Debug	1	F5
+VSCode.xml	DSM.ZoomIn	1	CTRL ADD
+VSCode.xml	EditorChooseLookupItemReplace	1	TAB
+VSCode.xml	EditorCloneCaretAbove	1	CTRL ALT UP
+VSCode.xml	EditorCloneCaretAbove	1	SHIFT CTRL ALT UP
+VSCode.xml	EditorCloneCaretBelow	1	CTRL ALT DOWN
+VSCode.xml	EditorCloneCaretBelow	1	SHIFT CTRL ALT DOWN
+VSCode.xml	EditorDecreaseFontSize	1	CTRL MINUS
+VSCode.xml	EditorDeleteLine	1	SHIFT CTRL K
+VSCode.xml	EditorDuplicate	1	SHIFT ALT DOWN
+VSCode.xml	EditorIncreaseFontSize	1	CTRL EQUALS
+VSCode.xml	EditorIndentLineOrSelection	1	CTRL CLOSE_BRACKET
+VSCode.xml	EditorIndentSelection	1	TAB
+VSCode.xml	EditorJoinLines	1	CTRL J
+VSCode.xml	EditorLineEnd	1	END
+VSCode.xml	EditorLineStart	1	HOME
+VSCode.xml	EditorMatchBrace	1	SHIFT CTRL BACK_SLASH
+VSCode.xml	EditorNextWord	1	CTRL RIGHT
+VSCode.xml	EditorPreviousWord	1	CTRL LEFT
+VSCode.xml	EditorSelectLine	1	CTRL I
+VSCode.xml	EditorSelectWord	1	SHIFT ALT RIGHT
+VSCode.xml	EditorStartNewLine	1	CTRL ENTER
+VSCode.xml	EditorStartNewLineBefore	1	SHIFT CTRL ENTER
+VSCode.xml	EditorTab	1	TAB
+VSCode.xml	EditorToggleColumnMode	1	SHIFT ALT I
+VSCode.xml	EditorToggleUseSoftWraps	1	ALT Z
+VSCode.xml	EditorUnindentSelection	1	CTRL OPEN_BRACKET
+VSCode.xml	EditorUnindentSelection	1	SHIFT TAB
+VSCode.xml	EditorUnSelectWord	1	SHIFT ALT LEFT
+VSCode.xml	EditSourceInNewWindow	1	CTRL K
+VSCode.xml	EditSourceInNewWindow	2	O
+VSCode.xml	ExpandAll	1	CTRL ADD
+VSCode.xml	ExpandAllRegions	1	CTRL K
+VSCode.xml	ExpandAllRegions	2	CTRL J
+VSCode.xml	ExpandExpandableComponent	1	SHIFT ENTER
+VSCode.xml	ExpandExpandableComponent	1	CTRL ADD
+VSCode.xml	ExpandRegion	1	SHIFT CTRL CLOSE_BRACKET
+VSCode.xml	ExpandRegionRecursively	1	CTRL K
+VSCode.xml	ExpandRegionRecursively	2	CTRL CLOSE_BRACKET
+VSCode.xml	ExternalSystem.ExpandAll	1	CTRL ADD
+VSCode.xml	FileChooser.NewFile	1	CTRL N
+VSCode.xml	FileChooser.NewFolder	1	ALT INSERT
+VSCode.xml	FileStructurePopup	1	SHIFT CTRL O
+VSCode.xml	Find	1	CTRL F
+VSCode.xml	FindNext	1	F3
+VSCode.xml	FindPrevious	1	SHIFT F3
+VSCode.xml	Forward	1	ALT RIGHT
+VSCode.xml	Git.Reword.Commit	1	SHIFT F6
+VSCode.xml	GotoAction	1	SHIFT CTRL P
+VSCode.xml	GotoDeclaration	1	F12
+VSCode.xml	GotoFile	1	CTRL P
+VSCode.xml	GotoImplementation	1	CTRL F12
+VSCode.xml	GotoNextError	1	F8
+VSCode.xml	GotoPreviousError	1	SHIFT F8
+VSCode.xml	GotoSymbol	1	CTRL T
+VSCode.xml	Help.KeymapReference	1	CTRL K
+VSCode.xml	Help.KeymapReference	2	CTRL R
+VSCode.xml	HideSideWindows	1	CTRL B
+VSCode.xml	Images.Editor.ActualSize	1	CTRL DIVIDE
+VSCode.xml	Images.Editor.ZoomIn	1	CTRL ADD
+VSCode.xml	JumpToLastChange	1	CTRL K
+VSCode.xml	JumpToLastChange	2	CTRL Q
+VSCode.xml	Maven.ExpandAll	1	CTRL ADD
+VSCode.xml	MoveLineDown	1	ALT DOWN
+VSCode.xml	MoveLineUp	1	ALT UP
+VSCode.xml	MoveTabRight	1	CTRL K
+VSCode.xml	MoveTabRight	2	RIGHT
+VSCode.xml	NextParameter	1	TAB
+VSCode.xml	NextSplitter	1	CTRL K
+VSCode.xml	NextSplitter	2	CTRL RIGHT
+VSCode.xml	NextTab	1	CTRL PAGE_DOWN
+VSCode.xml	NextTemplateParameter	1	TAB
+VSCode.xml	NextTemplateParameter	1	ENTER
+VSCode.xml	NextTemplateVariable	1	ENTER
+VSCode.xml	OpenFile	1	CTRL O
+VSCode.xml	OptimizeImports	1	SHIFT ALT O
+VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction	1	CTRL K
+VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction	2	V
+VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction	1	SHIFT CTRL V
+VSCode.xml	ParameterInfo	1	SHIFT CTRL SPACE
+VSCode.xml	PasteMultiple	1	SHIFT CTRL INSERT
+VSCode.xml	PreviousTab	1	CTRL PAGE_UP
+VSCode.xml	PrevSplitter	1	CTRL K
+VSCode.xml	PrevSplitter	2	CTRL LEFT
+VSCode.xml	QuickChangeScheme	1	CTRL K
+VSCode.xml	QuickChangeScheme	2	CTRL T
+VSCode.xml	QuickEvaluateExpression	1	CTRL ALT F8
+VSCode.xml	QuickImplementations	1	ALT F12
+VSCode.xml	RecentFiles	1	CTRL R
+VSCode.xml	Refactorings.QuickListPopupAction	1	SHIFT CTRL R
+VSCode.xml	ReformatCode	1	SHIFT ALT F
+VSCode.xml	RenameElement	1	F2
+VSCode.xml	ReopenClosedTab	1	SHIFT CTRL T
+VSCode.xml	Replace	1	CTRL H
+VSCode.xml	ReplaceInPath	1	SHIFT CTRL H
+VSCode.xml	RevealIn	1	CTRL K
+VSCode.xml	RevealIn	2	R
+VSCode.xml	Run	1	CTRL F5
+VSCode.xml	SaveAll	1	CTRL K
+VSCode.xml	SaveAll	2	S
+VSCode.xml	ScrollPane-scrollDown	1	SHIFT PAGE_DOWN
+VSCode.xml	ScrollPane-scrollUp	1	SHIFT PAGE_UP
+VSCode.xml	ScrollPane-unitScrollDown	1	CTRL DOWN
+VSCode.xml	ScrollPane-unitScrollUp	1	CTRL UP
+VSCode.xml	SearchEverywhere	1	F1
+VSCode.xml	SearchEverywhere	1	SHIFT CTRL A
+VSCode.xml	SearchEverywhere.CompleteCommand	1	TAB
+VSCode.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
+VSCode.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
+VSCode.xml	SearchEverywhere.NextTab	1	TAB
+VSCode.xml	SelectAllOccurrences	1	SHIFT CTRL L
+VSCode.xml	SelectAllOccurrences	1	CTRL F2
+VSCode.xml	SelectNextOccurrence	1	CTRL D
+VSCode.xml	ShelvedChanges.Rename	1	SHIFT F6
+VSCode.xml	ShowIntentionActions	1	CTRL PERIOD
+VSCode.xml	ShowNavBar	1	SHIFT CTRL SEMICOLON
+VSCode.xml	ShowSettings	1	CTRL COMMA
+VSCode.xml	ShowUsages	1	SHIFT F12
+VSCode.xml	SplitVertically	1	CTRL BACK_SLASH
+VSCode.xml	Sql.EditParameter	1	F4
+VSCode.xml	StepInto	1	F11
+VSCode.xml	StepOut	1	SHIFT F11
+VSCode.xml	StepOver	1	F10
+VSCode.xml	Stop	1	SHIFT F5
+VSCode.xml	SwitchHeaderSource	1	ALT O
+VSCode.xml	Tab	1	TAB
+VSCode.xml	ToggleLineBreakpoint	1	F9
+VSCode.xml	ToggleZenMode	1	CTRL K
+VSCode.xml	ToggleZenMode	2	Z
+VSCode.xml	UML.ActualSize	1	CTRL DIVIDE
+VSCode.xml	UML.ZoomIn	1	CTRL ADD
+VSCode.xml	UnselectPreviousOccurrence	1	CTRL U
+VSCode.xml	VcsShowNextChangeMarker	1	ALT F5
+VSCode.xml	VcsShowPrevChangeMarker	1	SHIFT ALT F5
+VSCode.xml	WelcomeScreen.Plugins	1	SHIFT CTRL X
+Xcode.xml	$Cut	1	META X
+Xcode.xml	$Delete	1	BACK_SPACE
+Xcode.xml	$Delete	1	META BACK_SPACE
+Xcode.xml	ActivateDebugToolWindow	1	META 7
+Xcode.xml	ActivateDebugToolWindow	1	SHIFT META Y
+Xcode.xml	ActivateMessagesToolWindow	1	META 5
+Xcode.xml	ActivateMessagesToolWindow	1	META 9
+Xcode.xml	ActivateProjectToolWindow	1	META 1
+Xcode.xml	ActivateRunToolWindow	1	META 6
+Xcode.xml	ActivateStructureToolWindow	1	META 3
+Xcode.xml	ActivateVersionControlToolWindow	1	META 2
+Xcode.xml	AddFilesToProjectAction	1	META ALT A
+Xcode.xml	AppCode.CreateXcodeProject	1	SHIFT META N
+Xcode.xml	AutoIndentLines	1	CONTROL I
+Xcode.xml	Back	1	META CONTROL LEFT
+Xcode.xml	CallHierarchy	1	CTRL ALT H
+Xcode.xml	CallHierarchy	1	SHIFT CTRL META H
+Xcode.xml	ChangesView.Rename	1	CONTROL META E
+Xcode.xml	ChangesView.Rename	1	SHIFT F6
+Xcode.xml	CheckinProject	1	ALT META C
+Xcode.xml	ChooseDebugConfiguration	1	META ALT R
+Xcode.xml	ChooseRunConfiguration	1	SHIFT CTRL META ALT R
+Xcode.xml	CleanBuildFolder	1	ALT SHIFT META K
+Xcode.xml	CloseProject	1	SHIFT CONTROL META W
+Xcode.xml	CodeCompletion	1	CONTROL SPACE
+Xcode.xml	CodeCompletion	1	ALT ESCAPE
+Xcode.xml	CollapseDocComments	1	SHIFT CONTROL META LEFT
+Xcode.xml	CollapseRegion	1	META ALT LEFT
+Xcode.xml	CollapseRegion	1	META SUBTRACT
+Xcode.xml	CollapseRegion	1	META MINUS
+Xcode.xml	CommentByBlockComment	1	CONTROL SHIFT SLASH
+Xcode.xml	CommentByBlockComment	1	CONTROL SHIFT DIVIDE
+Xcode.xml	CommentByBlockComment	1	META SHIFT SLASH
+Xcode.xml	CommentByBlockComment	1	META SHIFT DIVIDE
+Xcode.xml	CommentByBlockComment	1	META SHIFT DIVIDE
+Xcode.xml	Compare.SameVersion	1	ALT SHIFT META ENTER
+Xcode.xml	CompileDirty	1	META B
+Xcode.xml	Debug	1	META R
+Xcode.xml	DebugClass	1	META U
+Xcode.xml	Diff.NextChange	1	META SHIFT CLOSE_BRACKET
+Xcode.xml	Diff.PrevChange	1	META SHIFT OPEN_BRACKET
+Xcode.xml	EditorBackSpace	1	BACK_SPACE
+Xcode.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Xcode.xml	EditorCodeBlockEndWithSelection	1	CONTROL SHIFT CLOSE_BRACKET
+Xcode.xml	EditorCodeBlockStart	1	CONTROL OPEN_BRACKET
+Xcode.xml	EditorCodeBlockStartWithSelection	1	CONTROL SHIFT OPEN_BRACKET
+Xcode.xml	EditorDelete	1	DELETE
+Xcode.xml	EditorDeleteLine	1	META ALT BACK_SPACE
+Xcode.xml	EditorDeleteToLineStart	1	META BACK_SPACE
+Xcode.xml	EditorDeleteToWordEndInDifferentHumpsMode	1	CONTROL DELETE
+Xcode.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
+Xcode.xml	EditorDeleteToWordStart	1	CONTROL ALT BACK_SPACE
+Xcode.xml	EditorDeleteToWordStartInDifferentHumpsMode	1	CONTROL BACK_SPACE
+Xcode.xml	EditorDownWithSelection	1	CONTROL SHIFT N
+Xcode.xml	EditorDownWithSelection	1	SHIFT DOWN
+Xcode.xml	EditorIndentLineOrSelection	1	META CLOSE_BRACKET
+Xcode.xml	EditorIndentSelection	1	TAB
+Xcode.xml	EditorLeftWithSelection	1	SHIFT LEFT
+Xcode.xml	EditorLeftWithSelection	1	SHIFT CONTROL B
+Xcode.xml	EditorLineEnd	1	META RIGHT
+Xcode.xml	EditorLineEnd	1	META RIGHT
+Xcode.xml	EditorLineEnd	1	CONTROL E
+Xcode.xml	EditorLineEndWithSelection	1	SHIFT META RIGHT
+Xcode.xml	EditorLineStart	1	META LEFT
+Xcode.xml	EditorLineStart	1	CONTROL A
+Xcode.xml	EditorLineStart	1	META LEFT
+Xcode.xml	EditorLineStartWithSelection	1	SHIFT META LEFT
+Xcode.xml	EditorNextWordInDifferentHumpsMode	1	CONTROL RIGHT
+Xcode.xml	EditorNextWordInDifferentHumpsModeWithSelection	1	SHIFT CONTROL RIGHT
+Xcode.xml	EditorPageDown	1	PAGE_DOWN
+Xcode.xml	EditorPageDown	1	ALT PAGE_DOWN
+Xcode.xml	EditorPageDown	1	CONTROL V
+Xcode.xml	EditorPageDownWithSelection	1	SHIFT PAGE_DOWN
+Xcode.xml	EditorPageDownWithSelection	1	CONTROL SHIFT V
+Xcode.xml	EditorPageUp	1	PAGE_UP
+Xcode.xml	EditorPageUp	1	ALT PAGE_UP
+Xcode.xml	EditorPreviousWordInDifferentHumpsMode	1	CONTROL LEFT
+Xcode.xml	EditorPreviousWordInDifferentHumpsModeWithSelection	1	SHIFT CONTROL LEFT
+Xcode.xml	EditorRightWithSelection	1	SHIFT RIGHT
+Xcode.xml	EditorRightWithSelection	1	SHIFT CONTROL F
+Xcode.xml	EditorScrollBottom	1	END
+Xcode.xml	EditorScrollToCenter	1	CONTROL L
+Xcode.xml	EditorScrollTop	1	HOME
+Xcode.xml	EditorSelectWord	1	META ALT UP
+Xcode.xml	EditorSplitLine	1	CONTROL O
+Xcode.xml	EditorSplitLine	1	CONTROL ENTER
+Xcode.xml	EditorTextEnd	1	META DOWN
+Xcode.xml	EditorTextEnd	1	META END
+Xcode.xml	EditorTextEndWithSelection	1	SHIFT META END
+Xcode.xml	EditorTextEndWithSelection	1	SHIFT META DOWN
+Xcode.xml	EditorTextEndWithSelection	1	SHIFT END
+Xcode.xml	EditorTextStart	1	META UP
+Xcode.xml	EditorTextStart	1	META HOME
+Xcode.xml	EditorTextStartWithSelection	1	SHIFT META HOME
+Xcode.xml	EditorTextStartWithSelection	1	SHIFT META UP
+Xcode.xml	EditorTextStartWithSelection	1	SHIFT HOME
+Xcode.xml	EditorTranspose	1	CTRL T
+Xcode.xml	EditorUnindentSelection	1	META OPEN_BRACKET
+Xcode.xml	EditorUnindentSelection	1	SHIFT TAB
+Xcode.xml	EditorUnSelectWord	1	META ALT DOWN
+Xcode.xml	EditorUpWithSelection	1	CONTROL SHIFT P
+Xcode.xml	EditorUpWithSelection	1	SHIFT UP
+Xcode.xml	editRunConfigurations	1	SHIFT META COMMA
+Xcode.xml	ExpandDocComments	1	SHIFT CONTROL META RIGHT
+Xcode.xml	ExpandRegion	1	META ALT RIGHT
+Xcode.xml	ExpandRegion	1	META ADD
+Xcode.xml	ExpandRegion	1	META EQUALS
+Xcode.xml	ExpressionTypeInfo	1	CONTROL ALT P
+Xcode.xml	ExternalJavaDoc	1	CONTROL META ALT SLASH
+Xcode.xml	ExternalJavaDoc	1	SHIFT F1
+Xcode.xml	ExtractMethod	1	CTRL META ALT M
+Xcode.xml	FileChooser.NewFolder	1	ALT INSERT
+Xcode.xml	FileStructurePopup	1	CONTROL 6
+Xcode.xml	FileStructurePopup	1	META F12
+Xcode.xml	FindInPath	1	SHIFT META F
+Xcode.xml	FindInPath	1	META 4
+Xcode.xml	FindNext	1	META G
+Xcode.xml	FindNext	1	F3
+Xcode.xml	FindPrevious	1	SHIFT META G
+Xcode.xml	FindPrevious	1	SHIFT F3
+Xcode.xml	FindPrevious	1	SHIFT CONTROL L
+Xcode.xml	FindUsages	1	ALT F7
+Xcode.xml	FindUsages	1	SHIFT CTRL META F
+Xcode.xml	ForceStepInto	1	ALT CONTROL F7
+Xcode.xml	ForceStepOver	1	ALT CONTROL F6
+Xcode.xml	Forward	1	META CONTROL RIGHT
+Xcode.xml	Generate	1	META N
+Xcode.xml	Git.Rename.Local.Branch	1	CONTROL META E
+Xcode.xml	Git.Rename.Local.Branch	1	SHIFT F6
+Xcode.xml	Git.Reword.Commit	1	CONTROL META E
+Xcode.xml	Git.Reword.Commit	1	SHIFT F6
+Xcode.xml	GotoBookmark0	1	CONTROL ALT 0
+Xcode.xml	GotoBookmark1	1	CONTROL ALT 1
+Xcode.xml	GotoBookmark2	1	CONTROL ALT 2
+Xcode.xml	GotoBookmark3	1	CONTROL ALT 3
+Xcode.xml	GotoBookmark4	1	CONTROL ALT 4
+Xcode.xml	GotoBookmark5	1	CONTROL ALT 5
+Xcode.xml	GotoBookmark6	1	CONTROL ALT 6
+Xcode.xml	GotoBookmark7	1	CONTROL ALT 7
+Xcode.xml	GotoBookmark8	1	CONTROL ALT 8
+Xcode.xml	GotoBookmark9	1	CONTROL ALT 9
+Xcode.xml	GotoClass	1	META ALT O
+Xcode.xml	GotoDeclaration	1	CONTROL META J
+Xcode.xml	GotoFile	1	META O
+Xcode.xml	GotoImplementation	1	CONTROL ALT META J
+Xcode.xml	GotoNextError	1	META QUOTE
+Xcode.xml	GotoPreviousError	1	SHIFT META QUOTE
+Xcode.xml	GotoRelated	1	CONTROL META UP
+Xcode.xml	GotoRelated	1	CONTROL META DOWN
+Xcode.xml	GotoSuperMethod	1	CONTROL U
+Xcode.xml	GotoSymbol	1	SHIFT META O
+Xcode.xml	GotoTypeDeclaration	1	ALT SHIFT B
+Xcode.xml	HelpTopics	1	SHIFT META ALT SLASH
+Xcode.xml	HighlightUsagesInFile	1	META E
+Xcode.xml	HighlightUsagesInFile	1	SHIFT META F7
+Xcode.xml	ImplementMethods	1	CONTROL META I
+Xcode.xml	InspectCode	1	META SHIFT B
+Xcode.xml	Instruments	1	META I
+Xcode.xml	IntroduceConstant	1	CTRL META ALT C
+Xcode.xml	IntroduceField	1	CTRL META ALT F
+Xcode.xml	IntroduceParameter	1	CTRL META ALT P
+Xcode.xml	IntroduceVariable	1	CTRL META ALT V
+Xcode.xml	LocalHistory.PutLabel	1	CONTROL META S
+Xcode.xml	MaximizeToolWindow	1	SHIFT META SEMICOLON
+Xcode.xml	MethodDown	1	ALT DOWN
+Xcode.xml	MethodUp	1	ALT UP
+Xcode.xml	Move	1	ALT F6
+Xcode.xml	MoveLineDown	1	META ALT CLOSE_BRACKET
+Xcode.xml	MoveLineUp	1	META ALT OPEN_BRACKET
+Xcode.xml	MoveStatementDown	1	META CONTROL CLOSE_BRACKET
+Xcode.xml	MoveStatementUp	1	META CONTROL OPEN_BRACKET
+Xcode.xml	NewElement	1	META N
+Xcode.xml	NextOccurence	1	CONTROL DOWN
+Xcode.xml	NextTab	1	META SHIFT CLOSE_BRACKET
+Xcode.xml	OverrideMethods	1	CONTROL META O
+Xcode.xml	ParameterInfo	1	SHIFT META P
+Xcode.xml	PasteMultiple	1	SHIFT META V
+Xcode.xml	PasteMultiple	1	ALT META V
+Xcode.xml	Pause	1	CONTROL META Y
+Xcode.xml	PreviousOccurence	1	CONTROL UP
+Xcode.xml	PreviousTab	1	META SHIFT OPEN_BRACKET
+Xcode.xml	Print	1	META P
+Xcode.xml	QuickImplementations	1	CONTROL F1
+Xcode.xml	QuickImplementations	1	ALT SPACE
+Xcode.xml	QuickJavaDoc	1	SHIFT CONTROL META SLASH
+Xcode.xml	QuickJavaDoc	1	F1
+Xcode.xml	RecentFiles	1	CONTROL 2
+Xcode.xml	RecentFiles	1	CONTROL 3
+Xcode.xml	Refactorings.QuickListPopupAction	1	CTRL META ALT T
+Xcode.xml	RenameElement	1	CONTROL META E
+Xcode.xml	RenameElement	1	SHIFT F6
+Xcode.xml	Replace	1	META ALT F
+Xcode.xml	ReplaceInPath	1	ALT SHIFT META F
+Xcode.xml	ReplaceInPath	1	CONTROL SHIFT R
+Xcode.xml	Rerun	1	CONTROL ALT META G
+Xcode.xml	RerunFailedTests	1	ALT META G
+Xcode.xml	Resume	1	CONTROL META Y
+Xcode.xml	Run	1	SHIFT META ALT R
+Xcode.xml	RunClass	1	META ALT U
+Xcode.xml	RunToCursor	1	CONTROL META C
+Xcode.xml	SafeDelete	1	META DELETE
+Xcode.xml	SelectIn	1	SHIFT META J
+Xcode.xml	SelectIn	1	ALT F1
+Xcode.xml	ShelvedChanges.Rename	1	CONTROL META E
+Xcode.xml	ShelvedChanges.Rename	1	SHIFT F6
+Xcode.xml	ShowNavBar	1	CTRL 4
+Xcode.xml	ShowNavBar	1	CTRL 5
+Xcode.xml	ShowNavBar	1	ALT HOME
+Xcode.xml	ShowUmlDiagramPopup	1	META ALT CONTROL U
+Xcode.xml	SmartStepInto	1	SHIFT ALT F7
+Xcode.xml	StepInto	1	F7
+Xcode.xml	StepOut	1	F8
+Xcode.xml	StepOver	1	F6
+Xcode.xml	Stop	1	META PERIOD
+Xcode.xml	Stop	1	META F2
+Xcode.xml	SwiftGenerateDocComment	1	META ALT SLASH
+Xcode.xml	SwiftGenerateDocComment	1	META ALT DIVIDE
+Xcode.xml	ToggleBookmark	1	CONTROL F3
+Xcode.xml	ToggleLineBreakpoint	1	META BACK_SLASH
+Xcode.xml	ToggleLineBreakpoint	1	META F8
+Xcode.xml	Vcs.QuickListPopupAction	1	CONTROL S
+Xcode.xml	Vcs.ShowMessageHistory	1	CONTROL M
+Xcode.xml	Vcs.UpdateProject	1	ALT META X
+Xcode.xml	ViewBreakpoints	1	META 8
+Xcode.xml	ViewBreakpoints	1	SHIFT CTRL F8
+Xcode.xml	XDebugger.MuteBreakpoints	1	META Y
+Xcode.xml	XPathView.Actions.Evaluate	1	CONTROL ALT X
+Xcode.xml	XPathView.Actions.Evaluate	2	E
+Xcode.xml	XPathView.Actions.FindByExpression	1	CONTROL ALT X
+Xcode.xml	XPathView.Actions.FindByExpression	2	F
+Xcode.xml	XPathView.Actions.ShowPath	1	CONTROL ALT X
+Xcode.xml	XPathView.Actions.ShowPath	2	P
+

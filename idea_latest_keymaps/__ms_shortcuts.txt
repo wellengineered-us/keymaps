@@ -1,0 +1,114 @@
+KEYMAP_FILE_NAME	ACTION_ID	STROKE_NO	MS_SHORTCUT
+$default.xml	Back	1	button4
+$default.xml	EditorAddOrRemoveCaret	1	alt shift button1
+$default.xml	EditorAddRectangularSelectionOnMouseDrag	1	ctrl alt shift button1
+$default.xml	EditorCreateRectangularSelection	1	alt shift button2
+$default.xml	EditorCreateRectangularSelectionOnMouseDrag	1	alt button1
+$default.xml	EditorCreateRectangularSelectionOnMouseDrag	1	button2
+$default.xml	EditorPasteFromX11	1	button2
+$default.xml	Forward	1	button5
+$default.xml	GotoDeclaration	1	ctrl button1
+$default.xml	GotoImplementation	1	ctrl alt button1
+$default.xml	GotoTypeDeclaration	1	ctrl shift button1
+$default.xml	OpenInRightSplit	1	alt button1 doubleclick
+$default.xml	QuickEvaluateExpression	1	alt button1
+$default.xml	QuickJavaDoc	1	alt button2
+Default for GNOME.xml	Back	1	button4
+Default for GNOME.xml	Forward	1	button5
+Default for XWin.xml	QuickEvaluateExpression	1	control shift alt button1
+Eclipse (Mac OS X).xml	Back	1	button4
+Eclipse (Mac OS X).xml	Forward	1	button5
+Eclipse (Mac OS X).xml	GotoDeclaration	1	ctrl button1
+Eclipse (Mac OS X).xml	QuickJavaDoc	1	alt button2
+Eclipse.xml	Back	1	button4
+Eclipse.xml	Forward	1	button5
+Eclipse.xml	GotoDeclaration	1	ctrl button1
+Eclipse.xml	QuickJavaDoc	1	alt button2
+Emacs.xml	GotoDeclaration	1	ctrl button1
+Mac OS X 10.5+.xml	Back	1	button4
+Mac OS X 10.5+.xml	Forward	1	button5
+Mac OS X 10.5+.xml	GotoDeclaration	1	meta button1
+Mac OS X 10.5+.xml	GotoDeclaration	1	force touch
+Mac OS X 10.5+.xml	GotoDeclaration	1	button2
+Mac OS X 10.5+.xml	GotoTypeDeclaration	1	meta shift button1
+Mac OS X 10.5+.xml	QuickJavaDoc	1	control button2
+Mac OS X 10.5+.xml	RunToCursor	1	force touch
+Mac OS X 10.5+.xml	UiInspector	1	control alt button1
+Mac OS X.xml	GotoDeclaration	1	meta button1
+Mac OS X.xml	GotoDeclaration	1	force touch
+Mac OS X.xml	GotoDeclaration	1	button2
+Mac OS X.xml	GotoTypeDeclaration	1	meta shift button1
+Mac OS X.xml	QuickJavaDoc	1	control button2
+Mac OS X.xml	RunToCursor	1	force touch
+Mac OS X.xml	UiInspector	1	control alt button1
+macOS System Shortcuts.xml	Back	1	button4
+macOS System Shortcuts.xml	Forward	1	button5
+NetBeans 6.5.xml	Back	1	button4
+NetBeans 6.5.xml	Forward	1	button5
+QtCreator (Mac OS X).xml	EditorDecreaseFontSize	1	meta button142
+QtCreator (Mac OS X).xml	EditorIncreaseFontSize	1	meta button143
+QtCreator (Mac OS X).xml	GotoDeclaration	1	ctrl button1
+QtCreator.xml	EditorDecreaseFontSize	1	control button142
+QtCreator.xml	EditorIncreaseFontSize	1	control button143
+QtCreator.xml	GotoDeclaration	1	control button1
+ReSharper OSX.xml	GotoDeclaration	1	meta button1
+ReSharper OSX.xml	GotoDeclaration	1	button2
+ReSharper OSX.xml	GotoImplementation	1	meta alt button1
+ReSharper OSX.xml	GotoTypeDeclaration	1	meta shift button1
+ReSharper OSX.xml	GotoTypeDeclaration	1	shift button2
+ReSharper.xml	GotoDeclaration	1	control button1
+ReSharper.xml	GotoDeclaration	1	button2
+ReSharper.xml	GotoImplementation	1	ctrl alt button1
+ReSharper.xml	GotoTypeDeclaration	1	ctrl shift button1
+Sublime Text (Mac OS X).xml	Back	1	button4
+Sublime Text (Mac OS X).xml	EditorAddOrRemoveCaret	1	meta button1
+Sublime Text (Mac OS X).xml	EditorAddRectangularSelectionOnMouseDrag	1	meta alt button1
+Sublime Text (Mac OS X).xml	EditorAddRectangularSelectionOnMouseDrag	1	meta button2
+Sublime Text (Mac OS X).xml	Forward	1	button5
+Sublime Text (Mac OS X).xml	GotoDeclaration	1	button2
+Sublime Text (Mac OS X).xml	GotoDeclaration	1	shift meta button1
+Sublime Text.xml	Back	1	button4
+Sublime Text.xml	EditorAddOrRemoveCaret	1	control button1
+Sublime Text.xml	EditorAddRectangularSelectionOnMouseDrag	1	ctrl button2
+Sublime Text.xml	Forward	1	button5
+Sublime Text.xml	GotoDeclaration	1	button2
+Sublime Text.xml	GotoDeclaration	1	shift control button1
+Visual Assist OSX.xml	GotoImplementation	1	meta alt button1
+Visual Assist.xml	Back	1	button4
+Visual Assist.xml	Forward	1	button5
+Visual Assist.xml	GotoDeclaration	1	control button1
+Visual Assist.xml	GotoDeclaration	1	button2
+Visual Assist.xml	GotoImplementation	1	control alt button1
+Visual Studio OSX.xml	Back	1	button4
+Visual Studio OSX.xml	Forward	1	button5
+Visual Studio OSX.xml	GotoDeclaration	1	meta button1
+Visual Studio OSX.xml	GotoImplementation	1	meta alt button1
+Visual Studio OSX.xml	GotoTypeDeclaration	1	meta shift button1
+Visual Studio OSX.xml	GotoTypeDeclaration	1	shift button2
+Visual Studio.xml	Back	1	button4
+Visual Studio.xml	Forward	1	button5
+Visual Studio.xml	GotoDeclaration	1	ctrl button1
+Visual Studio.xml	GotoDeclaration	1	button2
+Visual Studio.xml	GotoImplementation	1	ctrl alt button1
+Visual Studio.xml	GotoTypeDeclaration	1	ctrl shift button1
+VSCode OSX.xml	Back	1	button4
+VSCode OSX.xml	EditorAddOrRemoveCaret	1	alt button1
+VSCode OSX.xml	EditorToggleColumnMode	1	shift alt button1
+VSCode OSX.xml	GotoDeclaration	1	meta button1
+VSCode OSX.xml	GotoDeclaration	1	button2
+VSCode OSX.xml	GotoDeclaration	1	force touch
+VSCode OSX.xml	GotoTypeDeclaration	1	shift meta button1
+VSCode OSX.xml	QuickJavaDoc	1	control button2
+VSCode.xml	EditorAddOrRemoveCaret	1	alt button1
+VSCode.xml	EditorCreateRectangularSelectionOnMouseDrag	1	button2
+VSCode.xml	EditorToggleColumnMode	1	shift alt button1
+VSCode.xml	GotoDeclaration	1	control button1
+VSCode.xml	GotoTypeDeclaration	1	shift control button1
+Xcode.xml	Back	1	button4
+Xcode.xml	Forward	1	button5
+Xcode.xml	GotoDeclaration	1	meta button1
+Xcode.xml	GotoDeclaration	1	button2
+Xcode.xml	GotoImplementation	1	meta alt button1
+Xcode.xml	GotoTypeDeclaration	1	ctrl shift button1
+Xcode.xml	QuickJavaDoc	1	control button2
+

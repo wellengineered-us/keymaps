@@ -1,0 +1,42 @@
+<keymap name="Default for GNOME" parent="Default for XWin" version="1" disable-mnemonics="false">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="SHIFT ALT LEFT" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 8" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="CONTROL F" />
+    <keyboard-shortcut first-keystroke="SHIFT ALT 3" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 7" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="SHIFT ALT RIGHT" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="IDEtalk.SearchUserHistory">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 7" />
+  </action>
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="SHIFT ALT DOWN" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="SHIFT ALT UP" />
+  </action>
+  <action id="ProjectViewChangeView">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
+    <keyboard-shortcut first-keystroke="ALT F1" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
+    <keyboard-shortcut first-keystroke="ALT F1" />
+  </action>
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="SHIFT ALT 0" />
+  </action>
+</keymap>

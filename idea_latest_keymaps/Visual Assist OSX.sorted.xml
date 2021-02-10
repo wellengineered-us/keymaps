@@ -1,0 +1,29 @@
+<keymap name="Visual Assist OSX" parent="Visual Studio OSX" version="1" disable-mnemonics="false">
+  <action id="EditorAddCaretPerSelectedLine" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="META ALT RIGHT" />
+    <keyboard-shortcut first-keystroke="ALT CLOSE_BRACKET" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="META ALT LEFT" />
+    <keyboard-shortcut first-keystroke="ALT OPEN_BRACKET" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ALT BACK_SLASH" />
+    <keyboard-shortcut first-keystroke="ALT M" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="SHIFT ALT O" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ALT G" />
+    <mouse-shortcut keystroke="meta alt button1" />
+  </action>
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="SHIFT ALT G" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="SHIFT ALT S" />
+  </action>
+  <action id="Replace" />
+</keymap>

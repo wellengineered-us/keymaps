@@ -1,0 +1,27 @@
+KEYMAP_FILE_NAME	KEYMAP_DISPLAY_NAME	KEYMAP_PARENT_NAME	KEYMAP_VERSION	KEYMAP_DISABLE_MNEMONICS
+$default.xml	$default		1	false
+Default for GNOME.xml	Default for GNOME	Default for XWin	1	false
+Default for KDE.xml	Default for KDE	Default for XWin	1	false
+Default for XWin.xml	Default for XWin	$default	1	false
+Eclipse (Mac OS X).xml	Eclipse (Mac OS X)	Mac OS X 10.5+	1	false
+Eclipse.xml	Eclipse	$default	1	false
+Emacs.xml	Emacs	$default	1	false
+Mac OS X 10.5+.xml	Mac OS X 10.5+	$default	1	true
+Mac OS X.xml	Mac OS X	$default	1	true
+macOS System Shortcuts.xml	macOS System Shortcuts	Mac OS X 10.5+	1	true
+NetBeans 6.5.xml	NetBeans 6.5	$default	1	
+QtCreator (Mac OS X).xml	QtCreator (Mac OS X)	Mac OS X 10.5+	1	false
+QtCreator.xml	QtCreator	$default	1	false
+ReSharper OSX.xml	ReSharper OSX	Visual Studio OSX	1	false
+ReSharper.xml	ReSharper	Visual Studio	1	false
+Sublime Text (Mac OS X).xml	Sublime Text (Mac OS X)	Mac OS X 10.5+	1	false
+Sublime Text.xml	Sublime Text	$default	1	false
+Visual Assist OSX.xml	Visual Assist OSX	Visual Studio OSX	1	false
+Visual Assist.xml	Visual Assist	Visual Studio	1	false
+Visual Studio for Mac.xml	Visual Studio for Mac	Mac OS X 10.5+	1	
+Visual Studio OSX.xml	Visual Studio OSX	Mac OS X 10.5+	1	false
+Visual Studio.xml	Visual Studio	$default	1	false
+VSCode OSX.xml	VSCode OSX	Mac OS X 10.5+	1	
+VSCode.xml	VSCode	$default	1	
+Xcode.xml	Xcode	Mac OS X 10.5+	1	
+
