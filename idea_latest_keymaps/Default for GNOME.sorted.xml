@@ -28,10 +28,6 @@
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="SHIFT ALT UP" />
   </action>
-  <action id="ProjectViewChangeView">
-    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
-    <keyboard-shortcut first-keystroke="ALT F1" />
-  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
     <keyboard-shortcut first-keystroke="ALT F1" />

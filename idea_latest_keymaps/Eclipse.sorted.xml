@@ -54,14 +54,10 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="CONTROL F6" />
-    <keyboard-shortcut first-keystroke="CONTROL ALT LEFT" />
-    <keyboard-shortcut first-keystroke="CONTROL PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT LEFT" />
   </action>
   <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="SHIFT CONTROL F6" />
-    <keyboard-shortcut first-keystroke="CONTROL ALT RIGHT" />
-    <keyboard-shortcut first-keystroke="CONTROL PAGE_UP" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT RIGHT" />
   </action>
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorCodeBlockEnd">
@@ -146,6 +142,7 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL K" />
   </action>
+  <action id="FindPrevWordAtCaret" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="CONTROL G" />
   </action>
@@ -167,9 +164,7 @@
     <keyboard-shortcut first-keystroke="SHIFT ALT R" />
   </action>
   <action id="GotoBookmark1" />
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="SHIFT CONTROL T" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL T" />
   </action>
@@ -300,6 +295,10 @@
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="SHIFT ALT G" />
   </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F8" />
     <keyboard-shortcut first-keystroke="F9" />
@@ -339,6 +338,7 @@
     <keyboard-shortcut first-keystroke="CONTROL F10" />
     <keyboard-shortcut first-keystroke="SHIFT ALT T" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="CONTROL F5" />
   </action>

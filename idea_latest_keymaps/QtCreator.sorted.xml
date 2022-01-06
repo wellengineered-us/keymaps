@@ -20,6 +20,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="CONTROL Z" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ALT 2" />
@@ -108,8 +109,6 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="F5" />
   </action>
-  <action id="Diff.NextChange" />
-  <action id="Diff.PrevChange" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="CONTROL CLOSE_BRACKET" />
@@ -192,6 +191,9 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="SHIFT F3" />
+  </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F3" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT U" />
@@ -307,6 +309,7 @@ z    <keyboard-shortcut first-keystroke="F5" /></action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ALT ENTER" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUmlDiagram" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="3" />

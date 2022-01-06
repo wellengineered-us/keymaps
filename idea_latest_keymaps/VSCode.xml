@@ -33,7 +33,7 @@
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ChangesView.SetDefault" />
   <action id="CheckinProject" />
@@ -138,8 +138,12 @@
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -197,7 +201,6 @@
   </action>
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode">
-    <mouse-shortcut keystroke="shift alt button1" />
     <keyboard-shortcut first-keystroke="shift alt i" />
   </action>
   <action id="EditorUnSelectWord">
@@ -254,7 +257,7 @@
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="GoToClass" />
   <action id="GotoAction">
@@ -411,7 +414,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="Rerun" />
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f5"/>
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
@@ -420,6 +425,9 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl S" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="s" />
   </action>
@@ -461,9 +469,10 @@
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ShowBookmarks" />
+  <action id="ShowTypeBookmarks"/>
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -542,12 +551,6 @@
   <action id="XDebugger.SetValue" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
-  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
-  </action>
-  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
-    <keyboard-shortcut first-keystroke="shift ctrl v" />
-  </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>

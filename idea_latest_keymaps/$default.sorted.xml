@@ -25,15 +25,16 @@
     <keyboard-shortcut first-keystroke="CONTROL Z" />
     <keyboard-shortcut first-keystroke="ALT BACK_SPACE" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 2" />
+  </action>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="ALT 0" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ALT 5" />
   </action>
-  <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="ALT 2" />
-  </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ALT 3" />
   </action>
@@ -207,26 +208,22 @@
     <keyboard-shortcut first-keystroke="SHIFT F9" />
   </action>
   <action id="DebugClass" />
-  <action id="Debugger.EditTypeSource">
-    <keyboard-shortcut first-keystroke="SHIFT F4" />
-  </action>
   <action id="Diff.ApplyLeftSide">
-    <keyboard-shortcut first-keystroke="ALT SHIFT RIGHT" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT R" />
   </action>
   <action id="Diff.ApplyRightSide">
-    <keyboard-shortcut first-keystroke="ALT SHIFT LEFT" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT A" />
   </action>
   <action id="Diff.FocusOppositePane">
-    <keyboard-shortcut first-keystroke="CONTROL TAB" />
-  </action>
-  <action id="Diff.FocusOppositePaneAndScroll">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT TAB" />
   </action>
+  <action id="Diff.FocusOppositePaneAndScroll">
+  </action>
   <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="ALT RIGHT" />
+    <keyboard-shortcut first-keystroke="ALT SHIFT RIGHT" />
   </action>
   <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="ALT LEFT" />
+    <keyboard-shortcut first-keystroke="ALT SHIFT LEFT" />
   </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="CONTROL D" />
@@ -592,6 +589,9 @@
     <keyboard-shortcut first-keystroke="SHIFT F3" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT L" />
   </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F3" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="ALT F7" />
   </action>
@@ -667,9 +667,7 @@
   <action id="GotoBookmark9">
     <keyboard-shortcut first-keystroke="CONTROL 9" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="CONTROL N" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="CONTROL N" />
   </action>
@@ -869,9 +867,6 @@
   <action id="PrevParameter">
     <keyboard-shortcut first-keystroke="SHIFT TAB" />
   </action>
-  <action id="ProjectViewChangeView">
-    <keyboard-shortcut first-keystroke="ALT F1" />
-  </action>
   <action id="QuickActionPopup">
     <keyboard-shortcut first-keystroke="CONTROL ALT ENTER" />
   </action>
@@ -921,16 +916,16 @@
     <keyboard-shortcut first-keystroke="SHIFT ALT R" />
   </action>
   <action id="ResizeToolWindowDown">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT DOWN" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT DOWN" />
   </action>
   <action id="ResizeToolWindowLeft">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT LEFT" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT LEFT" />
   </action>
   <action id="ResizeToolWindowRight">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT RIGHT" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT RIGHT" />
   </action>
   <action id="ResizeToolWindowUp">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT UP" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT UP" />
   </action>
   <action id="RestoreDefaultLayout">
     <keyboard-shortcut first-keystroke="SHIFT F12" />
@@ -1048,6 +1043,9 @@
   </action>
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT ALT F7" />
+  </action>
+  <action id="ShowTypeBookmarks">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F11" />
   </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="CONTROL ALT F7" />
@@ -1186,6 +1184,15 @@
   <action id="Unwrap">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT DELETE" />
   </action>
+  <action id="UsageFiltering.Imports">
+    <keyboard-shortcut first-keystroke="CONTROL I" />
+  </action>
+  <action id="UsageFiltering.ReadAccess">
+    <keyboard-shortcut first-keystroke="CONTROL R" />
+  </action>
+  <action id="UsageFiltering.WriteAccess">
+    <keyboard-shortcut first-keystroke="CONTROL W" />
+  </action>
   <action id="UsageGrouping.Directory">
     <keyboard-shortcut first-keystroke="CONTROL ALT P" />
   </action>
@@ -1219,7 +1226,6 @@
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="CONTROL M" />
-    <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
   <action id="Vcs.ToggleAmendCommitMode">
     <keyboard-shortcut first-keystroke="ALT M" />
@@ -1241,6 +1247,9 @@
   </action>
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="CONTROL ALT F5" />
+  </action>
+  <action id="XDebugger.JumpToTypeSource">
+    <keyboard-shortcut first-keystroke="SHIFT F4" />
   </action>
   <action id="XDebugger.NewWatch">
     <keyboard-shortcut first-keystroke="INSERT" />

@@ -6,8 +6,6 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ALT LEFT" />
   </action>
-  <action id="Diff.NextChange" />
-  <action id="Diff.PrevChange" />
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="CTRL ALT RIGHT" />

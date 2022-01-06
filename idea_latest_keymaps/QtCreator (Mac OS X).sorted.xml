@@ -20,6 +20,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="META Z" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="META 2" />
@@ -203,6 +204,9 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="META SHIFT G" />
   </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="SHIFT META F3" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="META SHIFT U" />
   </action>
@@ -324,6 +328,7 @@
     <keyboard-shortcut first-keystroke="ALT ENTER" />
   </action>
   <action id="ShowProjectStructureSettings" />
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUmlDiagram" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="3" />

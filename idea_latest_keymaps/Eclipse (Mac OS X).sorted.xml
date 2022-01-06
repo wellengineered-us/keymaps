@@ -5,6 +5,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="META Z" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ALT META Q" second-keystroke="S" />
@@ -51,14 +52,8 @@
     <keyboard-shortcut first-keystroke="META F11" />
   </action>
   <action id="DelegateMethods" />
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="META F6" />
-    <keyboard-shortcut first-keystroke="META ALT RIGHT" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="SHIFT META F6" />
-    <keyboard-shortcut first-keystroke="META ALT LEFT" />
-  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="CONTROL CLOSE_BRACKET" />
     <!-- TODO -->
@@ -149,6 +144,7 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="SHIFT META K" />
   </action>
+  <action id="FindPrevWordAtCaret" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="META SHIFT G" />
   </action>
@@ -170,9 +166,7 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="META 3" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="SHIFT META T" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="SHIFT META T" />
   </action>
@@ -278,6 +272,10 @@
   <action id="Replace" />
   <action id="ReplaceInPath" />
   <action id="Rerun" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F8" />
   </action>

@@ -4,6 +4,7 @@
     <keyboard-shortcut first-keystroke="SHIFT ALT BACK_SPACE" />
     <keyboard-shortcut first-keystroke="CONTROL Y" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="SHIFT ALT U" />
@@ -90,10 +91,10 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="CONTROL PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT PAGE_DOWN" />
   </action>
   <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="CONTROL PAGE_UP" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT PAGE_UP" />
   </action>
   <action id="EditorChooseLookupItemDot">
     <keyboard-shortcut first-keystroke="CONTROL PERIOD" />
@@ -174,6 +175,7 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="CONTROL R" />
   </action>
+  <action id="GoFmtProjectAction" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="CONTROL I" />
   </action>
@@ -187,9 +189,7 @@
   <action id="GotoBookmark7" />
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="CONTROL O" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="CONTROL O" />
   </action>
@@ -348,6 +348,7 @@
     <keyboard-shortcut first-keystroke="CONTEXT_MENU" />
     <keyboard-shortcut first-keystroke="SHIFT F10" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL SPACE" />
     <keyboard-shortcut first-keystroke="SHIFT CONTROL BACK_SLASH" />

@@ -58,9 +58,7 @@
     <keyboard-shortcut first-keystroke="CONTROL META N" />
     <keyboard-shortcut first-keystroke="ALT INSERT" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="META N" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="META B" />
     <mouse-shortcut keystroke="meta button1" />
@@ -162,6 +160,7 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="SHIFT ALT F17" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="META ALT F7" />
   </action>

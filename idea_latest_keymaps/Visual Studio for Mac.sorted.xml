@@ -13,6 +13,7 @@
     <keyboard-shortcut first-keystroke="META B" />
     <keyboard-shortcut first-keystroke="F6" />
   </action>
+  <action id="CancelBuildAction" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="SHIFT META W" />
   </action>
@@ -25,9 +26,12 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="CONTROL SPACE" />
   </action>
+  <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="META SLASH" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.Open" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="META ENTER" />
     <keyboard-shortcut first-keystroke="F5" />
@@ -40,8 +44,10 @@
     <keyboard-shortcut first-keystroke="META SUBTRACT" />
   </action>
   <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="DELETE" />
     <keyboard-shortcut first-keystroke="META BACK_SPACE" />
   </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="CONTROL K" />
   </action>
@@ -70,8 +76,15 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="META 0" />
   </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ALT SHIFT UP" />
+  </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="META OPEN_BRACKET" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="ALT SHIFT DOWN" />
   </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="META Q" />
@@ -94,6 +107,9 @@
     <keyboard-shortcut first-keystroke="SHIFT META R" />
     <keyboard-shortcut first-keystroke="SHIFT F12" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="SHIFT META T" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="META D" />
     <keyboard-shortcut first-keystroke="F12" />
@@ -107,11 +123,30 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="META L" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ALT PAGE_DOWN" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ALT PAGE_UP" />
+  </action>
+  <action id="GotoTest" />
+  <action id="JumpToStatement">
+    <keyboard-shortcut first-keystroke="SHIFT META F10" />
+  </action>
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="META M" />
   </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ALT DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ALT UP" />
+  </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="CONTROL META RIGHT" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT SPACE" />
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ALT META P" />
@@ -152,10 +187,10 @@
     <keyboard-shortcut first-keystroke="META F10" />
   </action>
   <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="ALT META S" />
+    <keyboard-shortcut first-keystroke="META S" />
   </action>
   <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="META S" />
+    <keyboard-shortcut first-keystroke="ALT META S" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="META PERIOD" />
@@ -166,6 +201,7 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="META COMMA" />
   </action>
+  <action id="SmartTypeCompletion" />
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="SHIFT META I" />
     <keyboard-shortcut first-keystroke="META F11" />
@@ -185,6 +221,10 @@
   <action id="SwitchHeaderSource">
     <keyboard-shortcut first-keystroke="CONTROL META O" />
   </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="ALT META SLASH" />
+    <keyboard-shortcut first-keystroke="META F9" />
+  </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="CONTROL META F" />
   </action>
@@ -192,6 +232,7 @@
     <keyboard-shortcut first-keystroke="META BACK_SLASH" />
     <keyboard-shortcut first-keystroke="F9" />
   </action>
+  <action id="UpdateRunningApplication" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="ALT META B" />
   </action>

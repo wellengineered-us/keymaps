@@ -53,13 +53,13 @@
     <keyboard-shortcut first-keystroke="ENTER" />
     <keyboard-shortcut first-keystroke="CONTROL M" />
   </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="ALT RIGHT" />
-    <keyboard-shortcut first-keystroke="CONTROL X" second-keystroke="N" />
+    <keyboard-shortcut first-keystroke="ALT SHIFT RIGHT" />
   </action>
   <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="ALT LEFT" />
-    <keyboard-shortcut first-keystroke="CONTROL X" second-keystroke="P" />
+    <keyboard-shortcut first-keystroke="ALT SHIFT LEFT" />
   </action>
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorBackwardParagraph">
@@ -214,13 +214,12 @@
     <keyboard-shortcut first-keystroke="ALT F7" />
     <keyboard-shortcut first-keystroke="SHIFT ALT S" />
   </action>
+  <action id="GoGenerateFileAction" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="X" />
     <keyboard-shortcut first-keystroke="ALT X" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="SHIFT ALT G" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="SHIFT ALT G" />
   </action>

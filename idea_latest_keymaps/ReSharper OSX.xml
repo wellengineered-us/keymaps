@@ -24,9 +24,7 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta N"/>
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="meta N"/>
-  </action>
+  <action id="GotoChangedFile"/>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta shift N"/>
   </action>
@@ -184,6 +182,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="control BACK_QUOTE"/>
   </action>
+  <action id="ShowTypeBookmarks"/>
 
   <!--  Rider-specific actions-->
 

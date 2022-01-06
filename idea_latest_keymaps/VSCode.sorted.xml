@@ -36,7 +36,7 @@
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="SHIFT F6" />
+    <keyboard-shortcut first-keystroke="F2" />
   </action>
   <action id="ChangesView.SetDefault" />
   <action id="CheckinProject" />
@@ -138,8 +138,12 @@
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="CTRL MINUS" />
@@ -203,7 +207,6 @@
   </action>
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode">
-    <mouse-shortcut keystroke="shift alt button1" />
     <keyboard-shortcut first-keystroke="SHIFT ALT I" />
   </action>
   <action id="EditorToggleUseSoftWraps">
@@ -266,7 +269,7 @@
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="SHIFT F6" />
+    <keyboard-shortcut first-keystroke="F2" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="SHIFT CTRL P" />
@@ -374,12 +377,6 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="SHIFT ALT O" />
   </action>
-  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
-    <keyboard-shortcut first-keystroke="CTRL K" second-keystroke="V" />
-  </action>
-  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
-    <keyboard-shortcut first-keystroke="SHIFT CTRL V" />
-  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="SHIFT CTRL SPACE" />
@@ -432,7 +429,9 @@
   </action>
   <action id="Rerun" />
   <action id="RestoreDefaultLayout" />
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F5" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="CTRL K" second-keystroke="R" />
   </action>
@@ -443,6 +442,9 @@
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="CTRL K" second-keystroke="S" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="CTRL S" />
   </action>
   <action id="ScrollPane-scrollDown">
     <keyboard-shortcut first-keystroke="SHIFT PAGE_DOWN" />
@@ -482,7 +484,7 @@
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="SHIFT F6" />
+    <keyboard-shortcut first-keystroke="F2" />
   </action>
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
@@ -497,6 +499,7 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="CTRL COMMA" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="SHIFT F12" />
   </action>

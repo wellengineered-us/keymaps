@@ -52,12 +52,10 @@
     <keyboard-shortcut first-keystroke="control shift W"/>
   </action>
   <action id="PreviousTab"/>
-  <action id="Diff.PrevChange"/>
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt LEFT"/>
   </action>
   <action id="NextTab"/>
-  <action id="Diff.NextChange"/>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt RIGHT"/>
   </action>
@@ -69,6 +67,7 @@
     <keyboard-shortcut first-keystroke="alt 1"/>
   </action>
   <action id="ActivateFavoritesToolWindow"/>
+  <action id="ActivateBookmarksToolWindow"/>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 2"/>
   </action>
@@ -82,6 +81,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="alt M"/>
   </action>
+  <action id="ShowTypeBookmarks"/>
   <action id="ExportToTextFile"/>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="alt O"/>
@@ -275,6 +275,9 @@
   </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="control F3"/>
+  </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="control shift F3"/>
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="control shift F"/>

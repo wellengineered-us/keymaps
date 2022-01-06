@@ -26,7 +26,6 @@
   </action>
   <action id="CompileDirty" />
   <action id="CopyElement" />
-  <action id="Debugger.EditTypeSource" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="meta button1" />
@@ -107,8 +106,10 @@
   <action id="EditorScrollUp">
     <keyboard-shortcut first-keystroke="CONTROL ALT UP" />
   </action>
-  <action id="EditorSelectWord">
+  <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="META L" />
+  </action>
+  <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="META SHIFT A" />
     <keyboard-shortcut first-keystroke="META SHIFT J" />
     <keyboard-shortcut first-keystroke="META SHIFT SPACE" />
@@ -167,6 +168,7 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="META SHIFT G" />
   </action>
+  <action id="FindPrevWordAtCaret" />
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="META ALT G" />
   </action>
@@ -175,6 +177,7 @@
     <keyboard-shortcut first-keystroke="CONTROL SHIFT MINUS" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GoGenerateFileAction" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="SHIFT META P" />
   </action>
@@ -221,7 +224,9 @@
   <action id="IntroduceField" />
   <action id="IntroduceVariable" />
   <action id="JumpToLastWindow" />
+  <action id="MethodDown" />
   <action id="MethodHierarchy" />
+  <action id="MethodUp" />
   <action id="Move" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="META CONTROL DOWN" />
@@ -269,6 +274,10 @@
     <keyboard-shortcut first-keystroke="META ALT F" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
   <action id="RestoreDefaultLayout" />
   <action id="Resume" />
   <action id="Run" />
@@ -285,6 +294,7 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ALT F2" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="SHIFT F12" />
     <keyboard-shortcut first-keystroke="META ALT SHIFT DOWN" />
@@ -308,4 +318,5 @@
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.UpdateProject" />
   <action id="WebOpenInAction" />
+  <action id="XDebugger.JumpToTypeSource" />
 </keymap>

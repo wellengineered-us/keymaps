@@ -2,7 +2,7 @@
 
 ## Overview
 
-Custom keymap files for the JetBrain IDE platform (IntelliJ, Rider, et al.).
+Custom keymap files for the JetBrains IDE platform (IntelliJ, Rider, et al.).
 
 * WellEngineered.us IDEA Keymap for VC++ 6.0 
   * Inspired by the original [Microsoft Visual C++ shortcut mappings](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/58feksch(v=vs.100)?redirectedfrom=MSDN).

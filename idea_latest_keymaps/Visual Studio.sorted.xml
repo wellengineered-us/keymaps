@@ -6,7 +6,6 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="CONTROL X" />
     <keyboard-shortcut first-keystroke="SHIFT DELETE" />
-    <keyboard-shortcut first-keystroke="CTRL L" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="CONTROL V" />
@@ -97,6 +96,10 @@
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="S" />
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL S" />
   </action>
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="H" />
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL H" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="CONTROL ALT SLASH" />
     <keyboard-shortcut first-keystroke="CONTROL ALT DIVIDE" />
@@ -121,13 +124,10 @@
   <action id="EditBreakpoint">
     <keyboard-shortcut first-keystroke="ALT F9" />
   </action>
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="CONTROL CLOSE_BRACKET" />
-    <keyboard-shortcut first-keystroke="CONTROL ASTERISK" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="control alt button1" />
   </action>
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="SHIFT ALT CLOSE_BRACKET" />
-  </action>
+  <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection">
     <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT CLOSE_BRACKET" />
   </action>
@@ -137,7 +137,15 @@
   <action id="EditorCodeBlockStartWithSelection">
     <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT OPEN_BRACKET" />
   </action>
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="CTRL L" />
     <keyboard-shortcut first-keystroke="CTRL SHIFT L" />
   </action>
   <action id="EditorLeftWithSelection">
@@ -156,6 +164,7 @@
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL C" />
   </action>
   <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="SHIFT ALT EQUALS" />
     <keyboard-shortcut first-keystroke="CONTROL ALT RIGHT" />
     <keyboard-shortcut first-keystroke="CONTROL W" />
   </action>
@@ -172,6 +181,7 @@
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="CONTROL W" />
   </action>
   <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="SHIFT ALT MINUS" />
     <keyboard-shortcut first-keystroke="CONTROL ALT LEFT" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT W" />
   </action>
@@ -189,7 +199,6 @@
   <action id="ExpressionTypeInfo" />
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="SHIFT F1" />
-    <keyboard-shortcut first-keystroke="CONTROL F1" />
   </action>
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="M" />
@@ -205,6 +214,8 @@
     <!--VS Edit.NextHighlightedReference-->
     <keyboard-shortcut first-keystroke="CONTROL ALT PAGE_DOWN" />
     <!--ReSharper_ResultListGoToNextLocation-->
+    <keyboard-shortcut first-keystroke="ALT SHIFT SLASH" />
+    <!--VS Edit.MoveLastCaretDown-->
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="SHIFT F3" />
@@ -238,9 +249,8 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="R" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="CONTROL T" />
-  </action>
+  <action id="GoFmtProjectAction" />
+  <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="F12" />
@@ -252,7 +262,6 @@
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ALT END" />
-    <mouse-shortcut keystroke="ctrl alt button1" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="CONTROL G" />
@@ -285,12 +294,16 @@
     <keyboard-shortcut first-keystroke="CTRL SHIFT F11" />
     <mouse-shortcut keystroke="ctrl shift button1" />
   </action>
+  <action id="HelpTopics">
+    <keyboard-shortcut first-keystroke="CONTROL F1" />
+  </action>
   <action id="Hg.Commit.And.Push.Executor">
     <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT K" />
   </action>
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="SHIFT ALT F11" />
   </action>
+  <action id="HippieBackwardCompletion" />
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL I" />
   </action>
@@ -302,6 +315,8 @@
     <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL I" />
   </action>
   <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="X" />
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL X" />
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="L" />
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="CONTROL L" />
   </action>
@@ -342,6 +357,9 @@
     <keyboard-shortcut first-keystroke="ALT INSERT" />
   </action>
   <action id="NextEditorTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ALT RIGHT" />
+  </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="CONTROL O" />
   </action>
@@ -355,6 +373,9 @@
     <keyboard-shortcut first-keystroke="SHIFT CONTROL P" />
   </action>
   <action id="PreviousEditorTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ALT LEFT" />
+  </action>
   <action id="Print">
     <keyboard-shortcut first-keystroke="CONTROL P" />
   </action>
@@ -364,6 +385,8 @@
     <keyboard-shortcut first-keystroke="ALT F12" />
   </action>
   <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="I" />
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL I" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F1" />
   </action>
   <action id="RecentChangedFiles">
@@ -412,7 +435,7 @@
     <keyboard-shortcut first-keystroke="CONTROL F5" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="CONTROL F5" />
+    <keyboard-shortcut first-keystroke="CONTROL ALT F5" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="CONTROL F10" />
@@ -447,13 +470,17 @@
     <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL W" />
   </action>
   <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="CONTROL F1" />
     <keyboard-shortcut first-keystroke="ALT T" />
   </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="ALT MULTIPLY" />
   </action>
   <action id="ShowFilePath" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ALT ENTER" />
+    <keyboard-shortcut first-keystroke="CONTROL PERIOD" />
+    <keyboard-shortcut first-keystroke="ALT SHIFT F10" />
+  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="CONTROL F2" />
   </action>
@@ -464,6 +491,7 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT ALT F12" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="SHIFT ALT F12" />
   </action>
@@ -474,9 +502,7 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="CONTROL ALT SPACE" />
   </action>
-  <action id="SplitChooser">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT ENTER" />
-  </action>
+  <action id="SplitChooser" />
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="F11" />
   </action>

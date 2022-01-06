@@ -260,6 +260,9 @@
     <keyboard-shortcut first-keystroke="CTRL META K" />
     <keyboard-shortcut first-keystroke="META F3" />
   </action>
+  <action id="ShowContent">
+    <keyboard-shortcut first-keystroke="SHIFT META ALT DOWN" />
+  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="CTRL META UP" />
     <keyboard-shortcut first-keystroke="ALT HOME" />
@@ -270,6 +273,9 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT ALT U" />
     <keyboard-shortcut first-keystroke="META SHIFT ALT F7" />
+  </action>
+  <action id="ShowTypeBookmarks">
+    <keyboard-shortcut first-keystroke="META ALT F3" />
   </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="CTRL ALT U" />

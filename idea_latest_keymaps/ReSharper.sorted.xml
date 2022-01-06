@@ -60,9 +60,7 @@
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F7" />
   </action>
-  <action id="GotoChangedFile">
-    <keyboard-shortcut first-keystroke="CONTROL N" />
-  </action>
+  <action id="GotoChangedFile" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="CONTROL B" />
     <mouse-shortcut keystroke="control button1" />
@@ -73,7 +71,6 @@
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="CONTROL ALT B" />
-    <mouse-shortcut keystroke="ctrl alt button1" />
   </action>
   <action id="GotoNextBookmark" />
   <action id="GotoNextError">
@@ -167,6 +164,7 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="SHIFT ALT F7" />
   </action>
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="CONTROL ALT F7" />
   </action>

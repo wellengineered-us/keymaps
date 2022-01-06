@@ -21,6 +21,9 @@
     <keyboard-shortcut first-keystroke="CONTROL F" />
     <keyboard-shortcut first-keystroke="SHIFT ALT 3" />
   </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL 3" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="SHIFT ALT 7" />
   </action>
@@ -51,9 +54,6 @@
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="SHIFT ALT V" />
-  </action>
-  <action id="ProjectViewChangeView">
-    <keyboard-shortcut first-keystroke="SHIFT ALT 1" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="SHIFT ALT L" />

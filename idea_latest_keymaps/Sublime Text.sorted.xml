@@ -105,9 +105,11 @@
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL C" />
   </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="CONTROL L" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT SPACE" />
-    <keyboard-shortcut first-keystroke="CONTROL L" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT A" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT J" />
     <keyboard-shortcut first-keystroke="CONTROL SHIFT M" />
@@ -248,6 +250,7 @@
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowBookmarks" />
+  <action id="ShowTypeBookmarks" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="SHIFT F12" />
   </action>

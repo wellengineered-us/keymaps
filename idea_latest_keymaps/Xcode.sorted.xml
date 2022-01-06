@@ -7,6 +7,7 @@
     <keyboard-shortcut first-keystroke="BACK_SPACE" />
     <keyboard-shortcut first-keystroke="META BACK_SPACE" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="META 7" />
     <keyboard-shortcut first-keystroke="SHIFT META Y" />
@@ -101,12 +102,8 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="META SHIFT CLOSE_BRACKET" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="META SHIFT OPEN_BRACKET" />
-  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorBackSpace">

@@ -6,6 +6,7 @@ $default.xml	$Paste
 $default.xml	$Redo
 $default.xml	$SelectAll
 $default.xml	$Undo
+$default.xml	ActivateBookmarksToolWindow
 $default.xml	ActivateCommitToolWindow
 $default.xml	ActivateDebugToolWindow
 $default.xml	ActivateFavoritesToolWindow
@@ -66,7 +67,6 @@ $default.xml	CopyPaths
 $default.xml	CopyReference
 $default.xml	Debug
 $default.xml	DebugClass
-$default.xml	Debugger.EditTypeSource
 $default.xml	Diff.ApplyLeftSide
 $default.xml	Diff.ApplyRightSide
 $default.xml	Diff.FocusOppositePane
@@ -187,6 +187,7 @@ $default.xml	Find
 $default.xml	FindInPath
 $default.xml	FindNext
 $default.xml	FindPrevious
+$default.xml	FindPrevWordAtCaret
 $default.xml	FindUsages
 $default.xml	FindUsagesInFile
 $default.xml	FindWordAtCaret
@@ -277,7 +278,6 @@ $default.xml	PreviousProjectWindow
 $default.xml	PreviousTab
 $default.xml	PreviousTemplateVariable
 $default.xml	PrevParameter
-$default.xml	ProjectViewChangeView
 $default.xml	QuickActionPopup
 $default.xml	QuickChangeScheme
 $default.xml	QuickEvaluateExpression
@@ -336,6 +336,7 @@ $default.xml	ShowReformatFileDialog
 $default.xml	ShowSearchHistory
 $default.xml	ShowSettings
 $default.xml	ShowSettingsAndFindUsages
+$default.xml	ShowTypeBookmarks
 $default.xml	ShowUsages
 $default.xml	SmartStepInto
 $default.xml	SmartTypeCompletion
@@ -384,6 +385,9 @@ $default.xml	ToggleTemporaryLineBreakpoint
 $default.xml	TypeHierarchy
 $default.xml	UnselectPreviousOccurrence
 $default.xml	Unwrap
+$default.xml	UsageFiltering.Imports
+$default.xml	UsageFiltering.ReadAccess
+$default.xml	UsageFiltering.WriteAccess
 $default.xml	UsageGrouping.Directory
 $default.xml	UsageGrouping.DirectoryStructure
 $default.xml	UsageGrouping.FileStructure
@@ -403,6 +407,7 @@ $default.xml	VcsShowPrevChangeMarker
 $default.xml	ViewBreakpoints
 $default.xml	ViewSource
 $default.xml	XDebugger.AttachToProcess
+$default.xml	XDebugger.JumpToTypeSource
 $default.xml	XDebugger.NewWatch
 $default.xml	XDebugger.SetValue
 Default for GNOME.xml	Back
@@ -415,7 +420,6 @@ Default for GNOME.xml	MoveLineDown
 Default for GNOME.xml	MoveLineUp
 Default for GNOME.xml	NextOccurence
 Default for GNOME.xml	PreviousOccurence
-Default for GNOME.xml	ProjectViewChangeView
 Default for GNOME.xml	SelectIn
 Default for GNOME.xml	ShowExecutionPoint
 Default for KDE.xml	ChangeSignature
@@ -425,6 +429,7 @@ Default for KDE.xml	CompileDirty
 Default for KDE.xml	EvaluateExpression
 Default for KDE.xml	FileStructurePopup
 Default for KDE.xml	Find
+Default for KDE.xml	FindPrevWordAtCaret
 Default for KDE.xml	FindUsages
 Default for KDE.xml	FindUsagesInFile
 Default for KDE.xml	FindWordAtCaret
@@ -442,7 +447,6 @@ Default for KDE.xml	GotoBookmark9
 Default for KDE.xml	HighlightUsagesInFile
 Default for KDE.xml	IDEtalk.SearchUserHistory
 Default for KDE.xml	IntroduceVariable
-Default for KDE.xml	ProjectViewChangeView
 Default for KDE.xml	ReformatCode
 Default for KDE.xml	Refresh
 Default for KDE.xml	Rerun
@@ -476,6 +480,7 @@ Default for XWin.xml	SwitchCoverage
 Default for XWin.xml	XDebugger.AttachToProcess
 Eclipse (Mac OS X).xml	$Redo
 Eclipse (Mac OS X).xml	$Undo
+Eclipse (Mac OS X).xml	ActivateBookmarksToolWindow
 Eclipse (Mac OS X).xml	ActivateFavoritesToolWindow
 Eclipse (Mac OS X).xml	ActivateFindToolWindow
 Eclipse (Mac OS X).xml	ActivateNavBar
@@ -539,6 +544,7 @@ Eclipse (Mac OS X).xml	Find
 Eclipse (Mac OS X).xml	FindInPath
 Eclipse (Mac OS X).xml	FindNext
 Eclipse (Mac OS X).xml	FindPrevious
+Eclipse (Mac OS X).xml	FindPrevWordAtCaret
 Eclipse (Mac OS X).xml	FindUsages
 Eclipse (Mac OS X).xml	FindUsagesInFile
 Eclipse (Mac OS X).xml	FindWordAtCaret
@@ -601,6 +607,10 @@ Eclipse (Mac OS X).xml	Refresh
 Eclipse (Mac OS X).xml	Replace
 Eclipse (Mac OS X).xml	ReplaceInPath
 Eclipse (Mac OS X).xml	Rerun
+Eclipse (Mac OS X).xml	ResizeToolWindowDown
+Eclipse (Mac OS X).xml	ResizeToolWindowLeft
+Eclipse (Mac OS X).xml	ResizeToolWindowRight
+Eclipse (Mac OS X).xml	ResizeToolWindowUp
 Eclipse (Mac OS X).xml	Resume
 Eclipse (Mac OS X).xml	Run
 Eclipse (Mac OS X).xml	RunToCursor
@@ -692,6 +702,7 @@ Eclipse.xml	Find
 Eclipse.xml	FindInPath
 Eclipse.xml	FindNext
 Eclipse.xml	FindPrevious
+Eclipse.xml	FindPrevWordAtCaret
 Eclipse.xml	FindUsages
 Eclipse.xml	FindUsagesInFile
 Eclipse.xml	FindWordAtCaret
@@ -753,6 +764,10 @@ Eclipse.xml	Replace
 Eclipse.xml	ReplaceInPath
 Eclipse.xml	Rerun
 Eclipse.xml	RerunTests
+Eclipse.xml	ResizeToolWindowDown
+Eclipse.xml	ResizeToolWindowLeft
+Eclipse.xml	ResizeToolWindowRight
+Eclipse.xml	ResizeToolWindowUp
 Eclipse.xml	Resume
 Eclipse.xml	Run
 Eclipse.xml	RunToCursor
@@ -764,6 +779,7 @@ Eclipse.xml	ShelvedChanges.Rename
 Eclipse.xml	ShowIntentionActions
 Eclipse.xml	ShowIntentionActions
 Eclipse.xml	ShowPopupMenu
+Eclipse.xml	ShowTypeBookmarks
 Eclipse.xml	SmartStepInto
 Eclipse.xml	SmartTypeCompletion
 Eclipse.xml	StepInto
@@ -798,6 +814,8 @@ Emacs.xml	CollapseAllRegions
 Emacs.xml	CommentByLineComment
 Emacs.xml	CompileProject
 Emacs.xml	Console.Execute
+Emacs.xml	Diff.ApplyLeftSide
+Emacs.xml	Diff.ApplyRightSide
 Emacs.xml	Diff.NextChange
 Emacs.xml	Diff.PrevChange
 Emacs.xml	EditorAddCaretPerSelectedLine
@@ -844,6 +862,7 @@ Emacs.xml	Find
 Emacs.xml	FindNext
 Emacs.xml	FindPrevious
 Emacs.xml	FindUsages
+Emacs.xml	GoGenerateFileAction
 Emacs.xml	GotoAction
 Emacs.xml	GotoChangedFile
 Emacs.xml	GotoClass
@@ -892,6 +911,7 @@ Emacs.xml	VcsShowNextChangeMarker
 Emacs.xml	VcsShowPrevChangeMarker
 Mac OS X 10.5+.xml	$Delete
 Mac OS X 10.5+.xml	$Undo
+Mac OS X 10.5+.xml	ActivateBookmarksToolWindow
 Mac OS X 10.5+.xml	ActivateCommitToolWindow
 Mac OS X 10.5+.xml	ActivateDebugToolWindow
 Mac OS X 10.5+.xml	ActivateFavoritesToolWindow
@@ -929,7 +949,6 @@ Mac OS X 10.5+.xml	DebugClass
 Mac OS X 10.5+.xml	Diff.ApplyLeftSide
 Mac OS X 10.5+.xml	Diff.ApplyRightSide
 Mac OS X 10.5+.xml	Diff.FocusOppositePane
-Mac OS X 10.5+.xml	Diff.FocusOppositePaneAndScroll
 Mac OS X 10.5+.xml	Diff.NextChange
 Mac OS X 10.5+.xml	Diff.PrevChange
 Mac OS X 10.5+.xml	EditorBackSpace
@@ -991,6 +1010,7 @@ Mac OS X 10.5+.xml	FindNext
 Mac OS X 10.5+.xml	FindNext
 Mac OS X 10.5+.xml	FindPrevious
 Mac OS X 10.5+.xml	FindPrevious
+Mac OS X 10.5+.xml	FindPrevWordAtCaret
 Mac OS X 10.5+.xml	FindWordAtCaret
 Mac OS X 10.5+.xml	ForceRefresh
 Mac OS X 10.5+.xml	Forward
@@ -1048,6 +1068,10 @@ Mac OS X 10.5+.xml	Refresh
 Mac OS X 10.5+.xml	ReplaceInPath
 Mac OS X 10.5+.xml	Rerun
 Mac OS X 10.5+.xml	RerunTests
+Mac OS X 10.5+.xml	ResizeToolWindowDown
+Mac OS X 10.5+.xml	ResizeToolWindowLeft
+Mac OS X 10.5+.xml	ResizeToolWindowRight
+Mac OS X 10.5+.xml	ResizeToolWindowUp
 Mac OS X 10.5+.xml	Resume
 Mac OS X 10.5+.xml	Run
 Mac OS X 10.5+.xml	RunClass
@@ -1070,6 +1094,7 @@ Mac OS X 10.5+.xml	ShowPopupMenu
 Mac OS X 10.5+.xml	ShowProjectStructureSettings
 Mac OS X 10.5+.xml	ShowSearchHistory
 Mac OS X 10.5+.xml	ShowSettings
+Mac OS X 10.5+.xml	ShowTypeBookmarks
 Mac OS X 10.5+.xml	SmartTypeCompletion
 Mac OS X 10.5+.xml	Switcher
 Mac OS X 10.5+.xml	TestGestureAction
@@ -1096,6 +1121,9 @@ Mac OS X 10.5+.xml	ToggleRenderedDocPresentation
 Mac OS X 10.5+.xml	TypeHierarchy
 Mac OS X 10.5+.xml	UiInspector
 Mac OS X 10.5+.xml	UnselectPreviousOccurrence
+Mac OS X 10.5+.xml	UsageFiltering.Imports
+Mac OS X 10.5+.xml	UsageFiltering.ReadAccess
+Mac OS X 10.5+.xml	UsageFiltering.WriteAccess
 Mac OS X 10.5+.xml	UsageGrouping.Directory
 Mac OS X 10.5+.xml	UsageGrouping.DirectoryStructure
 Mac OS X 10.5+.xml	UsageGrouping.FileStructure
@@ -1115,6 +1143,7 @@ Mac OS X 10.5+.xml	XDebugger.AttachToProcess
 Mac OS X 10.5+.xml	ZoomCurrentWindow
 Mac OS X.xml	$Delete
 Mac OS X.xml	$Undo
+Mac OS X.xml	ActivateBookmarksToolWindow
 Mac OS X.xml	ActivateCommitToolWindow
 Mac OS X.xml	ActivateDebugToolWindow
 Mac OS X.xml	ActivateFavoritesToolWindow
@@ -1141,7 +1170,6 @@ Mac OS X.xml	DebugClass
 Mac OS X.xml	Diff.ApplyLeftSide
 Mac OS X.xml	Diff.ApplyRightSide
 Mac OS X.xml	Diff.FocusOppositePane
-Mac OS X.xml	Diff.FocusOppositePaneAndScroll
 Mac OS X.xml	Diff.NextChange
 Mac OS X.xml	Diff.PrevChange
 Mac OS X.xml	EditorChooseLookupItemDot
@@ -1256,6 +1284,9 @@ Mac OS X.xml	ToggleRenderedDocPresentation
 Mac OS X.xml	TypeHierarchy
 Mac OS X.xml	UiInspector
 Mac OS X.xml	UnselectPreviousOccurrence
+Mac OS X.xml	UsageFiltering.Imports
+Mac OS X.xml	UsageFiltering.ReadAccess
+Mac OS X.xml	UsageFiltering.WriteAccess
 Mac OS X.xml	UsageGrouping.Directory
 Mac OS X.xml	UsageGrouping.DirectoryStructure
 Mac OS X.xml	UsageGrouping.FileStructure
@@ -1347,9 +1378,11 @@ macOS System Shortcuts.xml	Run
 macOS System Shortcuts.xml	RunToCursor
 macOS System Shortcuts.xml	SelectIn
 macOS System Shortcuts.xml	ShowBookmarks
+macOS System Shortcuts.xml	ShowContent
 macOS System Shortcuts.xml	ShowNavBar
 macOS System Shortcuts.xml	ShowProjectStructureSettings
 macOS System Shortcuts.xml	ShowSettingsAndFindUsages
+macOS System Shortcuts.xml	ShowTypeBookmarks
 macOS System Shortcuts.xml	ShowUsages
 macOS System Shortcuts.xml	SmartStepInto
 macOS System Shortcuts.xml	StepInto
@@ -1369,6 +1402,7 @@ macOS System Shortcuts.xml	TypeHierarchy
 macOS System Shortcuts.xml	Vcs.MoveChangedLinesToChangelist
 macOS System Shortcuts.xml	Vcs.QuickListPopupAction
 NetBeans 6.5.xml	$Redo
+NetBeans 6.5.xml	ActivateBookmarksToolWindow
 NetBeans 6.5.xml	ActivateFavoritesToolWindow
 NetBeans 6.5.xml	ActivateFindToolWindow
 NetBeans 6.5.xml	ActivateMessagesToolWindow
@@ -1437,6 +1471,7 @@ NetBeans 6.5.xml	ForceRefresh
 NetBeans 6.5.xml	Forward
 NetBeans 6.5.xml	Git.Rename.Local.Branch
 NetBeans 6.5.xml	Git.Reword.Commit
+NetBeans 6.5.xml	GoFmtProjectAction
 NetBeans 6.5.xml	GotoAction
 NetBeans 6.5.xml	GotoBookmark0
 NetBeans 6.5.xml	GotoBookmark1
@@ -1506,6 +1541,7 @@ NetBeans 6.5.xml	SelectVirtualTemplateElement
 NetBeans 6.5.xml	ShelvedChanges.Rename
 NetBeans 6.5.xml	ShowBookmarks
 NetBeans 6.5.xml	ShowPopupMenu
+NetBeans 6.5.xml	ShowTypeBookmarks
 NetBeans 6.5.xml	SmartTypeCompletion
 NetBeans 6.5.xml	StepOut
 NetBeans 6.5.xml	Stop
@@ -1540,6 +1576,7 @@ QtCreator (Mac OS X).xml	$Paste
 QtCreator (Mac OS X).xml	$Redo
 QtCreator (Mac OS X).xml	$SelectAll
 QtCreator (Mac OS X).xml	$Undo
+QtCreator (Mac OS X).xml	ActivateBookmarksToolWindow
 QtCreator (Mac OS X).xml	ActivateFavoritesToolWindow
 QtCreator (Mac OS X).xml	ActivateFindToolWindow
 QtCreator (Mac OS X).xml	ActivateMessagesToolWindow
@@ -1621,6 +1658,7 @@ QtCreator (Mac OS X).xml	Find
 QtCreator (Mac OS X).xml	FindInPath
 QtCreator (Mac OS X).xml	FindNext
 QtCreator (Mac OS X).xml	FindPrevious
+QtCreator (Mac OS X).xml	FindPrevWordAtCaret
 QtCreator (Mac OS X).xml	FindUsages
 QtCreator (Mac OS X).xml	FindWordAtCaret
 QtCreator (Mac OS X).xml	Forward
@@ -1687,6 +1725,7 @@ QtCreator (Mac OS X).xml	ShelvedChanges.Rename
 QtCreator (Mac OS X).xml	ShowBookmarks
 QtCreator (Mac OS X).xml	ShowIntentionActions
 QtCreator (Mac OS X).xml	ShowProjectStructureSettings
+QtCreator (Mac OS X).xml	ShowTypeBookmarks
 QtCreator (Mac OS X).xml	ShowUmlDiagram
 QtCreator (Mac OS X).xml	SplitHorizontally
 QtCreator (Mac OS X).xml	SplitVertically
@@ -1721,6 +1760,7 @@ QtCreator.xml	$Paste
 QtCreator.xml	$Redo
 QtCreator.xml	$SelectAll
 QtCreator.xml	$Undo
+QtCreator.xml	ActivateBookmarksToolWindow
 QtCreator.xml	ActivateFavoritesToolWindow
 QtCreator.xml	ActivateFindToolWindow
 QtCreator.xml	ActivateMessagesToolWindow
@@ -1757,8 +1797,6 @@ QtCreator.xml	ContextHelp
 QtCreator.xml	CopyElement
 QtCreator.xml	CPP.CreateCMakeProject
 QtCreator.xml	Debug
-QtCreator.xml	Diff.NextChange
-QtCreator.xml	Diff.PrevChange
 QtCreator.xml	EditorChooseLookupItemDot
 QtCreator.xml	EditorCodeBlockEnd
 QtCreator.xml	EditorCodeBlockEndWithSelection
@@ -1792,6 +1830,7 @@ QtCreator.xml	Find
 QtCreator.xml	FindInPath
 QtCreator.xml	FindNext
 QtCreator.xml	FindPrevious
+QtCreator.xml	FindPrevWordAtCaret
 QtCreator.xml	FindUsages
 QtCreator.xml	FindWordAtCaret
 QtCreator.xml	FocusTracer
@@ -1852,6 +1891,7 @@ QtCreator.xml	ShelveChanges.UnshelveWithDialog
 QtCreator.xml	ShelvedChanges.Rename
 QtCreator.xml	ShowBookmarks
 QtCreator.xml	ShowIntentionActions
+QtCreator.xml	ShowTypeBookmarks
 QtCreator.xml	ShowUmlDiagram
 QtCreator.xml	SplitHorizontally
 QtCreator.xml	SplitVertically
@@ -1933,6 +1973,7 @@ ReSharper OSX.xml	SearchEverywhere.NavigateToPrevGroup
 ReSharper OSX.xml	ShowBookmarks
 ReSharper OSX.xml	ShowNavBar
 ReSharper OSX.xml	ShowSettingsAndFindUsages
+ReSharper OSX.xml	ShowTypeBookmarks
 ReSharper OSX.xml	ShowUsages
 ReSharper OSX.xml	SilentCodeCleanup
 ReSharper OSX.xml	SmartTypeCompletion
@@ -2004,6 +2045,7 @@ ReSharper.xml	SearchEverywhere
 ReSharper.xml	ShowBookmarks
 ReSharper.xml	ShowNavBar
 ReSharper.xml	ShowSettingsAndFindUsages
+ReSharper.xml	ShowTypeBookmarks
 ReSharper.xml	ShowUsages
 ReSharper.xml	SilentCodeCleanup
 ReSharper.xml	SmartTypeCompletion
@@ -2030,7 +2072,6 @@ Sublime Text (Mac OS X).xml	CollapseRegion
 Sublime Text (Mac OS X).xml	Compile
 Sublime Text (Mac OS X).xml	CompileDirty
 Sublime Text (Mac OS X).xml	CopyElement
-Sublime Text (Mac OS X).xml	Debugger.EditTypeSource
 Sublime Text (Mac OS X).xml	Diff.ShowSettingsPopup
 Sublime Text (Mac OS X).xml	EditorAddOrRemoveCaret
 Sublime Text (Mac OS X).xml	EditorAddRectangularSelectionOnMouseDrag
@@ -2059,6 +2100,7 @@ Sublime Text (Mac OS X).xml	EditorPreviousWordInDifferentHumpsModeWithSelection
 Sublime Text (Mac OS X).xml	EditorScrollDown
 Sublime Text (Mac OS X).xml	EditorScrollToCenter
 Sublime Text (Mac OS X).xml	EditorScrollUp
+Sublime Text (Mac OS X).xml	EditorSelectLine
 Sublime Text (Mac OS X).xml	EditorSelectWord
 Sublime Text (Mac OS X).xml	EditorSortLines
 Sublime Text (Mac OS X).xml	EditorSplitLine
@@ -2080,8 +2122,10 @@ Sublime Text (Mac OS X).xml	FileStructurePopup
 Sublime Text (Mac OS X).xml	FillParagraph
 Sublime Text (Mac OS X).xml	FindNext
 Sublime Text (Mac OS X).xml	FindPrevious
+Sublime Text (Mac OS X).xml	FindPrevWordAtCaret
 Sublime Text (Mac OS X).xml	FindWordAtCaret
 Sublime Text (Mac OS X).xml	Forward
+Sublime Text (Mac OS X).xml	GoGenerateFileAction
 Sublime Text (Mac OS X).xml	GotoAction
 Sublime Text (Mac OS X).xml	GotoChangedFile
 Sublime Text (Mac OS X).xml	GotoClass
@@ -2105,7 +2149,9 @@ Sublime Text (Mac OS X).xml	InsertLiveTemplate
 Sublime Text (Mac OS X).xml	IntroduceField
 Sublime Text (Mac OS X).xml	IntroduceVariable
 Sublime Text (Mac OS X).xml	JumpToLastWindow
+Sublime Text (Mac OS X).xml	MethodDown
 Sublime Text (Mac OS X).xml	MethodHierarchy
+Sublime Text (Mac OS X).xml	MethodUp
 Sublime Text (Mac OS X).xml	Move
 Sublime Text (Mac OS X).xml	MoveLineDown
 Sublime Text (Mac OS X).xml	MoveLineUp
@@ -2125,6 +2171,10 @@ Sublime Text (Mac OS X).xml	QuickJavaDoc
 Sublime Text (Mac OS X).xml	ReopenClosedTab
 Sublime Text (Mac OS X).xml	Replace
 Sublime Text (Mac OS X).xml	ReplaceInPath
+Sublime Text (Mac OS X).xml	ResizeToolWindowDown
+Sublime Text (Mac OS X).xml	ResizeToolWindowLeft
+Sublime Text (Mac OS X).xml	ResizeToolWindowRight
+Sublime Text (Mac OS X).xml	ResizeToolWindowUp
 Sublime Text (Mac OS X).xml	RestoreDefaultLayout
 Sublime Text (Mac OS X).xml	Resume
 Sublime Text (Mac OS X).xml	Run
@@ -2135,6 +2185,7 @@ Sublime Text (Mac OS X).xml	ServiceView.GroupByServiceGroups
 Sublime Text (Mac OS X).xml	ShowBookmarks
 Sublime Text (Mac OS X).xml	ShowNavBar
 Sublime Text (Mac OS X).xml	ShowPopupMenu
+Sublime Text (Mac OS X).xml	ShowTypeBookmarks
 Sublime Text (Mac OS X).xml	ShowUsages
 Sublime Text (Mac OS X).xml	SmartTypeCompletion
 Sublime Text (Mac OS X).xml	StartStopMacroRecording
@@ -2148,6 +2199,7 @@ Sublime Text (Mac OS X).xml	TypeHierarchy
 Sublime Text (Mac OS X).xml	Vcs.QuickListPopupAction
 Sublime Text (Mac OS X).xml	Vcs.UpdateProject
 Sublime Text (Mac OS X).xml	WebOpenInAction
+Sublime Text (Mac OS X).xml	XDebugger.JumpToTypeSource
 Sublime Text.xml	$Paste
 Sublime Text.xml	$Redo
 Sublime Text.xml	Back
@@ -2192,6 +2244,7 @@ Sublime Text.xml	EditorPasteSimple
 Sublime Text.xml	EditorPreviousWordInDifferentHumpsMode
 Sublime Text.xml	EditorPreviousWordInDifferentHumpsModeWithSelection
 Sublime Text.xml	EditorScrollToCenter
+Sublime Text.xml	EditorSelectLine
 Sublime Text.xml	EditorSelectWord
 Sublime Text.xml	EditorSortLines
 Sublime Text.xml	EditorSplitLine
@@ -2255,6 +2308,7 @@ Sublime Text.xml	SelectNextOccurrence
 Sublime Text.xml	ServiceView.GroupByContributor
 Sublime Text.xml	ServiceView.GroupByServiceGroups
 Sublime Text.xml	ShowBookmarks
+Sublime Text.xml	ShowTypeBookmarks
 Sublime Text.xml	ShowUsages
 Sublime Text.xml	SmartTypeCompletion
 Sublime Text.xml	StartStopMacroRecording
@@ -2279,8 +2333,6 @@ Visual Assist OSX.xml	GotoSymbol
 Visual Assist OSX.xml	Replace
 Visual Assist.xml	AddToFavoritesPopup
 Visual Assist.xml	Back
-Visual Assist.xml	Diff.NextChange
-Visual Assist.xml	Diff.PrevChange
 Visual Assist.xml	EditorAddCaretPerSelectedLine
 Visual Assist.xml	EditorSelectWord
 Visual Assist.xml	EditorUnSelectWord
@@ -2304,15 +2356,20 @@ Visual Studio for Mac.xml	$Redo
 Visual Studio for Mac.xml	$SelectAll
 Visual Studio for Mac.xml	BuildProject
 Visual Studio for Mac.xml	BuildSolutionAction
+Visual Studio for Mac.xml	CancelBuildAction
 Visual Studio for Mac.xml	CloseAllEditors
 Visual Studio for Mac.xml	CloseContent
 Visual Studio for Mac.xml	CloseProject
 Visual Studio for Mac.xml	CodeCompletion
+Visual Studio for Mac.xml	CommentByBlockComment
 Visual Studio for Mac.xml	CommentByLineComment
+Visual Studio for Mac.xml	CompareTwoFiles
+Visual Studio for Mac.xml	Console.Open
 Visual Studio for Mac.xml	Debug
 Visual Studio for Mac.xml	EditorBackSpace
 Visual Studio for Mac.xml	EditorDecreaseFontSize
 Visual Studio for Mac.xml	EditorDelete
+Visual Studio for Mac.xml	EditorDeleteLine
 Visual Studio for Mac.xml	EditorDeleteToLineEnd
 Visual Studio for Mac.xml	EditorDeleteToWordEnd
 Visual Studio for Mac.xml	EditorDeleteToWordStart
@@ -2322,19 +2379,30 @@ Visual Studio for Mac.xml	EditorIndentLineOrSelection
 Visual Studio for Mac.xml	EditorNextWord
 Visual Studio for Mac.xml	EditorPreviousWord
 Visual Studio for Mac.xml	EditorResetFontSize
+Visual Studio for Mac.xml	EditorScrollToCenter
+Visual Studio for Mac.xml	EditorSelectWord
 Visual Studio for Mac.xml	EditorUnindentSelection
+Visual Studio for Mac.xml	EditorUnSelectWord
 Visual Studio for Mac.xml	Exit
 Visual Studio for Mac.xml	FileChooser.NewFile
 Visual Studio for Mac.xml	Find
 Visual Studio for Mac.xml	FindNext
 Visual Studio for Mac.xml	FindPrevious
 Visual Studio for Mac.xml	FindUsages
+Visual Studio for Mac.xml	GotoClass
 Visual Studio for Mac.xml	GotoDeclaration
 Visual Studio for Mac.xml	GotoFile
 Visual Studio for Mac.xml	GotoImplementation
 Visual Studio for Mac.xml	GotoLine
+Visual Studio for Mac.xml	GotoNextError
+Visual Studio for Mac.xml	GotoPreviousError
+Visual Studio for Mac.xml	GotoTest
+Visual Studio for Mac.xml	JumpToStatement
 Visual Studio for Mac.xml	MinimizeCurrentWindow
+Visual Studio for Mac.xml	MoveLineDown
+Visual Studio for Mac.xml	MoveLineUp
 Visual Studio for Mac.xml	MoveTabRight
+Visual Studio for Mac.xml	ParameterInfo
 Visual Studio for Mac.xml	PinActiveTab
 Visual Studio for Mac.xml	RebuildProject
 Visual Studio for Mac.xml	RebuildSolutionAction
@@ -2352,13 +2420,16 @@ Visual Studio for Mac.xml	SaveAll
 Visual Studio for Mac.xml	SearchEverywhere
 Visual Studio for Mac.xml	ShowIntentionActions
 Visual Studio for Mac.xml	ShowSettings
+Visual Studio for Mac.xml	SmartTypeCompletion
 Visual Studio for Mac.xml	StepInto
 Visual Studio for Mac.xml	StepOut
 Visual Studio for Mac.xml	StepOver
 Visual Studio for Mac.xml	Stop
 Visual Studio for Mac.xml	SwitchHeaderSource
+Visual Studio for Mac.xml	ToggleBreakpointEnabled
 Visual Studio for Mac.xml	ToggleFullScreen
 Visual Studio for Mac.xml	ToggleLineBreakpoint
+Visual Studio for Mac.xml	UpdateRunningApplication
 Visual Studio for Mac.xml	ViewBreakpoints
 Visual Studio OSX.xml	$Copy
 Visual Studio OSX.xml	$Cut
@@ -2420,6 +2491,7 @@ Visual Studio OSX.xml	ExtractMethod
 Visual Studio OSX.xml	FileStructurePopup
 Visual Studio OSX.xml	FindNext
 Visual Studio OSX.xml	FindPrevious
+Visual Studio OSX.xml	FindPrevWordAtCaret
 Visual Studio OSX.xml	FindUsages
 Visual Studio OSX.xml	FindUsagesInFile
 Visual Studio OSX.xml	FindWordAtCaret
@@ -2497,6 +2569,7 @@ Visual Studio OSX.xml	ShowExecutionPoint
 Visual Studio OSX.xml	ShowFilePath
 Visual Studio OSX.xml	ShowNavBar
 Visual Studio OSX.xml	ShowSettingsAndFindUsages
+Visual Studio OSX.xml	ShowTypeBookmarks
 Visual Studio OSX.xml	ShowUsages
 Visual Studio OSX.xml	SilentCodeCleanup
 Visual Studio OSX.xml	SmartTypeCompletion
@@ -2554,6 +2627,7 @@ Visual Studio.xml	CodeCleanup
 Visual Studio.xml	CodeCompletion
 Visual Studio.xml	CollapseAllRegions
 Visual Studio.xml	CollapseRegion
+Visual Studio.xml	CollapseSelection
 Visual Studio.xml	CommentByLineComment
 Visual Studio.xml	Compile
 Visual Studio.xml	CompileDirty
@@ -2561,11 +2635,13 @@ Visual Studio.xml	Console.TableResult.EditValueMaximized
 Visual Studio.xml	CopyElement
 Visual Studio.xml	Debug
 Visual Studio.xml	EditBreakpoint
-Visual Studio.xml	EditorCodeBlockEnd
+Visual Studio.xml	EditorAddOrRemoveCaret
 Visual Studio.xml	EditorCodeBlockEnd
 Visual Studio.xml	EditorCodeBlockEndWithSelection
 Visual Studio.xml	EditorCodeBlockStart
 Visual Studio.xml	EditorCodeBlockStartWithSelection
+Visual Studio.xml	EditorCreateRectangularSelection
+Visual Studio.xml	EditorCreateRectangularSelectionOnMouseDrag
 Visual Studio.xml	EditorDeleteLine
 Visual Studio.xml	EditorLeftWithSelection
 Visual Studio.xml	EditorMatchBrace
@@ -2594,6 +2670,7 @@ Visual Studio.xml	Forward
 Visual Studio.xml	Git.Commit.And.Push.Executor
 Visual Studio.xml	Git.Rename.Local.Branch
 Visual Studio.xml	Git.Reword.Commit
+Visual Studio.xml	GoFmtProjectAction
 Visual Studio.xml	GotoChangedFile
 Visual Studio.xml	GotoClass
 Visual Studio.xml	GotoDeclaration
@@ -2609,8 +2686,10 @@ Visual Studio.xml	GotoSuperMethod
 Visual Studio.xml	GotoSymbol
 Visual Studio.xml	GotoTest
 Visual Studio.xml	GotoTypeDeclaration
+Visual Studio.xml	HelpTopics
 Visual Studio.xml	Hg.Commit.And.Push.Executor
 Visual Studio.xml	HighlightUsagesInFile
+Visual Studio.xml	HippieBackwardCompletion
 Visual Studio.xml	ImplementMethods
 Visual Studio.xml	IncrementalSearch
 Visual Studio.xml	Inline
@@ -2628,11 +2707,13 @@ Visual Studio.xml	MoveStatementDown
 Visual Studio.xml	MoveStatementUp
 Visual Studio.xml	NewElement
 Visual Studio.xml	NextEditorTab
+Visual Studio.xml	NextTab
 Visual Studio.xml	OpenFile
 Visual Studio.xml	OverrideMethods
 Visual Studio.xml	ParameterInfo
 Visual Studio.xml	Pause
 Visual Studio.xml	PreviousEditorTab
+Visual Studio.xml	PreviousTab
 Visual Studio.xml	Print
 Visual Studio.xml	QuickActionPopup
 Visual Studio.xml	QuickChangeScheme
@@ -2667,9 +2748,11 @@ Visual Studio.xml	ShowBookmarks
 Visual Studio.xml	ShowErrorDescription
 Visual Studio.xml	ShowExecutionPoint
 Visual Studio.xml	ShowFilePath
+Visual Studio.xml	ShowIntentionActions
 Visual Studio.xml	ShowNavBar
 Visual Studio.xml	ShowPopupMenu
 Visual Studio.xml	ShowSettingsAndFindUsages
+Visual Studio.xml	ShowTypeBookmarks
 Visual Studio.xml	ShowUsages
 Visual Studio.xml	SilentCodeCleanup
 Visual Studio.xml	SmartTypeCompletion
@@ -2777,6 +2860,7 @@ VSCode OSX.xml	EditorCloneCaretBelow
 VSCode OSX.xml	EditorCodeBlockEnd
 VSCode OSX.xml	EditorCodeBlockStart
 VSCode OSX.xml	EditorCompleteStatement
+VSCode OSX.xml	EditorCreateRectangularSelection
 VSCode OSX.xml	EditorCreateRectangularSelectionOnMouseDrag
 VSCode OSX.xml	EditorCutLineEnd
 VSCode OSX.xml	EditorDecreaseFontSize
@@ -2893,8 +2977,6 @@ VSCode OSX.xml	openAssertEqualsDiff
 VSCode OSX.xml	OpenFile
 VSCode OSX.xml	OpenModuleSettings
 VSCode OSX.xml	OptimizeImports
-VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction
-VSCode OSX.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction
 VSCode OSX.xml	OverrideMethods
 VSCode OSX.xml	ParameterInfo
 VSCode OSX.xml	PasteMultiple
@@ -2930,6 +3012,7 @@ VSCode OSX.xml	RunDashboard.ShowConfigurations
 VSCode OSX.xml	RunDashboard.UngroupConfigurations
 VSCode OSX.xml	SafeDelete
 VSCode OSX.xml	SaveAll
+VSCode OSX.xml	SaveDocument
 VSCode OSX.xml	ScrollPane-scrollDown
 VSCode OSX.xml	ScrollPane-scrollUp
 VSCode OSX.xml	SearchEverywhere.CompleteCommand
@@ -3056,6 +3139,7 @@ VSCode.xml	EditorCodeBlockEndWithSelection
 VSCode.xml	EditorCodeBlockStart
 VSCode.xml	EditorCodeBlockStartWithSelection
 VSCode.xml	EditorCompleteStatement
+VSCode.xml	EditorCreateRectangularSelection
 VSCode.xml	EditorCreateRectangularSelectionOnMouseDrag
 VSCode.xml	EditorDecreaseFontSize
 VSCode.xml	EditorDeleteLine
@@ -3165,8 +3249,6 @@ VSCode.xml	NextTemplateVariable
 VSCode.xml	openAssertEqualsDiff
 VSCode.xml	OpenFile
 VSCode.xml	OptimizeImports
-VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction
-VSCode.xml	org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction
 VSCode.xml	OverrideMethods
 VSCode.xml	ParameterInfo
 VSCode.xml	PasteMultiple
@@ -3197,6 +3279,7 @@ VSCode.xml	Run
 VSCode.xml	RunDashboard.CopyConfiguration
 VSCode.xml	RunDashboard.ShowConfigurations
 VSCode.xml	SaveAll
+VSCode.xml	SaveDocument
 VSCode.xml	ScrollPane-scrollDown
 VSCode.xml	ScrollPane-scrollUp
 VSCode.xml	ScrollPane-unitScrollDown
@@ -3218,6 +3301,7 @@ VSCode.xml	ShowNavBar
 VSCode.xml	ShowRecentTests
 VSCode.xml	ShowSearchHistory
 VSCode.xml	ShowSettings
+VSCode.xml	ShowTypeBookmarks
 VSCode.xml	ShowUsages
 VSCode.xml	SmartTypeCompletion
 VSCode.xml	SplitVertically
@@ -3258,6 +3342,7 @@ VSCode.xml	XDebugger.MoveWatchUp
 VSCode.xml	XDebugger.SetValue
 Xcode.xml	$Cut
 Xcode.xml	$Delete
+Xcode.xml	ActivateBookmarksToolWindow
 Xcode.xml	ActivateDebugToolWindow
 Xcode.xml	ActivateFavoritesToolWindow
 Xcode.xml	ActivateFindToolWindow
