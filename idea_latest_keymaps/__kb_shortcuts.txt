@@ -224,7 +224,9 @@ $default.xml	FileChooser.GotoModule	1	CONTROL 3
 $default.xml	FileChooser.GotoProject	1	CONTROL 2
 $default.xml	FileChooser.NewFolder	1	ALT INSERT
 $default.xml	FileChooser.NewFolder	1	CONTROL N
-$default.xml	FileChooser.TogglePathShowing	1	CONTROL P
+$default.xml	FileChooser.TogglePathBar	1	CONTROL P
+$default.xml	FileChooserList.LevelUp	1	BACK_SPACE
+$default.xml	FileChooserList.Root	1	CONTROL BACK_SLASH
 $default.xml	FileStructurePopup	1	CONTROL F12
 $default.xml	Find	1	CONTROL F
 $default.xml	Find	1	ALT F3
@@ -287,6 +289,7 @@ $default.xml	IntroduceParameter	1	CONTROL ALT P
 $default.xml	IntroduceVariable	1	CONTROL ALT V
 $default.xml	JumpToLastChange	1	CONTROL SHIFT BACK_SPACE
 $default.xml	JumpToLastWindow	1	F12
+$default.xml	MainMenuButton.ShowMenu	1	ALT BACK_SLASH
 $default.xml	MaintenanceAction	1	CTRL ALT SHIFT SLASH
 $default.xml	MaximizeToolWindow	1	CONTROL SHIFT QUOTE
 $default.xml	MethodDown	1	ALT DOWN
@@ -410,6 +413,7 @@ $default.xml	SwitcherIterateItems	1	CONTROL E
 $default.xml	SwitcherRecentEditedChangedToggleCheckBox	1	CONTROL E
 $default.xml	SwitchHeaderSource	1	F10
 $default.xml	Synchronize	1	CONTROL ALT Y
+$default.xml	TextSearchAction	1	CONTROL SHIFT ALT E
 $default.xml	TodoViewGroupByFlattenPackage	1	CONTROL ALT C
 $default.xml	TodoViewGroupByShowModules	1	CONTROL ALT M
 $default.xml	TodoViewGroupByShowPackages	1	CONTROL ALT P
@@ -494,6 +498,7 @@ Default for KDE.xml	ShowExecutionPoint	1	SHIFT ALT 0
 Default for KDE.xml	Stop	1	CONTROL 2
 Default for KDE.xml	ToggleLineBreakpoint	1	CONTROL 8
 Default for KDE.xml	ViewBreakpoints	1	SHIFT CONTROL 8
+Default for XWin.xml	FileChooserList.Root	1	CONTROL SLASH
 Default for XWin.xml	ForceRunToCursor	1	CONTROL ALT 9
 Default for XWin.xml	Images.EditExternally	1	CONTROL ALT 4
 Default for XWin.xml	QuickEvaluateExpression	1	CONTROL ALT 8
@@ -538,7 +543,6 @@ Eclipse (Mac OS X).xml	EvaluateExpression	1	META U
 Eclipse (Mac OS X).xml	ExpandAllRegions	1	META MULTIPLY
 Eclipse (Mac OS X).xml	ExternalJavaDoc	1	SHIFT F2
 Eclipse (Mac OS X).xml	ExtractMethod	1	META ALT M
-Eclipse (Mac OS X).xml	FileChooser.TogglePathShowing	1	META P
 Eclipse (Mac OS X).xml	FileStructurePopup	1	META O
 Eclipse (Mac OS X).xml	FindInPath	1	CONTROL H
 Eclipse (Mac OS X).xml	FindNext	1	META K
@@ -637,7 +641,6 @@ Eclipse.xml	EvaluateExpression	1	CONTROL U
 Eclipse.xml	ExpandAllRegions	1	CONTROL MULTIPLY
 Eclipse.xml	ExternalJavaDoc	1	SHIFT F2
 Eclipse.xml	ExtractMethod	1	SHIFT ALT M
-Eclipse.xml	FileChooser.TogglePathShowing	1	CONTROL P
 Eclipse.xml	FileStructurePopup	1	CONTROL F3
 Eclipse.xml	FileStructurePopup	1	CONTROL O
 Eclipse.xml	FindInPath	1	CONTROL H
@@ -960,9 +963,9 @@ Mac OS X 10.5+.xml	EditorLeft	1	LEFT
 Mac OS X 10.5+.xml	EditorLeft	1	CONTROL B
 Mac OS X 10.5+.xml	EditorLineEnd	1	END
 Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
-Mac OS X 10.5+.xml	EditorLineEnd	1	CONTROL E
 Mac OS X 10.5+.xml	EditorLineEnd	1	END
 Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
+Mac OS X 10.5+.xml	EditorLineEnd	1	CONTROL E
 Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	SHIFT END
 Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	META SHIFT RIGHT
 Mac OS X 10.5+.xml	EditorLineStart	1	HOME
@@ -987,8 +990,8 @@ Mac OS X 10.5+.xml	EditorScrollToCenter	1	CONTROL L
 Mac OS X 10.5+.xml	EditorSelectWord	1	ALT UP
 Mac OS X 10.5+.xml	EditorStartNewLine	1	SHIFT ENTER
 Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
-Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
 Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META MULTIPLY
+Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
 Mac OS X 10.5+.xml	EditorUnSelectWord	1	ALT DOWN
 Mac OS X 10.5+.xml	EditorUp	1	UP
 Mac OS X 10.5+.xml	EditorUp	1	CONTROL P
@@ -1019,7 +1022,9 @@ Mac OS X 10.5+.xml	ExpandAllToLevel5	2	NUMPAD5
 Mac OS X 10.5+.xml	ExportToTextFile	1	CONTROL O
 Mac OS X 10.5+.xml	ExpressionTypeInfo	1	CONTROL SHIFT P
 Mac OS X 10.5+.xml	ExternalJavaDoc	1	SHIFT F1
-Mac OS X 10.5+.xml	FileChooser.TogglePathShowing	1	META P
+Mac OS X 10.5+.xml	FileChooser.TogglePathBar	1	META P
+Mac OS X 10.5+.xml	FileChooserList.LevelUp	1	META UP
+Mac OS X 10.5+.xml	FileChooserList.Root	1	META SLASH
 Mac OS X 10.5+.xml	Find	1	META F
 Mac OS X 10.5+.xml	FindInPath	1	META SHIFT F
 Mac OS X 10.5+.xml	FindNext	1	META G
@@ -1099,8 +1104,8 @@ Mac OS X 10.5+.xml	ResizeToolWindowUp	1	CONTROL ALT UP
 Mac OS X 10.5+.xml	Resume	1	META ALT R
 Mac OS X 10.5+.xml	Resume	1	F9
 Mac OS X 10.5+.xml	Run	1	CONTROL R
-Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT F10
 Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT R
+Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT F10
 Mac OS X 10.5+.xml	RunToCursor	1	ALT F9
 Mac OS X 10.5+.xml	SafeDelete	1	META DELETE
 Mac OS X 10.5+.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
@@ -1245,7 +1250,9 @@ Mac OS X.xml	ExpandAllToLevel5	2	NUMPAD5
 Mac OS X.xml	ExportToTextFile	1	CONTROL O
 Mac OS X.xml	ExpressionTypeInfo	1	CONTROL SHIFT P
 Mac OS X.xml	ExternalJavaDoc	1	SHIFT F1
-Mac OS X.xml	FileChooser.TogglePathShowing	1	META P
+Mac OS X.xml	FileChooser.TogglePathBar	1	META P
+Mac OS X.xml	FileChooserList.LevelUp	1	META UP
+Mac OS X.xml	FileChooserList.Root	1	META SLASH
 Mac OS X.xml	FindInPath	1	CONTROL SHIFT F
 Mac OS X.xml	FindNext	1	F3
 Mac OS X.xml	FindNext	1	CONTROL L
@@ -1476,6 +1483,7 @@ macOS System Shortcuts.xml	StepOver	1	F8
 macOS System Shortcuts.xml	Stop	1	SHIFT CONTROL PERIOD
 macOS System Shortcuts.xml	Stop	1	META F2
 macOS System Shortcuts.xml	Synchronize	1	META CTRL Y
+macOS System Shortcuts.xml	TextSearchAction	1	SHIFT CTRL ALT E
 macOS System Shortcuts.xml	ToggleBookmark	1	SHIFT CTRL K
 macOS System Shortcuts.xml	ToggleBookmark	1	F3
 macOS System Shortcuts.xml	ToggleBookmarkWithMnemonic	1	SHIFT CTRL ALT K
@@ -2218,6 +2226,133 @@ Visual Assist.xml	RenameElement	1	SHIFT ALT R
 Visual Assist.xml	ReSharperNavigateTo	1	ALT BACK_QUOTE
 Visual Assist.xml	ReSharperNavigateTo	1	ALT DEAD_GRAVE
 Visual Assist.xml	ReSharperNavigateTo	1	SHIFT ALT G
+Visual Studio 2022.xml	ActivateBookmarksToolWindow	1	ALT 2
+Visual Studio 2022.xml	ActivateBookmarksToolWindow	1	CONTROL K
+Visual Studio 2022.xml	ActivateBookmarksToolWindow	2	W
+Visual Studio 2022.xml	ActivateBookmarksToolWindow	1	CONTROL K
+Visual Studio 2022.xml	ActivateBookmarksToolWindow	2	CONTROL W
+Visual Studio 2022.xml	ActivateCommitToolWindow	1	CONTROL 0
+Visual Studio 2022.xml	ActivateCommitToolWindow	2	G
+Visual Studio 2022.xml	ActivateCommitToolWindow	1	CONTROL 0
+Visual Studio 2022.xml	ActivateCommitToolWindow	2	CONTROL G
+Visual Studio 2022.xml	ActivateDatabaseToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateDatabaseToolWindow	2	S
+Visual Studio 2022.xml	ActivateDatabaseToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateDatabaseToolWindow	2	CONTROL S
+Visual Studio 2022.xml	ActivateHierarchyToolWindow	1	CONTROL ALT K
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow	1	ALT 6
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow	2	E
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow	2	CONTROL E
+Visual Studio 2022.xml	ActivateStructureToolWindow	1	CONTROL ALT T
+Visual Studio 2022.xml	ActivateTerminalToolWindow	1	CONTROL BACK_QUOTE
+Visual Studio 2022.xml	ActivateTODOToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateTODOToolWindow	2	T
+Visual Studio 2022.xml	ActivateTODOToolWindow	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	ActivateTODOToolWindow	2	CONTROL T
+Visual Studio 2022.xml	ActivateUnitTestsToolWindow	1	ALT 8
+Visual Studio 2022.xml	ActivateUnitTestsToolWindow	1	SHIFT ALT 8
+Visual Studio 2022.xml	ActivateUnitTestsToolWindow	1	CONTROL E
+Visual Studio 2022.xml	ActivateUnitTestsToolWindow	2	T
+Visual Studio 2022.xml	ActivateVersionControlToolWindow	1	ALT 9
+Visual Studio 2022.xml	ActivateVersionControlToolWindow	1	CONTROL 0
+Visual Studio 2022.xml	ActivateVersionControlToolWindow	2	S
+Visual Studio 2022.xml	ActivateVersionControlToolWindow	1	CONTROL 0
+Visual Studio 2022.xml	ActivateVersionControlToolWindow	2	CONTROL S
+Visual Studio 2022.xml	BuildCurrentProject	1	CONTROL B
+Visual Studio 2022.xml	CallHierarchy	1	CONTROL K
+Visual Studio 2022.xml	CallHierarchy	2	T
+Visual Studio 2022.xml	CallHierarchy	1	CONTROL K
+Visual Studio 2022.xml	CallHierarchy	2	CONTROL T
+Visual Studio 2022.xml	ChangeSignature	1	CONTROL R
+Visual Studio 2022.xml	ChangeSignature	2	V
+Visual Studio 2022.xml	ChangeSignature	1	CONTROL R
+Visual Studio 2022.xml	ChangeSignature	2	CONTROL V
+Visual Studio 2022.xml	ChangeSignature	1	CONTROL R
+Visual Studio 2022.xml	ChangeSignature	2	O
+Visual Studio 2022.xml	ChangeSignature	1	CONTROL R
+Visual Studio 2022.xml	ChangeSignature	2	CONTROL O
+Visual Studio 2022.xml	CodeCompletion	1	CONTROL SPACE
+Visual Studio 2022.xml	CodeCompletion	1	CONTROL J
+Visual Studio 2022.xml	CodeCompletion	1	ALT RIGHT
+Visual Studio 2022.xml	CollapseSelection	1	CONTROL M
+Visual Studio 2022.xml	CollapseSelection	2	H
+Visual Studio 2022.xml	CollapseSelection	1	CONTROL M
+Visual Studio 2022.xml	CollapseSelection	2	CONTROL H
+Visual Studio 2022.xml	CollapseSelection	1	CONTROL M
+Visual Studio 2022.xml	CollapseSelection	2	U
+Visual Studio 2022.xml	CollapseSelection	1	CONTROL M
+Visual Studio 2022.xml	CollapseSelection	2	CONTROL U
+Visual Studio 2022.xml	ContextHelp	1	F1
+Visual Studio 2022.xml	ContextHelp	1	SHIFT F1
+Visual Studio 2022.xml	Diff.FocusOppositePane	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	Diff.FocusOppositePane	2	CONTROL TAB
+Visual Studio 2022.xml	Diff.FocusOppositePane	1	CONTROL BACK_SLASH
+Visual Studio 2022.xml	Diff.FocusOppositePane	2	TAB
+Visual Studio 2022.xml	Diff.FocusOppositePane	1	CONTROL SHIFT TAB
+Visual Studio 2022.xml	EditorCompleteStatement	1	CONTROL SHIFT ENTER
+Visual Studio 2022.xml	EditorDecreaseFontSize	1	CONTROL SHIFT COMMA
+Visual Studio 2022.xml	EditorIncreaseFontSize	1	CONTROL SHIFT PERIOD
+Visual Studio 2022.xml	EditorStartNewLine	1	CONTROL SHIFT ENTER
+Visual Studio 2022.xml	EvaluateExpression	1	CONTROL ALT Q
+Visual Studio 2022.xml	EvaluateExpression	1	SHIFT F9
+Visual Studio 2022.xml	ExtractInterface	1	CONTROL R
+Visual Studio 2022.xml	ExtractInterface	2	I
+Visual Studio 2022.xml	ExtractInterface	1	CONTROL R
+Visual Studio 2022.xml	ExtractInterface	2	CONTROL I
+Visual Studio 2022.xml	FindNext	1	F3
+Visual Studio 2022.xml	FindNext	1	CONTROL SHIFT DOWN
+Visual Studio 2022.xml	FindNext	1	ALT SHIFT SLASH
+Visual Studio 2022.xml	FindPrevious	1	SHIFT F3
+Visual Studio 2022.xml	FindPrevious	1	CONTROL SHIFT UP
+Visual Studio 2022.xml	GotoAction	1	CONTROL Q
+Visual Studio 2022.xml	InspectCode	1	ALT F11
+Visual Studio 2022.xml	MoveLineDown	1	ALT DOWN
+Visual Studio 2022.xml	MoveLineUp	1	ALT UP
+Visual Studio 2022.xml	NewElementSamePlace	1	CONTROL SHIFT A
+Visual Studio 2022.xml	NextDiff	1	F8
+Visual Studio 2022.xml	NextDiff	1	F7
+Visual Studio 2022.xml	NextOccurence	1	F8
+Visual Studio 2022.xml	NextTab	1	CONTROL ALT PAGE_DOWN
+Visual Studio 2022.xml	PreviousDiff	1	SHIFT F8
+Visual Studio 2022.xml	PreviousDiff	1	SHIFT F7
+Visual Studio 2022.xml	PreviousOccurence	1	SHIFT F8
+Visual Studio 2022.xml	PreviousTab	1	CONTROL ALT PAGE_UP
+Visual Studio 2022.xml	RenameElement	1	CONTROL R
+Visual Studio 2022.xml	RenameElement	2	R
+Visual Studio 2022.xml	RenameElement	1	CONTROL R
+Visual Studio 2022.xml	RenameElement	2	CONTROL R
+Visual Studio 2022.xml	RenameElement	1	F2
+Visual Studio 2022.xml	ReSharperGotoNextErrorInSolution	1	SHIFT ALT PAGE_DOWN
+Visual Studio 2022.xml	ReSharperGotoNextErrorInSolution	1	CONTROL SHIFT F12
+Visual Studio 2022.xml	ReSharperSelectContainingDeclaration	1	SHIFT ALT CLOSE_BRACKET
+Visual Studio 2022.xml	ReSharperSelectContainingDeclaration	1	CONTROL SHIFT OPEN_BRACKET
+Visual Studio 2022.xml	Rider.Plugins.FSharp.StartFsi	1	CONTROL ALT F
+Visual Studio 2022.xml	RiderCodeLens.ShowMore	1	CONTROL K
+Visual Studio 2022.xml	RiderCodeLens.ShowMore	2	CONTROL BACK_QUOTE
+Visual Studio 2022.xml	RiderCodeLens.ShowMore	1	CONTROL K
+Visual Studio 2022.xml	RiderCodeLens.ShowMore	2	BACK_QUOTE
+Visual Studio 2022.xml	RiderShowIlViewerAction	1	CONTROL ALT D
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	1	CONTROL U
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	2	U
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	1	CONTROL U
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	2	CONTROL U
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	1	CONTROL R
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction	2	L
+Visual Studio 2022.xml	RiderUnitTestRunContextSplitAction	1	CONTROL R
+Visual Studio 2022.xml	RiderUnitTestRunContextSplitAction	2	T
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	1	CONTROL U
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	2	L
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	1	CONTROL U
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	2	CONTROL L
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	1	CONTROL R
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction	2	A
+Visual Studio 2022.xml	SearchEverywhere	1	CONTROL T
+Visual Studio 2022.xml	SearchEverywhere	1	CONTROL COMMA
+Visual Studio 2022.xml	SmartStepInto	1	ALT SHIFT F11
+Visual Studio 2022.xml	Unscramble	1	CONTROL E
+Visual Studio 2022.xml	Unscramble	2	CONTROL T
 Visual Studio for Mac.xml	$Redo	1	SHIFT META Z
 Visual Studio for Mac.xml	$SelectAll	1	META A
 Visual Studio for Mac.xml	BuildProject	1	META B
@@ -2754,6 +2889,7 @@ Visual Studio.xml	IntroduceVariable	2	CONTROL V
 Visual Studio.xml	JumpToLastChange	1	SHIFT CONTROL BACK_SPACE
 Visual Studio.xml	JumpToLastWindow	1	CONTROL ALT BACK_SPACE
 Visual Studio.xml	JumpToLastWindow	1	SHIFT ALT F6
+Visual Studio.xml	MainMenuButton.ShowMenu	1	ALT PERIOD
 Visual Studio.xml	Move	1	CONTROL R
 Visual Studio.xml	Move	2	O
 Visual Studio.xml	Move	1	CONTROL R
@@ -2844,6 +2980,10 @@ Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL E
 Visual Studio.xml	SurroundWithLiveTemplate	2	U
 Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL E
 Visual Studio.xml	SurroundWithLiveTemplate	2	CONTROL U
+Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL K
+Visual Studio.xml	SurroundWithLiveTemplate	2	S
+Visual Studio.xml	SurroundWithLiveTemplate	1	CONTROL K
+Visual Studio.xml	SurroundWithLiveTemplate	2	CONTROL S
 Visual Studio.xml	SwitchHeaderSource	1	ALT O
 Visual Studio.xml	SwitchHeaderSource	1	CONTROL K
 Visual Studio.xml	SwitchHeaderSource	2	O

@@ -184,11 +184,11 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="META RIGHT" />
-    <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="META RIGHT" />
+    <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="SHIFT END" />
@@ -248,10 +248,10 @@
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="SHIFT META 8" />
+    <keyboard-shortcut first-keystroke="SHIFT META MULTIPLY" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="SHIFT META 8" />
-    <keyboard-shortcut first-keystroke="SHIFT META MULTIPLY" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ALT DOWN" />
@@ -299,8 +299,14 @@
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="SHIFT F1" />
   </action>
-  <action id="FileChooser.TogglePathShowing">
+  <action id="FileChooser.TogglePathBar">
     <keyboard-shortcut first-keystroke="META P" />
+  </action>
+  <action id="FileChooserList.LevelUp">
+    <keyboard-shortcut first-keystroke="META UP" />
+  </action>
+  <action id="FileChooserList.Root">
+    <keyboard-shortcut first-keystroke="META SLASH" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="META F" />
@@ -414,6 +420,7 @@
   <action id="List-selectLastRowExtendSelection">
     <keyboard-shortcut first-keystroke="ALT SHIFT DOWN" />
   </action>
+  <action id="MainMenuButton.ShowMenu" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="CTRL SHIFT DOWN" />
   </action>
@@ -526,10 +533,10 @@
   </action>
   <action id="RunClass" />
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT F10" />
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT R" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT R" />
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F10" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ALT F9" />

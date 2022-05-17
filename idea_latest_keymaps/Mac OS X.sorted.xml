@@ -48,10 +48,10 @@
   <action id="ChangesView.GroupBy.Module">
     <keyboard-shortcut first-keystroke="CONTROL M" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="ChangesView.Move">
     <keyboard-shortcut first-keystroke="META SHIFT M" />
   </action>
-  <action id="ChangesView.Move" />
   <action id="ChangesView.SetDefault">
     <keyboard-shortcut first-keystroke="CONTROL SPACE" />
   </action>
@@ -190,8 +190,14 @@
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="SHIFT F1" />
   </action>
-  <action id="FileChooser.TogglePathShowing">
+  <action id="FileChooser.TogglePathBar">
     <keyboard-shortcut first-keystroke="META P" />
+  </action>
+  <action id="FileChooserList.LevelUp">
+    <keyboard-shortcut first-keystroke="META UP" />
+  </action>
+  <action id="FileChooserList.Root">
+    <keyboard-shortcut first-keystroke="META SLASH" />
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F" />
@@ -257,6 +263,7 @@
     <keyboard-shortcut first-keystroke="CONTROL SHIFT B" />
     <mouse-shortcut keystroke="meta shift button1" />
   </action>
+  <action id="MainMenuButton.ShowMenu" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="CONTROL DOWN" />
   </action>
@@ -320,10 +327,10 @@
     <keyboard-shortcut first-keystroke="CONTROL META R" />
     <keyboard-shortcut first-keystroke="SHIFT ALT R" />
   </action>
-  <action id="RunClass" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F10" />
   </action>
+  <action id="RunClass" />
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ALT F9" />
     <mouse-shortcut keystroke="force touch" />
@@ -466,10 +473,10 @@
     <keyboard-shortcut first-keystroke="CONTROL T" />
   </action>
   <action id="ValidateXml" />
-  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.MoveChangedLinesToChangelist">
     <keyboard-shortcut first-keystroke="META SHIFT M" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="CTRL V" />
   </action>

@@ -179,7 +179,7 @@
   </action>
   <action id="ExportToTextFile" />
   <action id="FileChooser.NewFolder" />
-  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="CONTROL F" />
   </action>

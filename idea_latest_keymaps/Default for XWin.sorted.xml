@@ -1,6 +1,9 @@
 <keymap name="Default for XWin" parent="$default" version="1" disable-mnemonics="false">
   <action id="ActivateNuGetToolWindow" />
   <action id="ActivateUnitTestsToolWindow" />
+  <action id="FileChooserList.Root">
+    <keyboard-shortcut first-keystroke="CONTROL SLASH" />
+  </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="CONTROL ALT 9" />
   </action>

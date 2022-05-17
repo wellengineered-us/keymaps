@@ -1,0 +1,258 @@
+<keymap name="Visual Studio 2022" parent="Visual Studio" version="1" disable-mnemonics="false">
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 2" />
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="W" />
+    <!--View.BookmarkWindow-->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL W" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL 0" second-keystroke="G" />
+    <!--Team.Git.GoToGitChanges-->
+    <keyboard-shortcut first-keystroke="CONTROL 0" second-keystroke="CONTROL G" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="S" />
+    <!--View.SQLServerObjectExplorer-->
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="CONTROL S" />
+  </action>
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT K" />
+    <!--View.CallHierarchy-->
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 6" />
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="E" />
+    <!--View.ErrorList-->
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="CONTROL E" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT T" />
+    <!--View.DocumentOutline-->
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_QUOTE" />
+    <!--View.Terminal-->
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="T" />
+    <!--View.TaskList-->
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="CONTROL T" />
+  </action>
+  <action id="ActivateUnitTestsToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 8" />
+    <keyboard-shortcut first-keystroke="SHIFT ALT 8" />
+    <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="T" />
+    <!--TestExplorer.ShowTestExplorer-->
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 9" />
+    <keyboard-shortcut first-keystroke="CONTROL 0" second-keystroke="S" />
+    <!--View.GitRepositoryWindow-->
+    <keyboard-shortcut first-keystroke="CONTROL 0" second-keystroke="CONTROL S" />
+  </action>
+  <action id="AutoIndentLines" />
+  <action id="BuildCurrentProject">
+    <keyboard-shortcut first-keystroke="CONTROL B" />
+    <!--Build.BuildSelection-->
+  </action>
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="T" />
+    <!--EditorContextMenus.CodeWindow.ViewCallHierarchy-->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL T" />
+  </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="V" />
+    <!--Refactor.RemoveParameters-->
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL V" />
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="O" />
+    <!--Refactor.ReorderParameters-->
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL O" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="CONTROL SPACE" />
+    <keyboard-shortcut first-keystroke="CONTROL J" />
+    <keyboard-shortcut first-keystroke="ALT RIGHT" />
+    <!--Edit.CompleteWord-->
+  </action>
+  <action id="CollapseBlock" />
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="H" />
+    <!--Edit.HideSelection-->
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL H" />
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="U" />
+    <!--Edit.StopHidingCurrent-->
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL U" />
+  </action>
+  <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive" />
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="F1" />
+    <!--Help.F1Help-->
+    <keyboard-shortcut first-keystroke="SHIFT F1" />
+    <!--Help.WindowHelp-->
+  </action>
+  <action id="Diff.FocusOppositePane">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="CONTROL TAB" />
+    <!--Diff.SwitchBetweenLeftAndRight-->
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" second-keystroke="TAB" />
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT TAB" />
+  </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT ENTER" />
+    <!--Edit.SmartBreakLine-->
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT COMMA" />
+    <!--View.ZoomOut-->
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT PERIOD" />
+    <!--View.ZoomIn-->
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT ENTER" />
+    <!--Edit.LineOpenBelow-->
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="CONTROL ALT Q" />
+    <!--Debug.QuickWatch-->
+    <keyboard-shortcut first-keystroke="SHIFT F9" />
+  </action>
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="I" />
+    <!--Refactor.ExtractInterface-->
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL I" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+    <!--Edit.FindNext-->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT DOWN" />
+    <!--Edit.NextHighlightedReference-->
+    <keyboard-shortcut first-keystroke="ALT SHIFT SLASH" />
+    <!--Edit.MoveLastCaretDown-->
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="SHIFT F3" />
+    <!--Edit.FindPrevious-->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT UP" />
+    <!--Edit.PreviousHighlightedReference-->
+  </action>
+  <action id="FindUsagesInFile" />
+  <action id="ForceStepInto" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="CONTROL Q" />
+    <!--Window.QuickLaunch-->
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="HideAllWindows" />
+  <action id="HighlightUsagesInFile" />
+  <action id="Inline" />
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="ALT F11" />
+    <!--Build.RunCodeAnalysisonSolution-->
+  </action>
+  <action id="IntroduceVariable" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="Move" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ALT DOWN" />
+    <!--Edit.MoveSelectedLinesDown-->
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ALT UP" />
+    <!--Edit.MoveSelectedLinesUp-->
+  </action>
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT A" />
+    <!--Project.AddNewItem-->
+  </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="F8" />
+    <!--Diff.NextDifference-->
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="F8" />
+    <!--Edit.GoToNextLocation-->
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="CONTROL ALT PAGE_DOWN" />
+    <!--Window.NextTab-->
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="SHIFT F8" />
+    <!--Diff.PreviousDifference-->
+    <keyboard-shortcut first-keystroke="SHIFT F7" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="SHIFT F8" />
+    <!--Edit.GoToPrevLocation-->
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="CONTROL ALT PAGE_UP" />
+    <!--Window.PreviousTab-->
+  </action>
+  <action id="RecentChangedFiles" />
+  <action id="RecentFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="R" />
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL R" />
+    <keyboard-shortcut first-keystroke="F2" />
+    <!--File.Rename-->
+  </action>
+  <action id="ReSharperGotoNextErrorInSolution">
+    <keyboard-shortcut first-keystroke="SHIFT ALT PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F12" />
+    <!--View.NextError-->
+  </action>
+  <action id="ReSharperSelectContainingDeclaration">
+    <keyboard-shortcut first-keystroke="SHIFT ALT CLOSE_BRACKET" />
+    <!--Edit.ExpandSelectiontoContainingBlock-->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT OPEN_BRACKET" />
+  </action>
+  <action id="Rider.Plugins.FSharp.SendToFsi" />
+  <action id="Rider.Plugins.FSharp.StartFsi">
+    <keyboard-shortcut first-keystroke="CONTROL ALT F" />
+    <!--View.F#Interactive-->
+  </action>
+  <action id="RiderCodeLens.ShowMore">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL BACK_QUOTE" />
+    <!--Edit.ShowCodeLensMenu-->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="BACK_QUOTE" />
+  </action>
+  <action id="RiderShowIlViewerAction">
+    <keyboard-shortcut first-keystroke="CONTROL ALT D" />
+    <!--Debug.Disassembly-->
+  </action>
+  <action id="RiderUnitTestRepeatPreviousRunAction">
+    <keyboard-shortcut first-keystroke="CONTROL U" second-keystroke="U" />
+    <keyboard-shortcut first-keystroke="CONTROL U" second-keystroke="CONTROL U" />
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="L" />
+    <!--TestExplorer.RepeatLastRun-->
+  </action>
+  <action id="RiderUnitTestRunContextSplitAction">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="T" />
+    <!--TestExplorer.RunAllTestsInContext-->
+  </action>
+  <action id="RiderUnitTestRunSolutionAction">
+    <keyboard-shortcut first-keystroke="CONTROL U" second-keystroke="L" />
+    <keyboard-shortcut first-keystroke="CONTROL U" second-keystroke="CONTROL L" />
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="A" />
+    <!--TestExplorer.RunAllTests-->
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="CONTROL T" />
+    <keyboard-shortcut first-keystroke="CONTROL COMMA" />
+    <!--Edit.GoToAll-->
+  </action>
+  <action id="ShowBookmarks" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="ALT SHIFT F11" />
+    <!--Debug.StepIntoSpecific-->
+  </action>
+  <action id="Unscramble">
+    <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="CONTROL T" />
+  </action>
+  <action id="Vcs.QuickListPopupAction" />
+</keymap>

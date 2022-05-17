@@ -181,7 +181,9 @@ $default.xml	FileChooser.GotoHome
 $default.xml	FileChooser.GotoModule
 $default.xml	FileChooser.GotoProject
 $default.xml	FileChooser.NewFolder
-$default.xml	FileChooser.TogglePathShowing
+$default.xml	FileChooser.TogglePathBar
+$default.xml	FileChooserList.LevelUp
+$default.xml	FileChooserList.Root
 $default.xml	FileStructurePopup
 $default.xml	Find
 $default.xml	FindInPath
@@ -241,6 +243,7 @@ $default.xml	IntroduceParameter
 $default.xml	IntroduceVariable
 $default.xml	JumpToLastChange
 $default.xml	JumpToLastWindow
+$default.xml	MainMenuButton.ShowMenu
 $default.xml	MaintenanceAction
 $default.xml	MaximizeToolWindow
 $default.xml	MethodDown
@@ -361,6 +364,7 @@ $default.xml	SwitcherIterateItems
 $default.xml	SwitcherRecentEditedChangedToggleCheckBox
 $default.xml	SwitchHeaderSource
 $default.xml	Synchronize
+$default.xml	TextSearchAction
 $default.xml	TodoViewGroupByFlattenPackage
 $default.xml	TodoViewGroupByShowModules
 $default.xml	TodoViewGroupByShowPackages
@@ -469,6 +473,7 @@ Default for KDE.xml	ToggleLineBreakpoint
 Default for KDE.xml	ViewBreakpoints
 Default for XWin.xml	ActivateNuGetToolWindow
 Default for XWin.xml	ActivateUnitTestsToolWindow
+Default for XWin.xml	FileChooserList.Root
 Default for XWin.xml	ForceRunToCursor
 Default for XWin.xml	Images.EditExternally
 Default for XWin.xml	QuickEvaluateExpression
@@ -538,7 +543,6 @@ Eclipse (Mac OS X).xml	ExpandToLevel5
 Eclipse (Mac OS X).xml	ExpressionTypeInfo
 Eclipse (Mac OS X).xml	ExternalJavaDoc
 Eclipse (Mac OS X).xml	ExtractMethod
-Eclipse (Mac OS X).xml	FileChooser.TogglePathShowing
 Eclipse (Mac OS X).xml	FileStructurePopup
 Eclipse (Mac OS X).xml	Find
 Eclipse (Mac OS X).xml	FindInPath
@@ -696,7 +700,6 @@ Eclipse.xml	ExpandToLevel5
 Eclipse.xml	ExpressionTypeInfo
 Eclipse.xml	ExternalJavaDoc
 Eclipse.xml	ExtractMethod
-Eclipse.xml	FileChooser.TogglePathShowing
 Eclipse.xml	FileStructurePopup
 Eclipse.xml	Find
 Eclipse.xml	FindInPath
@@ -1003,7 +1006,9 @@ Mac OS X 10.5+.xml	ExpandAllToLevel5
 Mac OS X 10.5+.xml	ExportToTextFile
 Mac OS X 10.5+.xml	ExpressionTypeInfo
 Mac OS X 10.5+.xml	ExternalJavaDoc
-Mac OS X 10.5+.xml	FileChooser.TogglePathShowing
+Mac OS X 10.5+.xml	FileChooser.TogglePathBar
+Mac OS X 10.5+.xml	FileChooserList.LevelUp
+Mac OS X 10.5+.xml	FileChooserList.Root
 Mac OS X 10.5+.xml	Find
 Mac OS X 10.5+.xml	FindInPath
 Mac OS X 10.5+.xml	FindNext
@@ -1040,6 +1045,7 @@ Mac OS X 10.5+.xml	List-selectFirstRow
 Mac OS X 10.5+.xml	List-selectFirstRowExtendSelection
 Mac OS X 10.5+.xml	List-selectLastRow
 Mac OS X 10.5+.xml	List-selectLastRowExtendSelection
+Mac OS X 10.5+.xml	MainMenuButton.ShowMenu
 Mac OS X 10.5+.xml	MethodDown
 Mac OS X 10.5+.xml	MethodOverloadSwitchDown
 Mac OS X 10.5+.xml	MethodOverloadSwitchUp
@@ -1203,7 +1209,9 @@ Mac OS X.xml	ExpandAllToLevel5
 Mac OS X.xml	ExportToTextFile
 Mac OS X.xml	ExpressionTypeInfo
 Mac OS X.xml	ExternalJavaDoc
-Mac OS X.xml	FileChooser.TogglePathShowing
+Mac OS X.xml	FileChooser.TogglePathBar
+Mac OS X.xml	FileChooserList.LevelUp
+Mac OS X.xml	FileChooserList.Root
 Mac OS X.xml	FindInPath
 Mac OS X.xml	FindNext
 Mac OS X.xml	FindPrevious
@@ -1223,6 +1231,7 @@ Mac OS X.xml	GotoDeclaration
 Mac OS X.xml	GotoNextElementUnderCaretUsage
 Mac OS X.xml	GotoPrevElementUnderCaretUsage
 Mac OS X.xml	GotoTypeDeclaration
+Mac OS X.xml	MainMenuButton.ShowMenu
 Mac OS X.xml	MethodDown
 Mac OS X.xml	MethodUp
 Mac OS X.xml	MinimizeCurrentWindow
@@ -1390,6 +1399,7 @@ macOS System Shortcuts.xml	StepOut
 macOS System Shortcuts.xml	StepOver
 macOS System Shortcuts.xml	Stop
 macOS System Shortcuts.xml	Synchronize
+macOS System Shortcuts.xml	TextSearchAction
 macOS System Shortcuts.xml	ToggleBookmark
 macOS System Shortcuts.xml	ToggleBookmarkWithMnemonic
 macOS System Shortcuts.xml	ToggleLineBreakpoint
@@ -1653,7 +1663,7 @@ QtCreator (Mac OS X).xml	FileChooser.GotoHome
 QtCreator (Mac OS X).xml	FileChooser.GotoModule
 QtCreator (Mac OS X).xml	FileChooser.GotoProject
 QtCreator (Mac OS X).xml	FileChooser.NewFolder
-QtCreator (Mac OS X).xml	FileChooser.TogglePathShowing
+QtCreator (Mac OS X).xml	FileChooser.TogglePathBar
 QtCreator (Mac OS X).xml	Find
 QtCreator (Mac OS X).xml	FindInPath
 QtCreator (Mac OS X).xml	FindNext
@@ -1825,7 +1835,7 @@ QtCreator.xml	ExpandExpandableComponent
 QtCreator.xml	ExpandRegion
 QtCreator.xml	ExportToTextFile
 QtCreator.xml	FileChooser.NewFolder
-QtCreator.xml	FileChooser.TogglePathShowing
+QtCreator.xml	FileChooser.TogglePathBar
 QtCreator.xml	Find
 QtCreator.xml	FindInPath
 QtCreator.xml	FindNext
@@ -2352,6 +2362,73 @@ Visual Assist.xml	Refactorings.QuickListPopupAction
 Visual Assist.xml	RenameElement
 Visual Assist.xml	ReSharperNavigateTo
 Visual Assist.xml	WD.UploadCurrentRemoteFileAction
+Visual Studio 2022.xml	ActivateBookmarksToolWindow
+Visual Studio 2022.xml	ActivateCommitToolWindow
+Visual Studio 2022.xml	ActivateDatabaseToolWindow
+Visual Studio 2022.xml	ActivateHierarchyToolWindow
+Visual Studio 2022.xml	ActivateProblemsViewToolWindow
+Visual Studio 2022.xml	ActivateStructureToolWindow
+Visual Studio 2022.xml	ActivateTerminalToolWindow
+Visual Studio 2022.xml	ActivateTODOToolWindow
+Visual Studio 2022.xml	ActivateUnitTestsToolWindow
+Visual Studio 2022.xml	ActivateVersionControlToolWindow
+Visual Studio 2022.xml	AutoIndentLines
+Visual Studio 2022.xml	BuildCurrentProject
+Visual Studio 2022.xml	CallHierarchy
+Visual Studio 2022.xml	ChangeSignature
+Visual Studio 2022.xml	CheckinProject
+Visual Studio 2022.xml	CodeCompletion
+Visual Studio 2022.xml	CollapseBlock
+Visual Studio 2022.xml	CollapseSelection
+Visual Studio 2022.xml	com.jetbrains.rider.interactive.csi.SendToCSharpInteractive
+Visual Studio 2022.xml	ContextHelp
+Visual Studio 2022.xml	Diff.FocusOppositePane
+Visual Studio 2022.xml	EditorCompleteStatement
+Visual Studio 2022.xml	EditorDecreaseFontSize
+Visual Studio 2022.xml	EditorIncreaseFontSize
+Visual Studio 2022.xml	EditorStartNewLine
+Visual Studio 2022.xml	EvaluateExpression
+Visual Studio 2022.xml	ExtractInterface
+Visual Studio 2022.xml	FindNext
+Visual Studio 2022.xml	FindPrevious
+Visual Studio 2022.xml	FindUsagesInFile
+Visual Studio 2022.xml	ForceStepInto
+Visual Studio 2022.xml	GotoAction
+Visual Studio 2022.xml	GotoBookmark0
+Visual Studio 2022.xml	HideAllWindows
+Visual Studio 2022.xml	HighlightUsagesInFile
+Visual Studio 2022.xml	Inline
+Visual Studio 2022.xml	InspectCode
+Visual Studio 2022.xml	IntroduceVariable
+Visual Studio 2022.xml	MethodDown
+Visual Studio 2022.xml	MethodUp
+Visual Studio 2022.xml	Move
+Visual Studio 2022.xml	MoveLineDown
+Visual Studio 2022.xml	MoveLineUp
+Visual Studio 2022.xml	NewElementSamePlace
+Visual Studio 2022.xml	NextDiff
+Visual Studio 2022.xml	NextOccurence
+Visual Studio 2022.xml	NextTab
+Visual Studio 2022.xml	PreviousDiff
+Visual Studio 2022.xml	PreviousOccurence
+Visual Studio 2022.xml	PreviousTab
+Visual Studio 2022.xml	RecentChangedFiles
+Visual Studio 2022.xml	RecentFiles
+Visual Studio 2022.xml	RenameElement
+Visual Studio 2022.xml	ReSharperGotoNextErrorInSolution
+Visual Studio 2022.xml	ReSharperSelectContainingDeclaration
+Visual Studio 2022.xml	Rider.Plugins.FSharp.SendToFsi
+Visual Studio 2022.xml	Rider.Plugins.FSharp.StartFsi
+Visual Studio 2022.xml	RiderCodeLens.ShowMore
+Visual Studio 2022.xml	RiderShowIlViewerAction
+Visual Studio 2022.xml	RiderUnitTestRepeatPreviousRunAction
+Visual Studio 2022.xml	RiderUnitTestRunContextSplitAction
+Visual Studio 2022.xml	RiderUnitTestRunSolutionAction
+Visual Studio 2022.xml	SearchEverywhere
+Visual Studio 2022.xml	ShowBookmarks
+Visual Studio 2022.xml	SmartStepInto
+Visual Studio 2022.xml	Unscramble
+Visual Studio 2022.xml	Vcs.QuickListPopupAction
 Visual Studio for Mac.xml	$Redo
 Visual Studio for Mac.xml	$SelectAll
 Visual Studio for Mac.xml	BuildProject
@@ -2699,6 +2776,7 @@ Visual Studio.xml	IntroduceParameter
 Visual Studio.xml	IntroduceVariable
 Visual Studio.xml	JumpToLastChange
 Visual Studio.xml	JumpToLastWindow
+Visual Studio.xml	MainMenuButton.ShowMenu
 Visual Studio.xml	MethodHierarchy
 Visual Studio.xml	Move
 Visual Studio.xml	MoveLineDown
@@ -2908,7 +2986,7 @@ VSCode OSX.xml	ExternalSystem.OpenConfig
 VSCode OSX.xml	FileChooser.GotoDesktop
 VSCode OSX.xml	FileChooser.NewFile
 VSCode OSX.xml	FileChooser.NewFolder
-VSCode OSX.xml	FileChooser.TogglePathShowing
+VSCode OSX.xml	FileChooser.TogglePathBar
 VSCode OSX.xml	FileStructurePopup
 VSCode OSX.xml	FindNext
 VSCode OSX.xml	FindPrevious
@@ -3184,7 +3262,7 @@ VSCode.xml	ExternalSystem.ExpandAll
 VSCode.xml	FileChooser.GotoDesktop
 VSCode.xml	FileChooser.NewFile
 VSCode.xml	FileChooser.NewFolder
-VSCode.xml	FileChooser.TogglePathShowing
+VSCode.xml	FileChooser.TogglePathBar
 VSCode.xml	FileStructurePopup
 VSCode.xml	Find
 VSCode.xml	FindNext
@@ -3433,7 +3511,9 @@ Xcode.xml	ExtractMethod
 Xcode.xml	FileChooser.GotoHome
 Xcode.xml	FileChooser.GotoProject
 Xcode.xml	FileChooser.NewFolder
-Xcode.xml	FileChooser.TogglePathShowing
+Xcode.xml	FileChooser.TogglePathBar
+Xcode.xml	FileChooserList.LevelUp
+Xcode.xml	FileChooserList.Root
 Xcode.xml	FileStructurePopup
 Xcode.xml	FindInPath
 Xcode.xml	FindNext

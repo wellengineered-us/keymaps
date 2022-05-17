@@ -128,9 +128,6 @@
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="META ALT M" />
   </action>
-  <action id="FileChooser.TogglePathShowing">
-    <keyboard-shortcut first-keystroke="META P" />
-  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="META O" />
   </action>

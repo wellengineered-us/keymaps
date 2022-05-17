@@ -18,6 +18,7 @@ Sublime Text (Mac OS X).xml	Sublime Text (Mac OS X)	Mac OS X 10.5+	1	false
 Sublime Text.xml	Sublime Text	$default	1	false
 Visual Assist OSX.xml	Visual Assist OSX	Visual Studio OSX	1	false
 Visual Assist.xml	Visual Assist	Visual Studio	1	false
+Visual Studio 2022.xml	Visual Studio 2022	Visual Studio	1	false
 Visual Studio for Mac.xml	Visual Studio for Mac	Mac OS X 10.5+	1	
 Visual Studio OSX.xml	Visual Studio OSX	Mac OS X 10.5+	1	false
 Visual Studio.xml	Visual Studio	$default	1	false

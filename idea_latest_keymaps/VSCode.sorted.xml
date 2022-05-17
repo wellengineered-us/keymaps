@@ -250,7 +250,7 @@
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="ALT INSERT" />
   </action>
-  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="SHIFT CTRL O" />
   </action>

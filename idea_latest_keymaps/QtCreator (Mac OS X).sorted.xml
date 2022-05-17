@@ -191,7 +191,7 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
-  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="META F" />
   </action>

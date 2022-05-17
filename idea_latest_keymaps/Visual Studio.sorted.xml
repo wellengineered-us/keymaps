@@ -339,6 +339,9 @@
     <keyboard-shortcut first-keystroke="CONTROL ALT BACK_SPACE" />
     <keyboard-shortcut first-keystroke="SHIFT ALT F6" />
   </action>
+  <action id="MainMenuButton.ShowMenu">
+    <keyboard-shortcut first-keystroke="ALT PERIOD" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="O" />
@@ -519,6 +522,9 @@
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="U" />
     <keyboard-shortcut first-keystroke="CONTROL E" second-keystroke="CONTROL U" />
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="S" />
+    <!--Edit.SurroundWith-->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL S" />
   </action>
   <action id="SwitchHeaderSource">
     <keyboard-shortcut first-keystroke="ALT O" />

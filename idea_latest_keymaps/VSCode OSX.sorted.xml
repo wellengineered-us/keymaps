@@ -303,7 +303,7 @@
     <keyboard-shortcut first-keystroke="META N" />
   </action>
   <action id="FileChooser.NewFolder" />
-  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileChooser.TogglePathBar" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="META ALT O" />
     <keyboard-shortcut first-keystroke="SHIFT META O" />

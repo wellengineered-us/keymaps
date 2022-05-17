@@ -568,8 +568,14 @@
     <keyboard-shortcut first-keystroke="ALT INSERT" />
     <keyboard-shortcut first-keystroke="CONTROL N" />
   </action>
-  <action id="FileChooser.TogglePathShowing">
+  <action id="FileChooser.TogglePathBar">
     <keyboard-shortcut first-keystroke="CONTROL P" />
+  </action>
+  <action id="FileChooserList.LevelUp">
+    <keyboard-shortcut first-keystroke="BACK_SPACE" />
+  </action>
+  <action id="FileChooserList.Root">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SLASH" />
   </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="CONTROL F12" />
@@ -752,6 +758,9 @@
   </action>
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="F12" />
+  </action>
+  <action id="MainMenuButton.ShowMenu">
+    <keyboard-shortcut first-keystroke="ALT BACK_SLASH" />
   </action>
   <action id="MaintenanceAction">
     <keyboard-shortcut first-keystroke="CTRL ALT SHIFT SLASH" />
@@ -1115,6 +1124,9 @@
   </action>
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="CONTROL ALT Y" />
+  </action>
+  <action id="TextSearchAction">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT ALT E" />
   </action>
   <action id="TodoViewGroupByFlattenPackage">
     <keyboard-shortcut first-keystroke="CONTROL ALT C" />

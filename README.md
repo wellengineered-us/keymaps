@@ -165,7 +165,7 @@ Custom keymap files for the JetBrains IDE platform (IntelliJ, Rider, et al.).
 |Text Navigation Shortcut Keys|Edit.WordNext|EditorNextWord|CONTROL RIGHT_ARROW|
 |Text Navigation Shortcut Keys|Edit.WordPrevious|EditorPreviousWord|CONTROL LEFT_ARROW|
 |Text Navigation Shortcut Keys|View.BrowseNext||CONTROL num+ || CONTROL SHIFT 1|
-|Text Navigation Shortcut Keys|View.BrowsePrevious||CONTROL num– || CONTROL SHIFT 2|
+|Text Navigation Shortcut Keys|View.BrowsePrevious||CONTROL numâ€“ || CONTROL SHIFT 2|
 |Text Selection Shortcut Keys|Edit.CharLeftExtend|EditorLeftWithSelection|SHIFT LEFT_ARROW|
 |Text Selection Shortcut Keys|Edit.CharLeftExtendColumn||SHIFT ALT LEFT_ARROW|
 |Text Selection Shortcut Keys|Edit.CharRightExtend|EditorRightWithSelection|SHIFT RIGHT_ARROW|

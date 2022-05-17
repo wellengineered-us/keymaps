@@ -125,9 +125,6 @@
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="SHIFT ALT M" />
   </action>
-  <action id="FileChooser.TogglePathShowing">
-    <keyboard-shortcut first-keystroke="CONTROL P" />
-  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="CONTROL F3" />
     <keyboard-shortcut first-keystroke="CONTROL O" />

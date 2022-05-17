@@ -274,6 +274,8 @@
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="control E" second-keystroke="U"/>
     <keyboard-shortcut first-keystroke="control E" second-keystroke="control U"/>
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="S"/><!--Edit.SurroundWith-->
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control S"/>
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="control H"/>
@@ -571,6 +573,10 @@
   </action>
   <action id="HelpTopics">
     <keyboard-shortcut first-keystroke="control F1"/>
+  </action>
+
+  <action id="MainMenuButton.ShowMenu">
+    <keyboard-shortcut first-keystroke="alt PERIOD"/>
   </action>
 
   <!--KNOWN CONFLICTS: https://youtrack.jetbrains.com/issue/IDEA-268674-->

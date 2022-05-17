@@ -21,6 +21,7 @@ $file_names = @(
 "Sublime Text",
 "Visual Assist OSX",
 "Visual Assist",
+"Visual Studio 2022",
 "Visual Studio for Mac",
 "Visual Studio OSX",
 "Visual Studio",

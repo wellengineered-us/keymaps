@@ -304,6 +304,9 @@
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="META CTRL Y" />
   </action>
+  <action id="TextSearchAction">
+    <keyboard-shortcut first-keystroke="SHIFT CTRL ALT E" />
+  </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="SHIFT CTRL K" />
     <keyboard-shortcut first-keystroke="F3" />
