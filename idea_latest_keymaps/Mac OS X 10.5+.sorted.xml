@@ -152,6 +152,9 @@
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="CONTROL K" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT COMMA" />
+  </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="DELETE" />
   </action>
@@ -174,6 +177,9 @@
     <keyboard-shortcut first-keystroke="DOWN" />
     <keyboard-shortcut first-keystroke="CONTROL N" />
   </action>
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT PERIOD" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT J" />
   </action>
@@ -184,11 +190,11 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="META RIGHT" />
+    <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="META RIGHT" />
-    <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="SHIFT END" />
@@ -248,10 +254,10 @@
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="SHIFT META 8" />
-    <keyboard-shortcut first-keystroke="SHIFT META MULTIPLY" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="SHIFT META 8" />
+    <keyboard-shortcut first-keystroke="SHIFT META MULTIPLY" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ALT DOWN" />
@@ -531,13 +537,13 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="CONTROL R" />
   </action>
-  <action id="RunClass" />
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="CONTROL SHIFT R" />
-  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F10" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT R" />
+  </action>
+  <action id="RunClass" />
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ALT F9" />
     <mouse-shortcut keystroke="force touch" />

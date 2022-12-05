@@ -42,14 +42,14 @@
     <keyboard-shortcut first-keystroke="SHIFT BACK_SPACE" />
     <keyboard-shortcut first-keystroke="CTRL H" />
   </action>
-  <action id="EditorDecreaseFontSize">
+  <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="META SHIFT MINUS" />
   </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="DELETE" />
     <keyboard-shortcut first-keystroke="CTRL D" />
   </action>
-  <action id="EditorIncreaseFontSize">
+  <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="META SHIFT PLUS" />
   </action>
   <action id="EditorLookupDown" />

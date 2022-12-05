@@ -66,9 +66,6 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ALT 9" />
   </action>
-  <action id="AddToFavoritesPopup">
-    <keyboard-shortcut first-keystroke="ALT SHIFT F" />
-  </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="CONTROL ALT I" />
   </action>
@@ -296,6 +293,9 @@
     <mouse-shortcut keystroke="alt button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="ALT SHIFT COMMA" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="CONTROL Y" />
   </action>
@@ -322,6 +322,9 @@
   </action>
   <action id="EditorFocusGutter">
     <keyboard-shortcut first-keystroke="ALT SHIFT 6" second-keystroke="F" />
+  </action>
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="ALT SHIFT PERIOD" />
   </action>
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -632,6 +635,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ALT INSERT" />
   </action>
+  <action id="Git.New.Branch.In.Log">
+    <keyboard-shortcut first-keystroke="CONTROL ALT N" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="F2" />
     <keyboard-shortcut first-keystroke="SHIFT F6" />
@@ -639,6 +645,9 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="F2" />
     <keyboard-shortcut first-keystroke="SHIFT F6" />
+  </action>
+  <action id="GitNewBranchAction">
+    <keyboard-shortcut first-keystroke="CONTROL ALT N" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT A" />
@@ -948,6 +957,7 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT F10" />
   </action>
+  <action id="RunCoverage" />
   <action id="RunInspection">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT ALT I" />
   </action>

@@ -1,6 +1,6 @@
 Keymaps
 
-Copyright ©2020-2021 WellEngineered.us, all rights reserved.
+Copyright ©2020-2022 WellEngineered.us, all rights reserved.
 
 Sundries is released under the MIT License
 

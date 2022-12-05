@@ -1,0 +1,487 @@
+<!--
+	Copyright ©2020-2022 WellEngineered.us, all rights reserved.
+	Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+-->
+<keymap name="WellEngineered.us VC++ 6.0" version="1" disable-mnemonics="false" parent="WellEngineered.us NOP">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="CONTROL C" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Copy -->
+    <keyboard-shortcut first-keystroke="CONTROL INSERT" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Copy -->
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="CONTROL X" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Cut -->
+    <keyboard-shortcut first-keystroke="SHIFT DELETE" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Cut -->
+  </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="DELETE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.Delete -->
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="CONTROL V" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Paste -->
+    <keyboard-shortcut first-keystroke="SHIFT INSERT" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Paste -->
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT Z" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Redo -->
+    <keyboard-shortcut first-keystroke="ALT SHIFT BACK_SPACE" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Redo -->
+    <keyboard-shortcut first-keystroke="CONTROL Y" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Redo -->
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="CONTROL A" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.SelectAll -->
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="CONTROL Z" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Undo -->
+    <keyboard-shortcut first-keystroke="ALT BACK_SPACE" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.Undo -->
+  </action>
+
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT F" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.Favorites -->
+  </action>
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT F" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.ClassView -->
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT L" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.SolutionExplorer -->
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="ALT 2" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.Output -->
+    <keyboard-shortcut first-keystroke="CONTROL ALT O" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.Output -->
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT D" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.DocumentOutline -->
+  </action>
+
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="CONTROL MINUS" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/View.NavigateBackward -->
+	<keyboard-shortcut first-keystroke="ALT LEFT" /><!-- Visual C++ 6.0/Global Shortcut Keys/View.WebNavigateBack -->
+  </action>
+  <action id="BraceOrQuoteOut">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="CONTROL F4" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.CloseDocumentWindow -->
+  </action>
+  <action id="CloseGotItTooltip">
+    <keyboard-shortcut first-keystroke="ESCAPE" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="CONTROL SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.CompleteWord -->
+    <keyboard-shortcut first-keystroke="ALT RIGHT" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.CompleteWord -->
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL L" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleAllOutlining -->
+  </action>
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="CONTROL ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="F1" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ALT F5" /><!-- Visual C++ 6.0/Debug Shortcut Keys	Debug.Start *** -->
+  </action>
+  <action id="DirDiffMenu.SynchronizeDiff">
+    <keyboard-shortcut first-keystroke="ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="BACK_SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.DeleteBackwards -->
+    <keyboard-shortcut first-keystroke="SHIFT BACK_SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.DeleteBackwards -->
+  </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" /><!-- WellEngineered:OK -->
+    <mouse-shortcut keystroke="button2" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="CONTROL L" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineCut -->
+    <keyboard-shortcut first-keystroke="SHIFT ALT L" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineCut -->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT L" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineDelete -->
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="CONTROL DELETE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.WordDeleteToEnd -->
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="CONTROL BACK_SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.WordDeleteToStart -->
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineDown -->
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT DOWN" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineDownExtend -->
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="ENTER" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.BreakLine -->
+    <keyboard-shortcut first-keystroke="SHIFT ENTER" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.BreakLine -->
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="ESCAPE" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.SelectionCancel -->
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.EditorTab -->
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="LEFT" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.CharLeft -->
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT LEFT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.CharLeftExtend -->
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="END" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.LineEnd -->
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT END" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineEndExtend -->
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="HOME" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.LineStart -->
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT HOME" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineStartExtend -->
+  </action>
+  <action id="EditorLookupDown">
+    <keyboard-shortcut first-keystroke="CONTROL DOWN" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorLookupUp">
+    <keyboard-shortcut first-keystroke="CONTROL UP" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorMoveToPageBottom">
+    <keyboard-shortcut first-keystroke="CONTROL PAGE_DOWN" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorMoveToPageBottomWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT PAGE_DOWN" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.ViewBottomExtend -->
+  </action>
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="CONTROL PAGE_UP" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="EditorMoveToPageTopWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT PAGE_UP" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.ViewTopExtend -->
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="CONTROL RIGHT" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.WordNext -->
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT RIGHT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.WordNextExtend -->
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="PAGE_DOWN" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.PageDown -->
+  </action>
+  <action id="EditorPageDownWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT PAGE_DOWN" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.PageDownExtend -->
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="PAGE_UP" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.PageUp -->
+  </action>
+  <action id="EditorPageUpWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT PAGE_UP" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.PageUpExtend -->
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="CONTROL LEFT" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.WordPrevious -->
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT LEFT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.WordPreviousExtend -->
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="RIGHT" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.CharRight -->
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT RIGHT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.CharRightExtend -->
+  </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="CONTROL DOWN" /><!-- Text Navigation Shortcut Keys/Edit.ScrollLineDown -->
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="CONTROL UP" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.ScrollLineUp -->
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="CONTROL CONTROL W" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.SelectCurrentWord -->
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT ENTER" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineOpenBelow -->
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="CONTROL ENTER" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineOpenAbove -->
+  </action>
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.InsertTab -->
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="CONTROL END" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.DocumentEnd -->
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT END" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.DocumentEndExtend -->
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="CONTROL HOME" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.DocumentStart -->
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT HOME" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.DocumentStartExtend -->
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="CONTROL U" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.MakeLowercasee -->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT U" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.MakeUppercase -->
+  </action>
+  <action id="EditorToggleInsertState">
+    <keyboard-shortcut first-keystroke="INSERT" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.OvertypeMode -->
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="SHIFT TAB" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.TabLeft -->
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.LineUp -->
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="SHIFT UP" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineUpExtend -->
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL L" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleAllOutlining -->
+  </action>
+  <action id="ExpandLiveTemplateByTab">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="CONTROL F" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.Find -->
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.FindinFiles -->
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.FindNext -->
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="SHIFT F3" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.FindPrevious -->
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="ESCAPE" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.ActivateDocumentWindow -->
+    <keyboard-shortcut first-keystroke="ALT 0" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.ActivateDocumentWindow -->
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT MINUS" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/View.NavigateForward -->
+    <keyboard-shortcut first-keystroke="ALT RIGHT" /><!-- Visual C++ 6.0/Global Shortcut Keys/View.WebNavigateForward -->
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="F12" /><!-- Visual C++ 6.0/Object Browser Shortcut Keys/Edit.GoToDefinition -->
+    <mouse-shortcut keystroke="ctrl button1" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="CONTROL G" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.GoTo -->
+  </action>
+  <action id="GotoNextError">
+   <keyboard-shortcut first-keystroke="F8" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.GotoNextLocation -->
+  </action>
+  <action id="GotoPreviousError">
+   <keyboard-shortcut first-keystroke="SHIFT F8" /><!-- Visual C++ 6.0/Global Shortcut Keys/Edit.GotoPreviousLocation -->
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ALT F12" /><!-- Visual C++ 6.0/Object Browser Shortcut Keys/Edit.FindSymbol -->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT Y" /><!-- Visual C++ 6.0/Object Browser Shortcut Keys/Edit.FindSymbol -->
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="SHIFT ESCAPE" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.CloseToolWindow -->
+  </action>
+  <action id="MoveElementLeft">
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT LEFT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.WordPreviousExtendColumn -->
+  </action>
+  <action id="MoveElementRight">
+    <keyboard-shortcut first-keystroke="CONTROL ALT SHIFT RIGHT" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.WordNextExtendColumn -->
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ALT SHIFT DOWN" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineDownExtendColumn -->
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ALT SHIFT UP" /><!-- Visual C++ 6.0/Text Selection Shortcut Keys/Edit.LineUpExtendColumn -->
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="CONTROL N" /><!-- Visual C++ 6.0/Project Shortcut Keys/File.NewFile -->
+  </action>
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="CONTROL F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.NextDocumentWindow -->
+    <keyboard-shortcut first-keystroke="CONTROL TAB" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.NextDocumentWindow -->
+    <keyboard-shortcut first-keystroke="CONTROL PAGE_DOWN" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.NextTab -->
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+    <keyboard-shortcut first-keystroke="ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="CONTROL ALT INSERT" /><!-- Visual C++ 6.0/Project Shortcut Keys/Project.Override -->
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.PreviousDocumentWindow -->
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT TAB" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.PreviousDocumentWindow -->
+    <keyboard-shortcut first-keystroke="CONTROL PAGE_UP" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.PreviousTab -->
+  </action>
+  <action id="PreviousTemplateVariable">
+    <keyboard-shortcut first-keystroke="SHIFT TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="PrevParameter">
+    <keyboard-shortcut first-keystroke="SHIFT TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ALT F8" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.FormatSelection -->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL F" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.FormatSelection -->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL D" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.FormatDocument -->
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="CONTROL H" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.Replace -->
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT H" /><!-- Visual C++ 6.0/Search and Replace Shortcut Keys/Edit.ReplaceinFiles -->
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F5" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Continue *** -->
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="CONTROL F5" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.StartWithoutDebugging -->
+  </action>
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="CONTROL F10" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.RunToCursor -->
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT S" /><!-- Visual C++ 6.0/Global Shortcut Keys/File.SaveAll -->
+  </action>
+  <action id="SearchEverywhere.CompleteCommand">
+    <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="SearchEverywhere.SelectItem">
+    <keyboard-shortcut first-keystroke="ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="ALT MULTIPLY" /><!-- Visual C++ 6.0/Debug Shortcut Keys	Debug.ShowNextStatement -->
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ALT ENTER" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="ALT HOME" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="CONTEXT_MENU" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="CONTROL COMMA" /><!-- WellEngineered:OK -->
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F11" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.StepInto -->
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="SHIFT F11" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.StepOut -->
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F10" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.StepOver -->
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="SHIFT F5" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.StopDebugging -->
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL K" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleBookmark -->
+    <keyboard-shortcut first-keystroke="CONTROL F2" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleBookmark -->
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="F9" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.ToggleBreakpoint -->
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="CONTROL B" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.NewBreakpoint -->
+  </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F8" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Breakpoints -->
+    <keyboard-shortcut first-keystroke="ALT F9" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Breakpoints -->
+  </action>
+  <action id="XDebugger.AttachToProcess">
+    <keyboard-shortcut first-keystroke="CONTROL ALT P" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Tools.DebugProcesses -->
+  </action>
+
+  <action id="Print">
+    <keyboard-shortcut first-keystroke="CONTROL P" /><!-- Visual C++ 6.0/Global Shortcut Keys/File.Print -->
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="CONTROL S" /><!-- Visual C++ 6.0/Global Shortcut Keys/File.SaveSelectedItems -->
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT S" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.ServerExplorer -->
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ALT SHIFT ENTER" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/View.FullScreen -->
+  </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="CONTROL F9" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.EnableBreakpoint -->
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL N" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.NextBookmark -->
+    <keyboard-shortcut first-keystroke="F2" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.NextBookmark -->
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL P" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.PreviousBookmark -->
+    <keyboard-shortcut first-keystroke="SHIFT F2" /><!-- Visual C++ 6.0/Text Navigation Shortcut Keys/Edit.PreviousBookmark -->
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="CONTROL O" /><!-- Visual C++ 6.0/Project Shortcut Keys/File.OpenFile -->
+  </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="CONTROL ALT CANCEL" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.BreakAll -->
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT K" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.TaskList -->
+  </action>
+
+  <action id="CancelBuildAction">
+    <keyboard-shortcut first-keystroke="CONTROL CANCEL" /><!-- Visual C++ 6.0/Project Shortcut Keys/Build.Cancel -->
+  </action>
+  <action id="IdeScriptingConsole">
+    <keyboard-shortcut first-keystroke="CONTROL ALT A" /><!-- Visual C++ 6.0/Tool Window Shortcut Keys/View.CommandWindow -->
+  </action>
+  <action id="ActivateILViewerToolWindow">
+    <keyboard-shortcut first-keystroke="ALT F8" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Disassembly -->
+  </action>
+  <action id="RebuildSolutionAction">
+    <keyboard-shortcut first-keystroke="CONTROL F7" /><!-- Visual C++ 6.0/Project Shortcut Keys/Build.Compile -->
+  </action>
+
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="F7" /><!-- Visual C++ 6.0/Project Shortcut Keys/Build.BuildSolution -->
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.NextSplitPane -->
+    <keyboard-shortcut first-keystroke="ALT F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.NextPane -->
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="SHIFT F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.PreviousSplitPane -->
+    <keyboard-shortcut first-keystroke="SHIFT ALT F6" /><!-- Visual C++ 6.0/Window Management Shortcut Keys/Window.PreviousPane -->
+  </action>
+
+  <action id="RiderRemoveAllLineBreakpoints">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT F9" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.ClearAllBreakpoints -->
+  </action>
+  <action id="EditorTranspose">
+    <keyboard-shortcut first-keystroke="CONTROL T" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.CharTranspose -->
+  </action>
+  <action id="NewProject">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT N" /><!-- Visual C++ 6.0/Project Shortcut Keys/File.NewProject -->
+  </action>
+  <action id="OpenExceptionSettings">
+    <keyboard-shortcut first-keystroke="CONTROL ALT E" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Exceptions -->
+  </action>
+  <action id="NavigateToImmediateWindow">
+    <keyboard-shortcut first-keystroke="CONTROL ALT I" /><!-- Visual C++ 6.0/Debug Shortcut Keys/Debug.Immediate -->
+  </action>
+  <action id="RiderOpenSolution">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT O" /><!-- Visual C++ 6.0/Project Shortcut Keys/File.OpenProject -->
+  </action>
+  <action id="EditorToggleShowWhitespaces">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT 8" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ViewWhiteSpace -->
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL W" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ViewWhiteSpace -->
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL R" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleWordWrap -->
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="CONTROL R" second-keystroke="CONTROL R" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.ToggleWordWrap -->
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL C" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.CommentSelection -->
+    <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL U" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.UnCommentSelection -->
+  </action>
+</keymap>

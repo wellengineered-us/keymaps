@@ -21,7 +21,6 @@ $default.xml	ActivateStructureToolWindow
 $default.xml	ActivateTerminalToolWindow
 $default.xml	ActivateUnitTestsToolWindow
 $default.xml	ActivateVersionControlToolWindow
-$default.xml	AddToFavoritesPopup
 $default.xml	AutoIndentLines
 $default.xml	Back
 $default.xml	BraceOrQuoteOut
@@ -96,6 +95,7 @@ $default.xml	EditorCompleteStatement
 $default.xml	EditorContextInfo
 $default.xml	EditorCreateRectangularSelection
 $default.xml	EditorCreateRectangularSelectionOnMouseDrag
+$default.xml	EditorDecreaseFontSizeGlobal
 $default.xml	EditorDeleteLine
 $default.xml	EditorDeleteToWordEnd
 $default.xml	EditorDeleteToWordStart
@@ -105,6 +105,7 @@ $default.xml	EditorDuplicate
 $default.xml	EditorEnter
 $default.xml	EditorEscape
 $default.xml	EditorFocusGutter
+$default.xml	EditorIncreaseFontSizeGlobal
 $default.xml	EditorIndentSelection
 $default.xml	EditorJoinLines
 $default.xml	EditorLeft
@@ -201,8 +202,10 @@ $default.xml	ForceStepOver
 $default.xml	Forward
 $default.xml	FullyExpandTreeNode
 $default.xml	Generate
+$default.xml	Git.New.Branch.In.Log
 $default.xml	Git.Rename.Local.Branch
 $default.xml	Git.Reword.Commit
+$default.xml	GitNewBranchAction
 $default.xml	GotoAction
 $default.xml	GotoBookmark0
 $default.xml	GotoBookmark1
@@ -305,6 +308,7 @@ $default.xml	RestoreDefaultLayout
 $default.xml	Resume
 $default.xml	Run
 $default.xml	RunClass
+$default.xml	RunCoverage
 $default.xml	RunInspection
 $default.xml	RunToCursor
 $default.xml	SafeDelete
@@ -500,8 +504,11 @@ Eclipse (Mac OS X).xml	CloseActiveTab
 Eclipse (Mac OS X).xml	CloseAllEditors
 Eclipse (Mac OS X).xml	CloseEditor
 Eclipse (Mac OS X).xml	CodeInspection.OnEditor
+Eclipse (Mac OS X).xml	CollapseAll
 Eclipse (Mac OS X).xml	CollapseAllRegions
 Eclipse (Mac OS X).xml	CollapseBlock
+Eclipse (Mac OS X).xml	CollapseExpandableComponent
+Eclipse (Mac OS X).xml	CollapseRegion
 Eclipse (Mac OS X).xml	CollapseSelection
 Eclipse (Mac OS X).xml	CommentByBlockComment
 Eclipse (Mac OS X).xml	CompileDirty
@@ -511,6 +518,7 @@ Eclipse (Mac OS X).xml	DelegateMethods
 Eclipse (Mac OS X).xml	Diff.NextChange
 Eclipse (Mac OS X).xml	Diff.PrevChange
 Eclipse (Mac OS X).xml	EditorCodeBlockEnd
+Eclipse (Mac OS X).xml	EditorDecreaseFontSizeGlobal
 Eclipse (Mac OS X).xml	EditorDeleteLine
 Eclipse (Mac OS X).xml	EditorDeleteToLineEnd
 Eclipse (Mac OS X).xml	EditorDeleteToWordEnd
@@ -519,6 +527,7 @@ Eclipse (Mac OS X).xml	EditorDeleteToWordStart
 Eclipse (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode
 Eclipse (Mac OS X).xml	EditorDuplicate
 Eclipse (Mac OS X).xml	EditorDuplicateLines
+Eclipse (Mac OS X).xml	EditorIncreaseFontSizeGlobal
 Eclipse (Mac OS X).xml	EditorIndentSelection
 Eclipse (Mac OS X).xml	EditorMoveToPageBottom
 Eclipse (Mac OS X).xml	EditorMoveToPageTop
@@ -529,12 +538,15 @@ Eclipse (Mac OS X).xml	EditorToggleCase
 Eclipse (Mac OS X).xml	EditorUnSelectWord
 Eclipse (Mac OS X).xml	EditSource
 Eclipse (Mac OS X).xml	EvaluateExpression
+Eclipse (Mac OS X).xml	ExpandAll
 Eclipse (Mac OS X).xml	ExpandAllRegions
 Eclipse (Mac OS X).xml	ExpandAllToLevel1
 Eclipse (Mac OS X).xml	ExpandAllToLevel2
 Eclipse (Mac OS X).xml	ExpandAllToLevel3
 Eclipse (Mac OS X).xml	ExpandAllToLevel4
 Eclipse (Mac OS X).xml	ExpandAllToLevel5
+Eclipse (Mac OS X).xml	ExpandExpandableComponent
+Eclipse (Mac OS X).xml	ExpandRegion
 Eclipse (Mac OS X).xml	ExpandToLevel1
 Eclipse (Mac OS X).xml	ExpandToLevel2
 Eclipse (Mac OS X).xml	ExpandToLevel3
@@ -658,7 +670,10 @@ Eclipse.xml	CloseActiveTab
 Eclipse.xml	CloseAllEditors
 Eclipse.xml	CloseEditor
 Eclipse.xml	CodeInspection.OnEditor
+Eclipse.xml	CollapseAll
 Eclipse.xml	CollapseAllRegions
+Eclipse.xml	CollapseExpandableComponent
+Eclipse.xml	CollapseRegion
 Eclipse.xml	CommentByBlockComment
 Eclipse.xml	CompileDirty
 Eclipse.xml	context.clear
@@ -671,10 +686,12 @@ Eclipse.xml	Diff.NextChange
 Eclipse.xml	Diff.PrevChange
 Eclipse.xml	EditorAddCaretPerSelectedLine
 Eclipse.xml	EditorCodeBlockEnd
+Eclipse.xml	EditorDecreaseFontSizeGlobal
 Eclipse.xml	EditorDeleteLine
 Eclipse.xml	EditorDeleteToLineEnd
 Eclipse.xml	EditorDuplicate
 Eclipse.xml	EditorDuplicateLines
+Eclipse.xml	EditorIncreaseFontSizeGlobal
 Eclipse.xml	EditorIndentSelection
 Eclipse.xml	EditorMatchBrace
 Eclipse.xml	EditorMoveToPageBottom
@@ -686,12 +703,15 @@ Eclipse.xml	EditorToggleCase
 Eclipse.xml	EditorUnSelectWord
 Eclipse.xml	EditSource
 Eclipse.xml	EvaluateExpression
+Eclipse.xml	ExpandAll
 Eclipse.xml	ExpandAllRegions
 Eclipse.xml	ExpandAllToLevel1
 Eclipse.xml	ExpandAllToLevel2
 Eclipse.xml	ExpandAllToLevel3
 Eclipse.xml	ExpandAllToLevel4
 Eclipse.xml	ExpandAllToLevel5
+Eclipse.xml	ExpandExpandableComponent
+Eclipse.xml	ExpandRegion
 Eclipse.xml	ExpandToLevel1
 Eclipse.xml	ExpandToLevel2
 Eclipse.xml	ExpandToLevel3
@@ -829,6 +849,7 @@ Emacs.xml	EditorCodeBlockEnd
 Emacs.xml	EditorCodeBlockStart
 Emacs.xml	EditorCutLineBackward
 Emacs.xml	EditorCutLineEnd
+Emacs.xml	EditorDecreaseFontSizeGlobal
 Emacs.xml	EditorDeleteLine
 Emacs.xml	EditorDeleteToWordStart
 Emacs.xml	EditorDown
@@ -837,6 +858,7 @@ Emacs.xml	EditorEnter
 Emacs.xml	EditorEscape
 Emacs.xml	EditorForwardParagraph
 Emacs.xml	EditorForwardParagraphWithSelection
+Emacs.xml	EditorIncreaseFontSizeGlobal
 Emacs.xml	EditorKillRegion
 Emacs.xml	EditorKillRingSave
 Emacs.xml	EditorKillToWordEnd
@@ -962,6 +984,7 @@ Mac OS X 10.5+.xml	EditorCodeBlockStart
 Mac OS X 10.5+.xml	EditorCodeBlockStartWithSelection
 Mac OS X 10.5+.xml	EditorContextInfo
 Mac OS X 10.5+.xml	EditorCutLineEnd
+Mac OS X 10.5+.xml	EditorDecreaseFontSizeGlobal
 Mac OS X 10.5+.xml	EditorDelete
 Mac OS X 10.5+.xml	EditorDeleteLine
 Mac OS X 10.5+.xml	EditorDeleteToWordEnd
@@ -969,6 +992,7 @@ Mac OS X 10.5+.xml	EditorDeleteToWordEnd
 Mac OS X 10.5+.xml	EditorDeleteToWordStart
 Mac OS X 10.5+.xml	EditorDeleteToWordStart
 Mac OS X 10.5+.xml	EditorDown
+Mac OS X 10.5+.xml	EditorIncreaseFontSizeGlobal
 Mac OS X 10.5+.xml	EditorJoinLines
 Mac OS X 10.5+.xml	EditorLeft
 Mac OS X 10.5+.xml	EditorLineEnd
@@ -1323,9 +1347,9 @@ macOS System Shortcuts.xml	CompileDirty
 macOS System Shortcuts.xml	CopyElement
 macOS System Shortcuts.xml	Debug
 macOS System Shortcuts.xml	EditorBackSpace
-macOS System Shortcuts.xml	EditorDecreaseFontSize
+macOS System Shortcuts.xml	EditorDecreaseFontSizeGlobal
 macOS System Shortcuts.xml	EditorDelete
-macOS System Shortcuts.xml	EditorIncreaseFontSize
+macOS System Shortcuts.xml	EditorIncreaseFontSizeGlobal
 macOS System Shortcuts.xml	EditorLookupDown
 macOS System Shortcuts.xml	EditorLookupUp
 macOS System Shortcuts.xml	EditorPageDown
@@ -1420,7 +1444,6 @@ NetBeans 6.5.xml	ActivatePaletteToolWindow
 NetBeans 6.5.xml	ActivateProblemsViewToolWindow
 NetBeans 6.5.xml	ActivateProjectToolWindow
 NetBeans 6.5.xml	ActivateStructureToolWindow
-NetBeans 6.5.xml	AddToFavoritesPopup
 NetBeans 6.5.xml	Back
 NetBeans 6.5.xml	ChangesView.Move
 NetBeans 6.5.xml	ChangesView.Rename
@@ -1448,8 +1471,10 @@ NetBeans 6.5.xml	Diff.NextChange
 NetBeans 6.5.xml	Diff.PrevChange
 NetBeans 6.5.xml	EditorChooseLookupItemDot
 NetBeans 6.5.xml	EditorCompleteStatement
+NetBeans 6.5.xml	EditorDecreaseFontSizeGlobal
 NetBeans 6.5.xml	EditorDeleteLine
 NetBeans 6.5.xml	EditorDuplicate
+NetBeans 6.5.xml	EditorIncreaseFontSizeGlobal
 NetBeans 6.5.xml	EditorIndentLineOrSelection
 NetBeans 6.5.xml	EditorIndentSelection
 NetBeans 6.5.xml	EditorMatchBrace
@@ -2201,7 +2226,6 @@ Sublime Text (Mac OS X).xml	SmartTypeCompletion
 Sublime Text (Mac OS X).xml	StartStopMacroRecording
 Sublime Text (Mac OS X).xml	Stop
 Sublime Text (Mac OS X).xml	StopBackgroundProcesses
-Sublime Text (Mac OS X).xml	TagDocumentationNavigation
 Sublime Text (Mac OS X).xml	TodoViewGroupByShowPackages
 Sublime Text (Mac OS X).xml	ToggleBookmark
 Sublime Text (Mac OS X).xml	ToggleDistractionFreeMode
@@ -2324,7 +2348,6 @@ Sublime Text.xml	SmartTypeCompletion
 Sublime Text.xml	StartStopMacroRecording
 Sublime Text.xml	Stop
 Sublime Text.xml	StopBackgroundProcesses
-Sublime Text.xml	TagDocumentationNavigation
 Sublime Text.xml	TodoViewGroupByShowPackages
 Sublime Text.xml	ToggleBookmark
 Sublime Text.xml	ToggleDistractionFreeMode
@@ -2341,7 +2364,6 @@ Visual Assist OSX.xml	GotoImplementation
 Visual Assist OSX.xml	GotoRelated
 Visual Assist OSX.xml	GotoSymbol
 Visual Assist OSX.xml	Replace
-Visual Assist.xml	AddToFavoritesPopup
 Visual Assist.xml	Back
 Visual Assist.xml	EditorAddCaretPerSelectedLine
 Visual Assist.xml	EditorSelectWord
@@ -2384,8 +2406,8 @@ Visual Studio 2022.xml	com.jetbrains.rider.interactive.csi.SendToCSharpInteracti
 Visual Studio 2022.xml	ContextHelp
 Visual Studio 2022.xml	Diff.FocusOppositePane
 Visual Studio 2022.xml	EditorCompleteStatement
-Visual Studio 2022.xml	EditorDecreaseFontSize
-Visual Studio 2022.xml	EditorIncreaseFontSize
+Visual Studio 2022.xml	EditorDecreaseFontSizeGlobal
+Visual Studio 2022.xml	EditorIncreaseFontSizeGlobal
 Visual Studio 2022.xml	EditorStartNewLine
 Visual Studio 2022.xml	EvaluateExpression
 Visual Studio 2022.xml	ExtractInterface
@@ -2561,6 +2583,7 @@ Visual Studio OSX.xml	EditorUnSelectWord
 Visual Studio OSX.xml	EmmetPreviousEditPoint
 Visual Studio OSX.xml	EvaluateExpression
 Visual Studio OSX.xml	ExpandAllRegions
+Visual Studio OSX.xml	ExpandCollapseToggleAction
 Visual Studio OSX.xml	ExpandRegion
 Visual Studio OSX.xml	ExpressionTypeInfo
 Visual Studio OSX.xml	ExternalJavaDoc
@@ -2719,7 +2742,9 @@ Visual Studio.xml	EditorCodeBlockStart
 Visual Studio.xml	EditorCodeBlockStartWithSelection
 Visual Studio.xml	EditorCreateRectangularSelection
 Visual Studio.xml	EditorCreateRectangularSelectionOnMouseDrag
+Visual Studio.xml	EditorDecreaseFontSizeGlobal
 Visual Studio.xml	EditorDeleteLine
+Visual Studio.xml	EditorIncreaseFontSizeGlobal
 Visual Studio.xml	EditorLeftWithSelection
 Visual Studio.xml	EditorMatchBrace
 Visual Studio.xml	EditorRightWithSelection
@@ -2732,6 +2757,7 @@ Visual Studio.xml	EditorToggleUseSoftWraps
 Visual Studio.xml	EditorUnSelectWord
 Visual Studio.xml	EvaluateExpression
 Visual Studio.xml	ExpandAllRegions
+Visual Studio.xml	ExpandCollapseToggleAction
 Visual Studio.xml	ExpandRegion
 Visual Studio.xml	ExpressionTypeInfo
 Visual Studio.xml	ExternalJavaDoc
@@ -2863,11 +2889,11 @@ Visual Studio.xml	XDebugger.MuteBreakpoints
 VSCode OSX.xml	$Delete
 VSCode OSX.xml	ActivateDebugToolWindow
 VSCode OSX.xml	ActivateMessagesToolWindow
+VSCode OSX.xml	ActivateProblemsViewToolWindow
 VSCode OSX.xml	ActivateProjectToolWindow
 VSCode OSX.xml	ActivateRunToolWindow
 VSCode OSX.xml	ActivateTerminalToolWindow
 VSCode OSX.xml	ActivateVersionControlToolWindow
-VSCode OSX.xml	AddToFavoritesPopup
 VSCode OSX.xml	Arrangement.Alias.Rule.Edit
 VSCode OSX.xml	Arrangement.Alias.Rule.Match.Condition.Move.Up
 VSCode OSX.xml	Arrangement.Alias.Rule.Remove
@@ -2878,19 +2904,25 @@ VSCode OSX.xml	Arrangement.Rule.Remove
 VSCode OSX.xml	Back
 VSCode OSX.xml	BraceOrQuoteOut
 VSCode OSX.xml	BuildSolutionAction
+VSCode OSX.xml	BuildSolutionAction
+VSCode OSX.xml	CallHierarchy
 VSCode OSX.xml	ChangeSplitOrientation
-VSCode OSX.xml	ChangesView.Diff
 VSCode OSX.xml	ChangesView.GroupBy.Directory
 VSCode OSX.xml	ChangesView.Move
 VSCode OSX.xml	ChangesView.Rename
 VSCode OSX.xml	ChangesView.SetDefault
 VSCode OSX.xml	CheckinProject
+VSCode OSX.xml	ChooseRunConfiguration
 VSCode OSX.xml	CloseActiveTab
 VSCode OSX.xml	CloseAllEditors
+VSCode OSX.xml	CloseAllEditorsButActive
 VSCode OSX.xml	CloseProject
+VSCode OSX.xml	CodeCompletion
 VSCode OSX.xml	CodeInspection.OnEditor
 VSCode OSX.xml	CollapseAll
 VSCode OSX.xml	CollapseAllRegions
+VSCode OSX.xml	CollapseBlock
+VSCode OSX.xml	CollapseDocComments
 VSCode OSX.xml	CollapseExpandableComponent
 VSCode OSX.xml	CollapseRegion
 VSCode OSX.xml	CollapseRegionRecursively
@@ -2898,6 +2930,7 @@ VSCode OSX.xml	CommentByBlockComment
 VSCode OSX.xml	CommentByLineComment
 VSCode OSX.xml	CompareClipboardWithSelection
 VSCode OSX.xml	CompareTwoFiles
+VSCode OSX.xml	CompileDirty
 VSCode OSX.xml	CompileDirty
 VSCode OSX.xml	Console.Execute.Multiline
 VSCode OSX.xml	Console.Jdbc.Execute
@@ -2925,10 +2958,9 @@ VSCode OSX.xml	Diff.ShowDiff
 VSCode OSX.xml	Diff.ShowSettingsPopup
 VSCode OSX.xml	DirDiffMenu.SynchronizeDiff.All
 VSCode OSX.xml	DomCollectionControl.Edit
-VSCode OSX.xml	DomElementsTreeView.DeleteElement
-VSCode OSX.xml	DomElementsTreeView.GotoDomElementDeclarationAction
 VSCode OSX.xml	DSM.OpenInEditor
 VSCode OSX.xml	DSM.ZoomIn
+VSCode OSX.xml	EditorAddCaretPerSelectedLine
 VSCode OSX.xml	EditorAddOrRemoveCaret
 VSCode OSX.xml	EditorChooseLookupItemCompleteStatement
 VSCode OSX.xml	EditorChooseLookupItemDot
@@ -2973,8 +3005,10 @@ VSCode OSX.xml	EditorToggleUseSoftWraps
 VSCode OSX.xml	EditorTranspose
 VSCode OSX.xml	EditorUnindentSelection
 VSCode OSX.xml	EditorUnSelectWord
+VSCode OSX.xml	EditorUnSelectWord
 VSCode OSX.xml	EditSource
 VSCode OSX.xml	EditSourceInNewWindow
+VSCode OSX.xml	EvaluateExpression
 VSCode OSX.xml	ExpandAll
 VSCode OSX.xml	ExpandAllRegions
 VSCode OSX.xml	ExpandExpandableComponent
@@ -2990,6 +3024,8 @@ VSCode OSX.xml	FileChooser.TogglePathBar
 VSCode OSX.xml	FileStructurePopup
 VSCode OSX.xml	FindNext
 VSCode OSX.xml	FindPrevious
+VSCode OSX.xml	FindUsages
+VSCode OSX.xml	ForceStepOver
 VSCode OSX.xml	Forward
 VSCode OSX.xml	Generate
 VSCode OSX.xml	Git.Reword.Commit
@@ -3019,6 +3055,7 @@ VSCode OSX.xml	GuiDesigner.EditGroup
 VSCode OSX.xml	GuiDesigner.ExpandSelection
 VSCode OSX.xml	GuiDesigner.QuickJavadoc
 VSCode OSX.xml	Help.KeymapReference
+VSCode OSX.xml	HideActiveWindow
 VSCode OSX.xml	HideAllWindows
 VSCode OSX.xml	HideSideWindows
 VSCode OSX.xml	Images.Editor.ActualSize
@@ -3033,11 +3070,15 @@ VSCode OSX.xml	Jdbc.RunSqlScript
 VSCode OSX.xml	JumpToLastChange
 VSCode OSX.xml	JumpToLastWindow
 VSCode OSX.xml	KotlinShellExecute
+VSCode OSX.xml	Markdown.Layout.EditorAndPreview
+VSCode OSX.xml	Markdown.Layout.PreviewOnly
 VSCode OSX.xml	Maven.ExpandAll
 VSCode OSX.xml	MethodHierarchy
 VSCode OSX.xml	MethodHierarchy.OverrideMethodAction
 VSCode OSX.xml	MethodOverloadSwitchDown
 VSCode OSX.xml	MethodOverloadSwitchUp
+VSCode OSX.xml	Move
+VSCode OSX.xml	MoveEditorToOppositeTabGroup
 VSCode OSX.xml	MoveLineDown
 VSCode OSX.xml	MoveLineUp
 VSCode OSX.xml	MoveStatementDown
@@ -3048,6 +3089,7 @@ VSCode OSX.xml	NewFile
 VSCode OSX.xml	NextDiff
 VSCode OSX.xml	NextOccurence
 VSCode OSX.xml	NextParameter
+VSCode OSX.xml	NextProjectWindow
 VSCode OSX.xml	NextTab
 VSCode OSX.xml	NextTemplateParameter
 VSCode OSX.xml	NextTemplateVariable
@@ -3055,9 +3097,12 @@ VSCode OSX.xml	openAssertEqualsDiff
 VSCode OSX.xml	OpenFile
 VSCode OSX.xml	OpenModuleSettings
 VSCode OSX.xml	OptimizeImports
+VSCode OSX.xml	OverrideFileTypeAction
 VSCode OSX.xml	OverrideMethods
 VSCode OSX.xml	ParameterInfo
 VSCode OSX.xml	PasteMultiple
+VSCode OSX.xml	Pause
+VSCode OSX.xml	PinActiveTabAction
 VSCode OSX.xml	PreviousOccurence
 VSCode OSX.xml	PreviousTab
 VSCode OSX.xml	PropertyInspectorActions.RemoveProperty
@@ -3066,8 +3111,8 @@ VSCode OSX.xml	QuickEvaluateExpression
 VSCode OSX.xml	QuickImplementations
 VSCode OSX.xml	QuickJavaDoc
 VSCode OSX.xml	RecentChangedFiles
-VSCode OSX.xml	RecentFiles
 VSCode OSX.xml	RecentLocations
+VSCode OSX.xml	RecentProjectListGroup
 VSCode OSX.xml	Refactorings.QuickListPopupAction
 VSCode OSX.xml	ReformatCode
 VSCode OSX.xml	RemoteHost.NewRemoteItem
@@ -3077,6 +3122,9 @@ VSCode OSX.xml	RenameElement
 VSCode OSX.xml	ReopenClosedTab
 VSCode OSX.xml	Replace
 VSCode OSX.xml	ReplaceInPath
+VSCode OSX.xml	Rerun
+VSCode OSX.xml	RerunFailedTests
+VSCode OSX.xml	RerunTests
 VSCode OSX.xml	RestoreDefaultLayout
 VSCode OSX.xml	Resume
 VSCode OSX.xml	RevealIn
@@ -3098,17 +3146,20 @@ VSCode OSX.xml	SearchEverywhere.NavigateToNextGroup
 VSCode OSX.xml	SearchEverywhere.NavigateToPrevGroup
 VSCode OSX.xml	SearchEverywhere.NextTab
 VSCode OSX.xml	SelectAllOccurrences
+VSCode OSX.xml	SelectInProjectView
 VSCode OSX.xml	SelectNextOccurrence
 VSCode OSX.xml	SendEOF
 VSCode OSX.xml	SetShortcutAction
 VSCode OSX.xml	ShelveChanges.UnshelveWithDialog
 VSCode OSX.xml	ShelvedChanges.Rename
+VSCode OSX.xml	ShowBookmarks
 VSCode OSX.xml	ShowIntentionActions
 VSCode OSX.xml	ShowNavBar
+VSCode OSX.xml	ShowPopupMenu
 VSCode OSX.xml	ShowRecentTests
 VSCode OSX.xml	ShowSearchHistory
 VSCode OSX.xml	ShowUsages
-VSCode OSX.xml	SmartSelect
+VSCode OSX.xml	SmartUnSelect
 VSCode OSX.xml	SplitVertically
 VSCode OSX.xml	Sql.EditParameter
 VSCode OSX.xml	StepInto
@@ -3120,9 +3171,12 @@ VSCode OSX.xml	Tab
 VSCode OSX.xml	TableResult.GrowSelection
 VSCode OSX.xml	TableResult.ShrinkSelection
 VSCode OSX.xml	TableResult.UnselectPreviousOccurrence
-VSCode OSX.xml	TagDocumentationNavigation
+VSCode OSX.xml	Terminal.SelectAll
+VSCode OSX.xml	Terminal.SplitVertically
+VSCode OSX.xml	TerminalNewSession
 VSCode OSX.xml	TodoViewGroupByShowPackages
 VSCode OSX.xml	ToggleBookmark
+VSCode OSX.xml	ToggleBookmark5
 VSCode OSX.xml	ToggleBookmarkWithMnemonic
 VSCode OSX.xml	ToggleLineBreakpoint
 VSCode OSX.xml	ToggleZenMode
@@ -3145,13 +3199,14 @@ VSCode OSX.xml	XDebugger.EditWatch
 VSCode OSX.xml	XDebugger.JumpToSource
 VSCode OSX.xml	XDebugger.RemoveWatch
 VSCode OSX.xml	XDebugger.SetValue
+VSCode.xml	$Redo
 VSCode.xml	ActivateDebugToolWindow
 VSCode.xml	ActivateMessagesToolWindow
+VSCode.xml	ActivateProblemsViewToolWindow
 VSCode.xml	ActivateProjectToolWindow
 VSCode.xml	ActivateRunToolWindow
 VSCode.xml	ActivateTerminalToolWindow
 VSCode.xml	ActivateVersionControlToolWindow
-VSCode.xml	AddToFavoritesPopup
 VSCode.xml	Arrangement.Alias.Rule.Edit
 VSCode.xml	Arrangement.Alias.Rule.Match.Condition.Move.Up
 VSCode.xml	Arrangement.Rule.Edit
@@ -3161,19 +3216,25 @@ VSCode.xml	Back
 VSCode.xml	BaseOnThisFunction
 VSCode.xml	BraceOrQuoteOut
 VSCode.xml	BuildSolutionAction
+VSCode.xml	BuildSolutionAction
+VSCode.xml	CallHierarchy
 VSCode.xml	ChangeSplitOrientation
 VSCode.xml	ChangesView.GroupBy.Directory
 VSCode.xml	ChangesView.Rename
 VSCode.xml	ChangesView.SetDefault
 VSCode.xml	CheckinProject
 VSCode.xml	ChoosePrevSubsequentPropertyValueEditorAction
-VSCode.xml	ClassTemplateNavigation
+VSCode.xml	ChooseRunConfiguration
 VSCode.xml	CloseAllEditors
+VSCode.xml	CloseAllEditorsButActive
 VSCode.xml	CloseContent
 VSCode.xml	CloseProject
+VSCode.xml	CodeCompletion
 VSCode.xml	CodeInspection.OnEditor
 VSCode.xml	CollapseAll
 VSCode.xml	CollapseAllRegions
+VSCode.xml	CollapseBlock
+VSCode.xml	CollapseDocComments
 VSCode.xml	CollapseExpandableComponent
 VSCode.xml	CollapseRegion
 VSCode.xml	CollapseRegionRecursively
@@ -3182,6 +3243,7 @@ VSCode.xml	CommentByBlockComment
 VSCode.xml	CommentByLineComment
 VSCode.xml	CompareClipboardWithSelection
 VSCode.xml	CompareTwoFiles
+VSCode.xml	CompileDirty
 VSCode.xml	CompileDirty
 VSCode.xml	Console.Execute.Multiline
 VSCode.xml	Console.Jdbc.Execute
@@ -3206,6 +3268,7 @@ VSCode.xml	Diff.ShowDiff
 VSCode.xml	Diff.ShowSettingsPopup
 VSCode.xml	DirDiffMenu.SynchronizeDiff.All
 VSCode.xml	DSM.ZoomIn
+VSCode.xml	EditorAddCaretPerSelectedLine
 VSCode.xml	EditorAddOrRemoveCaret
 VSCode.xml	EditorChooseLookupItemCompleteStatement
 VSCode.xml	EditorChooseLookupItemDot
@@ -3225,7 +3288,6 @@ VSCode.xml	EditorDuplicate
 VSCode.xml	EditorIncreaseFontSize
 VSCode.xml	EditorIndentLineOrSelection
 VSCode.xml	EditorIndentSelection
-VSCode.xml	EditorJoinLines
 VSCode.xml	EditorLineEnd
 VSCode.xml	EditorLineStart
 VSCode.xml	EditorLookupDown
@@ -3246,11 +3308,10 @@ VSCode.xml	EditorStartNewLine
 VSCode.xml	EditorStartNewLineBefore
 VSCode.xml	EditorTab
 VSCode.xml	EditorToggleCase
-VSCode.xml	EditorToggleColumnMode
 VSCode.xml	EditorToggleUseSoftWraps
 VSCode.xml	EditorUnindentSelection
-VSCode.xml	EditorUnSelectWord
 VSCode.xml	EditSourceInNewWindow
+VSCode.xml	EvaluateExpression
 VSCode.xml	EvaluateExpression
 VSCode.xml	ExpandAll
 VSCode.xml	ExpandAllRegions
@@ -3267,6 +3328,10 @@ VSCode.xml	FileStructurePopup
 VSCode.xml	Find
 VSCode.xml	FindNext
 VSCode.xml	FindPrevious
+VSCode.xml	FindUsages
+VSCode.xml	FindWordAtCaret
+VSCode.xml	ForceRefresh
+VSCode.xml	ForceStepOver
 VSCode.xml	Forward
 VSCode.xml	Generate.Missing.Members.ES6
 VSCode.xml	Generate.Missing.Members.TypeScript
@@ -3295,6 +3360,7 @@ VSCode.xml	GuiDesigner.EditGroup
 VSCode.xml	GuiDesigner.QuickJavadoc
 VSCode.xml	Help.KeymapReference
 VSCode.xml	hg4idea.QRefresh
+VSCode.xml	HideActiveWindow
 VSCode.xml	HideAllWindows
 VSCode.xml	HideSideWindows
 VSCode.xml	Images.Editor.ActualSize
@@ -3305,6 +3371,8 @@ VSCode.xml	InsertLiveTemplate
 VSCode.xml	JumpToLastChange
 VSCode.xml	JumpToLastWindow
 VSCode.xml	KotlinShellExecute
+VSCode.xml	Markdown.Layout.EditorAndPreview
+VSCode.xml	Markdown.Layout.PreviewOnly
 VSCode.xml	Maven.ExpandAll
 VSCode.xml	MethodDown
 VSCode.xml	MethodHierarchy
@@ -3312,6 +3380,8 @@ VSCode.xml	MethodHierarchy.OverrideMethodAction
 VSCode.xml	MethodOverloadSwitchDown
 VSCode.xml	MethodOverloadSwitchUp
 VSCode.xml	MethodUp
+VSCode.xml	Move
+VSCode.xml	MoveEditorToOppositeTabGroup
 VSCode.xml	MoveLineDown
 VSCode.xml	MoveLineUp
 VSCode.xml	MoveStatementDown
@@ -3320,6 +3390,7 @@ VSCode.xml	MoveTabRight
 VSCode.xml	NextEditorTab
 VSCode.xml	NextOccurence
 VSCode.xml	NextParameter
+VSCode.xml	NextProjectWindow
 VSCode.xml	NextSplitter
 VSCode.xml	NextTab
 VSCode.xml	NextTemplateParameter
@@ -3327,11 +3398,15 @@ VSCode.xml	NextTemplateVariable
 VSCode.xml	openAssertEqualsDiff
 VSCode.xml	OpenFile
 VSCode.xml	OptimizeImports
+VSCode.xml	OverrideFileTypeAction
 VSCode.xml	OverrideMethods
 VSCode.xml	ParameterInfo
 VSCode.xml	PasteMultiple
+VSCode.xml	Pause
+VSCode.xml	PinActiveTabAction
 VSCode.xml	PreviousEditorTab
 VSCode.xml	PreviousOccurence
+VSCode.xml	PreviousProjectWindow
 VSCode.xml	PreviousTab
 VSCode.xml	PrevSplitter
 VSCode.xml	QuickChangeScheme
@@ -3340,8 +3415,8 @@ VSCode.xml	QuickImplementations
 VSCode.xml	QuickJavaDoc
 VSCode.xml	RecentChangedFiles
 VSCode.xml	RecentChanges
-VSCode.xml	RecentFiles
 VSCode.xml	RecentLocations
+VSCode.xml	RecentProjectListGroup
 VSCode.xml	Refactorings.QuickListPopupAction
 VSCode.xml	ReformatCode
 VSCode.xml	Refresh
@@ -3350,6 +3425,8 @@ VSCode.xml	ReopenClosedTab
 VSCode.xml	Replace
 VSCode.xml	ReplaceInPath
 VSCode.xml	Rerun
+VSCode.xml	RerunFailedTests
+VSCode.xml	RerunTests
 VSCode.xml	RestoreDefaultLayout
 VSCode.xml	Resume
 VSCode.xml	RevealIn
@@ -3368,6 +3445,7 @@ VSCode.xml	SearchEverywhere.NavigateToNextGroup
 VSCode.xml	SearchEverywhere.NavigateToPrevGroup
 VSCode.xml	SearchEverywhere.NextTab
 VSCode.xml	SelectAllOccurrences
+VSCode.xml	SelectInProjectView
 VSCode.xml	SelectNextOccurrence
 VSCode.xml	SendEOF
 VSCode.xml	ShelveChanges.UnshelveWithDialog
@@ -3376,12 +3454,14 @@ VSCode.xml	ShowBookmarks
 VSCode.xml	ShowContent
 VSCode.xml	ShowIntentionActions
 VSCode.xml	ShowNavBar
+VSCode.xml	ShowPopupMenu
 VSCode.xml	ShowRecentTests
 VSCode.xml	ShowSearchHistory
 VSCode.xml	ShowSettings
 VSCode.xml	ShowTypeBookmarks
 VSCode.xml	ShowUsages
 VSCode.xml	SmartTypeCompletion
+VSCode.xml	SmartUnSelect
 VSCode.xml	SplitVertically
 VSCode.xml	Sql.EditParameter
 VSCode.xml	StepInto
@@ -3391,9 +3471,12 @@ VSCode.xml	Stop
 VSCode.xml	SwitchHeaderSource
 VSCode.xml	Tab
 VSCode.xml	TableResult.UnselectPreviousOccurrence
-VSCode.xml	TagDocumentationNavigation
+VSCode.xml	Terminal.SelectAll
+VSCode.xml	Terminal.SplitVertically
+VSCode.xml	TerminalNewSession
 VSCode.xml	TodoViewGroupByShowPackages
 VSCode.xml	ToggleBookmark
+VSCode.xml	ToggleBookmark5
 VSCode.xml	ToggleLineBreakpoint
 VSCode.xml	ToggleZenMode
 VSCode.xml	TypeHierarchy

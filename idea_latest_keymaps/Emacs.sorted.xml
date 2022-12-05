@@ -86,6 +86,7 @@
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="CONTROL K" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
   <action id="EditorDeleteLine" />
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="CONTROL BACK_SPACE" />
@@ -113,6 +114,7 @@
   <action id="EditorForwardParagraphWithSelection">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT DOWN" />
   </action>
+  <action id="EditorIncreaseFontSizeGlobal" />
   <action id="EditorKillRegion">
     <keyboard-shortcut first-keystroke="CONTROL W" />
   </action>

@@ -24,7 +24,6 @@ $default.xml	ActivateStructureToolWindow	1	ALT 7
 $default.xml	ActivateTerminalToolWindow	1	ALT F12
 $default.xml	ActivateUnitTestsToolWindow	1	ALT SHIFT 8
 $default.xml	ActivateVersionControlToolWindow	1	ALT 9
-$default.xml	AddToFavoritesPopup	1	ALT SHIFT F
 $default.xml	AutoIndentLines	1	CONTROL ALT I
 $default.xml	Back	1	CONTROL ALT LEFT
 $default.xml	BraceOrQuoteOut	1	TAB
@@ -101,6 +100,7 @@ $default.xml	EditorCodeBlockStart	1	CONTROL OPEN_BRACKET
 $default.xml	EditorCodeBlockStartWithSelection	1	CONTROL SHIFT OPEN_BRACKET
 $default.xml	EditorCompleteStatement	1	CONTROL SHIFT ENTER
 $default.xml	EditorContextInfo	1	ALT Q
+$default.xml	EditorDecreaseFontSizeGlobal	1	ALT SHIFT COMMA
 $default.xml	EditorDeleteLine	1	CONTROL Y
 $default.xml	EditorDeleteToWordEnd	1	CONTROL DELETE
 $default.xml	EditorDeleteToWordStart	1	CONTROL BACK_SPACE
@@ -111,6 +111,7 @@ $default.xml	EditorEnter	1	ENTER
 $default.xml	EditorEscape	1	ESCAPE
 $default.xml	EditorFocusGutter	1	ALT SHIFT 6
 $default.xml	EditorFocusGutter	2	F
+$default.xml	EditorIncreaseFontSizeGlobal	1	ALT SHIFT PERIOD
 $default.xml	EditorIndentSelection	1	TAB
 $default.xml	EditorJoinLines	1	CONTROL SHIFT J
 $default.xml	EditorLeft	1	LEFT
@@ -247,10 +248,12 @@ $default.xml	ForceStepOver	1	ALT SHIFT F8
 $default.xml	Forward	1	CONTROL ALT RIGHT
 $default.xml	FullyExpandTreeNode	1	MULTIPLY
 $default.xml	Generate	1	ALT INSERT
+$default.xml	Git.New.Branch.In.Log	1	CONTROL ALT N
 $default.xml	Git.Rename.Local.Branch	1	F2
 $default.xml	Git.Rename.Local.Branch	1	SHIFT F6
 $default.xml	Git.Reword.Commit	1	F2
 $default.xml	Git.Reword.Commit	1	SHIFT F6
+$default.xml	GitNewBranchAction	1	CONTROL ALT N
 $default.xml	GotoAction	1	CONTROL SHIFT A
 $default.xml	GotoBookmark0	1	CONTROL 0
 $default.xml	GotoBookmark1	1	CONTROL 1
@@ -518,12 +521,16 @@ Eclipse (Mac OS X).xml	ChangeSignature	1	ALT META C
 Eclipse (Mac OS X).xml	ChangesView.Revert	1	CONTROL SHIFT ALT Z
 Eclipse (Mac OS X).xml	CloseActiveTab	1	META W
 Eclipse (Mac OS X).xml	CloseAllEditors	1	META SHIFT W
+Eclipse (Mac OS X).xml	CollapseAll	1	SHIFT META DIVIDE
 Eclipse (Mac OS X).xml	CollapseAllRegions	1	SHIFT META DIVIDE
+Eclipse (Mac OS X).xml	CollapseExpandableComponent	1	META SUBTRACT
+Eclipse (Mac OS X).xml	CollapseRegion	1	META SUBTRACT
 Eclipse (Mac OS X).xml	CommentByBlockComment	1	SHIFT CONTROL SLASH
 Eclipse (Mac OS X).xml	CompileDirty	1	META B
 Eclipse (Mac OS X).xml	Debug	1	META F11
 Eclipse (Mac OS X).xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
 Eclipse (Mac OS X).xml	EditorCodeBlockEnd	1	SHIFT CONTROL P
+Eclipse (Mac OS X).xml	EditorDecreaseFontSizeGlobal	1	META MINUS
 Eclipse (Mac OS X).xml	EditorDeleteLine	1	META D
 Eclipse (Mac OS X).xml	EditorDeleteToLineEnd	1	SHIFT META DELETE
 Eclipse (Mac OS X).xml	EditorDeleteToWordEnd	1	META DELETE
@@ -531,6 +538,7 @@ Eclipse (Mac OS X).xml	EditorDeleteToWordEndInDifferentHumpsMode	1	ALT DELETE
 Eclipse (Mac OS X).xml	EditorDeleteToWordStart	1	META BACK_SPACE
 Eclipse (Mac OS X).xml	EditorDeleteToWordStartInDifferentHumpsMode	1	ALT BACK_SPACE
 Eclipse (Mac OS X).xml	EditorDuplicateLines	1	META ALT DOWN
+Eclipse (Mac OS X).xml	EditorIncreaseFontSizeGlobal	1	META EQUALS
 Eclipse (Mac OS X).xml	EditorIndentSelection	1	TAB
 Eclipse (Mac OS X).xml	EditorNextWordWithSelection	1	SHIFT ALT RIGHT
 Eclipse (Mac OS X).xml	EditorPreviousWordWithSelection	1	SHIFT ALT LEFT
@@ -540,7 +548,10 @@ Eclipse (Mac OS X).xml	EditorToggleCase	1	SHIFT META Y
 Eclipse (Mac OS X).xml	EditorUnSelectWord	1	SHIFT CONTROL DOWN
 Eclipse (Mac OS X).xml	EditSource	1	F3
 Eclipse (Mac OS X).xml	EvaluateExpression	1	META U
+Eclipse (Mac OS X).xml	ExpandAll	1	META SHIFT MULTIPLY
 Eclipse (Mac OS X).xml	ExpandAllRegions	1	META MULTIPLY
+Eclipse (Mac OS X).xml	ExpandExpandableComponent	1	META ADD
+Eclipse (Mac OS X).xml	ExpandRegion	1	META ADD
 Eclipse (Mac OS X).xml	ExternalJavaDoc	1	SHIFT F2
 Eclipse (Mac OS X).xml	ExtractMethod	1	META ALT M
 Eclipse (Mac OS X).xml	FileStructurePopup	1	META O
@@ -613,7 +624,10 @@ Eclipse.xml	ChangesView.Rename	1	SHIFT ALT R
 Eclipse.xml	CloseActiveTab	1	CONTROL W
 Eclipse.xml	CloseAllEditors	1	SHIFT CONTROL F4
 Eclipse.xml	CloseAllEditors	1	SHIFT CONTROL W
+Eclipse.xml	CollapseAll	1	SHIFT CONTROL DIVIDE
 Eclipse.xml	CollapseAllRegions	1	SHIFT CONTROL DIVIDE
+Eclipse.xml	CollapseExpandableComponent	1	CONTROL SUBTRACT
+Eclipse.xml	CollapseRegion	1	CONTROL SUBTRACT
 Eclipse.xml	CommentByBlockComment	1	SHIFT CONTROL SLASH
 Eclipse.xml	CompileDirty	1	CONTROL F9
 Eclipse.xml	CompileDirty	1	CONTROL B
@@ -623,9 +637,11 @@ Eclipse.xml	DelegateMethods	1	SHIFT ALT E
 Eclipse.xml	Diff.NextChange	1	CONTROL ALT SHIFT LEFT
 Eclipse.xml	Diff.PrevChange	1	CONTROL ALT SHIFT RIGHT
 Eclipse.xml	EditorCodeBlockEnd	1	CONTROL CLOSE_BRACKET
+Eclipse.xml	EditorDecreaseFontSizeGlobal	1	CONTROL MINUS
 Eclipse.xml	EditorDeleteLine	1	CONTROL D
 Eclipse.xml	EditorDeleteToLineEnd	1	SHIFT CONTROL DELETE
 Eclipse.xml	EditorDuplicateLines	1	CONTROL ALT DOWN
+Eclipse.xml	EditorIncreaseFontSizeGlobal	1	CONTROL EQUALS
 Eclipse.xml	EditorIndentSelection	1	TAB
 Eclipse.xml	EditorMatchBrace	1	SHIFT CONTROL P
 Eclipse.xml	EditorNextWordWithSelection	1	SHIFT CONTROL RIGHT
@@ -638,7 +654,10 @@ Eclipse.xml	EditorUnSelectWord	1	SHIFT ALT DOWN
 Eclipse.xml	EditSource	1	F12
 Eclipse.xml	EditSource	1	SHIFT CONTROL E
 Eclipse.xml	EvaluateExpression	1	CONTROL U
+Eclipse.xml	ExpandAll	1	CONTROL SHIFT MULTIPLY
 Eclipse.xml	ExpandAllRegions	1	CONTROL MULTIPLY
+Eclipse.xml	ExpandExpandableComponent	1	CONTROL ADD
+Eclipse.xml	ExpandRegion	1	CONTROL ADD
 Eclipse.xml	ExternalJavaDoc	1	SHIFT F2
 Eclipse.xml	ExtractMethod	1	SHIFT ALT M
 Eclipse.xml	FileStructurePopup	1	CONTROL F3
@@ -704,11 +723,11 @@ Eclipse.xml	SelectAllOccurrences	1	ALT CONTROL Y
 Eclipse.xml	SelectNextOccurrence	1	ALT Y
 Eclipse.xml	ServiceView.ShowServices	1	SHIFT ALT H
 Eclipse.xml	ShelvedChanges.Rename	1	SHIFT ALT R
-Eclipse.xml	ShowIntentionActions	1	CTRL 1
-Eclipse.xml	ShowIntentionActions	1	ALT ENTER
 Eclipse.xml	ShowIntentionActions	1	ALT ENTER
 Eclipse.xml	ShowIntentionActions	1	SHIFT ALT J
 Eclipse.xml	ShowIntentionActions	1	SHIFT CONTROL M
+Eclipse.xml	ShowIntentionActions	1	CTRL 1
+Eclipse.xml	ShowIntentionActions	1	ALT ENTER
 Eclipse.xml	ShowPopupMenu	1	CONTROL N
 Eclipse.xml	ShowPopupMenu	1	SHIFT ALT S
 Eclipse.xml	ShowPopupMenu	1	CONTROL F10
@@ -950,6 +969,7 @@ Mac OS X 10.5+.xml	EditorCodeBlockStart	1	META ALT OPEN_BRACKET
 Mac OS X 10.5+.xml	EditorCodeBlockStartWithSelection	1	META ALT SHIFT OPEN_BRACKET
 Mac OS X 10.5+.xml	EditorContextInfo	1	CONTROL SHIFT Q
 Mac OS X 10.5+.xml	EditorCutLineEnd	1	CONTROL K
+Mac OS X 10.5+.xml	EditorDecreaseFontSizeGlobal	1	CONTROL SHIFT COMMA
 Mac OS X 10.5+.xml	EditorDelete	1	DELETE
 Mac OS X 10.5+.xml	EditorDeleteLine	1	META BACK_SPACE
 Mac OS X 10.5+.xml	EditorDeleteToWordEnd	1	ALT DELETE
@@ -958,14 +978,15 @@ Mac OS X 10.5+.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
 Mac OS X 10.5+.xml	EditorDeleteToWordStart	1	ALT BACK_SPACE
 Mac OS X 10.5+.xml	EditorDown	1	DOWN
 Mac OS X 10.5+.xml	EditorDown	1	CONTROL N
+Mac OS X 10.5+.xml	EditorIncreaseFontSizeGlobal	1	CONTROL SHIFT PERIOD
 Mac OS X 10.5+.xml	EditorJoinLines	1	CONTROL SHIFT J
 Mac OS X 10.5+.xml	EditorLeft	1	LEFT
 Mac OS X 10.5+.xml	EditorLeft	1	CONTROL B
 Mac OS X 10.5+.xml	EditorLineEnd	1	END
 Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
+Mac OS X 10.5+.xml	EditorLineEnd	1	CONTROL E
 Mac OS X 10.5+.xml	EditorLineEnd	1	END
 Mac OS X 10.5+.xml	EditorLineEnd	1	META RIGHT
-Mac OS X 10.5+.xml	EditorLineEnd	1	CONTROL E
 Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	SHIFT END
 Mac OS X 10.5+.xml	EditorLineEndWithSelection	1	META SHIFT RIGHT
 Mac OS X 10.5+.xml	EditorLineStart	1	HOME
@@ -990,8 +1011,8 @@ Mac OS X 10.5+.xml	EditorScrollToCenter	1	CONTROL L
 Mac OS X 10.5+.xml	EditorSelectWord	1	ALT UP
 Mac OS X 10.5+.xml	EditorStartNewLine	1	SHIFT ENTER
 Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
-Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META MULTIPLY
 Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META 8
+Mac OS X 10.5+.xml	EditorToggleColumnMode	1	SHIFT META MULTIPLY
 Mac OS X 10.5+.xml	EditorUnSelectWord	1	ALT DOWN
 Mac OS X 10.5+.xml	EditorUp	1	UP
 Mac OS X 10.5+.xml	EditorUp	1	CONTROL P
@@ -1104,8 +1125,8 @@ Mac OS X 10.5+.xml	ResizeToolWindowUp	1	CONTROL ALT UP
 Mac OS X 10.5+.xml	Resume	1	META ALT R
 Mac OS X 10.5+.xml	Resume	1	F9
 Mac OS X 10.5+.xml	Run	1	CONTROL R
-Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT R
 Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT F10
+Mac OS X 10.5+.xml	RunClass	1	CONTROL SHIFT R
 Mac OS X 10.5+.xml	RunToCursor	1	ALT F9
 Mac OS X 10.5+.xml	SafeDelete	1	META DELETE
 Mac OS X 10.5+.xml	SearchEverywhere.NavigateToNextGroup	1	PAGE_DOWN
@@ -1371,10 +1392,10 @@ macOS System Shortcuts.xml	Debug	1	SHIFT ALT D
 macOS System Shortcuts.xml	EditorBackSpace	1	BACK_SPACE
 macOS System Shortcuts.xml	EditorBackSpace	1	SHIFT BACK_SPACE
 macOS System Shortcuts.xml	EditorBackSpace	1	CTRL H
-macOS System Shortcuts.xml	EditorDecreaseFontSize	1	META SHIFT MINUS
+macOS System Shortcuts.xml	EditorDecreaseFontSizeGlobal	1	META SHIFT MINUS
 macOS System Shortcuts.xml	EditorDelete	1	DELETE
 macOS System Shortcuts.xml	EditorDelete	1	CTRL D
-macOS System Shortcuts.xml	EditorIncreaseFontSize	1	META SHIFT PLUS
+macOS System Shortcuts.xml	EditorIncreaseFontSizeGlobal	1	META SHIFT PLUS
 macOS System Shortcuts.xml	EditorPageDown	1	PAGE_DOWN
 macOS System Shortcuts.xml	EditorPageDown	1	CTRL V
 macOS System Shortcuts.xml	EditorPageDownWithSelection	1	SHIFT PAGE_DOWN
@@ -2292,8 +2313,8 @@ Visual Studio 2022.xml	Diff.FocusOppositePane	1	CONTROL BACK_SLASH
 Visual Studio 2022.xml	Diff.FocusOppositePane	2	TAB
 Visual Studio 2022.xml	Diff.FocusOppositePane	1	CONTROL SHIFT TAB
 Visual Studio 2022.xml	EditorCompleteStatement	1	CONTROL SHIFT ENTER
-Visual Studio 2022.xml	EditorDecreaseFontSize	1	CONTROL SHIFT COMMA
-Visual Studio 2022.xml	EditorIncreaseFontSize	1	CONTROL SHIFT PERIOD
+Visual Studio 2022.xml	EditorDecreaseFontSizeGlobal	1	CONTROL SHIFT COMMA
+Visual Studio 2022.xml	EditorIncreaseFontSizeGlobal	1	CONTROL SHIFT PERIOD
 Visual Studio 2022.xml	EditorStartNewLine	1	CONTROL SHIFT ENTER
 Visual Studio 2022.xml	EvaluateExpression	1	CONTROL ALT Q
 Visual Studio 2022.xml	EvaluateExpression	1	SHIFT F9
@@ -2462,8 +2483,8 @@ Visual Studio OSX.xml	ActivateNuGetToolWindow	1	META 7
 Visual Studio OSX.xml	ActivateNuGetToolWindow	1	META SHIFT 7
 Visual Studio OSX.xml	ActivateProjectToolWindow	1	META ALT L
 Visual Studio OSX.xml	ActivateProjectToolWindow	1	META 1
-Visual Studio OSX.xml	ActivateStructureToolWindow	1	META ALT F
 Visual Studio OSX.xml	ActivateStructureToolWindow	1	CONTROL ALT F
+Visual Studio OSX.xml	ActivateStructureToolWindow	1	META ALT F
 Visual Studio OSX.xml	ActivateTerminalToolWindow	1	META CONTROL 1
 Visual Studio OSX.xml	ActivateUnitTestsToolWindow	1	META 8
 Visual Studio OSX.xml	ActivateUnitTestsToolWindow	1	META SHIFT 8
@@ -2535,6 +2556,10 @@ Visual Studio OSX.xml	ExpandAllRegions	1	CONTROL M
 Visual Studio OSX.xml	ExpandAllRegions	2	X
 Visual Studio OSX.xml	ExpandAllRegions	1	CONTROL M
 Visual Studio OSX.xml	ExpandAllRegions	2	CONTROL X
+Visual Studio OSX.xml	ExpandCollapseToggleAction	1	CONTROL M
+Visual Studio OSX.xml	ExpandCollapseToggleAction	2	M
+Visual Studio OSX.xml	ExpandCollapseToggleAction	1	CONTROL M
+Visual Studio OSX.xml	ExpandCollapseToggleAction	2	CONTROL M
 Visual Studio OSX.xml	ExpandRegion	1	CONTROL M
 Visual Studio OSX.xml	ExpandRegion	2	E
 Visual Studio OSX.xml	ExpandRegion	1	CONTROL M
@@ -2614,6 +2639,10 @@ Visual Studio OSX.xml	NewElement	1	ALT INSERT
 Visual Studio OSX.xml	OpenFile	1	META O
 Visual Studio OSX.xml	Pause	1	META PAUSE
 Visual Studio OSX.xml	Pause	1	SHIFT META P
+Visual Studio OSX.xml	QuickJavaDoc	1	META K
+Visual Studio OSX.xml	QuickJavaDoc	2	I
+Visual Studio OSX.xml	QuickJavaDoc	1	META K
+Visual Studio OSX.xml	QuickJavaDoc	2	META I
 Visual Studio OSX.xml	QuickJavaDoc	1	CONTROL SHIFT F1
 Visual Studio OSX.xml	RecentChangedFiles	1	META SHIFT COMMA
 Visual Studio OSX.xml	RecentFiles	1	CONTROL COMMA
@@ -2658,8 +2687,6 @@ Visual Studio OSX.xml	ShowBookmarks	1	META K
 Visual Studio OSX.xml	ShowBookmarks	2	W
 Visual Studio OSX.xml	ShowBookmarks	1	META K
 Visual Studio OSX.xml	ShowBookmarks	2	META W
-Visual Studio OSX.xml	ShowErrorDescription	1	META F1
-Visual Studio OSX.xml	ShowErrorDescription	1	ALT T
 Visual Studio OSX.xml	ShowExecutionPoint	1	ALT MULTIPLY
 Visual Studio OSX.xml	ShowNavBar	1	META F2
 Visual Studio OSX.xml	ShowSettingsAndFindUsages	1	META SHIFT ALT F12
@@ -2684,11 +2711,11 @@ Visual Studio OSX.xml	SwitchHeaderSource	1	META K
 Visual Studio OSX.xml	SwitchHeaderSource	2	O
 Visual Studio OSX.xml	SwitchHeaderSource	1	META K
 Visual Studio OSX.xml	SwitchHeaderSource	2	META O
+Visual Studio OSX.xml	ToggleBookmark	1	META F2
 Visual Studio OSX.xml	ToggleBookmark	1	META K
 Visual Studio OSX.xml	ToggleBookmark	2	K
 Visual Studio OSX.xml	ToggleBookmark	1	META K
 Visual Studio OSX.xml	ToggleBookmark	2	META K
-Visual Studio OSX.xml	ToggleBookmark	1	META F2
 Visual Studio OSX.xml	ToggleBreakpointEnabled	1	META F9
 Visual Studio OSX.xml	ToggleFullScreen	1	ALT SHIFT ENTER
 Visual Studio OSX.xml	ToggleLineBreakpoint	1	F9
@@ -2812,6 +2839,10 @@ Visual Studio.xml	ExpandAllRegions	1	CONTROL M
 Visual Studio.xml	ExpandAllRegions	2	X
 Visual Studio.xml	ExpandAllRegions	1	CONTROL M
 Visual Studio.xml	ExpandAllRegions	2	CONTROL X
+Visual Studio.xml	ExpandCollapseToggleAction	1	CONTROL M
+Visual Studio.xml	ExpandCollapseToggleAction	2	M
+Visual Studio.xml	ExpandCollapseToggleAction	1	CONTROL M
+Visual Studio.xml	ExpandCollapseToggleAction	2	CONTROL M
 Visual Studio.xml	ExpandRegion	1	CONTROL M
 Visual Studio.xml	ExpandRegion	2	E
 Visual Studio.xml	ExpandRegion	1	CONTROL M
@@ -2957,7 +2988,6 @@ Visual Studio.xml	ShowBookmarks	1	CONTROL K
 Visual Studio.xml	ShowBookmarks	2	W
 Visual Studio.xml	ShowBookmarks	1	CONTROL K
 Visual Studio.xml	ShowBookmarks	2	CONTROL W
-Visual Studio.xml	ShowErrorDescription	1	ALT T
 Visual Studio.xml	ShowExecutionPoint	1	ALT MULTIPLY
 Visual Studio.xml	ShowIntentionActions	1	ALT ENTER
 Visual Studio.xml	ShowIntentionActions	1	CONTROL PERIOD
@@ -3016,6 +3046,8 @@ Visual Studio.xml	XDebugger.MuteBreakpoints	1	CONTROL ALT SHIFT F10
 VSCode OSX.xml	$Delete	1	DELETE
 VSCode OSX.xml	$Delete	1	BACK_SPACE
 VSCode OSX.xml	ActivateDebugToolWindow	1	SHIFT META D
+VSCode OSX.xml	ActivateDebugToolWindow	1	META SHIFT Y
+VSCode OSX.xml	ActivateProblemsViewToolWindow	1	META SHIFT M
 VSCode OSX.xml	ActivateProjectToolWindow	1	SHIFT META E
 VSCode OSX.xml	ActivateRunToolWindow	1	SHIFT META U
 VSCode OSX.xml	ActivateTerminalToolWindow	1	CTRL BACK_QUOTE
@@ -3027,15 +3059,31 @@ VSCode OSX.xml	Arrangement.Rule.Remove	1	BACK_SPACE
 VSCode OSX.xml	Back	1	CTRL MINUS
 VSCode OSX.xml	BraceOrQuoteOut	1	TAB
 VSCode OSX.xml	BuildSolutionAction	1	META SHIFT B
+VSCode OSX.xml	BuildSolutionAction	1	META SHIFT B
+VSCode OSX.xml	CallHierarchy	1	SHIFT ALT H
 VSCode OSX.xml	ChangeSplitOrientation	1	META ALT 0
 VSCode OSX.xml	ChangesView.Rename	1	SHIFT F6
+VSCode OSX.xml	ChooseRunConfiguration	1	META SEMICOLON
+VSCode OSX.xml	ChooseRunConfiguration	2	A
 VSCode OSX.xml	CloseAllEditors	1	META K
 VSCode OSX.xml	CloseAllEditors	2	META W
+VSCode OSX.xml	CloseAllEditorsButActive	1	META ALT T
+VSCode OSX.xml	CloseAllEditorsButActive	1	META K
+VSCode OSX.xml	CloseAllEditorsButActive	2	U
 VSCode OSX.xml	CloseProject	1	META K
 VSCode OSX.xml	CloseProject	2	F
+VSCode OSX.xml	CloseProject	1	META SHIFT W
+VSCode OSX.xml	CodeCompletion	1	META I
+VSCode OSX.xml	CodeCompletion	1	ALT ESCAPE
+VSCode OSX.xml	CodeCompletion	1	CTRL SPACE
 VSCode OSX.xml	CollapseAll	1	META SUBTRACT
 VSCode OSX.xml	CollapseAllRegions	1	META K
 VSCode OSX.xml	CollapseAllRegions	2	META 0
+VSCode OSX.xml	CollapseBlock	1	META ALT OPEN_BRACKET
+VSCode OSX.xml	CollapseBlock	1	META K
+VSCode OSX.xml	CollapseBlock	2	META L
+VSCode OSX.xml	CollapseDocComments	1	META K
+VSCode OSX.xml	CollapseDocComments	2	META SLASH
 VSCode OSX.xml	CollapseExpandableComponent	1	SHIFT ENTER
 VSCode OSX.xml	CollapseExpandableComponent	1	META SUBTRACT
 VSCode OSX.xml	CollapseRegion	1	META ALT OPEN_BRACKET
@@ -3050,6 +3098,7 @@ VSCode OSX.xml	CommentByLineComment	1	META SLASH
 VSCode OSX.xml	CompareClipboardWithSelection	1	META K
 VSCode OSX.xml	CompareClipboardWithSelection	2	C
 VSCode OSX.xml	CompileDirty	1	SHIFT META B
+VSCode OSX.xml	CompileDirty	1	META SHIFT B
 VSCode OSX.xml	Console.TableResult.EditValue	1	ENTER
 VSCode OSX.xml	Console.TableResult.NavigateAction	1	F4
 VSCode OSX.xml	CopyPaths	1	META ALT C
@@ -3062,11 +3111,10 @@ VSCode OSX.xml	Debugger.RemoveArrayFilter	1	BACK_SPACE
 VSCode OSX.xml	Debugger.RemoveCustomField	1	DELETE
 VSCode OSX.xml	Debugger.RemoveCustomField	1	BACK_SPACE
 VSCode OSX.xml	DomCollectionControl.Edit	1	F4
-VSCode OSX.xml	DomElementsTreeView.DeleteElement	1	DELETE
-VSCode OSX.xml	DomElementsTreeView.DeleteElement	1	BACK_SPACE
-VSCode OSX.xml	DomElementsTreeView.GotoDomElementDeclarationAction	1	F4
 VSCode OSX.xml	DSM.OpenInEditor	1	F4
 VSCode OSX.xml	DSM.ZoomIn	1	META ADD
+VSCode OSX.xml	DSM.ZoomIn	1	META SHIFT EQUALS
+VSCode OSX.xml	EditorAddCaretPerSelectedLine	1	SHIFT ALT I
 VSCode OSX.xml	EditorChooseLookupItemReplace	1	TAB
 VSCode OSX.xml	EditorCloneCaretAbove	1	SHIFT META ALT UP
 VSCode OSX.xml	EditorCloneCaretAbove	1	META ALT UP
@@ -3091,6 +3139,7 @@ VSCode OSX.xml	EditorScrollDown	1	CTRL PAGE_DOWN
 VSCode OSX.xml	EditorScrollUp	1	CTRL PAGE_UP
 VSCode OSX.xml	EditorSelectLine	1	META L
 VSCode OSX.xml	EditorSelectWord	1	SHIFT CTRL META RIGHT
+VSCode OSX.xml	EditorSelectWord	1	CTRL SHIFT RIGHT
 VSCode OSX.xml	EditorSplitLine	1	CTRL O
 VSCode OSX.xml	EditorStartNewLine	1	META ENTER
 VSCode OSX.xml	EditorStartNewLineBefore	1	SHIFT META ENTER
@@ -3121,8 +3170,12 @@ VSCode OSX.xml	FileStructurePopup	1	META ALT O
 VSCode OSX.xml	FileStructurePopup	1	SHIFT META O
 VSCode OSX.xml	FindNext	1	META G
 VSCode OSX.xml	FindNext	1	F3
+VSCode OSX.xml	FindNext	1	META K
+VSCode OSX.xml	FindNext	2	META D
 VSCode OSX.xml	FindPrevious	1	SHIFT META G
 VSCode OSX.xml	FindPrevious	1	SHIFT F3
+VSCode OSX.xml	FindPrevious	1	SHIFT META F5
+VSCode OSX.xml	FindUsages	1	SHIFT ALT F12
 VSCode OSX.xml	Forward	1	SHIFT CTRL MINUS
 VSCode OSX.xml	Generate	1	CTRL ENTER
 VSCode OSX.xml	Git.Reword.Commit	1	SHIFT F6
@@ -3133,9 +3186,11 @@ VSCode OSX.xml	GotoDeclaration	1	F12
 VSCode OSX.xml	GotoFile	1	META P
 VSCode OSX.xml	GotoImplementation	1	META F12
 VSCode OSX.xml	GotoLine	1	CTRL G
-VSCode OSX.xml	GotoNextError	1	F8
+VSCode OSX.xml	GotoNextError	1	ALT F8
 VSCode OSX.xml	GotoPreviousError	1	SHIFT F8
+VSCode OSX.xml	GotoPreviousError	1	ALT SHIFT F8
 VSCode OSX.xml	GotoSymbol	1	META T
+VSCode OSX.xml	GotoSymbol	1	META SHIFT O
 VSCode OSX.xml	GotoTypeDeclaration	1	SHIFT CTRL B
 VSCode OSX.xml	Graph.Delete	1	DELETE
 VSCode OSX.xml	Graph.Delete	1	BACK_SPACE
@@ -3143,19 +3198,25 @@ VSCode OSX.xml	Graph.Faces.OpenSelectedPages	1	F4
 VSCode OSX.xml	GuiDesigner.ExpandSelection	1	SHIFT CTRL META RIGHT
 VSCode OSX.xml	Help.KeymapReference	1	META K
 VSCode OSX.xml	Help.KeymapReference	2	META R
+VSCode OSX.xml	HideActiveWindow	1	META J
 VSCode OSX.xml	HideSideWindows	1	META B
 VSCode OSX.xml	Images.Editor.ActualSize	1	META DIVIDE
 VSCode OSX.xml	Images.Editor.ZoomIn	1	META ADD
 VSCode OSX.xml	Jdbc.OpenEditor	1	F4
 VSCode OSX.xml	JumpToLastChange	1	META K
 VSCode OSX.xml	JumpToLastChange	2	META Q
+VSCode OSX.xml	Markdown.Layout.EditorAndPreview	1	META K
+VSCode OSX.xml	Markdown.Layout.EditorAndPreview	2	V
+VSCode OSX.xml	Markdown.Layout.PreviewOnly	1	META SHIFT V
 VSCode OSX.xml	Maven.ExpandAll	1	META ADD
+VSCode OSX.xml	MoveEditorToOppositeTabGroup	1	META CTRL RIGHT
 VSCode OSX.xml	MoveLineDown	1	ALT DOWN
 VSCode OSX.xml	MoveLineUp	1	ALT UP
 VSCode OSX.xml	MoveTabRight	1	CTRL META RIGHT
 VSCode OSX.xml	NewElement	1	CTRL ENTER
 VSCode OSX.xml	NewFile	1	META N
 VSCode OSX.xml	NextParameter	1	TAB
+VSCode OSX.xml	NextProjectWindow	1	CTRL W
 VSCode OSX.xml	NextTab	1	SHIFT META CLOSE_BRACKET
 VSCode OSX.xml	NextTab	1	META ALT RIGHT
 VSCode OSX.xml	NextTemplateParameter	1	TAB
@@ -3164,7 +3225,12 @@ VSCode OSX.xml	NextTemplateVariable	1	ENTER
 VSCode OSX.xml	OpenFile	1	META O
 VSCode OSX.xml	OpenModuleSettings	1	F4
 VSCode OSX.xml	OptimizeImports	1	SHIFT ALT O
+VSCode OSX.xml	OverrideFileTypeAction	1	META K
+VSCode OSX.xml	OverrideFileTypeAction	2	M
 VSCode OSX.xml	ParameterInfo	1	SHIFT META SPACE
+VSCode OSX.xml	Pause	1	F6
+VSCode OSX.xml	PinActiveTabAction	1	META K
+VSCode OSX.xml	PinActiveTabAction	2	SHIFT ENTER
 VSCode OSX.xml	PreviousTab	1	SHIFT META OPEN_BRACKET
 VSCode OSX.xml	PreviousTab	1	META ALT LEFT
 VSCode OSX.xml	PropertyInspectorActions.RemoveProperty	1	DELETE
@@ -3174,7 +3240,9 @@ VSCode OSX.xml	QuickChangeScheme	2	META T
 VSCode OSX.xml	QuickEvaluateExpression	1	META ALT F8
 VSCode OSX.xml	QuickImplementations	1	ALT SPACE
 VSCode OSX.xml	QuickImplementations	1	ALT F12
-VSCode OSX.xml	RecentFiles	1	CTRL R
+VSCode OSX.xml	QuickJavaDoc	1	META K
+VSCode OSX.xml	QuickJavaDoc	2	META I
+VSCode OSX.xml	RecentProjectListGroup	1	CTRL R
 VSCode OSX.xml	Refactorings.QuickListPopupAction	1	SHIFT CTRL R
 VSCode OSX.xml	ReformatCode	1	SHIFT ALT F
 VSCode OSX.xml	RemoteHost.NewRemoteItem	1	CTRL ENTER
@@ -3183,9 +3251,15 @@ VSCode OSX.xml	RenameElement	1	F2
 VSCode OSX.xml	ReopenClosedTab	1	SHIFT META T
 VSCode OSX.xml	Replace	1	META ALT F
 VSCode OSX.xml	ReplaceInPath	1	SHIFT META H
+VSCode OSX.xml	Rerun	1	META SEMICOLON
+VSCode OSX.xml	Rerun	2	L
+VSCode OSX.xml	Rerun	1	META SHIFT F5
+VSCode OSX.xml	RerunFailedTests	1	META SEMICOLON
+VSCode OSX.xml	RerunFailedTests	2	E
 VSCode OSX.xml	Resume	1	F5
 VSCode OSX.xml	RevealIn	1	META K
 VSCode OSX.xml	RevealIn	2	R
+VSCode OSX.xml	RevealIn	1	META ALT R
 VSCode OSX.xml	Run	1	CTRL F5
 VSCode OSX.xml	RunDashboard.EditConfiguration	1	F4
 VSCode OSX.xml	RunDashboard.RemoveConfiguration	1	DELETE
@@ -3203,12 +3277,17 @@ VSCode OSX.xml	SearchEverywhere.NextTab	1	TAB
 VSCode OSX.xml	SelectAllOccurrences	1	META F2
 VSCode OSX.xml	SelectAllOccurrences	1	CTRL META G
 VSCode OSX.xml	SelectAllOccurrences	1	SHIFT META L
+VSCode OSX.xml	SelectInProjectView	1	META K
+VSCode OSX.xml	SelectInProjectView	2	E
 VSCode OSX.xml	SelectNextOccurrence	1	META D
+VSCode OSX.xml	SelectNextOccurrence	1	META F3
 VSCode OSX.xml	ShelvedChanges.Rename	1	SHIFT F6
 VSCode OSX.xml	ShowIntentionActions	1	META PERIOD
 VSCode OSX.xml	ShowIntentionActions	1	ALT ENTER
 VSCode OSX.xml	ShowNavBar	1	SHIFT META SEMICOLON
+VSCode OSX.xml	ShowPopupMenu	1	SHIFT F10
 VSCode OSX.xml	ShowUsages	1	SHIFT F12
+VSCode OSX.xml	SmartUnSelect	1	CTRL SHIFT LEFT
 VSCode OSX.xml	SplitVertically	1	META BACK_SLASH
 VSCode OSX.xml	Sql.EditParameter	1	F4
 VSCode OSX.xml	StepInto	1	F11
@@ -3218,6 +3297,10 @@ VSCode OSX.xml	StepOver	1	F10
 VSCode OSX.xml	Stop	1	SHIFT F5
 VSCode OSX.xml	SwitchHeaderSource	1	CONTROL META O
 VSCode OSX.xml	Tab	1	TAB
+VSCode OSX.xml	Terminal.SelectAll	1	META A
+VSCode OSX.xml	Terminal.SplitVertically	1	META BACK_SLASH
+VSCode OSX.xml	Terminal.SplitVertically	1	CTRL SHIFT 5
+VSCode OSX.xml	TerminalNewSession	1	CTRL SHIFT BACK_QUOTE
 VSCode OSX.xml	ToggleLineBreakpoint	1	F9
 VSCode OSX.xml	ToggleZenMode	1	META K
 VSCode OSX.xml	ToggleZenMode	2	Z
@@ -3226,29 +3309,50 @@ VSCode OSX.xml	UML.ZoomIn	1	META ADD
 VSCode OSX.xml	UnselectPreviousOccurrence	1	META U
 VSCode OSX.xml	Vcs.EditSource	1	F4
 VSCode OSX.xml	VcsShowNextChangeMarker	1	ALT F3
+VSCode OSX.xml	VcsShowNextChangeMarker	1	ALT F5
 VSCode OSX.xml	VcsShowPrevChangeMarker	1	SHIFT ALT F3
+VSCode OSX.xml	VcsShowPrevChangeMarker	1	SHIFT ALT F5
 VSCode OSX.xml	WelcomeScreen.Plugins	1	SHIFT META X
 VSCode OSX.xml	XDebugger.JumpToSource	1	F4
 VSCode OSX.xml	XDebugger.RemoveWatch	1	DELETE
 VSCode OSX.xml	XDebugger.RemoveWatch	1	BACK_SPACE
+VSCode.xml	$Redo	1	CONTROL Y
+VSCode.xml	$Redo	1	CONTROL SHIFT Z
+VSCode.xml	$Redo	1	ALT SHIFT BACK_SPACE
+VSCode.xml	ActivateDebugToolWindow	1	CTRL SHIFT Y
 VSCode.xml	ActivateDebugToolWindow	1	SHIFT CTRL D
+VSCode.xml	ActivateProblemsViewToolWindow	1	CTRL SHIFT M
 VSCode.xml	ActivateProjectToolWindow	1	SHIFT CTRL E
 VSCode.xml	ActivateRunToolWindow	1	SHIFT CTRL U
 VSCode.xml	ActivateTerminalToolWindow	1	CTRL BACK_QUOTE
 VSCode.xml	ActivateVersionControlToolWindow	1	SHIFT CTRL G
 VSCode.xml	Back	1	ALT LEFT
 VSCode.xml	BraceOrQuoteOut	1	TAB
+VSCode.xml	BuildSolutionAction	1	CTRL SHIFT B
 VSCode.xml	BuildSolutionAction	1	CONTROL SHIFT B
+VSCode.xml	CallHierarchy	1	SHIFT ALT H
 VSCode.xml	ChangeSplitOrientation	1	SHIFT ALT 0
 VSCode.xml	ChangesView.Rename	1	F2
+VSCode.xml	ChooseRunConfiguration	1	CTRL SEMICOLON
+VSCode.xml	ChooseRunConfiguration	2	A
 VSCode.xml	CloseAllEditors	1	CTRL K
 VSCode.xml	CloseAllEditors	2	CTRL W
+VSCode.xml	CloseAllEditorsButActive	1	CTRL K
+VSCode.xml	CloseAllEditorsButActive	2	U
 VSCode.xml	CloseContent	1	CTRL W
 VSCode.xml	CloseProject	1	CTRL K
 VSCode.xml	CloseProject	2	F
+VSCode.xml	CloseProject	1	CTRL SHIFT W
+VSCode.xml	CodeCompletion	1	CTRL I
+VSCode.xml	CodeCompletion	1	CTRL SPACE
 VSCode.xml	CollapseAll	1	CTRL SUBTRACT
 VSCode.xml	CollapseAllRegions	1	CTRL K
 VSCode.xml	CollapseAllRegions	2	CTRL 0
+VSCode.xml	CollapseBlock	1	CTRL ALT OPEN_BRACKET
+VSCode.xml	CollapseBlock	1	CTRL K
+VSCode.xml	CollapseBlock	2	CTRL L
+VSCode.xml	CollapseDocComments	1	CTRL K
+VSCode.xml	CollapseDocComments	2	CTRL SLASH
 VSCode.xml	CollapseExpandableComponent	1	SHIFT ENTER
 VSCode.xml	CollapseExpandableComponent	1	CTRL SUBTRACT
 VSCode.xml	CollapseRegion	1	SHIFT CTRL OPEN_BRACKET
@@ -3263,6 +3367,7 @@ VSCode.xml	CommentByLineComment	1	CTRL SLASH
 VSCode.xml	CompareClipboardWithSelection	1	CTRL K
 VSCode.xml	CompareClipboardWithSelection	2	C
 VSCode.xml	CompileDirty	1	SHIFT CTRL B
+VSCode.xml	CompileDirty	1	CTRL SHIFT B
 VSCode.xml	Console.TableResult.EditValue	1	ENTER
 VSCode.xml	Console.TableResult.EditValue	1	ALT ENTER
 VSCode.xml	CopyPaths	1	SHIFT ALT C
@@ -3270,6 +3375,8 @@ VSCode.xml	CopyPaths	1	CTRL K
 VSCode.xml	CopyPaths	2	P
 VSCode.xml	Debug	1	F5
 VSCode.xml	DSM.ZoomIn	1	CTRL ADD
+VSCode.xml	DSM.ZoomIn	1	CTRL SHIFT EQUALS
+VSCode.xml	EditorAddCaretPerSelectedLine	1	SHIFT ALT I
 VSCode.xml	EditorChooseLookupItemReplace	1	TAB
 VSCode.xml	EditorCloneCaretAbove	1	CTRL ALT UP
 VSCode.xml	EditorCloneCaretAbove	1	SHIFT CTRL ALT UP
@@ -3281,7 +3388,6 @@ VSCode.xml	EditorDuplicate	1	SHIFT ALT DOWN
 VSCode.xml	EditorIncreaseFontSize	1	CTRL EQUALS
 VSCode.xml	EditorIndentLineOrSelection	1	CTRL CLOSE_BRACKET
 VSCode.xml	EditorIndentSelection	1	TAB
-VSCode.xml	EditorJoinLines	1	CTRL J
 VSCode.xml	EditorLineEnd	1	END
 VSCode.xml	EditorLineStart	1	HOME
 VSCode.xml	EditorMatchBrace	1	SHIFT CTRL BACK_SLASH
@@ -3292,11 +3398,9 @@ VSCode.xml	EditorSelectWord	1	SHIFT ALT RIGHT
 VSCode.xml	EditorStartNewLine	1	CTRL ENTER
 VSCode.xml	EditorStartNewLineBefore	1	SHIFT CTRL ENTER
 VSCode.xml	EditorTab	1	TAB
-VSCode.xml	EditorToggleColumnMode	1	SHIFT ALT I
 VSCode.xml	EditorToggleUseSoftWraps	1	ALT Z
 VSCode.xml	EditorUnindentSelection	1	CTRL OPEN_BRACKET
 VSCode.xml	EditorUnindentSelection	1	SHIFT TAB
-VSCode.xml	EditorUnSelectWord	1	SHIFT ALT LEFT
 VSCode.xml	EditSourceInNewWindow	1	CTRL K
 VSCode.xml	EditSourceInNewWindow	2	O
 VSCode.xml	ExpandAll	1	CTRL ADD
@@ -3313,29 +3417,41 @@ VSCode.xml	FileChooser.NewFolder	1	ALT INSERT
 VSCode.xml	FileStructurePopup	1	SHIFT CTRL O
 VSCode.xml	Find	1	CTRL F
 VSCode.xml	FindNext	1	F3
+VSCode.xml	FindNext	1	CTRL K
+VSCode.xml	FindNext	2	CTRL D
 VSCode.xml	FindPrevious	1	SHIFT F3
+VSCode.xml	FindPrevious	1	CTRL SHIFT F3
+VSCode.xml	FindUsages	1	SHIFT ALT F12
 VSCode.xml	Forward	1	ALT RIGHT
 VSCode.xml	Git.Reword.Commit	1	F2
 VSCode.xml	GotoAction	1	SHIFT CTRL P
 VSCode.xml	GotoDeclaration	1	F12
 VSCode.xml	GotoFile	1	CTRL P
 VSCode.xml	GotoImplementation	1	CTRL F12
-VSCode.xml	GotoNextError	1	F8
+VSCode.xml	GotoNextError	1	ALT F8
+VSCode.xml	GotoPreviousError	1	ALT SHIFT F8
 VSCode.xml	GotoPreviousError	1	SHIFT F8
+VSCode.xml	GotoSymbol	1	CTRL SHIFT O
 VSCode.xml	GotoSymbol	1	CTRL T
 VSCode.xml	Help.KeymapReference	1	CTRL K
 VSCode.xml	Help.KeymapReference	2	CTRL R
+VSCode.xml	HideActiveWindow	1	CTRL J
 VSCode.xml	HideSideWindows	1	CTRL B
 VSCode.xml	Images.Editor.ActualSize	1	CTRL DIVIDE
 VSCode.xml	Images.Editor.ZoomIn	1	CTRL ADD
 VSCode.xml	JumpToLastChange	1	CTRL K
 VSCode.xml	JumpToLastChange	2	CTRL Q
+VSCode.xml	Markdown.Layout.EditorAndPreview	1	CTRL K
+VSCode.xml	Markdown.Layout.EditorAndPreview	2	V
+VSCode.xml	Markdown.Layout.PreviewOnly	1	CTRL SHIFT V
 VSCode.xml	Maven.ExpandAll	1	CTRL ADD
+VSCode.xml	MoveEditorToOppositeTabGroup	1	CTRL ALT RIGHT
 VSCode.xml	MoveLineDown	1	ALT DOWN
 VSCode.xml	MoveLineUp	1	ALT UP
 VSCode.xml	MoveTabRight	1	CTRL K
 VSCode.xml	MoveTabRight	2	RIGHT
 VSCode.xml	NextParameter	1	TAB
+VSCode.xml	NextProjectWindow	1	CTRL W
 VSCode.xml	NextSplitter	1	CTRL K
 VSCode.xml	NextSplitter	2	CTRL RIGHT
 VSCode.xml	NextTab	1	CTRL PAGE_DOWN
@@ -3344,8 +3460,13 @@ VSCode.xml	NextTemplateParameter	1	ENTER
 VSCode.xml	NextTemplateVariable	1	ENTER
 VSCode.xml	OpenFile	1	CTRL O
 VSCode.xml	OptimizeImports	1	SHIFT ALT O
+VSCode.xml	OverrideFileTypeAction	1	CTRL K
+VSCode.xml	OverrideFileTypeAction	2	M
 VSCode.xml	ParameterInfo	1	SHIFT CTRL SPACE
 VSCode.xml	PasteMultiple	1	SHIFT CTRL INSERT
+VSCode.xml	Pause	1	F6
+VSCode.xml	PinActiveTabAction	1	CTRL K
+VSCode.xml	PinActiveTabAction	2	SHIFT ENTER
 VSCode.xml	PreviousTab	1	CTRL PAGE_UP
 VSCode.xml	PrevSplitter	1	CTRL K
 VSCode.xml	PrevSplitter	2	CTRL LEFT
@@ -3353,14 +3474,22 @@ VSCode.xml	QuickChangeScheme	1	CTRL K
 VSCode.xml	QuickChangeScheme	2	CTRL T
 VSCode.xml	QuickEvaluateExpression	1	CTRL ALT F8
 VSCode.xml	QuickImplementations	1	ALT F12
-VSCode.xml	RecentFiles	1	CTRL R
+VSCode.xml	QuickJavaDoc	1	CTRL K
+VSCode.xml	QuickJavaDoc	2	CTRL I
+VSCode.xml	RecentProjectListGroup	1	CTRL R
 VSCode.xml	Refactorings.QuickListPopupAction	1	SHIFT CTRL R
 VSCode.xml	ReformatCode	1	SHIFT ALT F
 VSCode.xml	RenameElement	1	F2
 VSCode.xml	ReopenClosedTab	1	SHIFT CTRL T
 VSCode.xml	Replace	1	CTRL H
 VSCode.xml	ReplaceInPath	1	SHIFT CTRL H
+VSCode.xml	Rerun	1	CTRL SEMICOLON
+VSCode.xml	Rerun	2	L
+VSCode.xml	Rerun	1	CTRL SHIFT F5
+VSCode.xml	RerunFailedTests	1	CTRL SEMICOLON
+VSCode.xml	RerunFailedTests	2	E
 VSCode.xml	Resume	1	F5
+VSCode.xml	RevealIn	1	SHIFT ALT R
 VSCode.xml	RevealIn	1	CTRL K
 VSCode.xml	RevealIn	2	R
 VSCode.xml	Run	1	CTRL F5
@@ -3379,12 +3508,17 @@ VSCode.xml	SearchEverywhere.NavigateToPrevGroup	1	PAGE_UP
 VSCode.xml	SearchEverywhere.NextTab	1	TAB
 VSCode.xml	SelectAllOccurrences	1	SHIFT CTRL L
 VSCode.xml	SelectAllOccurrences	1	CTRL F2
+VSCode.xml	SelectInProjectView	1	CTRL K
+VSCode.xml	SelectInProjectView	2	E
 VSCode.xml	SelectNextOccurrence	1	CTRL D
+VSCode.xml	SelectNextOccurrence	1	CTRL F3
 VSCode.xml	ShelvedChanges.Rename	1	F2
 VSCode.xml	ShowIntentionActions	1	CTRL PERIOD
 VSCode.xml	ShowNavBar	1	SHIFT CTRL SEMICOLON
+VSCode.xml	ShowPopupMenu	1	SHIFT F10
 VSCode.xml	ShowSettings	1	CTRL COMMA
 VSCode.xml	ShowUsages	1	SHIFT F12
+VSCode.xml	SmartUnSelect	1	SHIFT ALT LEFT
 VSCode.xml	SplitVertically	1	CTRL BACK_SLASH
 VSCode.xml	Sql.EditParameter	1	F4
 VSCode.xml	StepInto	1	F11
@@ -3393,6 +3527,9 @@ VSCode.xml	StepOver	1	F10
 VSCode.xml	Stop	1	SHIFT F5
 VSCode.xml	SwitchHeaderSource	1	ALT O
 VSCode.xml	Tab	1	TAB
+VSCode.xml	Terminal.SelectAll	1	CTRL A
+VSCode.xml	Terminal.SplitVertically	1	CTRL SHIFT 5
+VSCode.xml	TerminalNewSession	1	CTRL SHIFT BACK_QUOTE
 VSCode.xml	ToggleLineBreakpoint	1	F9
 VSCode.xml	ToggleZenMode	1	CTRL K
 VSCode.xml	ToggleZenMode	2	Z

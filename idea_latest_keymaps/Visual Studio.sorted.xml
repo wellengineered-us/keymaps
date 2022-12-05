@@ -144,10 +144,12 @@
     <mouse-shortcut keystroke="alt button1" />
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="CTRL L" />
     <keyboard-shortcut first-keystroke="CTRL SHIFT L" />
   </action>
+  <action id="EditorIncreaseFontSizeGlobal" />
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="SHIFT LEFT" />
     <keyboard-shortcut first-keystroke="SHIFT ALT LEFT" />
@@ -191,6 +193,10 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="X" />
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL X" />
+  </action>
+  <action id="ExpandCollapseToggleAction">
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="M" />
+    <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="CONTROL M" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="CONTROL M" second-keystroke="E" />
@@ -472,9 +478,7 @@
     <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="W" />
     <keyboard-shortcut first-keystroke="CONTROL K" second-keystroke="CONTROL W" />
   </action>
-  <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="ALT T" />
-  </action>
+  <action id="ShowErrorDescription" />
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="ALT MULTIPLY" />
   </action>

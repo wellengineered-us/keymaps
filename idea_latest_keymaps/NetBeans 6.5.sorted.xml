@@ -31,7 +31,6 @@
     <keyboard-shortcut first-keystroke="CONTROL 7" />
     <keyboard-shortcut first-keystroke="ALT 7" />
   </action>
-  <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ALT LEFT" />
     <mouse-shortcut keystroke="button4" />
@@ -103,6 +102,7 @@
     <keyboard-shortcut first-keystroke="SHIFT CONTROL ENTER" />
     <keyboard-shortcut first-keystroke="CONTROL SEMICOLON" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="CONTROL E" />
   </action>
@@ -111,6 +111,7 @@
     <keyboard-shortcut first-keystroke="SHIFT CONTROL DOWN" />
     <keyboard-shortcut first-keystroke="SHIFT CONTROL UP" />
   </action>
+  <action id="EditorIncreaseFontSizeGlobal" />
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="SHIFT ALT RIGHT" />
   </action>

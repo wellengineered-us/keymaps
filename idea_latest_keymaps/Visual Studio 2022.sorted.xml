@@ -101,11 +101,11 @@
     <keyboard-shortcut first-keystroke="CONTROL SHIFT ENTER" />
     <!--Edit.SmartBreakLine-->
   </action>
-  <action id="EditorDecreaseFontSize">
+  <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT COMMA" />
     <!--View.ZoomOut-->
   </action>
-  <action id="EditorIncreaseFontSize">
+  <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="CONTROL SHIFT PERIOD" />
     <!--View.ZoomIn-->
   </action>

@@ -32,8 +32,17 @@
   </action>
   <action id="CloseEditor" />
   <action id="CodeInspection.OnEditor" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="SHIFT CONTROL DIVIDE" />
+  </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL DIVIDE" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="CONTROL SUBTRACT" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="CONTROL SUBTRACT" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="SHIFT CONTROL SLASH" />
@@ -63,6 +72,9 @@
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="CONTROL CLOSE_BRACKET" />
   </action>
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="CONTROL MINUS" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="CONTROL D" />
   </action>
@@ -72,6 +84,9 @@
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="CONTROL ALT DOWN" />
+  </action>
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="CONTROL EQUALS" />
   </action>
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -105,6 +120,9 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="CONTROL U" />
   </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="CONTROL SHIFT MULTIPLY" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="CONTROL MULTIPLY" />
   </action>
@@ -113,6 +131,12 @@
   <action id="ExpandAllToLevel3" />
   <action id="ExpandAllToLevel4" />
   <action id="ExpandAllToLevel5" />
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="CONTROL ADD" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="CONTROL ADD" />
+  </action>
   <action id="ExpandToLevel1" />
   <action id="ExpandToLevel2" />
   <action id="ExpandToLevel3" />
@@ -321,13 +345,13 @@
     <keyboard-shortcut first-keystroke="SHIFT ALT R" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="CTRL 1" />
-    <keyboard-shortcut first-keystroke="ALT ENTER" />
-  </action>
-  <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ALT ENTER" />
     <keyboard-shortcut first-keystroke="SHIFT ALT J" />
     <keyboard-shortcut first-keystroke="SHIFT CONTROL M" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="CTRL 1" />
+    <keyboard-shortcut first-keystroke="ALT ENTER" />
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="CONTROL N" />

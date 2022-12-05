@@ -305,7 +305,6 @@
   </action>
   <action id="Stop" />
   <action id="StopBackgroundProcesses" />
-  <action id="TagDocumentationNavigation" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="META F2" />

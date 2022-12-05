@@ -1,5 +1,4 @@
 <keymap name="Visual Assist" parent="Visual Studio" version="1" disable-mnemonics="false">
-  <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="CONTROL MINUS" />
     <keyboard-shortcut first-keystroke="CONTROL SUBTRACT" />
