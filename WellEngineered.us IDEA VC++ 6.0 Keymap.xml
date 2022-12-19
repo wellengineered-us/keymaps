@@ -87,6 +87,9 @@
     <keyboard-shortcut first-keystroke="BACK_SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.DeleteBackwards -->
     <keyboard-shortcut first-keystroke="SHIFT BACK_SPACE" /><!-- Visual C++ 6.0/Text Manipulation Shortcut Keys/Edit.DeleteBackwards -->
   </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="ENTER" />
+  </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="TAB" /><!-- WellEngineered:OK -->
   </action>
